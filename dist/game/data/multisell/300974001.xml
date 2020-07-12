@@ -4,177 +4,1237 @@
 		<npc>30097</npc> <!-- Galladucci (Weapon Merchant) -->
 	</npcs>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Great Sword -->
-		<production count="1" id="78" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"stormbringer"-->
+		<production count="1" id="72"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Heavy War Axe -->
-		<production count="1" id="91" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"shamshir"-->
+		<production count="1" id="73"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Sprite's Staff -->
-		<production count="1" id="92" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"katana"-->
+		<production count="1" id="74"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Keshanberk -->
-		<production count="1" id="142" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"caliburs"-->
+		<production count="1" id="75"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Sword of Valhalla -->
-		<production count="1" id="148" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"sword of delusion"-->
+		<production count="1" id="76"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Kris -->
-		<production count="1" id="229" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"tsurugi"-->
+		<production count="1" id="77"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Hell Knife -->
-		<production count="1" id="243" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"homunkulus's sword"-->
+		<production count="1" id="84"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Arthro Nail -->
-		<production count="1" id="267" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"spirit sword"-->
+		<production count="1" id="131"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Dark Elven Long Bow -->
-		<production count="1" id="284" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"sword of limit"-->
+		<production count="1" id="132"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Great Axe -->
-		<production count="1" id="300" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"raid sword"-->
+		<production count="1" id="133"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Spell Breaker -->
-		<production count="1" id="7892" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"sword of nightmare"-->
+		<production count="1" id="134"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Ice Storm Hammer -->
-		<production count="1" id="7900" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"samurai longsword"-->
+		<production count="1" id="135"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Military Fleuret -->
-		<production count="1" id="9304" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"sword of whispering death"-->
+		<production count="1" id="145"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Innominate Victory -->
-		<production count="1" id="9308" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"flamberge"-->
+		<production count="1" id="71"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="6680500" id="57" />
-		<!-- Peacemaker -->
-		<production count="1" id="9312" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"Berserker Blade"-->
+		<production count="1" id="5286"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Soul Separator -->
-		<production count="1" id="236" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"cursed dagger"-->
+		<production count="1" id="226"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Sword of Miracles -->
-		<production count="1" id="151" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"stiletto"-->
+		<production count="1" id="227"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Dark Legion's Edge -->
-		<production count="1" id="2500" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"crystal dagger"-->
+		<production count="1" id="228"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Lacerator -->
-		<production count="1" id="9340" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"wolverine needle"-->
+		<production count="1" id="230"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Dragon Slayer -->
-		<production count="1" id="81" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"grace dagger"-->
+		<production count="1" id="231"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Doom Crusher -->
-		<production count="1" id="7902" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"dark elven dagger"-->
+		<production count="1" id="232"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Undertaker -->
-		<production count="1" id="9344" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"dark screamer"-->
+		<production count="1" id="233"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Soul Bow -->
-		<production count="1" id="289" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"soulfire dirk"-->
+		<production count="1" id="242"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Reaper -->
-		<production count="1" id="9348" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"crystallized ice bow"-->
+		<production count="1" id="281"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Flaming Dragon Skull -->
-		<production count="1" id="7895" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"elemental bow"-->
+		<production count="1" id="282"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Elysian -->
-		<production count="1" id="164" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"akat long bow"-->
+		<production count="1" id="283"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Branch of the Mother Tree -->
-		<production count="1" id="213" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"noble elven bow"-->
+		<production count="1" id="285"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Tallum Glaive -->
-		<production count="1" id="305" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"eminence bow"-->
+		<production count="1" id="286"/>
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="20741000" id="57" />
-		<!-- Dragon Grinder -->
-		<production count="1" id="270" />
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"chakram"-->
+		<production count="1" id="263"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"Fisted Blade"-->
+		<production count="1" id="265"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"great pata"-->
+		<production count="1" id="266"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"knuckle duster"-->
+		<production count="1" id="4233"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"bec de corbin"-->
+		<production count="1" id="94"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"poleaxe"-->
+		<production count="1" id="95"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"scythe"-->
+		<production count="1" id="96"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"orcish glaive"-->
+		<production count="1" id="298"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"orcish poleaxe"-->
+		<production count="1" id="299"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"scorpion"-->
+		<production count="1" id="301"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"body slasher"-->
+		<production count="1" id="302"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"widow maker"-->
+		<production count="1" id="303"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"yaksa mace"-->
+		<production count="1" id="2503"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"war axe"-->
+		<production count="1" id="162"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"mace of underworld"-->
+		<production count="1" id="202"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"club of nature"-->
+		<production count="1" id="201"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"stick of eternity"-->
+		<production count="1" id="196"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"nirvana axe"-->
+		<production count="1" id="174"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"dwarven war hammer"-->
+		<production count="1" id="2502"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"skull graver"-->
+		<production count="1" id="173"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"silver axe"-->
+		<production count="1" id="161"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"battle axe"-->
+		<production count="1" id="160"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"phantom sword"-->
+		<production count="1" id="85"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"stick of faith"-->
+		<production count="1" id="193"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"paradia staff"-->
+		<production count="1" id="197"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"heavy doom hammer"-->
+		<production count="1" id="191"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"crystal staff"-->
+		<production count="1" id="192"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"heavy doom axe"-->
+		<production count="1" id="194"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"cursed staff"-->
+		<production count="1" id="195"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"inferno staff"-->
+		<production count="1" id="198"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"pa'agrian hammer"-->
+		<production count="1" id="199"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"sage's staff"-->
+		<production count="1" id="200"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"pa'agrian axe"-->
+		<production count="1" id="203"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"deadman's staff"-->
+		<production count="1" id="204"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"ghoul's staff"-->
+		<production count="1" id="205"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="3000" id="4355"/>
+		<!--"demon's staff"-->
+		<production count="1" id="206"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"sword of damascus"-->
+		<production count="1" id="79"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"keshanberk"-->
+		<production count="1" id="142"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"ghoulbane"-->
+		<production count="1" id="146"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"sword of valhalla"-->
+		<production count="1" id="148"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"great sword"-->
+		<production count="1" id="78"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"kris"-->
+		<production count="1" id="229"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"demon's dagger"-->
+		<production count="1" id="234"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"hell knife"-->
+		<production count="1" id="243"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"Dark Elven Long Bow"-->
+		<production count="1" id="284"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"bow of peril"-->
+		<production count="1" id="287"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"pata"-->
+		<production count="1" id="264"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"arthro nail"-->
+		<production count="1" id="267"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"bellion cestus"-->
+		<production count="1" id="268"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"lance"-->
+		<production count="1" id="97"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"great axe"-->
+		<production count="1" id="300"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"heavy war axe"-->
+		<production count="1" id="91"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"deadman's glory"-->
+		<production count="1" id="171"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"art of battle axe"-->
+		<production count="1" id="175"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"sprite's staff"-->
+		<production count="1" id="92"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="5000" id="4355"/>
+		<!--"staff of evil spirits"-->
+		<production count="1" id="210"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"Dark Legion's Edge"-->
+		<production count="1" id="2500"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"dragon slayer"-->
+		<production count="1" id="81"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"sword of miracles"-->
+		<production count="1" id="151"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"elemental sword"-->
+		<production count="1" id="150"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"Tallum Blade"-->
+		<production count="1" id="80"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"tallum glaive"-->
+		<production count="1" id="305"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"halberd"-->
+		<production count="1" id="98"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"orcish halberd"-->
+		<production count="1" id="304"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"dragon grinder"-->
+		<production count="1" id="270"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"blood tornado"-->
+		<production count="1" id="269"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"soul separator"-->
+		<production count="1" id="236"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"bloody orchid"-->
+		<production count="1" id="235"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"soul bow"-->
+		<production count="1" id="289"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"carnage bow"-->
+		<production count="1" id="288"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"branch of the mother tree"-->
+		<production count="1" id="213"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"elysian"-->
+		<production count="1" id="164"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"meteor shower"-->
+		<production count="1" id="2504"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"divine staff"-->
+		<production count="1" id="209"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"Sirra's Blade"-->
+		<production count="1" id="8678"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"sword of ipos"-->
+		<production count="1" id="8679"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"barakiel's axe"-->
+		<production count="1" id="8680"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"behemoth's tuning fork"-->
+		<production count="1" id="8681"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"naga storm"-->
+		<production count="1" id="8682"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"tiphon's spear"-->
+		<production count="1" id="8683"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"shyeed's bow"-->
+		<production count="1" id="8684"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"sobekk's hurricane"-->
+		<production count="1" id="8685"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"themis' tongue"-->
+		<production count="1" id="8686"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"cabrio's hand"-->
+		<production count="1" id="8687"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"daimon crystal"-->
+		<production count="1" id="8688"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"doom crusher"-->
+		<production count="1" id="7902"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"destroyer hammer"-->
+		<production count="1" id="7899"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"spiritual eye"-->
+		<production count="1" id="7894"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"Flaming Dragon Skull"-->
+		<production count="1" id="7895"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="7000" id="4355"/>
+		<!--"elrokian trap"-->
+		<production count="1" id="8763"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"Forgotten Blade"-->
+		<production count="1" id="6364"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"basalt battlehammer"-->
+		<production count="1" id="6365"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"imperial staff"-->
+		<production count="1" id="6366"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"angel slayer"-->
+		<production count="1" id="6367"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"shining bow"-->
+		<production count="1" id="6368"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"dragon hunter axe"-->
+		<production count="1" id="6369"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"saint spear"-->
+		<production count="1" id="6370"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"demon splinter"-->
+		<production count="1" id="6371"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"heaven's divider"-->
+		<production count="1" id="6372"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"arcana mace"-->
+		<production count="1" id="6579"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="10000" id="4355"/>
+		<!--"draconic bow"-->
+		<production count="1" id="7575"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty rapier"-->
+		<production count="1" id="9376"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty ancient sword"-->
+		<production count="1" id="9380"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty crossbow"-->
+		<production count="1" id="9384"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty sword"-->
+		<production count="1" id="9442"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"Dynasty Blade"-->
+		<production count="1" id="9443"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty phantom"-->
+		<production count="1" id="9444"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty bow"-->
+		<production count="1" id="9445"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty knife"-->
+		<production count="1" id="9446"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty halberd"-->
+		<production count="1" id="9447"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty cudgel"-->
+		<production count="1" id="9448"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty mace"-->
+		<production count="1" id="9449"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"Dynasty Bagh-Nakh"-->
+		<production count="1" id="9450"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty crusher"-->
+		<production count="1" id="10253"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"Dynasty Staff"-->
+		<production count="1" id="10252"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus sawsword"-->
+		<production count="1" id="10215"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus disperser"-->
+		<production count="1" id="10216"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus spirit"-->
+		<production count="1" id="10217"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus heavy arms"-->
+		<production count="1" id="10218"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus trident"-->
+		<production count="1" id="10219"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus hammer"-->
+		<production count="1" id="10220"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus hand"-->
+		<production count="1" id="10221"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus hall"-->
+		<production count="1" id="10222"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus spitter"-->
+		<production count="1" id="10223"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus stinger"-->
+		<production count="1" id="10224"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"Icarus Wingblade"-->
+		<production count="1" id="10225"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="20800" id="4355"/>
+		<!--"icarus shooter"-->
+		<production count="1" id="10226"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper cutter"-->
+		<production count="1" id="13457"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper slasher"-->
+		<production count="1" id="13458"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper buster"-->
+		<production count="1" id="13459"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper shaper"-->
+		<production count="1" id="13460"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper fighter"-->
+		<production count="1" id="13461"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper stormer"-->
+		<production count="1" id="13462"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper avenger"-->
+		<production count="1" id="13463"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper retributer"-->
+		<production count="1" id="13464"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper caster"-->
+		<production count="1" id="13465"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper singer"-->
+		<production count="1" id="13466"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper thrower"-->
+		<production count="1" id="13467"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper pincer"-->
+		<production count="1" id="13468"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper shooter"-->
+		<production count="1" id="13469"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="27000" id="4355"/>
+		<!--"vesper nagan"-->
+		<production count="1" id="13470"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus sawsword"-->
+		<ingredient count="1" id="10215"/>
+		<!--"periel sword"-->
+		<production count="1" id="15558"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus disperser"-->
+		<ingredient count="1" id="10216"/>
+		<!--"Skull Edge"-->
+		<production count="1" id="15559"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus hammer"-->
+		<ingredient count="1" id="10220"/>
+		<!--"vigwik axe"-->
+		<production count="1" id="15560"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="29500" id="4355"/>
+		<!--"devilish maul"-->
+		<production count="1" id="15561"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus heavy arms"-->
+		<ingredient count="1" id="10218"/>
+		<!--"Feather Eye Blade"-->
+		<production count="1" id="15562"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus hand"-->
+		<ingredient count="1" id="10221"/>
+		<!--"octo claw"-->
+		<production count="1" id="15563"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus trident"-->
+		<ingredient count="1" id="10219"/>
+		<!--"doubletop spear"-->
+		<production count="1" id="15564"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus hall"-->
+		<ingredient count="1" id="10222"/>
+		<!--"rising star"-->
+		<production count="1" id="15565"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="29500" id="4355"/>
+		<!--"black visage"-->
+		<production count="1" id="15566"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus spirit"-->
+		<ingredient count="1" id="10217"/>
+		<!--"veniplant sword"-->
+		<production count="1" id="15567"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus spitter"-->
+		<ingredient count="1" id="10223"/>
+		<!--"Skull Carnium Bow"-->
+		<production count="1" id="15568"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus stinger"-->
+		<ingredient count="1" id="10224"/>
+		<!--"gemtail rapier"-->
+		<production count="1" id="15569"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"Icarus Wingblade"-->
+		<ingredient count="1" id="10225"/>
+		<!--"Finale Blade"-->
+		<production count="1" id="15570"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus shooter"-->
+		<ingredient count="1" id="10226"/>
+		<!--"Dominion Crossbow"-->
+		<production count="1" id="15571"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty sword"-->
+		<ingredient count="1" id="9442"/>
+		<!--"eternal core sword"-->
+		<production count="1" id="15544"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty knife"-->
+		<ingredient count="1" id="9446"/>
+		<!--"Mamba Edge"-->
+		<production count="1" id="15545"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty cudgel"-->
+		<ingredient count="1" id="9448"/>
+		<!--"eversor mace"-->
+		<production count="1" id="15546"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty crusher"-->
+		<ingredient count="1" id="10253"/>
+		<!--"contristo hammer"-->
+		<production count="1" id="15547"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"Dynasty Blade"-->
+		<ingredient count="1" id="9443"/>
+		<!--"lava saw"-->
+		<production count="1" id="15548"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"Dynasty Bagh-Nakh"-->
+		<ingredient count="1" id="9450"/>
+		<!--"jade claw"-->
+		<production count="1" id="15549"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty halberd"-->
+		<ingredient count="1" id="9447"/>
+		<!--"demitelum"-->
+		<production count="1" id="15550"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty mace"-->
+		<ingredient count="1" id="9449"/>
+		<!--"sacredium"-->
+		<production count="1" id="15551"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"Dynasty Staff"-->
+		<ingredient count="1" id="10252"/>
+		<!--"cyclic cane"-->
+		<production count="1" id="15552"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty phantom"-->
+		<ingredient count="1" id="9444"/>
+		<!--"archangel sword"-->
+		<production count="1" id="15553"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty bow"-->
+		<ingredient count="1" id="9445"/>
+		<!--"recurve thorne bow"-->
+		<production count="1" id="15554"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty rapier"-->
+		<ingredient count="1" id="9376"/>
+		<!--"heavenstare rapier"-->
+		<production count="1" id="15555"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty ancient sword"-->
+		<ingredient count="1" id="9380"/>
+		<!--"Pyseal Blade"-->
+		<production count="1" id="15556"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty crossbow"-->
+		<ingredient count="1" id="9384"/>
+		<!--"thorne crossbow"-->
+		<production count="1" id="15557"/>
 	</item>
 </list>
