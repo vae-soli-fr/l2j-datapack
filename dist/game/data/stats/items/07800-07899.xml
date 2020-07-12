@@ -981,10 +981,6 @@
 		<set name="weight" val="640" />
 		<set name="price" val="58600" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
-		<cond msgId="1518">
-			<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-		</cond>
 		<for>
 			<add order="0" stat="pDef" val="37" />
 			<enchant stat="pDef" val="0" />
@@ -1002,12 +998,8 @@
 		<set name="weight" val="9870" />
 		<set name="price" val="253900" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
-			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
-				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-			</and>
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 		</cond>
 		<for>
 			<add order="0" stat="pDef" val="158" />
@@ -1025,12 +1017,8 @@
 		<set name="weight" val="640" />
 		<set name="price" val="39100" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
-			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
-				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-			</and>
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 		</cond>
 		<for>
 			<add order="0" stat="pDef" val="24" />
@@ -1048,12 +1036,8 @@
 		<set name="weight" val="1280" />
 		<set name="price" val="39100" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
-			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
-				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-			</and>
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 		</cond>
 		<for>
 			<add order="0" stat="pDef" val="24" />
@@ -1072,10 +1056,6 @@
 		<set name="weight" val="5400" />
 		<set name="price" val="190400" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
-		<cond msgId="1518">
-			<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-		</cond>
 		<for>
 			<add order="0" stat="pDef" val="119" />
 			<enchant stat="pDef" val="0" />
@@ -1092,10 +1072,6 @@
 		<set name="weight" val="640" />
 		<set name="price" val="39100" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
-		<cond msgId="1518">
-			<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-		</cond>
 		<for>
 			<add order="0" stat="pDef" val="24" />
 			<enchant stat="pDef" val="0" />
@@ -1112,10 +1088,6 @@
 		<set name="weight" val="1280" />
 		<set name="price" val="39100" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
-		<cond msgId="1518">
-			<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-		</cond>
 		<for>
 			<add order="0" stat="pDef" val="24" />
 			<enchant stat="pDef" val="0" />
@@ -1133,12 +1105,8 @@
 		<set name="weight" val="2450" />
 		<set name="price" val="190400" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
-			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
-				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-			</and>
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 		</cond>
 		<for>
 			<add order="0" stat="pDef" val="79" />
@@ -1157,12 +1125,8 @@
 		<set name="weight" val="640" />
 		<set name="price" val="39100" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
-			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
-				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-			</and>
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 		</cond>
 		<for>
 			<add order="0" stat="pDef" val="24" />
@@ -1180,12 +1144,8 @@
 		<set name="weight" val="1280" />
 		<set name="price" val="39100" />
 		<set name="enchant_enabled" val="1" />
-		<set name="equip_condition" val="{{ec_academy;1}}" />
 		<cond msgId="1518">
-			<and>
-				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
-				<player pledgeClass="1" /> <!-- Vassal (Academy) -->
-			</and>
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 		</cond>
 		<for>
 			<add order="0" stat="pDef" val="24" />
