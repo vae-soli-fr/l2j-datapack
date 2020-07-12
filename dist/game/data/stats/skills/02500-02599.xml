@@ -1628,7 +1628,7 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
-		<set name="targetType" val="SELF" />
+		<set name="targetType" val="PARTY" />
 		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
