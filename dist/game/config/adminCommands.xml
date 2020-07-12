@@ -589,8 +589,12 @@
 	<admin command="admin_scan" accessLevel="7" />
 	<admin command="admin_deleteNpcByObjectId" accessLevel="7" confirmDlg="true" />
 
+	<!-- ADMIN CUSTOM -->
+	<admin command="admin_dit" accessLevel="7" />
+
 	<!-- VOICE COMMANDS -->
 	<admin command="banchat" accessLevel="7" />
 	<admin command="debug" accessLevel="7" />
 	<admin command="unbanchat" accessLevel="7" />
+
 </list>

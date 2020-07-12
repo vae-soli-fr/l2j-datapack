@@ -66,6 +66,7 @@ import handlers.admincommandhandlers.AdminChangeAccessLevel;
 import handlers.admincommandhandlers.AdminClan;
 import handlers.admincommandhandlers.AdminCreateItem;
 import handlers.admincommandhandlers.AdminCursedWeapons;
+import handlers.admincommandhandlers.AdminCustom;
 import handlers.admincommandhandlers.AdminDebug;
 import handlers.admincommandhandlers.AdminDelete;
 import handlers.admincommandhandlers.AdminDisconnect;
@@ -275,8 +276,12 @@ import handlers.voicedcommandhandlers.Banking;
 import handlers.voicedcommandhandlers.ChangePassword;
 import handlers.voicedcommandhandlers.ChatAdmin;
 import handlers.voicedcommandhandlers.Debug;
+import handlers.voicedcommandhandlers.Description;
+import handlers.voicedcommandhandlers.Didascalies;
+import handlers.voicedcommandhandlers.Fashion;
 import handlers.voicedcommandhandlers.Lang;
 import handlers.voicedcommandhandlers.StatsVCmd;
+import handlers.voicedcommandhandlers.Titre;
 import handlers.voicedcommandhandlers.Wedding;
 
 /**
@@ -340,6 +345,7 @@ public class MasterHandler
 			AdminPcCondOverride.class,
 			AdminCreateItem.class,
 			AdminCursedWeapons.class,
+			AdminCustom.class,
 			AdminDebug.class,
 			AdminDelete.class,
 			AdminDisconnect.class,
@@ -533,6 +539,10 @@ public class MasterHandler
 			(Config.L2JMOD_MULTILANG_ENABLE && Config.L2JMOD_MULTILANG_VOICED_ALLOW ? Lang.class : null),
 			(Config.L2JMOD_DEBUG_VOICE_COMMAND ? Debug.class : null),
 			(Config.L2JMOD_ALLOW_CHANGE_PASSWORD ? ChangePassword.class : null),
+			(Config.ALLOW_FASHION ? Fashion.class : null),
+			(Config.ALLOW_DESCRIPTION ? Description.class : null),
+			(Config.ALLOW_TITRE ? Titre.class : null),
+			(Config.ALLOW_DIDASCALIES ? Didascalies.class : null),
 		},
 		{
 			// Target Handlers
