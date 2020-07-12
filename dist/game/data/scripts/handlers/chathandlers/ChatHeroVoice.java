@@ -18,15 +18,11 @@
  */
 package handlers.chathandlers;
 
-import com.l2jserver.Config;
 import com.l2jserver.gameserver.handler.IChatHandler;
 import com.l2jserver.gameserver.model.BlockList;
 import com.l2jserver.gameserver.model.L2World;
-import com.l2jserver.gameserver.model.PcCondOverride;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
-import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
-import com.l2jserver.gameserver.util.Util;
 
 /**
  * Hero chat handler.
@@ -45,7 +41,7 @@ public class ChatHeroVoice implements IChatHandler
 	@Override
 	public void handleChat(int type, L2PcInstance activeChar, String target, String text)
 	{
-		if (activeChar.isHero() || activeChar.canOverrideCond(PcCondOverride.CHAT_CONDITIONS))
+		/*if (activeChar.isHero() || activeChar.canOverrideCond(PcCondOverride.CHAT_CONDITIONS))
 		{
 			if (activeChar.isChatBanned() && Util.contains(Config.BAN_CHAT_CHANNELS, type))
 			{
@@ -57,7 +53,7 @@ public class ChatHeroVoice implements IChatHandler
 			{
 				activeChar.sendMessage("Action failed. Heroes are only able to speak in the global channel once every 10 seconds.");
 				return;
-			}
+			}*/
 			
 			CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getName(), text);
 			for (L2PcInstance player : L2World.getInstance().getPlayers())
@@ -67,7 +63,7 @@ public class ChatHeroVoice implements IChatHandler
 					player.sendPacket(cs);
 				}
 			}
-		}
+		/*}*/
 	}
 	
 	/**
