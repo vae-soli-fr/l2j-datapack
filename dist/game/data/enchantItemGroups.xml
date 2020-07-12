@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/enchantItemGroups.xsd">
 	<!-- General armor enchant group. -->
-	<enchantRateGroup name="ARMOR_GROUP">
+	<!-- enchantRateGroup name="ARMOR_GROUP">
 		<current enchant="0-2" chance="100" />
 		<current enchant="3" chance="66.67" />
 		<current enchant="4" chance="33.34" />
@@ -21,10 +21,16 @@
 		<current enchant="18" chance="5.89" />
 		<current enchant="19" chance="5.56" />
 		<current enchant="20-65535" chance="0" />
+	</enchantRateGroup -->
+
+	<enchantRateGroup name="ARMOR_GROUP">
+		<current enchant="0-3" chance="100" />
+		<current enchant="4-6" chance="70" />
+		<current enchant="7-65535" chance="70" />
 	</enchantRateGroup>
 
 	<!-- General full armor enchant group. -->
-	<enchantRateGroup name="FULL_ARMOR_GROUP">
+	<!-- enchantRateGroup name="FULL_ARMOR_GROUP">
 		<current enchant="0-3" chance="100" />
 		<current enchant="4" chance="66.67" />
 		<current enchant="5" chance="33.34" />
@@ -43,20 +49,37 @@
 		<current enchant="18" chance="6.25" />
 		<current enchant="19" chance="5.89" />
 		<current enchant="20-65535" chance="0" />
+	</enchantRateGroup -->
+
+	<enchantRateGroup name="FULL_ARMOR_GROUP">
+		<current enchant="0-3" chance="100" />
+		<current enchant="4-6" chance="70" />
+		<current enchant="7-65535" chance="70" />
 	</enchantRateGroup>
 
 	<!-- General fighter weapon enchant group. -->
-	<enchantRateGroup name="FIGHTER_WEAPON_GROUP">
+	<!-- enchantRateGroup name="FIGHTER_WEAPON_GROUP">
 		<current enchant="0-2" chance="100" />
 		<current enchant="3-14" chance="70" />
 		<current enchant="15-65535" chance="35" />
+	</enchantRateGroup -->
+
+	<enchantRateGroup name="FIGHTER_WEAPON_GROUP">
+		<current enchant="0-3" chance="100" />
+		<current enchant="4-65535" chance="70" />
 	</enchantRateGroup>
 
 	<!-- General mage weapon enchant group. -->
-	<enchantRateGroup name="MAGE_WEAPON_GROUP">
+	<!-- enchantRateGroup name="MAGE_WEAPON_GROUP">
 		<current enchant="0-2" chance="100" />
 		<current enchant="3-14" chance="40" />
 		<current enchant="15-65535" chance="20" />
+	</enchantRateGroup -->
+
+	<enchantRateGroup name="MAGE_WEAPON_GROUP">
+		<current enchant="0-3" chance="100" />
+		<current enchant="4-6" chance="70" />
+		<current enchant="7-65535" chance="40" />
 	</enchantRateGroup>
 
 	<!-- Default scrolls enchanting route line. -->
