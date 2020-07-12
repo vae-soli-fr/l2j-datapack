@@ -3,6 +3,7 @@
 	<npcs>
 		<npc>30001</npc> <!-- Lector -->
 	</npcs>
+	<!-- No grade Weapon Mage -->
 	<item id="7" /> <!-- Apprentice's Rod -->
 	<item id="308" /> <!-- Buffalo's Horn -->
 	<item id="8" /> <!-- Willow Staff -->
@@ -10,6 +11,13 @@
 	<item id="9" /> <!-- Cedar Staff -->
 	<item id="176" /> <!-- Apprentice's Staff -->
 	<item id="310" /> <!-- Relic of the Saints -->
-	<item id="9577" /> <!-- Cotton Shirt -->
-	<item id="9583" /> <!-- Striped Cotton Shirt -->
+	<!-- D grade Weapon Mage -->
+	<item id="7885" /> <!-- Priest Sword -->
+	<item id="7890" /> <!-- Priest Mace -->
+	<item id="183" /> <!-- Mystic Staff -->
+	<item id="185" /> <!-- Staff of Mana -->
+	<item id="101" /> <!-- Scroll of Wisdom -->
+	<item id="246" /> <!-- Human Fighter Fist -->
+	<item id="291" /> <!-- Trident -->
+	<item id="220" /> <!-- Crafted Dagger -->
 </list>
