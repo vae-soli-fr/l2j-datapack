@@ -21,16 +21,23 @@ package handlers.chathandlers;
 import java.util.Collection;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.l2jserver.Config;
+import com.l2jserver.gameserver.data.xml.impl.RoleplayRewardData;
+import com.l2jserver.gameserver.enums.Volume;
 import com.l2jserver.gameserver.handler.IChatHandler;
 import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.handler.VoicedCommandHandler;
 import com.l2jserver.gameserver.model.BlockList;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
+import com.l2jserver.gameserver.model.actor.stat.PcStat;
 import com.l2jserver.gameserver.network.SystemMessageId;
 import com.l2jserver.gameserver.network.serverpackets.CreatureSay;
+import com.l2jserver.gameserver.network.serverpackets.ExVitalityPointInfo;
 import com.l2jserver.gameserver.util.Util;
+import com.l2jserver.util.Rnd;
 
 /**
  * A chat handler
@@ -39,6 +46,10 @@ import com.l2jserver.gameserver.util.Util;
 public class ChatAll implements IChatHandler
 {
 	private static Logger _log = Logger.getLogger(ChatAll.class.getName());
+
+	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
+	private static final long MAXIMUM_LISTENERS = 8;
+	private static final int CHANCE_LISTENER = 25;
 	
 	private static final int[] COMMAND_IDS =
 	{
@@ -104,16 +115,51 @@ public class ChatAll implements IChatHandler
 			}
 			else
 			{
-				CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getAppearance().getVisibleName(), text);
+				CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getAppearance().getVisibleName(), activeChar.getVolume().toString() + activeChar.getLanguage().toString() + text);
 				Collection<L2PcInstance> plrs = activeChar.getKnownList().getKnownPlayers().values();
+				int audience = 0;
 				for (L2PcInstance player : plrs)
 				{
 					if ((player != null) && activeChar.isInsideRadius(player, 1250, false, true) && !BlockList.isBlocked(player, activeChar))
 					{
+						if (!player.isInvisible() && activeChar.isInsideRadius(player, Math.min(activeChar.getVolume().getRadius(), Volume.DEFAULT.getRadius()), false, true)) {
+							audience++;
+						}
 						player.sendPacket(cs);
 					}
 				}
-				
+
+				if (Config.ENABLE_ROLEPLAY_REWARD) {
+
+					long rolepex = 0;
+					Matcher matcher = THREE_LETTER_WORD_PATTERN.matcher(text);
+
+					while (matcher.find()) {
+						rolepex++;
+					}
+
+					rolepex *= Math.min(audience, MAXIMUM_LISTENERS);
+
+					if (rolepex > 0) {
+
+						long addVita = rolepex * Rnd.get(2, 3);
+
+						if ((activeChar.getVitalityPoints() + addVita) <= PcStat.MAX_VITALITY_POINTS) {
+							activeChar.updateVitalityPoints(addVita, false, true);
+							activeChar.sendPacket(new ExVitalityPointInfo(activeChar.getVitalityPoints()));
+						}
+
+						long addExp = (long) (rolepex * RoleplayRewardData.getInstance().getXpForLevel(activeChar.getLevel()) * Config.RATE_XP);
+						int addSp = (int) (rolepex * RoleplayRewardData.getInstance().getSpForLevel(activeChar.getLevel()) * Config.RATE_SP);
+
+						activeChar.addExpAndSp(addExp, addSp, false);
+
+						if (Rnd.get(0, 100) >= Math.subtractExact(100, audience * CHANCE_LISTENER)) {
+							activeChar.addItem("MoneyByRP", 4355, audience, activeChar, false);
+						}
+					}
+				}
+
 				activeChar.sendPacket(cs);
 			}
 		}
