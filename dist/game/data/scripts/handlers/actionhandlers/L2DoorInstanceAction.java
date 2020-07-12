@@ -52,7 +52,8 @@ public class L2DoorInstanceAction implements IActionHandler
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 				}
 			}
-			else if ((activeChar.getClan() != null) && (door.getClanHall() != null) && (activeChar.getClanId() == door.getClanHall().getOwnerId()))
+			else if ((door.getClanHall() != null) && (door.getClanHall().getOwnerId() == 0)
+						|| (activeChar.getClan() != null) && (door.getClanHall() != null) && (activeChar.getClanId() == door.getClanHall().getOwnerId()))
 			{
 				if (!door.isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
 				{
