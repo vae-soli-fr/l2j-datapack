@@ -18,6 +18,7 @@
  */
 package handlers.bypasshandlers;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.enums.CategoryType;
 import com.l2jserver.gameserver.handler.IBypassHandler;
 import com.l2jserver.gameserver.model.actor.L2Character;
@@ -80,7 +81,7 @@ public class SupportMagic implements IBypassHandler
 	@Override
 	public boolean useBypass(String command, L2PcInstance activeChar, L2Character target)
 	{
-		if (!target.isNpc() || activeChar.isCursedWeaponEquipped())
+		if (!Config.ENABLE_SUPPORT_MAGIC || !target.isNpc() || activeChar.isCursedWeaponEquipped())
 		{
 			return false;
 		}
