@@ -1577,6 +1577,9 @@
 	<item id="6393" type="EtcItem" name="Event - Glittering Medal">
 		<set name="icon" val="icon.etc_event_glitter_medal_i00" />
 		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6394" type="Armor" name="Red Party Mask">
