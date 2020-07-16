@@ -59,11 +59,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="70">
@@ -141,11 +137,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="70">
@@ -222,11 +214,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="41.162601470947266">
@@ -314,11 +302,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="0.4032999873161316">
@@ -408,11 +392,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="0.3921999931335449">
@@ -505,11 +485,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="0.37619999051094055">
@@ -592,11 +568,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="70">
@@ -668,11 +640,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="70">

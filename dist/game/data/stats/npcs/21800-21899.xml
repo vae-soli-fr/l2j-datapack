@@ -1728,11 +1728,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="0.6834999918937683">
@@ -1824,11 +1820,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="2.2676000595092773">
@@ -1915,11 +1907,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="2.538300037384033">
@@ -2008,11 +1996,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="0.7049000263214111">
@@ -2099,11 +2083,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="0.6086000204086304">
@@ -2194,11 +2174,7 @@
 		<shots shotChance="30" spiritChance="30" />
 		<ex_crt_effect>false</ex_crt_effect>
 		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
-		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
-			<clan_list>
-				<clan>PET</clan>
-			</clan_list>
-		</ai>
+		<ai isAggressive="false" />
 		<drop_lists>
 			<death>
 				<group chance="1.582900047302246">
