@@ -20,6 +20,7 @@ package ai.group_template;
 
 import ai.npc.AbstractNpcAI;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.data.xml.impl.NpcData;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.L2Playable;
@@ -77,7 +78,7 @@ public final class RangeGuard extends AbstractNpcAI
 	};
 	//@formatter:on
 	// Misc
-	private static final int MIN_DISTANCE = 150;
+	//private static final int MIN_DISTANCE = 150;
 	
 	private RangeGuard()
 	{
@@ -99,11 +100,11 @@ public final class RangeGuard extends AbstractNpcAI
 		final int longRangeGuardRate = npc.getTemplate().getParameters().getInt("LongRangeGuardRate");
 		final double distance = Util.calculateDistance(npc, playable, true, false);
 		
-		if (npc.isAffectedBySkill(ULTIMATE_DEFENSE.getSkillId()) && (distance <= MIN_DISTANCE))
+		if (npc.isAffectedBySkill(ULTIMATE_DEFENSE.getSkillId()) && (distance <= Config.RANGE_GUARD_MIN_DISTANCE))
 		{
 			npc.stopSkillEffects(true, ULTIMATE_DEFENSE.getSkillId());
 		}
-		else if ((distance > MIN_DISTANCE) && !npc.isSkillDisabled(ULTIMATE_DEFENSE.getSkillId()) && !((skill != null) && Util.contains(NOT_ALLOWED_SKILLS, skill.getId())) && (getRandom(100) < longRangeGuardRate))
+		else if ((distance > Config.RANGE_GUARD_MIN_DISTANCE) && !npc.isSkillDisabled(ULTIMATE_DEFENSE.getSkillId()) && !((skill != null) && Util.contains(NOT_ALLOWED_SKILLS, skill.getId())) && (getRandom(100) < longRangeGuardRate))
 		{
 			npc.setTarget(npc);
 			npc.doCast(ULTIMATE_DEFENSE.getSkill());
