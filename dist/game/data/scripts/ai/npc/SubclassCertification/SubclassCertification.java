@@ -23,6 +23,7 @@ import java.util.Map;
 
 import ai.npc.AbstractNpcAI;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.data.xml.impl.ClassListData;
 import com.l2jserver.gameserver.enums.CategoryType;
 import com.l2jserver.gameserver.model.actor.L2Npc;
@@ -249,7 +250,7 @@ public final class SubclassCertification extends AbstractNpcAI
 		String tmp = variable + level + "-" + player.getClassIndex();
 		String globalVariable = qs.getGlobalQuestVar(tmp);
 		
-		if (!globalVariable.equals("") && !globalVariable.equals("0"))
+		if (player.getClassIndex() > Config.MAX_SUBCLASS_CERTIF || !globalVariable.equals("") && !globalVariable.equals("0"))
 		{
 			htmltext = "AlreadyReceived.html";
 		}
