@@ -280,6 +280,7 @@ import handlers.voicedcommandhandlers.Description;
 import handlers.voicedcommandhandlers.Didascalies;
 import handlers.voicedcommandhandlers.Fashion;
 import handlers.voicedcommandhandlers.Lang;
+import handlers.voicedcommandhandlers.PetTalk;
 import handlers.voicedcommandhandlers.StatsVCmd;
 import handlers.voicedcommandhandlers.Titre;
 import handlers.voicedcommandhandlers.Wedding;
@@ -543,6 +544,7 @@ public class MasterHandler
 			(Config.ALLOW_DESCRIPTION ? Description.class : null),
 			(Config.ALLOW_TITRE ? Titre.class : null),
 			(Config.ALLOW_DIDASCALIES ? Didascalies.class : null),
+			(Config.ALLOW_PET_TALK ? PetTalk.class : null),
 		},
 		{
 			// Target Handlers
