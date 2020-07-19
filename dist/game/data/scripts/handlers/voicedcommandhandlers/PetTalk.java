@@ -36,7 +36,7 @@ public class PetTalk implements IVoicedCommandHandler {
 
 	private void handleCreatureSay(L2Summon summon, String text)
 	{
-		String name = StringUtil.concat(summon.getName(), " (", summon.getOwner().getName(), ")");
+		String name = StringUtil.concat(summon.getName() != null ? summon.getName() : summon.getTemplate().getName(), " (", summon.getOwner().getName(), ")");
 		CreatureSay cs = new CreatureSay(summon.getObjectId(), CHATALL_ID, name, text);
 		Collection<L2PcInstance> plrs = summon.getKnownList().getKnownPlayers().values();
 		for (L2PcInstance player : plrs)
