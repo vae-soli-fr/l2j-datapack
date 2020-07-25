@@ -591,6 +591,7 @@
 
 	<!-- ADMIN CUSTOM -->
 	<admin command="admin_dit" accessLevel="7" />
+	<admin command="admin_setvisclass" accessLevel="7" />
 
 	<!-- VOICE COMMANDS -->
 	<admin command="banchat" accessLevel="7" />
