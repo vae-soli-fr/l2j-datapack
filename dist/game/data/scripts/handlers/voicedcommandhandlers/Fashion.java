@@ -18,6 +18,8 @@ public class Fashion implements IVoicedCommandHandler {
 			Inventory.PAPERDOLL_CHEST,
 			Inventory.PAPERDOLL_LEGS,
 			Inventory.PAPERDOLL_FEET,
+			Inventory.PAPERDOLL_RHAND,
+			Inventory.PAPERDOLL_LHAND
 		};
 
 	@Override
