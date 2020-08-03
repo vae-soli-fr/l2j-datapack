@@ -18,7 +18,9 @@
  */
 package handlers.chathandlers;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
@@ -48,8 +50,9 @@ public class ChatAll implements IChatHandler
 	private static Logger _log = Logger.getLogger(ChatAll.class.getName());
 
 	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
+	private static final int BLUE_EVA = 4355;
 	private static final long MAXIMUM_LISTENERS = 8;
-	private static final int CHANCE_LISTENER = 25;
+	private static final float RATE_LISTENER = 0.12f;
 	
 	private static final int[] COMMAND_IDS =
 	{
@@ -117,13 +120,15 @@ public class ChatAll implements IChatHandler
 			{
 				CreatureSay cs = new CreatureSay(activeChar.getObjectId(), type, activeChar.getAppearance().getVisibleName(), activeChar.getVolume().toString() + activeChar.getLanguage().toString() + text);
 				Collection<L2PcInstance> plrs = activeChar.getKnownList().getKnownPlayers().values();
-				int audience = 0;
+				List<L2PcInstance> audience = new ArrayList<>();
+
 				for (L2PcInstance player : plrs)
 				{
-					if ((player != null) && activeChar.isInsideRadius(player, 1250, false, true) && !BlockList.isBlocked(player, activeChar))
+					if ((player != null) && activeChar.isInsideRadius(player, activeChar.getVolume().getRadius(), false, true) && !BlockList.isBlocked(player, activeChar))
 					{
-						if (!player.isInvisible() && activeChar.isInsideRadius(player, Math.min(activeChar.getVolume().getRadius(), Volume.DEFAULT.getRadius()), false, true)) {
-							audience++;
+						if (!player.isInvisible() && !(player.getClient() == null || player.getClient().isDetached())
+								&& activeChar.isInsideRadius(player, Math.min(activeChar.getVolume().getRadius(), Volume.DEFAULT.getRadius()), false, true)) {
+							audience.add(player);
 						}
 						player.sendPacket(cs);
 					}
@@ -131,31 +136,54 @@ public class ChatAll implements IChatHandler
 
 				if (Config.ENABLE_ROLEPLAY_REWARD) {
 
-					long rolepex = 0;
+					int rolepex = 0;
 					Matcher matcher = THREE_LETTER_WORD_PATTERN.matcher(text);
 
 					while (matcher.find()) {
 						rolepex++;
 					}
 
-					rolepex *= Math.min(audience, MAXIMUM_LISTENERS);
+					rolepex *= Math.min(audience.size(), MAXIMUM_LISTENERS);
 
 					if (rolepex > 0) {
 
-						long addVita = rolepex * Rnd.get(2, 3);
+						/*
+						 * Calculate rewards
+						 */
 
-						if ((activeChar.getVitalityPoints() + addVita) <= PcStat.MAX_VITALITY_POINTS) {
-							activeChar.updateVitalityPoints(addVita, false, true);
-							activeChar.sendPacket(new ExVitalityPointInfo(activeChar.getVitalityPoints()));
-						}
+						int addVita = rolepex * Rnd.get(2, 4);
+						long addExp = getRewardExp(activeChar, rolepex);
+						int addSp = getRewardSp(activeChar, rolepex);
 
-						long addExp = (long) (rolepex * RoleplayRewardData.getInstance().getXpForLevel(activeChar.getLevel()) * Config.RATE_XP);
-						int addSp = (int) (rolepex * RoleplayRewardData.getInstance().getSpForLevel(activeChar.getLevel()) * Config.RATE_SP);
+						int listenerVita = (int) (addVita * RATE_LISTENER);
+						int listenerItem = 0;
 
+						/*
+						 * Give rewards
+						 */
+
+						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false);
 
-						if (Rnd.get(0, 100) >= Math.subtractExact(100, audience * CHANCE_LISTENER)) {
-							activeChar.addItem("MoneyByRP", 4355, audience, activeChar, false);
+						if (isLucky(audience.size())) {
+							activeChar.addItem("MoneyByRP", BLUE_EVA, audience.size(), activeChar, false);
+							listenerItem = (int) (audience.size() * RATE_LISTENER);
+						}
+
+						/*
+						 * Listeners
+						 */
+
+						for (L2PcInstance listener : audience)
+						{
+							// Recalculate for each listener
+							long listenerExp = (long) (getRewardExp(listener, rolepex) * RATE_LISTENER);
+							int listenerSp = (int) (getRewardSp(listener, rolepex) * RATE_LISTENER);
+
+							// Give rewards
+							addVitality(listener, listenerVita);
+							listener.addExpAndSp(listenerExp, listenerSp, false);
+							listener.addItem("MoneyByRP", BLUE_EVA, listenerItem, activeChar, false);
 						}
 					}
 				}
@@ -164,7 +192,30 @@ public class ChatAll implements IChatHandler
 			}
 		}
 	}
-	
+
+	private static boolean isLucky(int audienceSize)
+	{
+		return Rnd.get(0, 100) >= Math.subtractExact(100, audienceSize * 25);
+	}
+
+	private static void addVitality(L2PcInstance activeChar, int addVita)
+	{
+		if ((activeChar.getVitalityPoints() + addVita) <= PcStat.MAX_VITALITY_POINTS) {
+			activeChar.updateVitalityPoints(addVita, false, true);
+			activeChar.sendPacket(new ExVitalityPointInfo(activeChar.getVitalityPoints()));
+		}
+	}
+
+	private static long getRewardExp(L2PcInstance activeChar, int rolepex)
+	{
+		return (long) (RoleplayRewardData.getInstance().getXpForLevel(activeChar.getLevel()) * Config.RATE_XP * rolepex);
+	}
+
+	private static int getRewardSp(L2PcInstance activeChar, int rolepex)
+	{
+		return (int) (RoleplayRewardData.getInstance().getSpForLevel(activeChar.getLevel()) * Config.RATE_SP * rolepex);
+	}
+
 	/**
 	 * Returns the chat types registered to this handler.
 	 */
