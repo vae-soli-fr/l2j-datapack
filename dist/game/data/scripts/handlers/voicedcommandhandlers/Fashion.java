@@ -20,9 +20,12 @@ public class Fashion implements IVoicedCommandHandler {
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String params) {
 
+		boolean doClear = false;
 		List<Integer> updatedSlots = new ArrayList<>();
 
 		switch(String.valueOf(params)) {
+			case "none":
+				doClear = true;
 			case "full":
 				updatedSlots.add(Inventory.PAPERDOLL_HEAD);
 				updatedSlots.add(Inventory.PAPERDOLL_CHEST);
@@ -49,22 +52,22 @@ public class Fashion implements IVoicedCommandHandler {
 				updatedSlots.add(Inventory.PAPERDOLL_LHAND);
 				break;
 			default:
-				activeChar.sendMessage("Usage: .fashion <full|chest|legs|gloves|feet|hands>");
+				activeChar.sendMessage("Usage: .fashion <full|chest|legs|gloves|feet|hands|none>");
 				showMenu(activeChar);
 				return false;
 		}
 
 		for (int slot : updatedSlots) {
 			L2ItemInstance item = activeChar.getInventory().getPaperdollItem(slot);
-			if (item == null) {
-				activeChar.setFashionItem(slot, 0);
+			if (item == null || doClear) {
+				activeChar.getInventory().setFashionItem(slot, null);
 			} else {
-				activeChar.setFashionItem(slot, item.getDisplayId());
+				activeChar.getInventory().setFashionItem(slot, item.getItem());
 			}
 		}
 
 		activeChar.broadcastUserInfo();
-		activeChar.sendMessage("Equipement enregistre.");
+		activeChar.sendMessage(doClear ? "Equipement supprime." : "Equipement enregistre.");
 
 		showMenu(activeChar);
 		return true;
