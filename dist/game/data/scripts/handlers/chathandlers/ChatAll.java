@@ -163,7 +163,7 @@ public class ChatAll implements IChatHandler
 						 */
 
 						addVitality(activeChar, addVita);
-						activeChar.addExpAndSp(addExp, addSp, false);
+						activeChar.addExpAndSp(addExp, addSp, false, false);
 
 						if (isLucky(audience.size())) {
 							activeChar.addItem("MoneyByRP", BLUE_EVA, audience.size(), activeChar, false);
@@ -182,7 +182,7 @@ public class ChatAll implements IChatHandler
 
 							// Give rewards
 							addVitality(listener, listenerVita);
-							listener.addExpAndSp(listenerExp, listenerSp, false);
+							listener.addExpAndSp(listenerExp, listenerSp, false, false);
 							listener.addItem("MoneyByRP", BLUE_EVA, listenerItem, activeChar, false);
 						}
 					}
