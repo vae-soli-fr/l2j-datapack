@@ -77,13 +77,15 @@ public final class RangeGuard extends AbstractNpcAI
 		1529, // Soul Web
 	};
 	//@formatter:on
-	// Misc
-	//private static final int MIN_DISTANCE = 150;
 	
 	private RangeGuard()
 	{
 		super(RangeGuard.class.getSimpleName(), "ai/group_template");
 		
+		if (Config.RANGE_GUARD_MIN_DISTANCE <= 0) {
+			return;
+		}
+
 		for (L2NpcTemplate template : NpcData.getInstance().getAllNpcOfClassType("L2Monster"))
 		{
 			if (template.getParameters().getInt("LongRangeGuardRate", -1) > 0)
