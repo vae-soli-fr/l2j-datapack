@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
-	<zone name="darkelf_town_root_zone" type="EffectZone" shape="NPoly" minZ="-8507" maxZ="-1507"> <!-- [20_18] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="15719" Y="16735" />
-		<node X="14885" Y="19139" />
-		<node X="12223" Y="21049" />
-		<node X="8962" Y="20203" />
-		<node X="7340" Y="18060" />
-		<node X="7372" Y="15649" />
-		<node X="8018" Y="14013" />
-		<node X="9389" Y="12836" />
-		<node X="10669" Y="12131" />
-		<node X="12499" Y="12455" />
-		<node X="14684" Y="13625" />
-		<node X="15441" Y="15060" />
-	</zone>
-	<zone name="elf_town_root1" type="EffectZone" shape="NPoly" minZ="-3511" maxZ="-2011"> <!-- [21_19] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="47758" Y="51443" />
-		<node X="46735" Y="52457" />
-		<node X="45358" Y="52947" />
-		<node X="44182" Y="52419" />
-		<node X="43398" Y="51830" />
-		<node X="43006" Y="51401" />
-		<node X="42508" Y="50515" />
-		<node X="42343" Y="49479" />
-		<node X="42547" Y="48421" />
-		<node X="43138" Y="47363" />
-		<node X="44342" Y="46639" />
-		<node X="45621" Y="46486" />
-		<node X="45974" Y="46554" />
-		<node X="47114" Y="46996" />
-		<node X="47777" Y="47710" />
-		<node X="48202" Y="48441" />
-		<node X="48400" Y="49391" />
-		<node X="48365" Y="50345" />
-	</zone>
 	<zone name="orc_town_root1" type="EffectZone" shape="NPoly" minZ="-397" maxZ="603"> <!-- [18_14] -->
 		<stat name="skillIdLvl" val="4148-12;" />
 		<stat name="reuse" val="3000" />
@@ -216,30 +178,6 @@
 		<node X="143728" Y="26882" />
 		<node X="143118" Y="26712" />
 	</zone>
-	<zone name="heiness_root1" type="EffectZone" shape="NPoly" minZ="-4287" maxZ="-3287"> <!-- [23_24] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="106085" Y="216119" />
-		<node X="116559" Y="216118" />
-		<node X="116533" Y="229030" />
-		<node X="106085" Y="229015" />
-	</zone>
-	<zone name="heiness_root2" type="EffectZone" shape="NPoly" minZ="-4128" maxZ="-3128"> <!-- [23_24] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="103796" Y="217964" />
-		<node X="106602" Y="217963" />
-		<node X="106602" Y="218361" />
-		<node X="103796" Y="218363" />
-	</zone>
-	<zone name="heiness_root3" type="EffectZone" shape="NPoly" minZ="-4096" maxZ="-3096"> <!-- [23_24] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="115950" Y="219084" />
-		<node X="118877" Y="219084" />
-		<node X="118879" Y="219496" />
-		<node X="115952" Y="219498" />
-	</zone>
 	<zone name="godad_root1" type="EffectZone" shape="NPoly" minZ="-3000" maxZ="-771"> <!-- [24_16] -->
 		<stat name="skillIdLvl" val="4148-12;" />
 		<stat name="reuse" val="3000" />
@@ -292,27 +230,5 @@
 		<node X="88292" Y="-139397" />
 		<node X="89712" Y="-140205" />
 		<node X="90660" Y="-141409" />
-	</zone>
-	<zone name="kamael_town_root_01" type="EffectZone" shape="NPoly" minZ="-476" maxZ="3524"> <!-- [16_19] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="-121018" Y="41512" />
-		<node X="-110806" Y="40264" />
-		<node X="-110741" Y="42402" />
-		<node X="-114245" Y="42558" />
-		<node X="-114338" Y="48473" />
-		<node X="-121194" Y="48608" />
-	</zone>
-	<zone name="kamael_town_root_02" type="EffectZone" shape="NPoly" minZ="-412" maxZ="1988"> <!-- [16_19] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="-121505" Y="38622" />
-		<node X="-123715" Y="38622" />
-		<node X="-123714" Y="39299" />
-		<node X="-126223" Y="39300" />
-		<node X="-126229" Y="36917" />
-		<node X="-123722" Y="36917" />
-		<node X="-123726" Y="37705" />
-		<node X="-121506" Y="37701" />
 	</zone>
 </list>
