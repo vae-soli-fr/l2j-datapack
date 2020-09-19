@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+	<npcs>
+		<!-- Gludin -->
+		<npc>30208</npc> <!-- Damion -->
+		<!-- Gludio -->
+		<npc>30253</npc> <!-- Simplon -->
+		<!-- Althena -->
+		<npc>30002</npc> <!-- Jackson -->
+		<!-- Shel'Oloth -->
+		<npc>30136</npc> <!-- Payne -->
+		<!-- Dion -->
+		<npc>30061</npc> <!-- Casey -->
+		<!-- Hindemith -->
+		<npc>30517</npc> <!-- Shari -->	
+		<!-- Naargdum -->
+		<npc>30559</npc> <!-- Kunai -->
+		<!-- Cefedellen -->
+		<npc>30148</npc> <!-- Ariel -->
+		<!-- Gevurah -->
+		<npc>32165</npc> <!-- Zakone -->	
+		<!-- Hunter village -->
+		<npc>30230</npc> <!-- Edroc -->
+		<!-- Giran -->
+		<npc>30087</npc> <!-- Peta -->
+		<!-- Aden -->
+		<npc>30838</npc> <!-- Woodley -->
+		<!-- Goddard -->
+		<npc>31258</npc> <!-- Helmut -->
+		<npc>31259</npc> <!-- Janne -->
+		<!-- Rune -->
+		<npc>31302</npc> <!-- Vladimir -->
+		<npc>31303</npc> <!-- Alisha -->
+		<!-- Oren -->
+		<npc>30178</npc> <!-- Zenkin -->
+		<!-- Schuttgart -->
+		<npc>31947</npc> <!-- Owaki -->
+		<npc>31948</npc> <!-- Adrian -->
+		<!-- Heine -->
+		<npc>30890</npc> <!-- Espen -->
+	</npcs> 
+	<!-- No grade Armor Mage -->
+	<item id="462" /> <!-- Stockings -->
+	<item id="426" /> <!-- Tunic -->
+	<item id="1103" /> <!-- Cotton Stockings -->
+	<item id="1100" /> <!-- Cotton Tunic -->
+	<item id="463" /> <!-- Feriotic Stockings -->
+	<item id="428" /> <!-- Feriotic Tunic -->
+	<item id="464" /> <!-- Leather Stockings -->
+	<item id="429" /> <!-- Leather Tunic -->
+	<item id="1104" /> <!-- Stockings of Devotion -->
+	<item id="1101" /> <!-- Tunic of Devotion -->
+	<item id="18" /> <!-- Leather Shield -->
+	<item id="19" /> <!-- Small Shield -->
+	<item id="20" /> <!-- Buckler -->
+	<item id="102" /> <!-- Round Shield -->
+	<item id="48" /> <!-- Short Gloves -->
+	<item id="1119" /> <!-- Short Leather Gloves -->
+	<item id="49" /> <!-- Gloves -->
+	<item id="50" /> <!-- Leather Gloves -->
+	<item id="1121" /> <!-- Apprentice's Shoes -->
+	<item id="35" /> <!-- Cloth Shoes -->
+	<item id="36" /> <!-- Leather Sandals -->
+	<item id="1129" /> <!-- Crude Leather Shoes -->
+	<item id="1122" /> <!-- Cotton Shoes -->
+	<item id="37" /> <!-- Leather Shoes -->
+	<item id="38" /> <!-- Low Boots -->
+	<item id="41" /> <!-- Cloth Cap -->
+	<item id="42" /> <!-- Leather Cap -->
+	<item id="43" /> <!-- Wooden Helmet -->
+	<item id="44" /> <!-- Leather Helmet -->
+	<item id="9577" /> <!-- Cotton Shirt -->
+	<item id="9578" /> <!-- Linen Shirt -->
+	<item id="9583" /> <!-- Striped Cotton Shirt -->
+	<item id="9584" /> <!-- Stripe Linen Shirt -->
+	<!-- D grade Armor Mage -->
+	<item id="438" /> <!-- Sage's Rag -->
+	<item id="2451" /> <!-- Sage's Worn Gloves -->
+	<item id="1125" /> <!-- Assault Boots -->
+	<item id="465" /> <!-- Cursed Stockings -->
+	<item id="432" /> <!-- Cursed Tunic -->
+	<item id="469" /> <!-- Stockings of Knowledge -->
+	<item id="436" /> <!-- Tunic of Knowledge -->
+	<item id="2447" /> <!-- Gloves of Knowledge -->
+	<item id="2423" /> <!-- Boots of Knowledge -->
+	<item id="468" /> <!-- Mystic's Stockings -->
+	<item id="435" /> <!-- Mystic's Tunic -->
+	<item id="2411" /> <!-- Brigandine Helmet -->
+	<item id="2412" /> <!-- Plate Helmet -->
+	<item id="629" /> <!-- Kite Shield -->
+	<item id="2493" /> <!-- Brigandine Shield -->
+	<item id="2494" /> <!-- Plate Shield -->
+</list>
