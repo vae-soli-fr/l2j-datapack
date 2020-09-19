@@ -217,14 +217,14 @@
 		<node X="-106365" Y="90290" />
 		<node X="-122996" Y="90292" />
 	</zone>
-	<zone name="jewelldg_nr1" type="NoRestartZone" shape="NPoly" minZ="-15756" maxZ="-6756"> <!-- 24_22 -->
-		<stat name="restartTime" val="0" />
-		<stat name="instanceId" val="10" />
-		<node X="139346" Y="139319" />
-		<node X="155531" Y="139524" />
-		<node X="155420" Y="154991" />
-		<node X="139421" Y="155374" />
-	</zone>
+	<!--<zone name="jewelldg_nr1" type="NoRestartZone" shape="NPoly" minZ="-15756" maxZ="-6756">--> <!-- 24_22 -->
+		<!--<stat name="restartTime" val="0" />-->
+		<!--<stat name="instanceId" val="10" />-->
+		<!--<node X="139346" Y="139319" />-->
+		<!--<node X="155531" Y="139524" />-->
+		<!--<node X="155420" Y="154991" />-->
+		<!--<node X="139421" Y="155374" />-->
+	<!--</zone>-->
 	<zone name="belesdg_nr1" type="NoRestartZone" shape="NPoly" minZ="-6196" maxZ="-5996"> <!-- 24_23 -->
 		<stat name="restartTime" val="0" />
 		<stat name="instanceId" val="9" />
