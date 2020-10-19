@@ -5076,6 +5076,8 @@
 				<item id="2121" min="1" max="1" chance="1.7683" /> <!-- Eminence Bow Shaft -->
 				<item id="1885" min="1" max="1" chance="32.0445" /> <!-- High-Grade Suede -->
 				<item id="1920" min="1" max="1" chance="13.1577" /> <!-- Necklace of Seal Chain -->
+				<item id="4990" min="1" max="1" chance="0.4167" />
+				<item id="4088" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -5350,6 +5352,8 @@
 				<item id="4191" min="1" max="1" chance="0.362" /> <!-- Recipe: Great Axe (100%) -->
 				<item id="2963" min="1" max="1" chance="17.1074" /> <!-- Full Plate Gauntlets Part -->
 				<item id="1868" min="1" max="13" chance="89.7647" /> <!-- Thread -->
+				<item id="5001" min="1" max="1" chance="0.4167" />
+				<item id="4115" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -5440,6 +5444,8 @@
 				<item id="2112" min="1" max="1" chance="1.6014" /> <!-- Pa'agrian Axe Blade -->
 				<item id="4133" min="1" max="1" chance="1.5899" /> <!-- Recipe: Zubei's Breastplate (100%) -->
 				<item id="5549" min="1" max="1" chance="33.0694" /> <!-- Metallic Thread -->
+				<item id="8324" min="1" max="1" chance="0.4167" />
+				<item id="8348" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -5529,6 +5535,8 @@
 				<item id="4049" min="1" max="1" chance="18.8177" /> <!-- Adamantite Earring Gemstone -->
 				<item id="4195" min="1" max="1" chance="0.2739" /> <!-- Recipe: Art of Battle Axe (100%) -->
 				<item id="4613" min="1" max="1" chance="0.4948" /> <!-- Greater Dye of STR <Str+4 Con-4> -->
+				<item id="5002" min="1" max="1" chance="0.4167" />
+				<item id="4116" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7545,6 +7553,8 @@
 				<item id="4057" min="1" max="1" chance="6.0231" /> <!-- Zubei's Gaiter Material -->
 				<item id="4198" min="1" max="1" chance="0.1644" /> <!-- Recipe: Bellion Cestus (100%) -->
 				<item id="4589" min="1" max="1" chance="0.7177" /> <!-- Greater Dye of STR <Str+2 Con-2> -->
+				<item id="4998" min="1" max="1" chance="0.4167" />
+				<item id="4096" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7720,6 +7730,8 @@
 				<item id="2098" min="1" max="1" chance="1.2502" /> <!-- Nirvana Axe Blade -->
 				<item id="947" min="1" max="1" chance="0.0934" /> <!-- Scroll: Enchant Weapon (B-Grade) -->
 				<item id="4052" min="1" max="1" chance="8.264" /> <!-- Earring of Black Ore Piece -->
+				<item id="5452" min="1" max="1" chance="0.4167" />
+				<item id="5539" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7817,6 +7829,8 @@
 				<item id="4070" min="1" max="1" chance="8.4802" /> <!-- Stockings of Zubei Fabric -->
 				<item id="4154" min="1" max="1" chance="2.8035" /> <!-- Recipe: Doom Shield (100%) -->
 				<item id="4052" min="1" max="1" chance="8.3872" /> <!-- Earring of Black Ore Piece -->
+				<item id="5418" min="1" max="1" chance="0.4167" />
+				<item id="5521" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7901,6 +7915,8 @@
 				<item id="4052" min="1" max="1" chance="8.7623" /> <!-- Earring of Black Ore Piece -->
 				<item id="4041" min="1" max="1" chance="2.1521" /> <!-- Mold Hardener -->
 				<item id="5230" min="1" max="1" chance="0.33" /> <!-- Recipe: Mithril Arrow (100%) -->
+				<item id="5370" min="1" max="1" chance="0.4167" />
+				<item id="5497" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8028,6 +8044,8 @@
 				<item id="2089" min="1" max="1" chance="1.9453" /> <!-- Caliburs Edge -->
 				<item id="4124" min="1" max="1" chance="15.8653" /> <!-- Recipe: Craftsman Mold (100%) -->
 				<item id="4053" min="1" max="1" chance="15.3008" /> <!-- Ring of Black Ore Gemstone -->
+				<item id="5416" min="1" max="1" chance="0.4167" />
+				<item id="5520" min="1" max="1" chance="0.8333" />				
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8257,6 +8275,10 @@
 				<item id="5478" min="1" max="1" chance="2.1536" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
 				<item id="1807" min="1" max="1" chance="0.3415" /> <!-- Recipe: Soulshot (A-Grade) -->
 				<item id="5479" min="1" max="1" chance="1.5155" /> <!-- Sealed Tallum Leather Armor Pattern -->
+				<item id="5364" min="1" max="1" chance="0.4167" />
+				<item id="5494" min="1" max="1" chance="0.8333" />
+				<item id="8314" min="1" max="1" chance="0.4167" />
+				<item id="8341" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8726,6 +8748,8 @@
 				<item id="1873" min="1" max="1" chance="71.6613" /> <!-- Silver Nugget -->
 				<item id="1876" min="1" max="1" chance="35.8306" /> <!-- Mithril Ore -->
 				<item id="3034" min="1" max="1" chance="0.3583" /> <!-- Recipe: Spiritshot B -->
+				<item id="5003" min="1" max="1" chance="0.4167" />
+				<item id="4117" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>

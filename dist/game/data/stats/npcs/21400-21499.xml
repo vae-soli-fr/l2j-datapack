@@ -3632,6 +3632,8 @@
 				<item id="5448" min="1" max="1" chance="0.0252" /> <!-- Recipe: Soul Separator(60%) -->
 				<item id="5494" min="1" max="1" chance="1.4265" /> <!-- Sealed Dark Crystal Shield Fragment -->
 				<item id="729" min="1" max="1" chance="0.0075" /> <!-- Scroll: Enchant Weapon (A-Grade) -->
+				<item id="5448" min="1" max="1" chance="0.4167" />
+				<item id="5537" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3724,6 +3726,8 @@
 				<item id="5448" min="1" max="1" chance="0.026" /> <!-- Recipe: Soul Separator(60%) -->
 				<item id="6341" min="1" max="1" chance="1.9393" /> <!-- Sealed Phoenix Earring Gemstone -->
 				<item id="729" min="1" max="1" chance="0.0078" /> <!-- Scroll: Enchant Weapon (A-Grade) -->
+				<item id="8326" min="1" max="1" chance="0.4167" />
+				<item id="8349" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>

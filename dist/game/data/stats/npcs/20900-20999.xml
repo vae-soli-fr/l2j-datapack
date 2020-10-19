@@ -3714,6 +3714,8 @@
 				<item id="4987" min="1" max="1" chance="0.9891" /> <!-- Recipe: Tunic of Doom (60%) -->
 				<item id="4106" min="1" max="1" chance="1.3417" /> <!-- Sprite's Staff Head -->
 				<item id="1884" min="1" max="3" chance="73.3439" /> <!-- Cord -->
+				<item id="5470" min="1" max="1" chance="0.4167" />
+				<item id="5548" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -4073,6 +4075,8 @@
 				<item id="4052" min="1" max="1" chance="5.8175" /> <!-- Earring of Black Ore Piece -->
 				<item id="5230" min="1" max="1" chance="0.2191" /> <!-- Recipe: Mithril Arrow (100%) -->
 				<item id="4053" min="1" max="1" chance="7.0431" /> <!-- Ring of Black Ore Gemstone -->
+				<item id="8487" min="1" max="1" chance="0.4167" />
+				<item id="8346" min="1" max="1" chance="0.8333" />	
 			</corpse>
 		</drop_lists>
 		<collision>

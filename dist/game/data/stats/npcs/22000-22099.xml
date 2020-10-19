@@ -9390,6 +9390,8 @@
 				<item id="1867" min="1" max="5" chance="70.5071" /> <!-- Animal Skin -->
 				<item id="4613" min="1" max="1" chance="0.2188" /> <!-- Greater Dye of STR <Str+4 Con-4> -->
 				<item id="4051" min="1" max="1" chance="6.1524" /> <!-- Adamantite Necklace Chain -->
+				<item id="8298" min="1" max="1" chance="0.4167" />
+				<item id="8330" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -9509,6 +9511,8 @@
 				<item id="4154" min="1" max="1" chance="2.158" /> <!-- Recipe: Doom Shield (100%) -->
 				<item id="4056" min="1" max="1" chance="3.3004" /> <!-- Zubei's Breastplate Part -->
 				<item id="4155" min="1" max="1" chance="0.5663" /> <!-- Recipe: Blue Wolf Breastplate (100%) -->
+				<item id="4981" min="1" max="1" chance="0.4167" />
+				<item id="4078" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -9814,6 +9818,8 @@
 				<item id="4157" min="1" max="1" chance="1.028" /> <!-- Recipe: Blue Wolf Gaiters (100%) -->
 				<item id="4065" min="1" max="1" chance="5.7797" /> <!-- Avadon Gaiters Material -->
 				<item id="8314" min="1" max="1" chance="0.1129" /> <!-- Recipe: Spiritual Eye (60%) -->
+				<item id="4982" min="1" max="1" chance="0.4167" />
+				<item id="4080" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -9904,6 +9910,8 @@
 				<item id="8316" min="1" max="1" chance="0.1117" /> <!-- Recipe: Flaming Dragon Skull (60%) -->
 				<item id="4615" min="1" max="1" chance="0.4162" /> <!-- Greater Dye of CON <Con+4 Str-4> -->
 				<item id="8300" min="1" max="1" chance="0.1649" /> <!-- Recipe: Infernal Master (60%) -->
+				<item id="8316" min="1" max="1" chance="0.4167" />
+				<item id="8342" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -10110,6 +10118,10 @@
 				<item id="4159" min="1" max="1" chance="0.538" /> <!-- Recipe: Blue Wolf Leather Armor (100%) -->
 				<item id="4068" min="1" max="1" chance="3.4399" /> <!-- Avadon Leather Armor Lining -->
 				<item id="4160" min="1" max="1" chance="0.538" /> <!-- Recipe: Leather Armor of Doom (100%) -->
+				<item id="4984" min="1" max="1" chance="0.4167" />
+				<item id="4082" min="1" max="1" chance="0.8333" />
+				<item id="4985" min="1" max="1" chance="0.4167" />
+				<item id="4083" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -10325,6 +10337,8 @@
 				<item id="4053" min="1" max="1" chance="9.8368" /> <!-- Ring of Black Ore Gemstone -->
 				<item id="1807" min="1" max="1" chance="0.306" /> <!-- Recipe: Soulshot (A-Grade) -->
 				<item id="4054" min="1" max="1" chance="4.5202" /> <!-- Necklace of Black Ore Beads -->
+				<item id="5446" min="1" max="1" chance="0.4167" />
+				<item id="5536" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -10444,6 +10458,8 @@
 				<item id="3035" min="1" max="1" chance="0.3168" /> <!-- Recipe: Spiritshot A -->
 				<item id="4077" min="1" max="1" chance="10.6869" /> <!-- Doom Shield Fragment -->
 				<item id="4039" min="1" max="1" chance="7.919" /> <!-- Mold Glue -->
+				<item id="5438" min="1" max="1" chance="0.4167" />
+				<item id="5532" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>

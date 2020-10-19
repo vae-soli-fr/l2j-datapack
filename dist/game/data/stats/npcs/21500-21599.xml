@@ -770,6 +770,8 @@
 				<item id="4120" min="1" max="1" chance="1.4317" /> <!-- Bellion Cestus Edge -->
 				<item id="5444" min="1" max="1" chance="0.179" /> <!-- Recipe: Carnage Bow(60%) -->
 				<item id="4121" min="1" max="1" chance="1.4269" /> <!-- Bow of Peril Shaft -->
+				<item id="5382" min="1" max="1" chance="0.4167" />
+				<item id="5503" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -888,6 +890,8 @@
 				<item id="4091" min="1" max="1" chance="12.8386" /> <!-- Sealed Doom Gloves Part -->
 				<item id="6333" min="1" max="1" chance="3.2834" /> <!-- Recipe: Sealed Phoenix Ring(70%) -->
 				<item id="4096" min="1" max="1" chance="12.8386" /> <!-- Sealed Blue Wolf Gloves Fabric -->
+				<item id="5406" min="1" max="1" chance="0.4167" />
+				<item id="5515" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -1002,6 +1006,8 @@
 				<item id="5508" min="1" max="1" chance="8.1999" /> <!-- Sealed Dark Crystal Gloves Design -->
 				<item id="730" min="1" max="1" chance="0.2914" /> <!-- Scroll: Enchant Armor (A-Grade) -->
 				<item id="1875" min="1" max="1" chance="23.3152" /> <!-- Stone of Purity -->
+				<item id="5432" min="1" max="1" chance="0.4167" />
+				<item id="5528" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -1125,6 +1131,8 @@
 				<item id="1875" min="1" max="1" chance="30.1961" /> <!-- Stone of Purity -->
 				<item id="5539" min="1" max="1" chance="1.5274" /> <!-- Blood Tornado Edge -->
 				<item id="5462" min="1" max="1" chance="0.1678" /> <!-- Recipe: Branch of the Mother Tree(60%) -->
+				<item id="5422" min="1" max="1" chance="0.4167" />
+				<item id="5523" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -1243,6 +1251,8 @@
 				<item id="730" min="1" max="1" chance="0.4407" /> <!-- Scroll: Enchant Armor (A-Grade) -->
 				<item id="4041" min="1" max="1" chance="4.5985" /> <!-- Mold Hardener -->
 				<item id="1875" min="1" max="1" chance="35.2548" /> <!-- Stone of Purity -->
+				<item id="5422" min="1" max="1" chance="0.4167" />
+				<item id="5523" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -1483,6 +1493,8 @@
 				<item id="4039" min="1" max="1" chance="8.6637" /> <!-- Mold Glue -->
 				<item id="5479" min="1" max="1" chance="1.5379" /> <!-- Sealed Tallum Leather Armor Pattern -->
 				<item id="5462" min="1" max="1" chance="0.0963" /> <!-- Recipe: Branch of the Mother Tree(60%) -->
+				<item id="5462" min="1" max="1" chance="0.4167" />
+				<item id="5544" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -2937,6 +2949,8 @@
 				<item id="5549" min="1" max="1" chance="36.5298" /> <!-- Metallic Thread -->
 				<item id="1889" min="1" max="1" chance="24.3532" /> <!-- Compound Braid -->
 				<item id="4052" min="1" max="1" chance="12.9332" /> <!-- Earring of Black Ore Piece -->
+				<item id="5368" min="1" max="1" chance="0.4167" />
+				<item id="5496" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3189,6 +3203,10 @@
 				<item id="4040" min="1" max="1" chance="7.9165" /> <!-- Mold Lubricant -->
 				<item id="4081" min="1" max="1" chance="3.9013" /> <!-- Doom Plate Armor Temper -->
 				<item id="5161" min="1" max="1" chance="0.5278" /> <!-- Recipe: Spiritshot (A) Compressed Package (100%) -->
+				<item id="5346" min="1" max="1" chance="0.4167" />
+				<item id="5485" min="1" max="1" chance="0.8333" />
+				<item id="5392" min="1" max="1" chance="0.4167" />
+				<item id="5508" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3319,6 +3337,8 @@
 				<item id="4082" min="1" max="1" chance="3.4211" /> <!-- Blue Wolf Leather Armor Texture -->
 				<item id="5166" min="1" max="1" chance="0.4037" /> <!-- Recipe: Blessed Spiritshot (A) Compressed Package (100%) -->
 				<item id="4083" min="1" max="1" chance="3.4211" /> <!-- Leather Armor of Doom Design -->
+				<item id="5426" min="1" max="1" chance="0.4167" />
+				<item id="5525" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3439,6 +3459,8 @@
 				<item id="4120" min="1" max="1" chance="1.4136" /> <!-- Bellion Cestus Edge -->
 				<item id="5470" min="1" max="1" chance="0.1768" /> <!-- Recipe: Tallum Blade(60%) -->
 				<item id="4121" min="1" max="1" chance="1.4088" /> <!-- Bow of Peril Shaft -->
+				<item id="5394" min="1" max="1" chance="0.4167" />
+				<item id="5509" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3563,6 +3585,8 @@
 				<item id="1876" min="1" max="1" chance="72.7098" /> <!-- Mithril Ore -->
 				<item id="1895" min="1" max="3" chance="51.9356" /> <!-- Metallic Fiber -->
 				<item id="4052" min="1" max="1" chance="12.8713" /> <!-- Earring of Black Ore Piece -->
+				<item id="5428" min="1" max="1" chance="0.4167" />
+				<item id="5526" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3689,6 +3713,8 @@
 				<item id="4054" min="1" max="1" chance="7.4152" /> <!-- Necklace of Black Ore Beads -->
 				<item id="1894" min="1" max="1" chance="13.2094" /> <!-- Crafted Leather -->
 				<item id="4042" min="1" max="1" chance="6.2745" /> <!-- Enria -->
+				<item id="5340" min="1" max="1" chance="0.4167" />
+				<item id="5482" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -3940,6 +3966,12 @@
 				<item id="4077" min="1" max="1" chance="19.0615" /> <!-- Doom Shield Fragment -->
 				<item id="5470" min="1" max="1" chance="0.2316" /> <!-- Recipe: Tallum Blade(60%) -->
 				<item id="5348" min="1" max="1" chance="0.8341" /> <!-- Recipe: Sealed Dark Crystal Robe(60%) -->
+				<item id="5346" min="1" max="1" chance="0.4167" />
+				<item id="5485" min="1" max="1" chance="0.8333" />
+				<item id="5332" min="1" max="1" chance="0.4167" />
+				<item id="5478" min="1" max="1" chance="0.8333" />
+				<item id="5348" min="1" max="1" chance="0.4167" />
+				<item id="5486" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -4785,6 +4817,8 @@
 				<item id="1874" min="1" max="1" chance="27.206" /> <!-- Oriharukon Ore -->
 				<item id="4043" min="1" max="1" chance="13.603" /> <!-- Asofe -->
 				<item id="4084" min="1" max="1" chance="7.0923" /> <!-- Blue Wolf Tunic Fabric -->
+				<item id="5334" min="1" max="1" chance="0.4167" />
+				<item id="5479" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -6119,6 +6153,8 @@
 				<item id="5346" min="1" max="1" chance="0.7455" /> <!-- Recipe: Sealed Tallum Tunic(60%) -->
 				<item id="4080" min="1" max="1" chance="5.3208" /> <!-- Blue Wolf Gaiters Material -->
 				<item id="1895" min="1" max="1" chance="73.9065" /> <!-- Metallic Fiber -->
+				<item id="5468" min="1" max="1" chance="0.4167" />
+				<item id="5547" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -6243,6 +6279,8 @@
 				<item id="5346" min="1" max="1" chance="0.7455" /> <!-- Recipe: Sealed Tallum Tunic(60%) -->
 				<item id="4080" min="1" max="1" chance="5.3208" /> <!-- Blue Wolf Gaiters Material -->
 				<item id="1895" min="1" max="1" chance="73.9065" /> <!-- Metallic Fiber -->
+				<item id="5468" min="1" max="1" chance="0.4167" />
+				<item id="5547" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -6360,6 +6398,8 @@
 				<item id="4082" min="1" max="1" chance="3.5533" /> <!-- Blue Wolf Leather Armor Texture -->
 				<item id="5354" min="1" max="1" chance="1.4491" /> <!-- Recipe: Sealed Tallum Stockings(60%) -->
 				<item id="4083" min="1" max="1" chance="3.5533" /> <!-- Leather Armor of Doom Design -->
+				<item id="5354" min="1" max="1" chance="0.4167" />
+				<item id="5489" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -6477,6 +6517,8 @@
 				<item id="4082" min="1" max="1" chance="3.4673" /> <!-- Blue Wolf Leather Armor Texture -->
 				<item id="5354" min="1" max="1" chance="1.4141" /> <!-- Recipe: Sealed Tallum Stockings(60%) -->
 				<item id="4083" min="1" max="1" chance="3.4673" /> <!-- Leather Armor of Doom Design -->
+				<item id="5354" min="1" max="1" chance="0.4167" />
+				<item id="5489" min="1" max="1" chance="0.8333" />				
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -6865,6 +6907,8 @@
 				<item id="6329" min="1" max="1" chance="2.2819" /> <!-- Recipe: Sealed Phoenix Necklace(70%) -->
 				<item id="4085" min="1" max="1" chance="6.9006" /> <!-- Tunic of Doom Pattern -->
 				<item id="6331" min="1" max="1" chance="3.031" /> <!-- Recipe: Sealed Phoenix Earring(70%) -->
+				<item id="5336" min="1" max="1" chance="0.4167" />
+				<item id="5480" min="1" max="1" chance="0.8333" />	
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -6992,6 +7036,8 @@
 				<item id="4086" min="1" max="1" chance="9.3173" /> <!-- Blue Wolf Stockings Pattern -->
 				<item id="4040" min="1" max="1" chance="7.9412" /> <!-- Mold Lubricant -->
 				<item id="1875" min="1" max="1" chance="26.4705" /> <!-- Stone of Purity -->
+				<item id="5366" min="1" max="1" chance="0.4167" />
+				<item id="5495" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7239,6 +7285,8 @@
 				<item id="5156" min="1" max="1" chance="0.4614" /> <!-- Recipe: Soulshot (A) Compressed Package (100%) -->
 				<item id="4118" min="1" max="1" chance="1.4328" /> <!-- Evil Spirit Head -->
 				<item id="5220" min="1" max="1" chance="13.8433" /> <!-- Metal Hardener -->
+				<item id="5380" min="1" max="1" chance="0.4167" />
+				<item id="5502" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7496,6 +7544,8 @@
 				<item id="4120" min="1" max="1" chance="1.6716" /> <!-- Bellion Cestus Edge -->
 				<item id="5166" min="1" max="1" chance="0.5101" /> <!-- Recipe: Blessed Spiritshot (A) Compressed Package (100%) -->
 				<item id="4121" min="1" max="1" chance="1.666" /> <!-- Bow of Peril Shaft -->
+				<item id="5404" min="1" max="1" chance="0.4167" />
+				<item id="5514" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7617,6 +7667,8 @@
 				<item id="5520" min="1" max="1" chance="2.499" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
 				<item id="5464" min="1" max="1" chance="0.1435" /> <!-- Recipe: Dark Legion's Edge(60%) -->
 				<item id="5521" min="1" max="1" chance="1.7634" /> <!-- Sealed Tallum Plate Armor Pattern -->
+				<item id="5464" min="1" max="1" chance="0.4167" />
+				<item id="5545" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -7857,6 +7909,8 @@
 				<item id="5524" min="1" max="1" chance="4.9929" /> <!-- Sealed Dark Crystal Gaiters Pattern -->
 				<item id="5466" min="1" max="1" chance="0.1876" /> <!-- Recipe: Sword of Miracles(60%) -->
 				<item id="5525" min="1" max="1" chance="7.8309" /> <!-- Sealed Dark Crystal Helmet Design -->
+				<item id="5466" min="1" max="1" chance="0.4167" />
+				<item id="5546" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8212,6 +8266,8 @@
 				<item id="5542" min="1" max="1" chance="1.063" /> <!-- Halberd Edge -->
 				<item id="5464" min="1" max="1" chance="0.1167" /> <!-- Recipe: Dark Legion's Edge(60%) -->
 				<item id="5543" min="1" max="1" chance="1.073" /> <!-- Dasparion's Staff Head -->
+				<item id="5350" min="1" max="1" chance="0.4167" />
+				<item id="5487" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8331,6 +8387,8 @@
 				<item id="729" min="1" max="1" chance="0.0461" /> <!-- Scroll: Enchant Weapon (A-Grade) -->
 				<item id="4042" min="1" max="1" chance="6.917" /> <!-- Enria -->
 				<item id="4043" min="1" max="1" chance="13.834" /> <!-- Asofe -->
+				<item id="5420" min="1" max="1" chance="0.4167" />
+				<item id="5522" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8697,6 +8755,8 @@
 				<item id="5448" min="1" max="1" chance="0.2" /> <!-- Recipe: Soul Separator(60%) -->
 				<item id="5494" min="1" max="1" chance="11.3405" /> <!-- Sealed Dark Crystal Shield Fragment -->
 				<item id="729" min="1" max="1" chance="0.06" /> <!-- Scroll: Enchant Weapon (A-Grade) -->
+				<item id="5456" min="1" max="1" chance="0.4167" />
+				<item id="5541" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -8810,6 +8870,8 @@
 				<item id="5448" min="1" max="1" chance="0.1127" /> <!-- Recipe: Soul Separator(60%) -->
 				<item id="5494" min="1" max="1" chance="6.389" /> <!-- Sealed Dark Crystal Shield Fragment -->
 				<item id="729" min="1" max="1" chance="0.0338" /> <!-- Scroll: Enchant Weapon (A-Grade) -->
+				<item id="5456" min="1" max="1" chance="0.4167" />
+				<item id="5541" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -10042,6 +10104,8 @@
 				<item id="5536" min="1" max="1" chance="0.9955" /> <!-- Bloody Orchid Head -->
 				<item id="730" min="1" max="1" chance="0.2438" /> <!-- Scroll: Enchant Armor (A-Grade) -->
 				<item id="5352" min="1" max="1" chance="0.3785" /> <!-- Recipe: Sealed Majestic Robe(60%) -->
+				<item id="5352" min="1" max="1" chance="0.4167" />
+				<item id="5488" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -11470,6 +11534,8 @@
 				<item id="4043" min="1" max="1" chance="10.5426" /> <!-- Asofe -->
 				<item id="5550" min="1" max="1" chance="4.217" /> <!-- Durable Metal Plate -->
 				<item id="4052" min="1" max="1" chance="11.1977" /> <!-- Earring of Black Ore Piece -->
+				<item id="5430" min="1" max="1" chance="0.4167" />
+				<item id="5527" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
@@ -11564,6 +11630,8 @@
 				<item id="5230" min="1" max="1" chance="0.4723" /> <!-- Recipe: Mithril Arrow (100%) -->
 				<item id="4053" min="1" max="1" chance="15.1817" /> <!-- Ring of Black Ore Gemstone -->
 				<item id="5271" min="1" max="1" chance="0.4723" /> <!-- Recipe: Greater Soulshot (A) Compressed Package(100%) -->
+				<item id="5430" min="1" max="1" chance="0.4167" />
+				<item id="5527" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>

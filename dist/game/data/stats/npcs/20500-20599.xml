@@ -7319,6 +7319,10 @@
 				<item id="2119" min="1" max="1" chance="1.2928" /> <!-- Crystal Dagger Blade -->
 				<item id="4145" min="1" max="1" chance="1.2443" /> <!-- Recipe: Avadon Leather Armor (100%) -->
 				<item id="4591" min="1" max="1" chance="0.9457" /> <!-- Greater Dye of CON <Con+2 Str-2> -->
+				<item id="4989" min="1" max="1" chance="0.4167" />
+				<item id="4087" min="1" max="1" chance="0.8333" />
+				<item id="8306" min="1" max="1" chance="0.4167" />
+				<item id="8336" min="1" max="1" chance="0.8333" />
 			</corpse>
 		</drop_lists>
 		<collision>
