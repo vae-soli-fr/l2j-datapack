@@ -603,7 +603,13 @@
 		<item npcId="25527"> <!-- Uruka -->
 			<detail chance="3" absorbType="PARTY_ONE_RANDOM" levelList="10, 11, 12, 13" />
 		</item>
+		<item npcId="22215"> <!-- Tyrannosaurus -->
+			<detail chance="15" absorbType="PARTY_ONE_RANDOM" levelList="10, 11" />
+		</item>
 		<item npcId="22216"> <!-- Tyrannosaurus -->
+			<detail chance="15" absorbType="PARTY_ONE_RANDOM" levelList="10, 11" />
+		</item>
+		<item npcId="22217"> <!-- Tyrannosaurus -->
 			<detail chance="15" absorbType="PARTY_ONE_RANDOM" levelList="10, 11" />
 		</item>
 		<item npcId="25536"> <!-- Hannibal -->
