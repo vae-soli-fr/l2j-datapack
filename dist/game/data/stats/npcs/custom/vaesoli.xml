@@ -1328,6 +1328,608 @@
 			<height normal="55" />
 		</collision>
 	</npc>
+	<!-- Custom TP section -->
+	<npc id="56001" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="114290" />
+			<param name="PosY" value="217224" />
+			<param name="PosZ" value="-3550" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56002" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="114137" />
+			<param name="PosY" value="217224" />
+			<param name="PosZ" value="-3546" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56003" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="114043" />
+			<param name="PosY" value="222371" />
+			<param name="PosZ" value="-3548" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56004" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="114043" />
+			<param name="PosY" value="222521" />
+			<param name="PosZ" value="-3546" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56005" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Chez Euria et Serek'Tei" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="108624" />
+			<param name="PosY" value="222085" />
+			<param name="PosZ" value="-3517" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56006" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Chez Euria et Serek'Tei" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="108622" />
+			<param name="PosY" value="222223" />
+			<param name="PosZ" value="-3518" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56007" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="107882" />
+			<param name="PosY" value="220931" />
+			<param name="PosZ" value="-3585" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56008" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="107877" />
+			<param name="PosY" value="220794" />
+			<param name="PosZ" value="-3582" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56009" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="108646" />
+			<param name="PosY" value="218167" />
+			<param name="PosZ" value="-3643" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56010" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="108757" />
+			<param name="PosY" value="218172" />
+			<param name="PosZ" value="-3643" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56011" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="-82361" />
+			<param name="PosY" value="151650" />
+			<param name="PosZ" value="-3127" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56012" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="-82367" />
+			<param name="PosY" value="151752" />
+			<param name="PosZ" value="-3114" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56013" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="-80083" />
+			<param name="PosY" value="155513" />
+			<param name="PosZ" value="-3136" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56014" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="-80001" />
+			<param name="PosY" value="155536" />
+			<param name="PosZ" value="-3161" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56015" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="84198" />
+			<param name="PosY" value="145520" />
+			<param name="PosZ" value="-3403" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56016" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="84295" />
+			<param name="PosY" value="145516" />
+			<param name="PosZ" value="-3403" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56017" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="82713" />
+			<param name="PosY" value="144182" />
+			<param name="PosZ" value="-3531" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56018" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="82726" />
+			<param name="PosY" value="144065" />
+			<param name="PosZ" value="-3531" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56019" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="77859" />
+			<param name="PosY" value="148839" />
+			<param name="PosZ" value="-3598" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="56020" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="77854" />
+			<param name="PosY" value="148949" />
+			<param name="PosZ" value="-3595" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<!-- RB and event section -->
 	<npc id="65001" displayId="18961" level="65" type="L2RaidBoss" name="Death Pass Creature" title="Raid Boss" usingServerSideName="true" usingServerSideTitle="true">
 		<!-- Confirmed CT2.5 -->
 		<race>BEAST</race>
@@ -1390,6 +1992,148 @@
 		<collision>
 			<radius normal="72" />
 			<height normal="55" />
+		</collision>
+	</npc>
+	<npc id="65002" displayId="29099" level="83" type="L2Monster" name="Abomination du Neant" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="selfbuff1" id="5221" level="1" /> <!-- Balor - Physical Close Range Weak Point -->
+			<skill name="selfbuff2" id="5222" level="1" /> <!-- Balor - Physical Long Range Weak Point -->
+			<skill name="selfbuff3" id="5223" level="1" /> <!-- Balor - Magic Weak Point -->
+			<skill name="selfbuff4" id="5224" level="1" /> <!-- Berserk -->
+			<skill name="selfbuff5" id="5225" level="1" /> <!-- Invincible -->
+			<skill name="PhysicalSpecial1" id="5227" level="1" /> <!-- Ground Strike -->
+			<skill name="PhysicalSpecial2" id="5228" level="1" /> <!-- Jump Attack -->
+			<skill name="PhysicalSpecial3" id="5229" level="1" /> <!-- Strong Punch -->
+			<skill name="PhysicalSpecial4" id="5226" level="1" /> <!-- Imprison -->
+			<skill name="d_skill1" id="5402" level="1" /> <!-- Presentation - Balor 2 -->
+			<skill name="d_skill2" id="5403" level="1" /> <!-- Presentation - Balor 3 -->
+			<skill name="d_skill3" id="5404" level="1" /> <!-- Presentation - Balor 4 -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire expRate="463.086762109777" sp="2191683" raidPoints="399" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="1078413.49462422" hpRegen="100.862738374864" mp="100000.0" mpRegen="1000" />
+			<attack physical="2098.5269559057" magical="1433.02186584885" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1415.44576" magical="1035.7618" evasion="-18" />
+			<attribute>
+				<attack type="UNHOLY" value="80" />
+				<defence fire="70" water="70" wind="70" earth="70" holy="50" dark="95" default="60" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+			<hit_time>470</hit_time>
+		</stats>
+		<status undying="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="9" /> <!--Demons -->
+			<skill id="5221" level="1" /> <!--Balor - Physical Close Range Weak Point -->
+			<skill id="5222" level="1" /> <!--Balor - Physical Long Range Weak Point -->
+			<skill id="5223" level="1" /> <!--Balor - Magic Weak Point -->
+			<skill id="5224" level="1" /> <!--Berserk -->
+			<skill id="5227" level="1" /> <!--Ground Strike -->
+			<skill id="5228" level="1" /> <!--Jump Attack -->
+			<skill id="5229" level="1" /> <!--Strong Punch -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+			<skill id="5479" level="1" /> <!--Boss Petrification Resistance -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="54" />
+			<height normal="77.5" />
+		</collision>
+	</npc>
+	<npc id="65003" displayId="22480" level="84" type="L2Monster" name="Creature du Neant" usingServerSideName="true">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="457.014474186851" sp="348153" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="334640.100173302" hpRegen="187.260794107867" mp="1846.8" mpRegen="3" />
+			<attack physical="10107.8290646906" magical="6902.33704348132" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578.861024" magical="635.378064" />
+			<attribute>
+				<attack type="UNHOLY" value="250" />
+				<defence fire="220" water="220" wind="220" earth="220" holy="170" dark="250" default="230" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" canBeSown="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+			<skill id="5598" level="12" /> <!--Flash Resistance -->
+			<skill id="6743" level="1" /> <!--Dark Wind -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="500" clanHelpRange="300" />
+		<collision>
+			<radius normal="36" />
+			<height normal="43.5" />
+		</collision>
+	</npc>
+	<npc id="65004" displayId="22479" level="84" type="L2Monster" name="Monstre du Neant" usingServerSideName="true">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="457.014474186851" sp="348153" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="334640.100173302" hpRegen="187.260794107867" mp="1846.8" mpRegen="3" />
+			<attack physical="10107.8290646906" magical="6902.33704348132" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578.861024" magical="635.378064" />
+			<attribute>
+				<attack type="UNHOLY" value="250" />
+				<defence fire="220" water="220" wind="220" earth="220" holy="170" dark="250" default="230" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" canBeSown="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+			<skill id="5598" level="12" /> <!--Flash Resistance -->
+			<skill id="6743" level="1" /> <!--Dark Wind -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="500" clanHelpRange="300" />
+		<collision>
+			<radius normal="34" />
+			<height normal="35" />
 		</collision>
 	</npc>
 </list>
