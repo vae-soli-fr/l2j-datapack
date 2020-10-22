@@ -20,6 +20,7 @@ package quests.Q00350_EnhanceYourWeapon;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -329,30 +330,38 @@ public class Q00350_EnhanceYourWeapon extends Quest
 		return false;
 	}
 	
-	private static void levelCrystal(L2PcInstance player, SoulCrystal sc, L2Attackable mob)
+	private static boolean levelCrystal(L2PcInstance player, SoulCrystal sc, L2Attackable mob)
 	{
 		if ((sc == null) || !NPC_LEVELING_INFO.containsKey(mob.getId()))
 		{
-			return;
+			return false;
 		}
 		
 		// If the crystal level is way too high for this mob, say that we can't increase it
 		if (!NPC_LEVELING_INFO.get(mob.getId()).containsKey(sc.getLevel()))
 		{
 			player.sendPacket(SystemMessageId.SOUL_CRYSTAL_ABSORBING_REFUSED);
-			return;
+			return false;
 		}
 		
-		if (getRandom(100) <= NPC_LEVELING_INFO.get(mob.getId()).get(sc.getLevel()).getChance())
+		if (getRandom(100) <= getChance(sc, mob))
 		{
 			exchangeCrystal(player, mob, sc.getItemId(), sc.getLeveledItemId(), false);
+			return true;
 		}
-		else
-		{
-			player.sendPacket(SystemMessageId.SOUL_CRYSTAL_ABSORBING_FAILED);
-		}
+
+		player.sendPacket(SystemMessageId.SOUL_CRYSTAL_ABSORBING_FAILED);
+		return true;
 	}
 	
+	private static int getChance(SoulCrystal sc, L2Attackable mob)
+	{
+		if (mob.isRaid()) {
+			return Config.RAID_CRYSTAL_CHANCE;
+		}
+		return NPC_LEVELING_INFO.get(mob.getId()).get(sc.getLevel()).getChance();
+	}
+
 	/**
 	 * Calculate the leveling chance of Soul Crystals based on the attacker that killed this L2Attackable
 	 * @param mob
@@ -449,13 +458,19 @@ public class Q00350_EnhanceYourWeapon extends Quest
 		switch (mainlvlInfo.getAbsorbCrystalType())
 		{
 			case PARTY_ONE_RANDOM:
-				// This is a naive method for selecting a random member. It gets any random party member and
-				// then checks if the member has a valid crystal. It does not select the random party member
-				// among those who have crystals, only. However, this might actually be correct (same as retail).
 				if (killer.getParty() != null)
 				{
-					L2PcInstance lucky = killer.getParty().getMembers().get(getRandom(killer.getParty().getMemberCount()));
-					levelCrystal(lucky, players.get(lucky), mob);
+					List<L2PcInstance> luckyParty = new ArrayList<>();
+					luckyParty.addAll(killer.getParty().getMembers());
+					Collections.shuffle(luckyParty);
+
+					for (L2PcInstance lucky : luckyParty)
+					{
+						if (levelCrystal(lucky, players.get(lucky), mob))
+						{
+							break;
+						}
+					}
 				}
 				else
 				{
