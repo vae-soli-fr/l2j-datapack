@@ -1929,6 +1929,47 @@
 			<height normal="15" />
 		</collision>
 	</npc>
+	<!-- PNJ (speciaux) customs -->
+	<npc id="57001" displayId="30895" level="70" type="L2Warehouse" name="Penis" title="Warehouse Keeper" usingServerSideName="true" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="150" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="18" /> <!--Dwarves -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc>
 	<!-- RB and event section -->
 	<npc id="65001" displayId="18961" level="65" type="L2RaidBoss" name="Death Pass Creature" title="Raid Boss" usingServerSideName="true" usingServerSideTitle="true">
 		<!-- Confirmed CT2.5 -->
@@ -2134,6 +2175,90 @@
 		<collision>
 			<radius normal="34" />
 			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- test Pilou 1 -->
+	<npc id="65005" displayId="18909" level="80" type="L2Guard" name="Enfermé_test1">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="9442" lhand="9441" /> <!-- rhand: Tallum Blade lhand: Sage's Shield -->
+		<stats str="50" int="20" dex="30" wit="20" con="50" men="20">
+			<vitals hp="10000" hpRegen="100" mp="1000" mpRegen="10" />
+			<attack physical="1000" magical="1000" random="30" critical="10" accuracy="10" attackSpeed="500" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1000" magical="1000" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<!-- test Pilou 2 -->
+	<npc id="65006" displayId="18909" level="80" type="L2Guard" name="Enfermé_test1">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="9442" lhand="9441" /> <!-- rhand: Tallum Blade lhand: Sage's Shield -->
+		<stats str="50" int="20" dex="30" wit="20" con="50" men="20">
+			<vitals hp="10000" hpRegen="100" mp="1000" mpRegen="10" />
+			<attack physical="1000" magical="1000" random="30" critical="10" accuracy="10" attackSpeed="500" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1000" magical="1000" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="18" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="19" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
 		</collision>
 	</npc>
 </list>
