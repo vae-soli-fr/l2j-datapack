@@ -2215,8 +2215,8 @@
 		<ex_crt_effect>true</ex_crt_effect>
 		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
-			<radius normal="8" />
-			<height normal="24" />
+			<radius normal="12" />
+			<height normal="28.4" />
 		</collision>
 	</npc>
 	<!-- test Pilou 2 -->
@@ -2257,8 +2257,8 @@
 		<ex_crt_effect>true</ex_crt_effect>
 		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
-			<radius normal="8" />
-			<height normal="24" />
+			<radius normal="12" />
+			<height normal="28.4" />
 		</collision>
 	</npc>
 </list>
