@@ -598,4 +598,14 @@
 	<admin command="debug" accessLevel="7" />
 	<admin command="unbanchat" accessLevel="7" />
 
+	<!-- ADMIN JAIL -->
+	<admin command="admin_jail" accessLevel="7" />
+	<admin command="admin_unjail" accessLevel="7" />
+
+	<!-- ADMIN BAN -->
+	<admin command="admin_ban_char" accessLevel="7" />
+	<admin command="admin_unban_char" accessLevel="7" />
+	<admin command="admin_ban_acc" accessLevel="7" />
+	<admin command="admin_unban_acc" accessLevel="7" />
+
 </list>
