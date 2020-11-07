@@ -21,6 +21,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Human Mystic -->
 	<equipment classId="10">
@@ -43,6 +44,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Elven Fighter -->
 	<equipment classId="18">
@@ -65,6 +67,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Elven Mystic -->
 	<equipment classId="25">
@@ -87,6 +90,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Dark Fighter -->
 	<equipment classId="31">
@@ -109,6 +113,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Dark Mystic -->
 	<equipment classId="38">
@@ -131,6 +136,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Orc Fighter -->
 	<equipment classId="44">
@@ -153,6 +159,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Orc Mystic -->
 	<!-- NOTE: This is orc_mage (orc_shaman is retail typo) -->
@@ -176,6 +183,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Dwarf Fighter -->
 	<equipment classId="53">
@@ -198,6 +206,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Male Kamael Soldier -->
 	<equipment classId="123">
@@ -220,6 +229,7 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 	<!-- Female Kamael Soldier -->
 	<equipment classId="124">
@@ -242,5 +252,6 @@
 		<item id="6036" count="15" /> <!-- Greater Magic Haste Potion -->
 		<item id="5789" count="5000" /> <!-- Soulshot: No Grade for Beginners -->
 		<item id="5790" count="5000" /> <!-- Spiritshot: No Grade for Beginners -->
+		<item id="6393" count="10" /> <!-- Glittering Medals -->
 	</equipment>
 </list>
