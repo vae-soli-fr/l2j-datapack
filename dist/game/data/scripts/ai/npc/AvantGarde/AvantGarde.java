@@ -18,9 +18,9 @@
  */
 package ai.npc.AvantGarde;
 
+import java.util.HashMap;
 import java.util.List;
-
-import ai.npc.AbstractNpcAI;
+import java.util.Map;
 
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.data.xml.impl.MultisellData;
@@ -40,6 +40,7 @@ import com.l2jserver.gameserver.network.serverpackets.AcquireSkillList;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Util;
 
+import ai.npc.AbstractNpcAI;
 import custom.Validators.SubClassSkills;
 
 /**
@@ -68,6 +69,20 @@ public class AvantGarde extends AbstractNpcAI
 		"ClassAbility80-"
 	};
 	
+	private static final Map<String, Integer> ABILITY_CERTIFICATES = new HashMap<>();
+
+	static
+	{
+		ABILITY_CERTIFICATES.put("master", 10612); // Certificate - Master Ability
+		ABILITY_CERTIFICATES.put("warrior", 10281); // Certificate - Warrior Ability
+		ABILITY_CERTIFICATES.put("rogue", 10283); // Certificate - Rogue Ability
+		ABILITY_CERTIFICATES.put("knight", 10282); // Certificate - Knight Ability
+		ABILITY_CERTIFICATES.put("summoner", 10286); // Certificate - Summoner Ability
+		ABILITY_CERTIFICATES.put("wizard", 10284); // Certificate - Wizard Ability
+		ABILITY_CERTIFICATES.put("healer", 10285); // Certificate - Healer Ability
+		ABILITY_CERTIFICATES.put("enchanter", 10287); // Certificate - Enchanter Ability
+	}
+
 	public AvantGarde()
 	{
 		super(AvantGarde.class.getSimpleName(), "ai/npc");
@@ -100,6 +115,15 @@ public class AvantGarde extends AbstractNpcAI
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = null;
+
+		if (event.startsWith("SwitchCertification")) {
+			String[] arr = event.split(" ");
+			if (arr.length < 3) {
+				return "32323-01.html";
+			}
+			return switchCertification(player, ABILITY_CERTIFICATES.get(arr[1]), ABILITY_CERTIFICATES.get(arr[2]));
+		}
+
 		switch (event)
 		{
 			case "32323-02.html":
@@ -111,6 +135,15 @@ public class AvantGarde extends AbstractNpcAI
 			case "32323-05no.html":
 			case "32323-06.html":
 			case "32323-06no.html":
+			case "32323-99.html":
+			case "32323-99enchanter.html":
+			case "32323-99healer.html":
+			case "32323-99knight.html":
+			case "32323-99master.html":
+			case "32323-99rogue.html":
+			case "32323-99summoner.html":
+			case "32323-99warrior.html":
+			case "32323-99wizard.html":
 			{
 				htmltext = event;
 				break;
@@ -290,6 +323,59 @@ public class AvantGarde extends AbstractNpcAI
 		return htmltext;
 	}
 	
+	private String switchCertification(L2PcInstance player, Integer originalCertId, Integer targetCertId)
+	{
+		QuestState st = player.getQuestState("SubClassSkills");
+
+		if (st == null || originalCertId == null || targetCertId == null) {
+			return "32323-05.html";
+		}
+
+		for (int i = 1; i <= Config.MAX_SUBCLASS_CERTIF; i++)
+		{
+			final String itemOID = st.getGlobalQuestVar("ClassAbility75-" + i);
+
+			if (itemOID.isEmpty() || itemOID.endsWith(";") || itemOID.equals("0"))
+			{
+				continue;
+			}
+
+			if (!Util.isDigit(itemOID))
+			{
+				continue;
+			}
+
+			final int itemObjId = Integer.parseInt(itemOID);
+			final L2ItemInstance item = player.getInventory().getItemByObjectId(itemObjId);
+
+			if (item == null || !originalCertId.equals(item.getItem().getId()))
+			{
+				continue;
+			}
+
+			if (!player.destroyItem("SwitchCertification", item, 1, player.getTarget(), true)) {
+				return null;
+			}
+
+			// Add items to player's inventory
+			final L2ItemInstance targetItem = player.addItem("SwitchCertification", targetCertId, 1, player.getTarget(), true);
+
+			// Logging the given item.
+			st.saveGlobalQuestVar("ClassAbility75-" + i, targetItem != null ? String.valueOf(targetItem.getObjectId()) : "0");
+
+			return null;
+		}
+
+		// Player doesn't have required item.
+		player.sendPacket(SystemMessageId.ITEM_OR_PREREQUISITES_MISSING_TO_LEARN_SKILL);
+		SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.REQUIRES_S1_S2);
+		sm.addItemName(originalCertId);
+		sm.addLong(1);
+		player.sendPacket(sm);
+
+		return "32323-99.html";
+	}
+
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
