@@ -123,6 +123,7 @@ public class L2NpcActionShift implements IActionShiftHandler
 					html.replace("%spawntype%", "Fixed");
 					html.replace("%spawn%", ((L2Npc) target).getSpawn().getX() + " " + ((L2Npc) target).getSpawn().getY() + " " + ((L2Npc) target).getSpawn().getZ());
 				}
+				html.replace("%spawntable%", ((L2Npc) target).getSpawn().isCustom() ? "CUSTOM" : "RETAIL");
 				html.replace("%loc2d%", String.valueOf((int) target.calculateDistance(((L2Npc) target).getSpawn().getLocation(target), false, false)));
 				html.replace("%loc3d%", String.valueOf((int) target.calculateDistance(((L2Npc) target).getSpawn().getLocation(target), true, false)));
 				if (((L2Npc) target).getSpawn().getRespawnMinDelay() == 0)
@@ -142,6 +143,7 @@ public class L2NpcActionShift implements IActionShiftHandler
 			{
 				html.replace("%territory%", "<font color=FF0000>--</font>");
 				html.replace("%spawntype%", "<font color=FF0000>--</font>");
+				html.replace("%spawntable%", "<font color=FF0000>--</font>");
 				html.replace("%spawn%", "<font color=FF0000>null</font>");
 				html.replace("%loc2d%", "<font color=FF0000>--</font>");
 				html.replace("%loc3d%", "<font color=FF0000>--</font>");
