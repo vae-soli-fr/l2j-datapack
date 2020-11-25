@@ -2441,18 +2441,18 @@
 		<sex>MALE</sex>
 		<equipment rhand="275" /> <!-- rhand: Long Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
-			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="341.375" magical="249.80341" />
+			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<attack physical="1000" magical="750" random="10" critical="4" accuracy="5" attackSpeed="250" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="225" magical="300" />
 			<attribute>
-				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+				<defence fire="100" water="100" wind="100" earth="100" holy="100" dark="100" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="50" />
-				<run ground="160" />
+				<run ground="150" />
 			</speed>
 		</stats>
-		<status attackable="false" undying="false" />
+		<status attackable="false" undying="false" showName='false' />
 		<skill_list>
 			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
@@ -2605,18 +2605,18 @@
 		<sex>MALE</sex>
 		<equipment rhand="2" lhand="20" /> <!-- rhand: Long Sword lhand: Buckler -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
-			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="341.375" magical="249.80341" shield="148" shieldRate="20" />
+			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<attack physical="800" magical="600" random="30" critical="4" accuracy="5" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="300" magical="250" shield="175" shieldRate="20" />
 			<attribute>
-				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+				<defence fire="100" water="100" wind="100" earth="100" holy="100" dark="100" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="50" />
-				<run ground="160" />
+				<run ground="150" />
 			</speed>
 		</stats>
-		<status attackable="false" undying="false" />
+		<status attackable="false" undying="false" showName='false' />
 		<skill_list>
 			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->

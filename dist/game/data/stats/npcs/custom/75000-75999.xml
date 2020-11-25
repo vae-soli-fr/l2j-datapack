@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<!-- Pet Soline -->
+	<npc id="75000"  displayId="18909" level="70" type="L2BabyPet" name="Soline">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<shots soul="2" spirit="2" />
+		<corpse_time>86400</corpse_time>
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="15" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<!-- Mahum -->
+	<npc id="75001"  displayId="22775" level="84" type="L2BabyPet" name="Sel Mahum Drill Sergeant">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.55887" sp="2528" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4039.04270539801" hpRegen="8.5" mp="1812.0" mpRegen="3" />
+			<attack physical="1144.73130112535" magical="781.703083407155" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
+			<attribute>
+				<attack type="FIRE" value="170" />
+				<defence fire="180" water="100" wind="140" earth="140" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<shots soul="2" spirit="2" />
+		<corpse_time>86400</corpse_time>
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="27" />
+			<height normal="31.5" />
+		</collision>
+	</npc>
+	<npc id="75002"  displayId="22770" level="78" type="L2Monster" name="Tanta Lizardman Soldier">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="6421" level="1" /> <!-- Rage of Soldier -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.8439556" sp="4198" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4039.04270539801" hpRegen="8.5" mp="1812.0" mpRegen="3" />
+			<attack physical="900" magical="600" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
+			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
+			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="18" /> <!--Extremely Strong M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4424" level="4" /> <!--Resist Hand-to-hand Weapons -->
+			<skill id="4427" level="4" /> <!--Resist Swords -->
+			<skill id="4449" level="4" /> <!--Greater Resist Two-handed Weapons -->
+			<skill id="5465" level="1" /> <!--Earth Attacks -->
+			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
+			<skill id="6421" level="1" /> <!--Rage of Soldier -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		<ai aggroRange="500" clanHelpRange="300" isAggressive="true" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1445" max="2953" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.1497999429702759">
+					<item id="15694" min="1" max="1" chance="0.0404" /> <!-- Sealed Moirai Helmet -->
+					<item id="15695" min="1" max="1" chance="0.0404" /> <!-- Sealed Moirai Leather Helmet -->
+					<item id="15696" min="1" max="1" chance="0.0404" /> <!-- Sealed Moirai Circlet -->
+					<item id="15710" min="1" max="1" chance="0.0578" /> <!-- Sealed Moirai Shield -->
+					<item id="15709" min="1" max="1" chance="0.0578" /> <!-- Sealed Moirai Sigil -->
+					<item id="15645" min="1" max="1" chance="15.1498" /> <!-- Sealed Moirai Helmet Piece -->
+					<item id="15646" min="1" max="1" chance="15.1498" /> <!-- Sealed Moirai Leather Helmet Piece -->
+					<item id="15647" min="1" max="1" chance="15.1498" /> <!-- Sealed Moirai Circlet Piece -->
+					<item id="15693" min="1" max="1" chance="27.1569" /> <!-- Sealed Moirai Shield Piece -->
+					<item id="15692" min="1" max="1" chance="27.1569" /> <!-- Sealed Moirai Sigil Piece -->
+				</group>
+				<group chance="5.889500141143799">
+					<item id="1879" min="1" max="1" chance="59.281" /> <!-- Cokes -->
+					<item id="1885" min="1" max="1" chance="29.6405" /> <!-- High-Grade Suede -->
+					<item id="9628" min="1" max="1" chance="2.7897" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="1.872" /> <!-- Orichalcum -->
+					<item id="9629" min="1" max="1" chance="1.5465" /> <!-- Adamantine -->
+					<item id="10483" min="1" max="1" chance="2.47" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.6175" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0618" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="9554" min="1" max="1" chance="0.0711" /> <!-- Earth Crystal -->
+					<item id="15775" min="1" max="1" chance="0.2817" /> <!-- Recipe - Sealed Moirai Helmet (60%) -->
+					<item id="15776" min="1" max="1" chance="0.2817" /> <!-- Recipe - Sealed Moirai Leather Helmet(60%) -->
+					<item id="15777" min="1" max="1" chance="0.2817" /> <!-- Recipe - Sealed Moirai Circlet (60%) -->
+					<item id="15791" min="1" max="1" chance="0.4024" /> <!-- Recipe - Sealed Moirai Shield (60%) -->
+					<item id="15790" min="1" max="1" chance="0.4024" /> <!-- Recipe - Sealed Moirai Sigil (60%) -->
+				</group>
+			</death>
+			<corpse>
+				<item id="15645" min="1" max="1" chance="1.06" /> <!-- Sealed Moirai Helmet Piece -->
+				<item id="15646" min="1" max="1" chance="1.06" /> <!-- Sealed Moirai Leather Helmet Piece -->
+				<item id="15647" min="1" max="1" chance="1.06" /> <!-- Sealed Moirai Circlet Piece -->
+				<item id="15693" min="1" max="1" chance="1.9" /> <!-- Sealed Moirai Shield Piece -->
+				<item id="15692" min="1" max="1" chance="1.9" /> <!-- Sealed Moirai Sigil Piece -->
+				<item id="15775" min="1" max="1" chance="0.1414" /> <!-- Recipe - Sealed Moirai Helmet (60%) -->
+				<item id="15776" min="1" max="1" chance="0.1414" /> <!-- Recipe - Sealed Moirai Leather Helmet(60%) -->
+				<item id="15777" min="1" max="1" chance="0.1414" /> <!-- Recipe - Sealed Moirai Circlet (60%) -->
+				<item id="15791" min="1" max="1" chance="0.2021" /> <!-- Recipe - Sealed Moirai Shield (60%) -->
+				<item id="15790" min="1" max="1" chance="0.2021" /> <!-- Recipe - Sealed Moirai Sigil (60%) -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="40.25" />
+		</collision>
+	</npc>
+	<npc id="75003"  displayId="22772" level="78" type="L2Monster" name="Tanta Lizardman Archer">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="6423" level="1" /> <!-- Shock -->
+			<skill name="Skill02_ID" id="6424" level="1" /> <!-- Double Shot -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="900" magical="600" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="300" magical="220" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
+			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
+			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="17" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="9" /> <!--Bows -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4424" level="4" /> <!--Resist Hand-to-hand Weapons -->
+			<skill id="4427" level="4" /> <!--Resist Swords -->
+			<skill id="4449" level="4" /> <!--Greater Resist Two-handed Weapons -->
+			<skill id="5465" level="1" /> <!--Earth Attacks -->
+			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
+			<skill id="6424" level="1" /> <!--Double Shot -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" isAggressive="true" />
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+			<corpse>
+				<item id="10405" min="1" max="1" chance="0.0495" /> <!-- Icarus Spitter Piece -->
+				<item id="959" min="1" max="1" chance="0.0046" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+				<item id="1894" min="1" max="1" chance="4.0627" /> <!-- Crafted Leather -->
+				<item id="10381" min="1" max="1" chance="0.0075" /> <!-- Recipe - Icarus Spitter (60%) -->
+				<item id="15772" min="1" max="1" chance="1.5971" /> <!-- Sealed Moirai Ring Gem -->
+				<item id="15773" min="1" max="1" chance="0.8976" /> <!-- Sealed Moirai Earring Gem -->
+				<item id="15774" min="1" max="1" chance="0.7745" /> <!-- Sealed Moirai Necklace Gem -->
+				<item id="15812" min="1" max="1" chance="0.2113" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+				<item id="15813" min="1" max="1" chance="0.1408" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+				<item id="15814" min="1" max="1" chance="0.1056" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="20" />
+			<height normal="40.25" />
+		</collision>
+	</npc>
+	<npc id="75004"  displayId="20829" level="75" type="L2Monster" name="Platinum Tribe Overlord">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="SetHateGroup" value="ATTACKER_GROUP" />
+			<param name="SetHateGroupRatio" value="35" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="SelfRangeDDMagic" id="4033" level="7" /> <!-- NPC Burn -->
+			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4073" level="7" /> <!-- Stun -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="147" /> <!-- rhand: Tear of Darkness -->
+		<acquire expRate="10.0570164" sp="5087" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3000" hpRegen="8.5" mp="1377.8" mpRegen="3" />
+			<attack physical="850" magical="600" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="300.65359" magical="200.178552092236" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-13" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hit_time>560</hit_time>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4033" level="7" /> <!--NPC Burn -->
+			<skill id="4073" level="7" /> <!--Stun -->
+			<skill id="4085" level="1" /> <!--Critical Damage -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4092" level="1" /> <!--NPC Puma Spirit Totem -->
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!--Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!--Slightly Weak M. Atk. -->
+			<skill id="4412" level="19" /> <!--Extremely Strong P. Def. -->
+			<skill id="4413" level="12" /> <!--Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="8" /> <!--Angels -->
+		</skill_list>
+		<shots shotChance="30" spiritChance="30" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="1000">
+			<clan_list>
+				<clan>TOWER_GUARD</clan>
+			</clan_list>
+		</ai>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="6033" max="12296" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.5827000141143799">
+					<item id="5287" min="1" max="1" chance="0.2669" /> <!-- Sealed Dark Crystal breastplate -->
+					<item id="5520" min="1" max="1" chance="30.6553" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
+					<item id="5293" min="1" max="1" chance="0.1643" /> <!-- Sealed Tallum Plate Armor -->
+					<item id="5521" min="1" max="1" chance="21.6316" /> <!-- Sealed Tallum Plate Armor Pattern -->
+					<item id="5288" min="1" max="1" chance="0.4271" /> <!-- Sealed Dark Crystal Gaiters -->
+					<item id="5524" min="1" max="1" chance="46.8548" /> <!-- Sealed Dark Crystal Gaiters Pattern -->
+				</group>
+				<group chance="38.04290008544922">
+					<item id="1871" min="1" max="3" chance="53.9331" /> <!-- Charcoal -->
+					<item id="1866" min="1" max="3" chance="23.9703" /> <!-- Suede -->
+					<item id="1877" min="1" max="1" chance="4.3147" /> <!-- Adamantite Nugget -->
+					<item id="4041" min="1" max="1" chance="0.938" /> <!-- Mold Hardener -->
+					<item id="4040" min="1" max="1" chance="2.1573" /> <!-- Mold Lubricant -->
+					<item id="4129" min="1" max="1" chance="1.1674" /> <!-- Recipe: Earrings of Black Ore (100%) -->
+					<item id="6671" min="1" max="1" chance="11.9851" /> <!-- Deluxe Chest Key - Grade 7 -->
+					<item id="8730" min="1" max="1" chance="1.1985" /> <!-- Life Stone - Level 67 -->
+					<item id="8740" min="1" max="1" chance="0.2996" /> <!-- Mid-Grade Life Stone - Level 67 -->
+					<item id="8750" min="1" max="1" chance="0.03" /> <!-- High-Grade Life Stone - Level 67 -->
+					<item id="8760" min="1" max="1" chance="0.006" /> <!-- Top-Grade Life Stone - Level 67 -->
+				</group>
+			</death>
+			<corpse>
+				<item id="1894" min="1" max="1" chance="42.8952" /> <!-- Crafted Leather -->
+				<item id="5550" min="1" max="1" chance="16.3002" /> <!-- Durable Metal Plate -->
+				<item id="5479" min="1" max="1" chance="7.2338" /> <!-- Sealed Tallum Leather Armor Pattern -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="32" />
+		</collision>
+	</npc>
+	<npc id="75005"  displayId="20828" level="74" type="L2Monster" name="Platinum Tribe Shaman">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="AttackLowLevel" value="1" />
+			<skill name="CheckMagic" id="4046" level="7" /> <!-- Sleep -->
+			<skill name="CheckMagic1" id="4073" level="7" /> <!-- Stun -->
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic" id="4066" level="7" /> <!-- NPC Twister -->
+			<skill name="CancelMagic" id="4094" level="7" /> <!-- NPC Cancel Magic -->
+			<skill name="SleepMagic" id="4046" level="7" /> <!-- Sleep -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="202" /> <!-- rhand: Mace of Underworld -->
+		<acquire expRate="7.2023316" sp="3499" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="800" magical="600" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="197.024195544734" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-13" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hit_time>280</hit_time>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4046" level="7" /> <!--Sleep -->
+			<skill id="4066" level="7" /> <!--NPC Twister -->
+			<skill id="4073" level="7" /> <!--Stun -->
+			<skill id="4094" level="7" /> <!--NPC Cancel Magic -->
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!--Slightly Weak P. Def. -->
+			<skill id="4413" level="13" /> <!--Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="5" /> <!--Blunt Weapons -->
+			<skill id="4416" level="8" /> <!--Angels -->
+			<skill id="4438" level="2" /> <!--Greater Resist Sleep -->
+		</skill_list>
+		<shots shotChance="30" spiritChance="30" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<ai type="MAGE" aggroRange="400" clanHelpRange="700">
+			<clan_list>
+				<clan>TOWER_GUARD</clan>
+			</clan_list>
+		</ai>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4508" max="9172" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.5579999685287476">
+					<item id="5304" min="1" max="1" chance="0.2697" /> <!-- Sealed Tallum Tunic -->
+					<item id="5485" min="1" max="1" chance="30.2857" /> <!-- Sealed Tallum Tunic Texture -->
+					<item id="5308" min="1" max="1" chance="0.1659" /> <!-- Sealed Dark Crystal Robe -->
+					<item id="5486" min="1" max="1" chance="21.3111" /> <!-- Sealed Dark Crystal Robe Fabric -->
+					<item id="5305" min="1" max="1" chance="0.4313" /> <!-- Sealed Tallum Stockings -->
+					<item id="5489" min="1" max="1" chance="47.5363" /> <!-- Sealed Tallum Stockings Fabric -->
+				</group>
+				<group chance="39.50239944458008">
+					<item id="1864" min="3" max="9" chance="28.4115" /> <!-- Stem -->
+					<item id="1869" min="2" max="6" chance="21.3086" /> <!-- Iron Ore -->
+					<item id="1878" min="1" max="1" chance="34.0938" /> <!-- Braided Hemp -->
+					<item id="1884" min="2" max="6" chance="10.4904" /> <!-- Cord -->
+					<item id="4039" min="1" max="1" chance="2.8412" /> <!-- Mold Glue -->
+					<item id="4177" min="1" max="1" chance="1.6423" /> <!-- Recipe: Sealed Zubei's Gauntlets (100%) -->
+					<item id="8730" min="1" max="1" chance="0.9471" /> <!-- Life Stone - Level 67 -->
+					<item id="8740" min="1" max="1" chance="0.2368" /> <!-- Mid-Grade Life Stone - Level 67 -->
+					<item id="8750" min="1" max="1" chance="0.0237" /> <!-- High-Grade Life Stone - Level 67 -->
+					<item id="8760" min="1" max="1" chance="0.0046" /> <!-- Top-Grade Life Stone - Level 67 -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4120" min="1" max="1" chance="4.9809" /> <!-- Bellion Cestus Edge -->
+				<item id="4121" min="1" max="1" chance="4.9642" /> <!-- Bow of Peril Shaft -->
+				<item id="5479" min="1" max="1" chance="6.7447" /> <!-- Sealed Tallum Leather Armor Pattern -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="75006"  displayId="20827" level="73" type="L2Monster" name="Platinum Tribe Warrior">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="SelfRangeDDMagic" id="4072" level="6" /> <!-- Stun -->
+			<skill name="SelfBuff" id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
+			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="148" /> <!-- rhand: Sword of Valhalla -->
+		<acquire expRate="6.0403524" sp="2814" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2395.45533" hpRegen="7.5" mp="1314.0" mpRegen="2.7" />
+			<attack physical="750" magical="500" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="291.15063" magical="193.851368417065" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-13" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hit_time>340</hit_time>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4032" level="6" /> <!--NPC Strike -->
+			<skill id="4071" level="5" /> <!--Resist Bow/Crossbow Weapons -->
+			<skill id="4072" level="6" /> <!--Stun -->
+			<skill id="4085" level="1" /> <!--Critical Damage -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4091" level="1" /> <!--NPC Ogre Spirit Totem -->
+			<skill id="4408" level="12" /> <!--HP Increase (4x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!--Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!--Slightly Weak M. Atk. -->
+			<skill id="4412" level="12" /> <!--Slightly Strong P. Def. -->
+			<skill id="4413" level="12" /> <!--Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="8" /> <!--Angels -->
+			<skill id="4439" level="2" /> <!--Greater Resist Hold -->
+		</skill_list>
+		<shots shotChance="30" spiritChance="30" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		<ai aggroRange="500" clanHelpRange="600">
+			<clan_list>
+				<clan>TOWER_GUARD</clan>
+			</clan_list>
+		</ai>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="3956" max="8034" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.3662999868392944">
+					<item id="5297" min="1" max="1" chance="0.2697" /> <!-- Sealed Dark Crystal Leather Armor -->
+					<item id="5478" min="1" max="1" chance="30.2857" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
+					<item id="5301" min="1" max="1" chance="0.1659" /> <!-- Sealed Tallum Leather Armor -->
+					<item id="5479" min="1" max="1" chance="21.3111" /> <!-- Sealed Tallum Leather Armor Pattern -->
+					<item id="5298" min="1" max="1" chance="0.4313" /> <!-- Sealed Dark Crystal Leggings -->
+					<item id="5482" min="1" max="1" chance="47.5363" /> <!-- Sealed Dark Crystal Leggings Design -->
+				</group>
+				<group chance="47.43519973754883">
+					<item id="1873" min="1" max="1" chance="20.7486" /> <!-- Silver Nugget -->
+					<item id="1868" min="1" max="3" chance="51.8716" /> <!-- Thread -->
+					<item id="1876" min="1" max="1" chance="10.3743" /> <!-- Mithril Ore -->
+					<item id="1895" min="1" max="1" chance="14.8204" /> <!-- Metallic Fiber -->
+					<item id="4042" min="1" max="1" chance="0.8645" /> <!-- Enria -->
+					<item id="4990" min="1" max="1" chance="0.4287" /> <!-- Recipe: Blue Wolf Helmet (60%) -->
+					<item id="4402" min="1" max="1" chance="0.1037" /> <!-- Blue Dimensional Stone -->
+					<item id="5420" min="1" max="1" chance="0.0504" /> <!-- Recipe: Sealed Armor of Nightmare(60%) -->
+					<item id="8730" min="1" max="1" chance="0.5764" /> <!-- Life Stone - Level 67 -->
+					<item id="8740" min="1" max="1" chance="0.1441" /> <!-- Mid-Grade Life Stone - Level 67 -->
+					<item id="8750" min="1" max="1" chance="0.0144" /> <!-- High-Grade Life Stone - Level 67 -->
+					<item id="8760" min="1" max="1" chance="0.0029" /> <!-- Top-Grade Life Stone - Level 67 -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4117" min="1" max="1" chance="4.368" /> <!-- Art of Battle Axe Blade -->
+				<item id="4118" min="1" max="1" chance="4.1384" /> <!-- Evil Spirit Head -->
+				<item id="3035" min="1" max="1" chance="1.3328" /> <!-- Recipe: Spiritshot A -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="13" grown="15" />
+			<height normal="28" grown="34" />
+		</collision>
+	</npc>
+	<npc id="75007"  displayId="20823" level="73" type="L2Monster" name="Platinum Tribe Soldier">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="242" /> <!-- rhand: Soulfire Dirk -->
+		<acquire expRate="6.1637664" sp="2635" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2295.48154" hpRegen="7.5" mp="1251.0" mpRegen="2.7" />
+			<attack physical="700" magical="450" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="281.55251" magical="187.460838840844" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-13" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hit_time>520</hit_time>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4073" level="6" /> <!--Stun -->
+			<skill id="4408" level="12" /> <!--HP Increase (4x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="13" /> <!--Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="7" /> <!--Daggers -->
+			<skill id="4416" level="8" /> <!--Angels -->
+		</skill_list>
+		<shots shotChance="30" spiritChance="30" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		<ai aggroRange="600" clanHelpRange="400">
+			<clan_list>
+				<clan>TOWER_GUARD</clan>
+			</clan_list>
+		</ai>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="3580" max="7317" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="2.759000062942505">
+					<item id="2398" min="1" max="1" chance="0.1309" /> <!-- Blue Wolf Tunic -->
+					<item id="4084" min="1" max="1" chance="21.1296" /> <!-- Blue Wolf Tunic Fabric -->
+					<item id="2399" min="1" max="1" chance="0.1309" /> <!-- Tunic of Doom -->
+					<item id="4085" min="1" max="1" chance="21.1296" /> <!-- Tunic of Doom Pattern -->
+					<item id="2403" min="1" max="1" chance="0.2096" /> <!-- Blue Wolf Stockings -->
+					<item id="4086" min="1" max="1" chance="28.5298" /> <!-- Blue Wolf Stockings Pattern -->
+					<item id="2404" min="1" max="1" chance="0.2096" /> <!-- Stockings of Doom -->
+					<item id="4087" min="1" max="1" chance="28.53" /> <!-- Stockings of Doom Pattern -->
+				</group>
+				<group chance="48.3916015625">
+					<item id="1869" min="1" max="1" chance="46.1971" /> <!-- Iron Ore -->
+					<item id="1864" min="1" max="3" chance="46.1971" /> <!-- Stem -->
+					<item id="1880" min="1" max="1" chance="4.6197" /> <!-- Steel -->
+					<item id="5550" min="1" max="1" chance="0.616" /> <!-- Durable Metal Plate -->
+					<item id="4043" min="1" max="1" chance="1.5399" /> <!-- Asofe -->
+					<item id="4616" min="1" max="1" chance="0.0637" /> <!-- Greater Dye of CON <Con+4 Dex-4> -->
+					<item id="4402" min="1" max="1" chance="0.0924" /> <!-- Blue Dimensional Stone -->
+					<item id="8316" min="1" max="1" chance="0.0171" /> <!-- Recipe: Flaming Dragon Skull (60%) -->
+					<item id="8730" min="1" max="1" chance="0.5133" /> <!-- Life Stone - Level 67 -->
+					<item id="8740" min="1" max="1" chance="0.1283" /> <!-- Mid-Grade Life Stone - Level 67 -->
+					<item id="8750" min="1" max="1" chance="0.0128" /> <!-- High-Grade Life Stone - Level 67 -->
+					<item id="8760" min="1" max="1" chance="0.0026" /> <!-- Top-Grade Life Stone - Level 67 -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4088" min="1" max="1" chance="34.3233" /> <!-- Blue Wolf Helmet Design -->
+				<item id="4089" min="1" max="1" chance="34.3233" /> <!-- Doom Helmet Pattern -->
+				<item id="5416" min="1" max="1" chance="1.9615" /> <!-- Recipe: Sealed Dark Crystal Breastplate(60%) -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="75008"  displayId="20826" level="73" type="L2Monster" name="Platinum Tribe Archer">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="SetHateGroup" value="ATTACKER_GROUP" />
+			<param name="SetHateGroupRatio" value="25" />
+			<param name="AttackLowLevel" value="1" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<skill name="PhysicalSpecial" id="4040" level="6" /> <!-- NPC Bow Attack -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="5.9560464" sp="2660" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345.76698" hpRegen="7.5" mp="1282.4" mpRegen="2.7" />
+			<attack physical="646.17968" magical="441.25696" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="286.3615" magical="190.662718462344" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-13" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hit_time>910</hit_time>
+		</stats>
+		<status undying="false" showName="false" />
+		<skill_list>
+			<skill id="4040" level="6" /> <!--NPC Bow Attack -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4095" level="1" /> <!--Damage Shield -->
+			<skill id="4408" level="11" /> <!--HP Increase (3x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!--Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!--Slightly Weak M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="9" /> <!--Bows -->
+			<skill id="4416" level="8" /> <!--Angels -->
+		</skill_list>
+		<shots shotChance="30" spiritChance="30" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		<ai type="ARCHER" aggroRange="1000" clanHelpRange="200" dodge="15">
+			<clan_list>
+				<clan>TOWER_GUARD</clan>
+			</clan_list>
+		</ai>
+		<drop_lists>
+			<death>
+				<group chance="70">
+					<item id="57" min="3245" max="6597" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.8496000170707703">
+					<item id="5287" min="1" max="1" chance="0.2669" /> <!-- Sealed Dark Crystal breastplate -->
+					<item id="5520" min="1" max="1" chance="30.6553" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
+					<item id="5293" min="1" max="1" chance="0.1643" /> <!-- Sealed Tallum Plate Armor -->
+					<item id="5521" min="1" max="1" chance="21.6316" /> <!-- Sealed Tallum Plate Armor Pattern -->
+					<item id="5288" min="1" max="1" chance="0.4271" /> <!-- Sealed Dark Crystal Gaiters -->
+					<item id="5524" min="1" max="1" chance="46.8548" /> <!-- Sealed Dark Crystal Gaiters Pattern -->
+				</group>
+				<group chance="48.519500732421875">
+					<item id="1872" min="1" max="3" chance="27.746" /> <!-- Animal Bone -->
+					<item id="1867" min="1" max="1" chance="55.4919" /> <!-- Animal Skin -->
+					<item id="1881" min="1" max="1" chance="5.5492" /> <!-- Coarse Bone Powder -->
+					<item id="1875" min="1" max="1" chance="2.7746" /> <!-- Stone of Purity -->
+					<item id="4041" min="1" max="1" chance="0.3619" /> <!-- Mold Hardener -->
+					<item id="4980" min="1" max="1" chance="0.4925" /> <!-- Recipe: Doom Shield (60%) -->
+					<item id="3956" min="1" max="1" chance="0.0555" /> <!-- Recipe: Blessed Spiritshot A -->
+					<item id="6670" min="1" max="1" chance="6.9365" /> <!-- Deluxe Chest Key - Grade 6 -->
+					<item id="8730" min="1" max="1" chance="0.4624" /> <!-- Life Stone - Level 67 -->
+					<item id="8740" min="1" max="1" chance="0.1156" /> <!-- Mid-Grade Life Stone - Level 67 -->
+					<item id="8750" min="1" max="1" chance="0.0116" /> <!-- High-Grade Life Stone - Level 67 -->
+					<item id="8760" min="1" max="1" chance="0.0023" /> <!-- Top-Grade Life Stone - Level 67 -->
+				</group>
+			</death>
+			<corpse>
+				<item id="5478" min="1" max="1" chance="6.8984" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
+				<item id="5478" min="1" max="1" chance="6.8984" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
+				<item id="4041" min="1" max="1" chance="7.1335" /> <!-- Mold Hardener -->
+			</corpse>
+		</drop_lists>
+		<collision>
+			<radius normal="13" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="75009" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Escalier" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="77854" />
+			<param name="PosY" value="148949" />
+			<param name="PosZ" value="-3595" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="75010" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Escalier" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Role" value="0" />
+			<param name="PosX" value="77854" />
+			<param name="PosY" value="148949" />
+			<param name="PosZ" value="-3595" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="75011" displayId="31490" level="80" type="L2BabyPet" name="GardeP">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="79" lhand="111" /> <!-- rhand: Sword of Damascus lhand: Shield of Pledge -->
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3125" hpRegen="15" mp="2250" mpRegen="6" />
+			<attack physical="1200" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="375" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="175" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<shots soul="2" spirit="2" />
+		<corpse_time>86400</corpse_time>
+		<ex_crt_effect>false</ex_crt_effect>
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+</list>

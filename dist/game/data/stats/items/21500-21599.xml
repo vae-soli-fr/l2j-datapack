@@ -963,7 +963,7 @@
 		<set name="weight" val="220" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_destroyable" val="false" />
+		<set name="is_destroyable" val="true" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
