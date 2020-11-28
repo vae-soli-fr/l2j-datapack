@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<npc id="70098" displayId="18909" name="Enfermé" usingServerSideName="true" type="L2Guard"> 
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="66" lhand="2497" /> <!-- rhand: Tallum Blade lhand: Sage's Shield -->
+		<stats str="50" int="20" dex="30" wit="20" con="50" men="20">
+			<vitals hp="25000" hpRegen="250" mp="1000" mpRegen="10" />
+			<attack physical="1250" magical="1000" random="30" critical="10" accuracy="10" attackSpeed="500" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1500" magical="1100" />
+			<attribute>
+				<defence fire="200" water="0" wind="200" earth="200" holy="-200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="500" isAggressive="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<!-- Danym : Leader des soldats maudits -->
+	 <npc id="70099" displayId="18910" name="Danym" usingServerSideName="true" type="L2Guard">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="8211" lhand="8210" />
+		<stats str="50" int="10" dex="20" wit="10" con="50" men="35">
+			<vitals hp="35000" hpRegen="400" mp="1000" mpRegen="10" />
+			<attack physical="1000" magical="250" random="30" critical="0" accuracy="10" attackSpeed="450" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1750" magical="1250" />
+			<attribute>
+				<defence fire="200" water="0" wind="200" earth="200" holy="-200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="500" isAggressive="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
 <npc id="70094" displayId="31014" level="80" type="L2Guard" name="Golem torche">
 		<!-- Confirmed CT2.5 -->
 		<parameters>

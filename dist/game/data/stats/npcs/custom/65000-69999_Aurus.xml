@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<!-- RB and event section -->
+	<npc id="65001" displayId="18961" level="65" type="L2RaidBoss" name="Death Pass Creature" title="Raid Boss" usingServerSideName="true" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="1062.64917109525" sp="746626" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="221100.02497493" hpRegen="72.9643823396131" mp="1036.8" mpRegen="2.4" />
+			<attack physical="900.177450040489" magical="133.511957686818" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="742.95024" magical="362.44" evasion="-18" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hit_time>450</hit_time>
+		</stats>
+		<status undying="false" />
+		<skill_list>
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="3" /> <!--Beasts -->
+			<skill id="4494" level="1" /> <!--Raid Boss -->
+			<skill id="4836" level="1" /> <!--Raid Boss - Level 65 -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
+		<drop_lists>
+			<death>
+				<item id="9816" min="3" max="7" chance="80" /> <!-- Earth Egg -->
+				<item id="8176" min="1" max="4" chance="80" /> <!-- Destruction Tombstone -->
+				<item id="15516" min="1" max="1" chance="100" /> <!-- Seal Breaker - 10th Floor (drop ajoute) -->
+				<group chance="52.422298431396484">
+					<item id="5304" min="1" max="1" chance="6.8601" /> <!-- Sealed Tallum Tunic -->
+					<item id="5305" min="1" max="1" chance="10.9721" /> <!-- Sealed Tallum Stockings -->
+					<item id="5308" min="1" max="1" chance="4.221" /> <!-- Sealed Dark Crystal Robe -->
+					<item id="5485" min="9" max="27" chance="42.8005" /> <!-- Sealed Tallum Tunic Texture -->
+					<item id="5489" min="28" max="84" chance="21.5934" /> <!-- Sealed Tallum Stockings Fabric -->
+					<item id="5486" min="20" max="60" chance="13.5529" /> <!-- Sealed Dark Crystal Robe Fabric -->
+				</group>
+				<group chance="73.33930206298828">
+					<item id="212" min="1" max="1" chance="2.0903" /> <!-- Dasparion's Staff -->
+					<item id="2504" min="1" max="1" chance="2.0903" /> <!-- Meteor Shower -->
+					<item id="5543" min="4" max="12" chance="62.6947" /> <!-- Dasparion's Staff Head -->
+					<item id="5532" min="8" max="22" chance="33.1247" /> <!-- Meteor Shower Head -->
+				</group>
+				<group chance="17.432199478149414">
+					<item id="6570" min="1" max="1" chance="89.2857" /> <!-- Blessed Scroll: Enchant Armor (A-Grade) -->
+					<item id="6569" min="1" max="1" chance="10.7143" /> <!-- Blessed Scroll: Enchant Weapon (A-Grade) -->
+				</group>
+			</death>
+		</drop_lists>
+		<collision>
+			<radius normal="72" />
+			<height normal="55" />
+		</collision>
+	</npc>
+	<npc id="65002" displayId="29099" level="83" type="L2Monster" name="Abomination du Neant" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="selfbuff1" id="5221" level="1" /> <!-- Balor - Physical Close Range Weak Point -->
+			<skill name="selfbuff2" id="5222" level="1" /> <!-- Balor - Physical Long Range Weak Point -->
+			<skill name="selfbuff3" id="5223" level="1" /> <!-- Balor - Magic Weak Point -->
+			<skill name="selfbuff4" id="5224" level="1" /> <!-- Berserk -->
+			<skill name="selfbuff5" id="5225" level="1" /> <!-- Invincible -->
+			<skill name="PhysicalSpecial1" id="5227" level="1" /> <!-- Ground Strike -->
+			<skill name="PhysicalSpecial2" id="5228" level="1" /> <!-- Jump Attack -->
+			<skill name="PhysicalSpecial3" id="5229" level="1" /> <!-- Strong Punch -->
+			<skill name="PhysicalSpecial4" id="5226" level="1" /> <!-- Imprison -->
+			<skill name="d_skill1" id="5402" level="1" /> <!-- Presentation - Balor 2 -->
+			<skill name="d_skill2" id="5403" level="1" /> <!-- Presentation - Balor 3 -->
+			<skill name="d_skill3" id="5404" level="1" /> <!-- Presentation - Balor 4 -->
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire expRate="463.086762109777" sp="2191683" raidPoints="399" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="1078413.49462422" hpRegen="100.862738374864" mp="100000.0" mpRegen="1000" />
+			<attack physical="2098.5269559057" magical="1433.02186584885" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1415.44576" magical="1035.7618" evasion="-18" />
+			<attribute>
+				<attack type="UNHOLY" value="80" />
+				<defence fire="70" water="70" wind="70" earth="70" holy="50" dark="95" default="60" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+			<hit_time>470</hit_time>
+		</stats>
+		<status undying="false" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="9" /> <!--Demons -->
+			<skill id="5221" level="1" /> <!--Balor - Physical Close Range Weak Point -->
+			<skill id="5222" level="1" /> <!--Balor - Physical Long Range Weak Point -->
+			<skill id="5223" level="1" /> <!--Balor - Magic Weak Point -->
+			<skill id="5224" level="1" /> <!--Berserk -->
+			<skill id="5227" level="1" /> <!--Ground Strike -->
+			<skill id="5228" level="1" /> <!--Jump Attack -->
+			<skill id="5229" level="1" /> <!--Strong Punch -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+			<skill id="5479" level="1" /> <!--Boss Petrification Resistance -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="54" />
+			<height normal="77.5" />
+		</collision>
+	</npc>
+	<npc id="65003" displayId="22480" level="84" type="L2Monster" name="Creature du Neant" usingServerSideName="true">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="457.014474186851" sp="348153" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="334640.100173302" hpRegen="187.260794107867" mp="1846.8" mpRegen="3" />
+			<attack physical="10107.8290646906" magical="6902.33704348132" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578.861024" magical="635.378064" />
+			<attribute>
+				<attack type="UNHOLY" value="250" />
+				<defence fire="220" water="220" wind="220" earth="220" holy="170" dark="250" default="230" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" canBeSown="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+			<skill id="5598" level="12" /> <!--Flash Resistance -->
+			<skill id="6743" level="1" /> <!--Dark Wind -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="500" clanHelpRange="300" />
+		<collision>
+			<radius normal="36" />
+			<height normal="43.5" />
+		</collision>
+	</npc>
+	<npc id="65004" displayId="22479" level="84" type="L2Monster" name="Monstre du Neant" usingServerSideName="true">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="457.014474186851" sp="348153" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="334640.100173302" hpRegen="187.260794107867" mp="1846.8" mpRegen="3" />
+			<attack physical="10107.8290646906" magical="6902.33704348132" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578.861024" magical="635.378064" />
+			<attribute>
+				<attack type="UNHOLY" value="250" />
+				<defence fire="220" water="220" wind="220" earth="220" holy="170" dark="250" default="230" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" canBeSown="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="17" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+			<skill id="5598" level="12" /> <!--Flash Resistance -->
+			<skill id="6743" level="1" /> <!--Dark Wind -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="500" clanHelpRange="300" />
+		<collision>
+			<radius normal="34" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- test Pilou 1 -->
+	<npc id="65005" displayId="18909" level="80" type="L2Guard" name="Enferme_test1">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="9442" lhand="9441" /> <!-- rhand: Tallum Blade lhand: Sage's Shield -->
+		<stats str="50" int="20" dex="30" wit="20" con="50" men="20">
+			<vitals hp="10000" hpRegen="100" mp="1000" mpRegen="10" />
+			<attack physical="1000" magical="1000" random="30" critical="10" accuracy="10" attackSpeed="500" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1000" magical="1000" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="true" />
+		<skill_list>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skill_list>
+		<ex_crt_effect>true</ex_crt_effect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="65011" displayId="22772" level="83" type="L2Monster" name="Tanto Lizardman Archer Static">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<param name="Aggressive_Time" value="3" />
+			<param name="AttackRange" value="15" />
+			<param name="MovingAttack" value="0" />
+			<skill name="Skill01_ID" id="6423" level="1" /> <!-- Shock -->
+			<skill name="Skill02_ID" id="6424" level="1" /> <!-- Double Shot -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1099.42361669366" magical="750.763809564873" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="0" />
+				<run ground="0" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skill_list>
+			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
+			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
+			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="17" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="9" /> <!--Bows -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4424" level="4" /> <!--Resist Hand-to-hand Weapons -->
+			<skill id="4427" level="4" /> <!--Resist Swords -->
+			<skill id="4449" level="4" /> <!--Greater Resist Two-handed Weapons -->
+			<skill id="5465" level="1" /> <!--Earth Attacks -->
+			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
+			<skill id="6423" level="1" /> <!--Shock -->
+			<skill id="6424" level="1" /> <!--Double Shot -->
+		</skill_list>
+		<ex_crt_effect>false</ex_crt_effect>
+		<ai type="ARCHER" aggroRange="800" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40.25" />
+		</collision>
+	</npc>
+	<npc id="65012" displayId="22143" level="78" type="L2Npc" name="Garde rouge faux">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" /> <!-- rhand: Dark Legion Edge -->
+		<!--equipment rhand="8205" /--> <!-- rhand: Monster Only (Heretic Priest Sigil) -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="UNHOLY" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hit_time>430</hit_time>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="65013" displayId="22143" level="78" type="L2Npc" name="Garde rouge faux">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="15686" /> <!-- rhand: Dark Legion Edge -->
+		<!--equipment rhand="8205" /--> <!-- rhand: Monster Only (Heretic Priest Sigil) -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="UNHOLY" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hit_time>430</hit_time>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<ex_crt_effect>false</ex_crt_effect>
+		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+</list>
