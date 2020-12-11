@@ -54,6 +54,11 @@ public final class Kief extends AbstractNpcAI
 		String htmltext = null;
 		switch (event)
 		{
+			case "32354-11g.htm":
+			{
+				htmltext = event;
+				break;
+			}
 			case "Badges":
 			{
 				switch (HellboundEngine.getInstance().getLevel())
