@@ -40,7 +40,7 @@ public class Target implements ITargetTypeHandler {
 		}
 		
 		final var player = activeChar.getActingPlayer();
-		if ((player != null) && !player.getCurrentSkill().isCtrlPressed() && target.isAutoAttackable(activeChar)) {
+		if ((player != null) && (player.getCurrentSkill() != null) && !player.getCurrentSkill().isCtrlPressed() && target.isAutoAttackable(activeChar)) {
 			activeChar.sendPacket(INCORRECT_TARGET);
 			return EMPTY_TARGET_LIST;
 		}
