@@ -18,8 +18,6 @@
  */
 package quests.Q00289_NoMoreSoupForYou;
 
-import quests.Q00252_ItSmellsDelicious.Q00252_ItSmellsDelicious;
-
 import com.l2jserver.gameserver.enums.QuestSound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -27,10 +25,11 @@ import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.util.Util;
+import quests.Q00251_NoSecrets.Q00251_NoSecrets;
 
 /**
  * No More Soup For You (289)
- * @author kostantinos
+ * @author Ayuki
  */
 public class Q00289_NoMoreSoupForYou extends Quest
 {
@@ -38,126 +37,17 @@ public class Q00289_NoMoreSoupForYou extends Quest
 	public static final int STAN = 30200;
 	// Item
 	public static final int SOUP = 15712;
-	// Misc
-	public static final int RATE = 5;
+
+	private static final int MIN_LEVEL = 82;
 	
-	private static final int[] MOBS =
-	{
-		18908,
-		22779,
-		22786,
-		22787,
-		22788
-	};
+	private static final int[] MOBS = {18908,22779,22786,22787,22788};
+
+	private static final int ICARUS_TRIDENT_REC = 10377;
+	private static final int ICARUS_TRIDENT_PART = 10401;
 	
-	private static final int[][] WEAPONS =
-	{
-		{
-			10377,
-			1
-		},
-		{
-			10401,
-			1
-		},
-		{
-			10401,
-			2
-		},
-		{
-			10401,
-			3
-		},
-		{
-			10401,
-			4
-		},
-		{
-			10401,
-			5
-		},
-		{
-			10401,
-			6
-		}
-	};
-	
-	private static final int[][] ARMORS =
-	{
-		{
-			15812,
-			1
-		},
-		{
-			15813,
-			1
-		},
-		{
-			15814,
-			1
-		},
-		{
-			15791,
-			1
-		},
-		{
-			15787,
-			1
-		},
-		{
-			15784,
-			1
-		},
-		{
-			15781,
-			1
-		},
-		{
-			15778,
-			1
-		},
-		{
-			15775,
-			1
-		},
-		{
-			15774,
-			5
-		},
-		{
-			15773,
-			5
-		},
-		{
-			15772,
-			5
-		},
-		{
-			15693,
-			5
-		},
-		{
-			15657,
-			5
-		},
-		{
-			15654,
-			5
-		},
-		{
-			15651,
-			5
-		},
-		{
-			15648,
-			5
-		},
-		{
-			15645,
-			5
-		}
-	};
-	
+	private static final int[] ARMORS_RECIPE ={15812,15813,15814,15791,15787,15784,15781,15778,15775};
+	private static final int[] ARMORS_PART ={15774,15773,15772,15693,15657,15654,15651,15648,15645};
+
 	public Q00289_NoMoreSoupForYou()
 	{
 		super(289, Q00289_NoMoreSoupForYou.class.getSimpleName(), "No More Soup For You");
@@ -169,26 +59,25 @@ public class Q00289_NoMoreSoupForYou extends Quest
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = event;
 		QuestState st = getQuestState(player, false);
-		if (st == null)
-		{
-			return htmltext;
+		if (st == null) {
+			return null;
 		}
-		int b = getRandom(18);
-		int c = getRandom(7);
-		
-		if (npc.getId() == STAN)
+
+		String htmltext = null;
+
+		switch (event)
 		{
-			if (event.equalsIgnoreCase("30200-03.htm"))
-			{
+			case "30200-03.htm" :
 				st.startQuest();
-			}
-			else if (event.equalsIgnoreCase("30200-05.htm"))
-			{
+				break;
+			case "30200-05.htm" :
 				if (st.getQuestItemsCount(SOUP) >= 500)
 				{
-					st.giveItems(WEAPONS[c][0], WEAPONS[c][1]);
+					if(getRandom(7)<1)
+						st.giveItems(ICARUS_TRIDENT_REC,1);
+					else
+						st.giveItems(ICARUS_TRIDENT_PART,getRandom(6));
 					st.takeItems(SOUP, 500);
 					st.playSound(QuestSound.ITEMSOUND_QUEST_MIDDLE);
 					htmltext = "30200-04.htm";
@@ -197,12 +86,15 @@ public class Q00289_NoMoreSoupForYou extends Quest
 				{
 					htmltext = "30200-07.htm";
 				}
-			}
-			else if (event.equalsIgnoreCase("30200-06.htm"))
-			{
+				break;
+			case "30200-06.htm" :
 				if (st.getQuestItemsCount(SOUP) >= 100)
 				{
-					st.giveItems(ARMORS[b][0], ARMORS[b][1]);
+					int rnd = getRandom(18);
+					if(rnd>=9)
+						st.giveItems(ARMORS_PART[rnd-9], 5);
+					else
+						st.giveItems(ARMORS_RECIPE[rnd],1);
 					st.takeItems(SOUP, 100);
 					st.playSound(QuestSound.ITEMSOUND_QUEST_MIDDLE);
 					htmltext = "30200-04.htm";
@@ -211,7 +103,7 @@ public class Q00289_NoMoreSoupForYou extends Quest
 				{
 					htmltext = "30200-07.htm";
 				}
-			}
+				break;
 		}
 		return htmltext;
 	}
@@ -221,14 +113,8 @@ public class Q00289_NoMoreSoupForYou extends Quest
 	{
 		QuestState st = getQuestState(player, false);
 		int npcId = npc.getId();
-		if ((st == null) || (st.getState() != State.STARTED))
-		{
-			return null;
-		}
-		if (Util.contains(MOBS, npcId))
-		{
-			st.giveItems(SOUP, 1 * RATE);
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+		if (Util.contains(MOBS, npcId)) {
+			st.giveItemRandomly(npc,SOUP,1,1,0,1,true);
 		}
 		return super.onKill(npc, player, isSummon);
 	}
@@ -237,27 +123,25 @@ public class Q00289_NoMoreSoupForYou extends Quest
 	public String onTalk(L2Npc npc, L2PcInstance player)
 	{
 		String htmltext = getNoQuestMsg(player);
-		final QuestState st = getQuestState(player, true);
+		QuestState st = getQuestState(player, true);
+
 		if (st == null)
 		{
 			return htmltext;
 		}
-		
-		if (npc.getId() == STAN)
+
+		switch (st.getState())
 		{
-			switch (st.getState())
-			{
-				case State.CREATED:
-					QuestState _prev = player.getQuestState(Q00252_ItSmellsDelicious.class.getSimpleName());
-					htmltext = ((_prev != null) && _prev.isCompleted() && (player.getLevel() >= 82)) ? "30200-01.htm" : "30200-00.htm";
-					break;
-				case State.STARTED:
-					if (st.isCond(1))
-					{
-						htmltext = (st.getQuestItemsCount(SOUP) >= 100) ? "30200-04.htm" : "30200-03.htm";
-					}
-					break;
-			}
+			case State.CREATED:
+				st = player.getQuestState(Q00251_NoSecrets.class.getSimpleName());
+				htmltext = ((player.getLevel() >= MIN_LEVEL) && (st != null) && (st.isCompleted())) ? "32741-01.html" : "32741-00.htm";
+				break;
+			case State.STARTED:
+				if (st.isCond(1))
+				{
+					htmltext = (st.getQuestItemsCount(SOUP) >= 100) ? "30200-04.htm" : "30200-03.htm";
+				}
+				break;
 		}
 		return htmltext;
 	}

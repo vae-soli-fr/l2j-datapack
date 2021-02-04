@@ -271,9 +271,9 @@ public class Q00605_AllianceWithKetraOrcs extends Quest
 		{
 			final QuestState st = getQuestState(member, false);
 			final DropInfo info = MOBS.get(npc.getId());
-			if ((st.getCond() >= info.getMinCond()) && (st.getCond() < 6) && canGetItem(st, info.getItemId()) && (getRandom(1000) < info.getChance()))
+			if ((st.getCond() >= info.getMinCond()) && (st.getCond() < 6) && canGetItem(st, info.getItemId()))
 			{
-				st.giveItems(info.getItemId(), 1);
+				st.giveItemRandomly(npc,info.getItemId(),1,0,((double)info.getChance()/1000),true);
 			}
 		}
 		return super.onKill(npc, killer, isSummon);

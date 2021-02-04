@@ -158,18 +158,9 @@ public class Q00617_GatherTheFlames extends Quest
 		{
 			return super.onKill(npc, player, isSummon);
 		}
-		
 		final QuestState st = getQuestState(partyMember, false);
-		
-		if (getRandom(1000) < MOBS.get(npc.getId()))
-		{
-			st.giveItems(TORCH, 2);
-		}
-		else
-		{
-			st.giveItems(TORCH, 1);
-		}
-		st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+		if(st!=null)
+			st.giveItemRandomly(npc,TORCH,1,2,0,MOBS.get(npc.getId()).doubleValue()/1000,true);
 		return super.onKill(npc, player, isSummon);
 	}
 	

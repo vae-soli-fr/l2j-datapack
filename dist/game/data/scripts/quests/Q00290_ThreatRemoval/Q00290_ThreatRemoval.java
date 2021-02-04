@@ -178,19 +178,11 @@ public class Q00290_ThreatRemoval extends Quest
 	public String onKill(L2Npc npc, L2PcInstance player, boolean isSummon)
 	{
 		final L2PcInstance partyMember = getRandomPartyMember(player, 1);
-		if (partyMember == null)
-		{
+		if (partyMember == null) {
 			return super.onKill(npc, player, isSummon);
 		}
-		
 		final QuestState st = getQuestState(partyMember, false);
-		int npcId = npc.getId();
-		float chance = (MOBS_TAG.get(npcId) * Config.RATE_QUEST_DROP);
-		if (getRandom(1000) < chance)
-		{
-			st.rewardItems(SEL_MAHUM_ID_TAG, 1);
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-		}
+		st.giveItemRandomly(npc,SEL_MAHUM_ID_TAG,1,0,(MOBS_TAG.get(npc.getId()).doubleValue()/1000), true);
 		return super.onKill(npc, player, isSummon);
 	}
 	

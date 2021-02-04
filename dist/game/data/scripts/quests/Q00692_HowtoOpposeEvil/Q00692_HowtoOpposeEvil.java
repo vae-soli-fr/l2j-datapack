@@ -180,23 +180,8 @@ public final class Q00692_HowtoOpposeEvil extends Quest
 			return null;
 		}
 		final QuestState st = getQuestState(partyMember, false);
-		final int npcId = npc.getId();
-		if ((st != null) && QUEST_MOBS.containsKey(npcId))
-		{
-			int chance = (int) (QUEST_MOBS.get(npcId).getCount() * Config.RATE_QUEST_DROP);
-			int numItems = chance / 1000;
-			chance = chance % 1000;
-			if (getRandom(1000) < chance)
-			{
-				numItems++;
-			}
-			if (numItems > 0)
-			{
-				st.giveItems(QUEST_MOBS.get(npcId).getId(), numItems);
-				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-			}
-		}
-		return null;
+		st.giveItemRandomly(npc,QUEST_MOBS.get(npc.getId()).getId(),1,0,(double)QUEST_MOBS.get(npc.getId()).getCount()/1000,true);
+		return super.onKill(npc, player, isSummon);
 	}
 	
 	@Override

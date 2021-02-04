@@ -132,28 +132,16 @@ public class Q00690_JudesRequest extends Quest
 			return null;
 		}
 		final QuestState st = getQuestState(partyMember, false);
-		
-		final int npcId = npc.getId();
-		int chance = 0;
-		if (npcId == LESSER_EVIL)
-		{
+
+		int chance = 246;
+		if (npc.getId() == LESSER_EVIL)
 			chance = 173;
-		}
-		else if (npcId == GREATER_EVIL)
-		{
-			chance = 246;
-		}
-		// Apply the quest drop rate:
-		chance *= Config.RATE_QUEST_DROP;
-		// Normalize
-		chance %= 1000;
-		
+
 		if (getRandom(1000) <= chance)
 		{
-			st.giveItems(EVIL_WEAPON, Math.max(chance / 1000, 1));
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+			st.giveItemRandomly(npc,EVIL_WEAPON,1,0,chance/1000,true);
 		}
-		return null;
+		return super.onKill(npc,player,isSummon);
 	}
 	
 	@Override
