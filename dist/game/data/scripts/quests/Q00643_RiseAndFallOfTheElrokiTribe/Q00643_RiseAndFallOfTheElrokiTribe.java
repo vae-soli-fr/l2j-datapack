@@ -194,38 +194,11 @@ public class Q00643_RiseAndFallOfTheElrokiTribe extends Quest
 		int npcId = npc.getId();
 		
 		if (Util.contains(MOBS1, npcId))
-		{
-			float chance = (CHANCE_MOBS1 * Config.RATE_QUEST_DROP);
-			if (getRandom(1000) < chance)
-			{
-				st.rewardItems(BONES_OF_A_PLAINS_DINOSAUR, 2);
-			}
-			else
-			{
-				st.rewardItems(BONES_OF_A_PLAINS_DINOSAUR, 1);
-			}
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-		}
-		
-		if (Util.contains(MOBS2, npcId))
-		{
-			float chance = (CHANCE_MOBS2 * Config.RATE_QUEST_DROP);
-			if (getRandom(1000) < chance)
-			{
-				st.rewardItems(BONES_OF_A_PLAINS_DINOSAUR, 1);
-				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-			}
-		}
-		
-		if (npcId == DEINONYCHUS)
-		{
-			float chance = (CHANCE_DEINO * Config.RATE_QUEST_DROP);
-			if (getRandom(1000) < chance)
-			{
-				st.rewardItems(BONES_OF_A_PLAINS_DINOSAUR, 1);
-				st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-			}
-		}
+			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,2,0,1,true);
+		else if (Util.contains(MOBS2, npcId))
+			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,0,(double)CHANCE_MOBS2/1000,true);
+		else if (npcId == DEINONYCHUS)
+			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,0,(double)CHANCE_DEINO/1000,true);
 		return super.onKill(npc, player, isSummon);
 	}
 	

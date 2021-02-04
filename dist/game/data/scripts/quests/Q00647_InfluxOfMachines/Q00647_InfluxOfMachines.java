@@ -120,16 +120,12 @@ public class Q00647_InfluxOfMachines extends Quest
 		if (member != null)
 		{
 			final QuestState st = getQuestState(member, false);
-			if (st.isCond(1) && (getRandom(1000) < MOBS.get(npc.getId())))
+			if (st.isCond(1))
 			{
-				st.giveItems(BROKEN_GOLEM_FRAGMENT, 1);
+				st.giveItemRandomly(npc,BROKEN_GOLEM_FRAGMENT,1,FRAGMENT_COUNT, MOBS.get(npc.getId()).doubleValue()/1000,true);
 				if (st.getQuestItemsCount(BROKEN_GOLEM_FRAGMENT) >= FRAGMENT_COUNT)
 				{
 					st.setCond(2, true);
-				}
-				else
-				{
-					st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
 		}

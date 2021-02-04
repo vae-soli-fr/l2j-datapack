@@ -133,16 +133,8 @@ public final class Q00691_MatrasSuspiciousRequest extends Quest
 		{
 			return super.onKill(npc, player, isSummon);
 		}
-		
 		final QuestState st = getQuestState(pl, false);
-		int chance = (int) (Config.RATE_QUEST_DROP * REWARD_CHANCES.get(npc.getId()));
-		int numItems = Math.max((chance / 1000), 1);
-		chance = chance % 1000;
-		if (getRandom(1000) <= chance)
-		{
-			st.giveItems(RED_GEM, numItems);
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-		}
+		st.giveItemRandomly(npc,RED_GEM,1,0,REWARD_CHANCES.get(npc.getId()).doubleValue()/1000,true);
 		return super.onKill(npc, player, isSummon);
 	}
 	
