@@ -441,15 +441,8 @@ public class Q00270_TheOneWhoEndsSilence extends Quest
 	 */
 	private static void giveItem(L2PcInstance player, L2Npc npc, int chance, boolean atLeastOne)
 	{
-		if ((player != null) && Util.checkIfInRange(1500, npc, player, false))
-		{
-			final int count = ((getRandom(1000) < chance) ? 1 : 0) + (atLeastOne ? 1 : 0);
-			if (count > 0)
-			{
-				final QuestState qs = player.getQuestState(Q00270_TheOneWhoEndsSilence.class.getSimpleName());
-				qs.giveItems(TATTERED_MONK_CLOTHES, count);
-				qs.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-			}
+		if ((player != null) && Util.checkIfInRange(1500, npc, player, false)) {
+			giveItemRandomly(player,npc,TATTERED_MONK_CLOTHES,1,0,(float) chance/1000,true);
 		}
 	}
 }
