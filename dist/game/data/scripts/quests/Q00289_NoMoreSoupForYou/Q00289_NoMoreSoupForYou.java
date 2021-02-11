@@ -134,7 +134,7 @@ public class Q00289_NoMoreSoupForYou extends Quest
 		{
 			case State.CREATED:
 				st = player.getQuestState(Q00251_NoSecrets.class.getSimpleName());
-				htmltext = ((player.getLevel() >= MIN_LEVEL) && (st != null) && (st.isCompleted())) ? "32741-01.html" : "32741-00.htm";
+				htmltext = ((player.getLevel() >= MIN_LEVEL) && (st != null) && (st.isCompleted())) ? "30200-01.html" : "30200-00.htm";
 				break;
 			case State.STARTED:
 				if (st.isCond(1))
