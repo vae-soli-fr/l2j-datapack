@@ -113,8 +113,10 @@ public class Q00289_NoMoreSoupForYou extends Quest
 	{
 		QuestState st = getQuestState(player, false);
 		int npcId = npc.getId();
-		if (Util.contains(MOBS, npcId)) {
-			st.giveItemRandomly(npc,SOUP,1,1,0,1,true);
+		if(st != null) {
+			if (Util.contains(MOBS, npcId)) {
+				st.giveItemRandomly(npc, SOUP, 1, 1, 0, 1, true);
+			}
 		}
 		return super.onKill(npc, player, isSummon);
 	}
