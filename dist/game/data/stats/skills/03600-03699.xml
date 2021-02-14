@@ -839,7 +839,7 @@
 				<add stat="accCombat" val="5.3" /> <!-- Accuracy +5.3 -->
 				<add stat="maxMp" val="321" /> <!-- Max MP +321 -->
 				<mul stat="pAtkSpd" val="1.0324" /> <!-- Atk. Spd. +3.24% -->
-				<add stat="regMp" val="1.066" /> <!-- MP Recovery +6.6% -->
+				<mul stat="regMp" val="1.066" /> <!-- MP Recovery +6.6% -->
 				<add stat="darkRes" val="8" /> <!-- Dark Resistance +8 -->
 			</effect>
 			<effect name="EnableCloak" />
