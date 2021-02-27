@@ -320,7 +320,7 @@
 			<height normal="16" />
 		</collision>
 	</npc>
-	<npc id="55013" displayId="18679" level="1" type="L2Npc" name="CFire">
+	<npc id="55013" displayId="18679" level="1" type="L2Npc" name="CFire" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
@@ -336,7 +336,7 @@
 				<run ground="1" />
 			</speed>
 		</stats>
-		<status canMove="false" attackable="false" targetable="false" showName="false" />
+		<status canMove="false" attackable="false" targetable="true" showName="false" />
 		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
 		<collision>
@@ -1384,6 +1384,1057 @@
 			<height normal="7" />
 		</collision>
 	</npc>
+	<npc id="55043" displayId="30627" level="70" type="L2TerrainObject" name="Christmas Tree">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" canBeSown="true" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" />
+			<height normal="350" />
+		</collision>
+	</npc>
+
+	<npc id="55044" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="50" />
+		</collision>
+	</npc>
+	<npc id="55045" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="50" />
+		</collision>
+	</npc>
+	<npc id="55046" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="50" />
+		</collision>
+	</npc>
+
+	<npc id="55047" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="100" />
+		</collision>
+	</npc>
+	<npc id="55048" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="100" />
+		</collision>
+	</npc>
+	<npc id="55049" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="100" />
+		</collision>
+	</npc>
+
+	<npc id="55050" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="150" />
+		</collision>
+	</npc>
+	<npc id="55051" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="150" />
+		</collision>
+	</npc>
+	<npc id="55052" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="150" />
+		</collision>
+	</npc>
+
+	<npc id="55053" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="200" />
+		</collision>
+	</npc>
+	<npc id="55054" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="200" />
+		</collision>
+	</npc>
+	<npc id="55055" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="200" />
+		</collision>
+	</npc>
+
+	<npc id="55056" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="250" />
+		</collision>
+	</npc>
+	<npc id="55057" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="250" />
+		</collision>
+	</npc>
+	<npc id="55058" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="250" />
+		</collision>
+	</npc>
+
+	<npc id="55059" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="300" />
+		</collision>
+	</npc>
+	<npc id="55060" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="300" />
+		</collision>
+	</npc>
+	<npc id="55061" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="300" />
+		</collision>
+	</npc>
+
+	<npc id="55062" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="350" />
+		</collision>
+	</npc>
+	<npc id="55063" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="350" />
+		</collision>
+	</npc>
+	<npc id="55064" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="350" />
+		</collision>
+	</npc>
+
+	<npc id="55065" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="400" />
+		</collision>
+	</npc>
+	<npc id="55066" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="400" />
+		</collision>
+	</npc>
+	<npc id="55067" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="400" />
+		</collision>
+	</npc>
+
+	<npc id="55068" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="450" />
+		</collision>
+	</npc>
+	<npc id="55069" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="450" />
+		</collision>
+	</npc>
+	<npc id="55070" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="450" />
+		</collision>
+	</npc>
+
+	<npc id="55071" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="500" />
+		</collision>
+	</npc>
+	<npc id="55072" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="500" />
+		</collision>
+	</npc>
+	<npc id="55073" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="500" />
+		</collision>
+	</npc>
+
+	<npc id="55074" displayId="122" level="1" type="L2Npc" name="Lampion jaune">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="550" />
+		</collision>
+	</npc>
+	<npc id="55075" displayId="123" level="1" type="L2Npc" name="Lampion rouge ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="550" />
+		</collision>
+	</npc>
+	<npc id="55076" displayId="124" level="1" type="L2Npc" name="Lampion rose ">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="0" />
+			<height normal="550" />
+		</collision>
+	</npc>
+
+	<npc id="55077" displayId="31385" level="70" type="L2Npc" name="Heart of Volcano">
+		<!-- Confirmed CT2.5 -->
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" targetable="false" showName="false"/>
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!--NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="19" /> <!--Others -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" />
+		<collision>
+			<radius normal="17" />
+			<height normal="710" />
+		</collision>
+	</npc>
+
+	<npc id="55078" displayId="32021" level="70" type="L2Npc" name="Ice Sculpture">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="16" />
+			<height normal="30.5" />
+		</collision>
+	</npc>
+	<npc id="55079" displayId="32023" level="70" type="L2Npc" name="Ice Shelf">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="35" />
+			<height normal="14.5" />
+		</collision>
+	</npc>
 	<!-- Custom TP section -->
 	<npc id="56001" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
@@ -2053,5 +3104,347 @@
 			<radius normal="21" />
 			<height normal="53" />
 		</collision>
-	</npc>	
+	</npc>
+
+
+	<npc id="57003" displayId="105" level="70" type="L2Merchant" name="Petit Papa Noel" usingServerSideName="true" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" flying="true" />
+		<collision>
+			<radius normal="40" />
+			<height normal="50" />
+		</collision>
+	</npc>
+
+	<npc id="57004" displayId="13160" level="55" type="L2Merchant" name="Bouboule">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57005" displayId="13160" level="55" type="L2Merchant" name="Neige">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57006" displayId="13160" level="55" type="L2Merchant" name="Glaçon">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57007" displayId="13160" level="55" type="L2Merchant" name="Gel">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57008" displayId="13160" level="55" type="L2Merchant" name="Flocon">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57009" displayId="13160" level="55" type="L2Merchant" name="Sorbet">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57010" displayId="13160" level="55" type="L2Merchant" name="Givre">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="57011" displayId="13160" level="55" type="L2Merchant" name="Glace">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="30" />
+		</collision>
+	</npc>
+
+
+	<!-- Monstres full custom -->
+	<npc id="58000" displayId="21571" level="69" type="L2Monster" name="Ghost of Rebellion Soldier">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="215" />
+			<param name="MoveAroundSocial1" value="215" />
+			<param name="MoveAroundSocial2" value="215" />
+			<param name="SoulShot" value="200" />
+			<param name="SoulShotRate" value="5" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="10" />
+			<param name="LongRangeGuardRate" value="10" />
+			<skill name="SelfBuff" id="4074" level="2" /> <!-- NPC Haste -->
+			<skill name="PhysicalSpecial" id="4581" level="6" /> <!-- Hold -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="150" lhand="103" /> <!-- rhand: Elemental Sword lhand: Tower Shield -->
+		<acquire expRate="2.7015384" sp="1259" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6000" hpRegen="8.5" mp="1377.8" mpRegen="3" />
+			<attack physical="600" magical="400" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="400.65359" magical="300.178552092236" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="-13" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" showName="false"/>
+		<skillList>
+			<skill id="4033" level="7" /> <!--NPC Burn -->
+			<skill id="4073" level="7" /> <!--Stun -->
+			<skill id="4085" level="1" /> <!--Critical Damage -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4092" level="1" /> <!--NPC Puma Spirit Totem -->
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="10" /> <!--Slightly Weak P. Atk. -->
+			<skill id="4411" level="10" /> <!--Slightly Weak M. Atk. -->
+			<skill id="4412" level="19" /> <!--Extremely Strong P. Def. -->
+			<skill id="4413" level="12" /> <!--Slightly Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="8" /> <!--Angels -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>NECRO</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc>
+
+	<npc id="58001" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="9442"/> <!-- rhand: Dynasty Sword -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58002" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="9444"/> <!-- rhand: Dynasty Phantom -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58003" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="9446"/> <!-- rhand: Dynasty Knife -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58004" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="9447"/> <!-- rhand: Dynasty Halberd -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58005" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="9448"/> <!-- rhand: Dynasty Cudgel -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58006" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="9449"/> <!-- rhand: Dynasty Mace -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58007" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="10252"/> <!-- rhand: Dynasty Staff -->
+		<acquire expRate="6.43222879684418" sp="4296" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
+			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<attribute>
+				<attack type="DARK" value="20" />
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
 </list>

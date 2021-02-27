@@ -727,7 +727,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="75009" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Escalier" usingServerSideName="true">
+	<npc id="75009" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Chez Asharim" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="Role" value="0" />
@@ -757,7 +757,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="75010" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Escalier" usingServerSideName="true">
+	<npc id="75010" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Sortie" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="Role" value="0" />
