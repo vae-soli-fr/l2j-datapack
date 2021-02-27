@@ -22,8 +22,8 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<shots soul="2" spirit="2" />
-		<corpse_time>86400</corpse_time>
-		<ex_crt_effect>false</ex_crt_effect>
+		<corpseTime>86400</corpseTime>
+		<exCrtEffect>false</exCrtEffect>
 		<collision>
 			<radius normal="15" />
 			<height normal="28.4" />
@@ -53,8 +53,8 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<shots soul="2" spirit="2" />
-		<corpse_time>86400</corpse_time>
-		<ex_crt_effect>false</ex_crt_effect>
+		<corpseTime>86400</corpseTime>
+		<exCrtEffect>false</exCrtEffect>
 		<collision>
 			<radius normal="27" />
 			<height normal="31.5" />
@@ -82,7 +82,7 @@
 			</speed>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
@@ -101,11 +101,11 @@
 			<skill id="5465" level="1" /> <!--Earth Attacks -->
 			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
 			<skill id="6421" level="1" /> <!--Rage of Soldier -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>2</s_npc_prop_hp_rate>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai aggroRange="500" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="1445" max="2953" chance="100" /> <!-- Adena -->
@@ -151,7 +151,7 @@
 				<item id="15791" min="1" max="1" chance="0.2021" /> <!-- Recipe - Sealed Moirai Shield (60%) -->
 				<item id="15790" min="1" max="1" chance="0.2021" /> <!-- Recipe - Sealed Moirai Sigil (60%) -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.25" />
@@ -180,7 +180,7 @@
 			</speed>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
@@ -199,10 +199,10 @@
 			<skill id="5465" level="1" /> <!--Earth Attacks -->
 			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
 			<skill id="6424" level="1" /> <!--Double Shot -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="ARCHER" aggroRange="1000" clanHelpRange="300" isAggressive="true" />
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
@@ -243,7 +243,7 @@
 				<item id="15813" min="1" max="1" chance="0.1408" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
 				<item id="15814" min="1" max="1" chance="0.1056" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="20" />
 			<height normal="40.25" />
@@ -281,10 +281,10 @@
 				<walk ground="50" />
 				<run ground="170" />
 			</speed>
-			<hit_time>560</hit_time>
+			<hitTime>560</hitTime>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4033" level="7" /> <!--NPC Burn -->
 			<skill id="4073" level="7" /> <!--Stun -->
 			<skill id="4085" level="1" /> <!--Critical Damage -->
@@ -299,16 +299,16 @@
 			<skill id="4414" level="2" /> <!--Standard Type -->
 			<skill id="4415" level="3" /> <!--One-handed Sword -->
 			<skill id="4416" level="8" /> <!--Angels -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="300" clanHelpRange="1000">
-			<clan_list>
+			<clanList>
 				<clan>TOWER_GUARD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="6033" max="12296" chance="100" /> <!-- Adena -->
@@ -340,7 +340,7 @@
 				<item id="5550" min="1" max="1" chance="16.3002" /> <!-- Durable Metal Plate -->
 				<item id="5479" min="1" max="1" chance="7.2338" /> <!-- Sealed Tallum Leather Armor Pattern -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="32" />
@@ -379,10 +379,10 @@
 				<walk ground="50" />
 				<run ground="160" />
 			</speed>
-			<hit_time>280</hit_time>
+			<hitTime>280</hitTime>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4046" level="7" /> <!--Sleep -->
 			<skill id="4066" level="7" /> <!--NPC Twister -->
 			<skill id="4073" level="7" /> <!--Stun -->
@@ -397,16 +397,16 @@
 			<skill id="4415" level="5" /> <!--Blunt Weapons -->
 			<skill id="4416" level="8" /> <!--Angels -->
 			<skill id="4438" level="2" /> <!--Greater Resist Sleep -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai type="MAGE" aggroRange="400" clanHelpRange="700">
-			<clan_list>
+			<clanList>
 				<clan>TOWER_GUARD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="4508" max="9172" chance="100" /> <!-- Adena -->
@@ -437,7 +437,7 @@
 				<item id="4121" min="1" max="1" chance="4.9642" /> <!-- Bow of Peril Shaft -->
 				<item id="5479" min="1" max="1" chance="6.7447" /> <!-- Sealed Tallum Leather Armor Pattern -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="25" />
@@ -473,10 +473,10 @@
 				<walk ground="50" />
 				<run ground="160" />
 			</speed>
-			<hit_time>340</hit_time>
+			<hitTime>340</hitTime>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4032" level="6" /> <!--NPC Strike -->
 			<skill id="4071" level="5" /> <!--Resist Bow/Crossbow Weapons -->
 			<skill id="4072" level="6" /> <!--Stun -->
@@ -493,16 +493,16 @@
 			<skill id="4415" level="3" /> <!--One-handed Sword -->
 			<skill id="4416" level="8" /> <!--Angels -->
 			<skill id="4439" level="2" /> <!--Greater Resist Hold -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai aggroRange="500" clanHelpRange="600">
-			<clan_list>
+			<clanList>
 				<clan>TOWER_GUARD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="3956" max="8034" chance="100" /> <!-- Adena -->
@@ -535,7 +535,7 @@
 				<item id="4118" min="1" max="1" chance="4.1384" /> <!-- Evil Spirit Head -->
 				<item id="3035" min="1" max="1" chance="1.3328" /> <!-- Recipe: Spiritshot A -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" grown="15" />
 			<height normal="28" grown="34" />
@@ -569,10 +569,10 @@
 				<walk ground="50" />
 				<run ground="160" />
 			</speed>
-			<hit_time>520</hit_time>
+			<hitTime>520</hitTime>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4073" level="6" /> <!--Stun -->
 			<skill id="4408" level="12" /> <!--HP Increase (4x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
@@ -583,16 +583,16 @@
 			<skill id="4414" level="2" /> <!--Standard Type -->
 			<skill id="4415" level="7" /> <!--Daggers -->
 			<skill id="4416" level="8" /> <!--Angels -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>4</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
 		<ai aggroRange="600" clanHelpRange="400">
-			<clan_list>
+			<clanList>
 				<clan>TOWER_GUARD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="3580" max="7317" chance="100" /> <!-- Adena -->
@@ -627,7 +627,7 @@
 				<item id="4089" min="1" max="1" chance="34.3233" /> <!-- Doom Helmet Pattern -->
 				<item id="5416" min="1" max="1" chance="1.9615" /> <!-- Recipe: Sealed Dark Crystal Breastplate(60%) -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="26" />
@@ -663,10 +663,10 @@
 				<walk ground="50" />
 				<run ground="160" />
 			</speed>
-			<hit_time>910</hit_time>
+			<hitTime>910</hitTime>
 		</stats>
 		<status undying="false" showName="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4040" level="6" /> <!--NPC Bow Attack -->
 			<skill id="4086" level="1" /> <!--Critical Chance -->
 			<skill id="4095" level="1" /> <!--Damage Shield -->
@@ -679,16 +679,16 @@
 			<skill id="4414" level="3" /> <!--Light Armor Type -->
 			<skill id="4415" level="9" /> <!--Bows -->
 			<skill id="4416" level="8" /> <!--Angels -->
-		</skill_list>
+		</skillList>
 		<shots shotChance="30" spiritChance="30" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>3</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
 		<ai type="ARCHER" aggroRange="1000" clanHelpRange="200" dodge="15">
-			<clan_list>
+			<clanList>
 				<clan>TOWER_GUARD</clan>
-			</clan_list>
+			</clanList>
 		</ai>
-		<drop_lists>
+		<dropLists>
 			<death>
 				<group chance="70">
 					<item id="57" min="3245" max="6597" chance="100" /> <!-- Adena -->
@@ -721,7 +721,7 @@
 				<item id="5478" min="1" max="1" chance="6.8984" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
 				<item id="4041" min="1" max="1" chance="7.1335" /> <!-- Mold Hardener -->
 			</corpse>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="13" />
 			<height normal="27" />
@@ -750,7 +750,7 @@
 			</speed>
 		</stats>
 		<status attackable="false" />
-		<ex_crt_effect>true</ex_crt_effect>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
 			<radius normal="7" />
@@ -780,7 +780,7 @@
 			</speed>
 		</stats>
 		<status attackable="false" />
-		<ex_crt_effect>true</ex_crt_effect>
+		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
 			<radius normal="7" />
@@ -809,8 +809,8 @@
 		</stats>
 		<status attackable="false" canMove="false" />
 		<shots soul="2" spirit="2" />
-		<corpse_time>86400</corpse_time>
-		<ex_crt_effect>false</ex_crt_effect>
+		<corpseTime>86400</corpseTime>
+		<exCrtEffect>false</exCrtEffect>
 		<collision>
 			<radius normal="8" />
 			<height normal="24" />

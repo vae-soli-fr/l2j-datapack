@@ -3,7 +3,7 @@ Vae Soli DataPack
 
 Vae Soli uses an open-source server emulator fully written in Java by L2J Server for the famous Korean MMORPG
 --------------
-- develop branch is currently a customized High Five `1.4` from L2J release
+- develop branch is currently a customized High Five `2.6.0.0` from L2J release
 - upstream branch is currently the pristine High Five `master` from L2J development
 
 Contributing

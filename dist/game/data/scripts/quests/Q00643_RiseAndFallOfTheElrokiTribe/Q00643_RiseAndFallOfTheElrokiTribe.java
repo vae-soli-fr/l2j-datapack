@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -18,8 +18,7 @@
  */
 package quests.Q00643_RiseAndFallOfTheElrokiTribe;
 
-import com.l2jserver.Config;
-import com.l2jserver.gameserver.enums.QuestSound;
+import com.l2jserver.gameserver.enums.audio.Sound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -172,7 +171,7 @@ public class Q00643_RiseAndFallOfTheElrokiTribe extends Quest
 				{
 					st.rewardItems(PIECE[getRandom(PIECE.length)], 5);
 					st.takeItems(BONES_OF_A_PLAINS_DINOSAUR, 300);
-					st.playSound(QuestSound.ITEMSOUND_QUEST_MIDDLE);
+					st.playSound(Sound.ITEMSOUND_QUEST_MIDDLE);
 					htmltext = "32117-05.html";
 				}
 				break;
@@ -194,11 +193,17 @@ public class Q00643_RiseAndFallOfTheElrokiTribe extends Quest
 		int npcId = npc.getId();
 		
 		if (Util.contains(MOBS1, npcId))
-			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,2,0,1,true);
+		{
+			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,2,0,(double)CHANCE_MOBS1/1000,true);
+		}
 		else if (Util.contains(MOBS2, npcId))
+		{
 			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,0,(double)CHANCE_MOBS2/1000,true);
+		}
 		else if (npcId == DEINONYCHUS)
+		{
 			st.giveItemRandomly(npc,BONES_OF_A_PLAINS_DINOSAUR,1,0,(double)CHANCE_DEINO/1000,true);
+		}
 		return super.onKill(npc, player, isSummon);
 	}
 	

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -18,14 +18,15 @@
  */
 package quests.Q00289_NoMoreSoupForYou;
 
-import com.l2jserver.gameserver.enums.QuestSound;
+import com.l2jserver.gameserver.enums.audio.Sound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
 import com.l2jserver.gameserver.util.Util;
-import quests.Q00251_NoSecrets.Q00251_NoSecrets;
+
+import quests.Q00252_ItSmellsDelicious.Q00252_ItSmellsDelicious;
 
 /**
  * No More Soup For You (289)
@@ -79,7 +80,7 @@ public class Q00289_NoMoreSoupForYou extends Quest
 					else
 						st.giveItems(ICARUS_TRIDENT_PART,getRandom(6));
 					st.takeItems(SOUP, 500);
-					st.playSound(QuestSound.ITEMSOUND_QUEST_MIDDLE);
+					st.playSound(Sound.ITEMSOUND_QUEST_MIDDLE);
 					htmltext = "30200-04.htm";
 				}
 				else
@@ -96,7 +97,7 @@ public class Q00289_NoMoreSoupForYou extends Quest
 					else
 						st.giveItems(ARMORS_RECIPE[rnd],1);
 					st.takeItems(SOUP, 100);
-					st.playSound(QuestSound.ITEMSOUND_QUEST_MIDDLE);
+					st.playSound(Sound.ITEMSOUND_QUEST_MIDDLE);
 					htmltext = "30200-04.htm";
 				}
 				else
@@ -113,10 +114,13 @@ public class Q00289_NoMoreSoupForYou extends Quest
 	{
 		QuestState st = getQuestState(player, false);
 		int npcId = npc.getId();
-		if(st != null) {
-			if (Util.contains(MOBS, npcId)) {
-				st.giveItemRandomly(npc, SOUP, 1, 1, 0, 1, true);
-			}
+		if ((st == null) || (st.getState() != State.STARTED))
+		{
+			return null;
+		}
+
+		if (Util.contains(MOBS, npcId)) {
+			st.giveItemRandomly(npc, SOUP, 1, 1, 0, 1, true);
 		}
 		return super.onKill(npc, player, isSummon);
 	}
@@ -131,19 +135,21 @@ public class Q00289_NoMoreSoupForYou extends Quest
 		{
 			return htmltext;
 		}
-
-		switch (st.getState())
+		if (npc.getId() == STAN)
 		{
-			case State.CREATED:
-				st = player.getQuestState(Q00251_NoSecrets.class.getSimpleName());
-				htmltext = ((player.getLevel() >= MIN_LEVEL) && (st != null) && (st.isCompleted())) ? "30200-01.html" : "30200-00.htm";
-				break;
-			case State.STARTED:
-				if (st.isCond(1))
-				{
-					htmltext = (st.getQuestItemsCount(SOUP) >= 100) ? "30200-04.htm" : "30200-03.htm";
-				}
-				break;
+			switch (st.getState())
+			{
+				case State.CREATED:
+					st = player.getQuestState(Q00252_ItSmellsDelicious.class.getSimpleName());
+					htmltext = ((player.getLevel() >= MIN_LEVEL) && (st != null) && (st.isCompleted())) ? "30200-01.html" : "30200-00.htm";
+					break;
+				case State.STARTED:
+					if (st.isCond(1))
+					{
+						htmltext = (st.getQuestItemsCount(SOUP) >= 100) ? "30200-04.htm" : "30200-03.htm";
+					}
+					break;
+			}
 		}
 		return htmltext;
 	}

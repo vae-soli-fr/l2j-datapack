@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -18,7 +18,7 @@
  */
 package quests.Q00402_PathOfTheHumanKnight;
 
-import com.l2jserver.gameserver.enums.QuestSound;
+import com.l2jserver.gameserver.enums.audio.Sound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.base.ClassId;
@@ -155,25 +155,7 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 				{
 					giveAdena(player, 81900, true);
 					giveItems(player, SWORD_OF_RITUAL, 1);
-					takeItems(player, COIN_OF_LORDS1, 1);
-					takeItems(player, COIN_OF_LORDS2, 1);
-					takeItems(player, COIN_OF_LORDS3, 1);
-					takeItems(player, COIN_OF_LORDS4, 1);
-					takeItems(player, COIN_OF_LORDS5, 1);
-					takeItems(player, COIN_OF_LORDS6, 1);
-					takeItems(player, GLUDIO_GUARDS_1ST_BADGE, 1);
-					takeItems(player, GLUDIO_GUARDS_2ND_BADGE, 1);
-					takeItems(player, GLUDIO_GUARDS_3RD_BADGE, 1);
-					takeItems(player, EINHASADS_1ST_TEMPLE_BADGE, 1);
-					takeItems(player, EINHASADS_2ND_TEMPLE_BADGE, 1);
-					takeItems(player, EINHASADS_3RD_TEMPLE_BADGE, 1);
-					takeItems(player, BUGBEAR_NECKLACE, 1);
-					takeItems(player, EINHASAD_CRUCIFIX, 1);
-					takeItems(player, VENOMOUS_SPIDERS_LEG, 1);
-					takeItems(player, LIZARDMANS_TOTEM, 1);
-					takeItems(player, GIANT_SPIDERS_HUSK, 1);
-					takeItems(player, SKULL_OF_SILENT_HORROR, 1);
-					takeItems(player, SQUIRES_MARK, 1);
+					
 					final int level = player.getLevel();
 					if (level >= 20)
 					{
@@ -200,25 +182,7 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 				{
 					giveAdena(player, 81900, true);
 					giveItems(player, SWORD_OF_RITUAL, 1);
-					takeItems(player, COIN_OF_LORDS1, 1);
-					takeItems(player, COIN_OF_LORDS2, 1);
-					takeItems(player, COIN_OF_LORDS3, 1);
-					takeItems(player, COIN_OF_LORDS4, 1);
-					takeItems(player, COIN_OF_LORDS5, 1);
-					takeItems(player, COIN_OF_LORDS6, 1);
-					takeItems(player, GLUDIO_GUARDS_1ST_BADGE, 1);
-					takeItems(player, GLUDIO_GUARDS_2ND_BADGE, 1);
-					takeItems(player, GLUDIO_GUARDS_3RD_BADGE, 1);
-					takeItems(player, EINHASADS_1ST_TEMPLE_BADGE, 1);
-					takeItems(player, EINHASADS_2ND_TEMPLE_BADGE, 1);
-					takeItems(player, EINHASADS_3RD_TEMPLE_BADGE, 1);
-					takeItems(player, BUGBEAR_NECKLACE, 1);
-					takeItems(player, EINHASAD_CRUCIFIX, 1);
-					takeItems(player, VENOMOUS_SPIDERS_LEG, 1);
-					takeItems(player, LIZARDMANS_TOTEM, 1);
-					takeItems(player, GIANT_SPIDERS_HUSK, 1);
-					takeItems(player, SKULL_OF_SILENT_HORROR, 1);
-					takeItems(player, SQUIRES_MARK, 1);
+					
 					final int level = player.getLevel();
 					if (level >= 20)
 					{
@@ -296,11 +260,11 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						giveItems(killer, LIZARDMANS_TOTEM, 1);
 						if (getQuestItemsCount(killer, LIZARDMANS_TOTEM) == 20)
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -314,11 +278,11 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						giveItems(killer, VENOMOUS_SPIDERS_LEG, 1);
 						if (getQuestItemsCount(killer, VENOMOUS_SPIDERS_LEG) == 20)
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -332,11 +296,11 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						giveItems(killer, GIANT_SPIDERS_HUSK, 1);
 						if (getQuestItemsCount(killer, GIANT_SPIDERS_HUSK) == 20)
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -348,11 +312,11 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						giveItems(killer, SKULL_OF_SILENT_HORROR, 1);
 						if (getQuestItemsCount(killer, SKULL_OF_SILENT_HORROR) == 10)
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -364,11 +328,11 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						giveItems(killer, BUGBEAR_NECKLACE, 1);
 						if (getQuestItemsCount(killer, BUGBEAR_NECKLACE) == 10)
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -380,11 +344,11 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						giveItems(killer, EINHASAD_CRUCIFIX, 1);
 						if (getQuestItemsCount(killer, EINHASAD_CRUCIFIX) == 12)
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							playSound(qs.getPlayer(), Sound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -431,13 +395,7 @@ public final class Q00402_PathOfTheHumanKnight extends Quest
 						{
 							giveAdena(player, 163800, true);
 							giveItems(player, SWORD_OF_RITUAL, 1);
-							takeItems(player, COIN_OF_LORDS1, 1);
-							takeItems(player, COIN_OF_LORDS2, 1);
-							takeItems(player, COIN_OF_LORDS3, 1);
-							takeItems(player, COIN_OF_LORDS4, 1);
-							takeItems(player, COIN_OF_LORDS5, 1);
-							takeItems(player, COIN_OF_LORDS6, 1);
-							takeItems(player, SQUIRES_MARK, 1);
+							
 							final int level = player.getLevel();
 							if (level >= 20)
 							{

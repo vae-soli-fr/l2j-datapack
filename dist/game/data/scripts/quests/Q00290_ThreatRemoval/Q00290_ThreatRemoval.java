@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -21,15 +21,13 @@ package quests.Q00290_ThreatRemoval;
 import java.util.HashMap;
 import java.util.Map;
 
-import quests.Q00251_NoSecrets.Q00251_NoSecrets;
-
-import com.l2jserver.Config;
-import com.l2jserver.gameserver.enums.QuestSound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
 import com.l2jserver.gameserver.model.quest.QuestState;
 import com.l2jserver.gameserver.model.quest.State;
+
+import quests.Q00251_NoSecrets.Q00251_NoSecrets;
 
 /**
  * Threat Removal (290)

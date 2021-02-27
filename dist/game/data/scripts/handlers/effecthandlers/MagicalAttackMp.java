@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -68,7 +68,7 @@ public final class MagicalAttackMp extends AbstractEffect
 	@Override
 	public L2EffectType getEffectType()
 	{
-		return L2EffectType.MAGICAL_ATTACK;
+		return L2EffectType.MAGICAL_ATTACK_MP;
 	}
 	
 	@Override

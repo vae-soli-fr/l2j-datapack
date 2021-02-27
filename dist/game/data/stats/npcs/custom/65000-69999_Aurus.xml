@@ -17,10 +17,10 @@
 				<walk ground="60" />
 				<run ground="170" />
 			</speed>
-			<hit_time>450</hit_time>
+			<hitTime>450</hitTime>
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!--Average P. Atk. -->
@@ -32,10 +32,10 @@
 			<skill id="4416" level="3" /> <!--Beasts -->
 			<skill id="4494" level="1" /> <!--Raid Boss -->
 			<skill id="4836" level="1" /> <!--Raid Boss - Level 65 -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
-		<drop_lists>
+		<dropLists>
 			<death>
 				<item id="9816" min="3" max="7" chance="80" /> <!-- Earth Egg -->
 				<item id="8176" min="1" max="4" chance="80" /> <!-- Destruction Tombstone -->
@@ -59,7 +59,7 @@
 					<item id="6569" min="1" max="1" chance="10.7143" /> <!-- Blessed Scroll: Enchant Weapon (A-Grade) -->
 				</group>
 			</death>
-		</drop_lists>
+		</dropLists>
 		<collision>
 			<radius normal="72" />
 			<height normal="55" />
@@ -89,17 +89,17 @@
 			<attack physical="2098.5269559057" magical="1433.02186584885" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
 			<defence physical="1415.44576" magical="1035.7618" evasion="-18" />
 			<attribute>
-				<attack type="UNHOLY" value="80" />
+				<attack type="DARK" value="80" />
 				<defence fire="70" water="70" wind="70" earth="70" holy="50" dark="95" default="60" />
 			</attribute>
 			<speed>
 				<walk ground="54" />
 				<run ground="180" />
 			</speed>
-			<hit_time>470</hit_time>
+			<hitTime>470</hitTime>
 		</stats>
 		<status undying="false" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
@@ -119,8 +119,8 @@
 			<skill id="5229" level="1" /> <!--Strong Punch -->
 			<skill id="5467" level="1" /> <!--Dark Attacks -->
 			<skill id="5479" level="1" /> <!--Boss Petrification Resistance -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
 		<collision>
 			<radius normal="54" />
@@ -136,7 +136,7 @@
 			<attack physical="10107.8290646906" magical="6902.33704348132" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="578.861024" magical="635.378064" />
 			<attribute>
-				<attack type="UNHOLY" value="250" />
+				<attack type="DARK" value="250" />
 				<defence fire="220" water="220" wind="220" earth="220" holy="170" dark="250" default="230" />
 			</attribute>
 			<speed>
@@ -145,7 +145,7 @@
 			</speed>
 		</stats>
 		<status undying="false" noSleepMode="true" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
@@ -159,8 +159,8 @@
 			<skill id="5467" level="1" /> <!--Dark Attacks -->
 			<skill id="5598" level="12" /> <!--Flash Resistance -->
 			<skill id="6743" level="1" /> <!--Dark Wind -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="500" clanHelpRange="300" />
 		<collision>
 			<radius normal="36" />
@@ -176,7 +176,7 @@
 			<attack physical="10107.8290646906" magical="6902.33704348132" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="578.861024" magical="635.378064" />
 			<attribute>
-				<attack type="UNHOLY" value="250" />
+				<attack type="DARK" value="250" />
 				<defence fire="220" water="220" wind="220" earth="220" holy="170" dark="250" default="230" />
 			</attribute>
 			<speed>
@@ -185,7 +185,7 @@
 			</speed>
 		</stats>
 		<status undying="false" noSleepMode="true" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
@@ -199,8 +199,8 @@
 			<skill id="5467" level="1" /> <!--Dark Attacks -->
 			<skill id="5598" level="12" /> <!--Flash Resistance -->
 			<skill id="6743" level="1" /> <!--Dark Wind -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="500" clanHelpRange="300" />
 		<collision>
 			<radius normal="34" />
@@ -230,7 +230,7 @@
 			</speed>
 		</stats>
 		<status attackable="false" showName="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
@@ -241,8 +241,8 @@
 			<skill id="4414" level="2" /> <!--Standard Type -->
 			<skill id="4415" level="3" /> <!--One-handed Sword -->
 			<skill id="4416" level="14" /> <!--Humans -->
-		</skill_list>
-		<ex_crt_effect>true</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
 		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
 			<radius normal="12" />
@@ -276,7 +276,7 @@
 			</speed>
 		</stats>
 		<status undying="false" canBeSown="true" />
-		<skill_list>
+		<skillList>
 			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
 			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
 			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
@@ -296,8 +296,8 @@
 			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
 			<skill id="6423" level="1" /> <!--Shock -->
 			<skill id="6424" level="1" /> <!--Double Shot -->
-		</skill_list>
-		<ex_crt_effect>false</ex_crt_effect>
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
 		<ai type="ARCHER" aggroRange="800" clanHelpRange="300" isAggressive="true" />
 		<collision>
 			<radius normal="20" />
@@ -320,18 +320,18 @@
 			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
 			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
 			<attribute>
-				<attack type="UNHOLY" value="20" />
+				<attack type="DARK" value="20" />
 				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
 				<run ground="200" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300"/>
 		<collision>
 			<radius normal="7.7" />
@@ -354,18 +354,18 @@
 			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
 			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
 			<attribute>
-				<attack type="UNHOLY" value="20" />
+				<attack type="DARK" value="20" />
 				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
 				<run ground="200" />
 			</speed>
-			<hit_time>430</hit_time>
+			<hitTime>430</hitTime>
 		</stats>
 		<status attackable="false" targetable="false" showName="false" />
-		<ex_crt_effect>false</ex_crt_effect>
-		<s_npc_prop_hp_rate>5</s_npc_prop_hp_rate>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
 		<ai aggroRange="300" clanHelpRange="300"/>
 		<collision>
 			<radius normal="7.7" />
