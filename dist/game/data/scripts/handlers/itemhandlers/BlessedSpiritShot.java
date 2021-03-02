@@ -20,6 +20,7 @@ package handlers.itemhandlers;
 
 import java.util.logging.Level;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.enums.ShotType;
 import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.actor.L2Playable;
@@ -103,7 +104,16 @@ public class BlessedSpiritShot implements IItemHandler
 		activeChar.sendPacket(sm);
 		
 		activeChar.sendPacket(SystemMessageId.ENABLED_SPIRITSHOT);
-		Broadcast.toSelfAndKnownPlayersInRadius(activeChar, new MagicSkillUse(activeChar, activeChar, skills[0].getSkillId(), skills[0].getSkillLvl(), 0, 0), 600);
+
+		MagicSkillUse msu = new MagicSkillUse(activeChar, activeChar, skills[0].getSkillId(), skills[0].getSkillLvl(), 0, 0);
+
+		if (Config.DECREASE_BANDWIDTH_USAGE) {
+			activeChar.sendPacket(msu);
+
+		} else {
+			Broadcast.toSelfAndKnownPlayersInRadius(activeChar, msu, 600);
+		}
+
 		return true;
 	}
 }
