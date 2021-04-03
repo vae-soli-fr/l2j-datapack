@@ -1,5 +1,6 @@
 package handlers.voicedcommandhandlers;
 
+import com.l2jserver.gameserver.CustomImage;
 import com.l2jserver.gameserver.handler.IVoicedCommandHandler;
 import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -25,6 +26,7 @@ public class Description implements IVoicedCommandHandler {
 		} else {
 			NpcHtmlMessage html = new NpcHtmlMessage();
 			html.setHtml("<html><title>" + target.getName() + "</title><body><br>" + escapeXml(player.getDescription()) + "</body></html>");
+			CustomImage.sendPackets(activeChar, html);
 			activeChar.sendPacket(html);
 		}
 
