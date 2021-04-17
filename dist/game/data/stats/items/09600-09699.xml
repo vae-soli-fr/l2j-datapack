@@ -4,8 +4,8 @@
 		<set name="icon" val="icon.etc_hidden_1st_page_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -13,8 +13,8 @@
 		<set name="icon" val="icon.etc_hidden_2nd_page_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -22,8 +22,8 @@
 		<set name="icon" val="icon.etc_old_evil_book_piece_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
