@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>57002</npc> <!-- Interface Mammon -->
+	</npcs>
+	<!-- Tier 1 -->
+	<item>
+		<!-- Red Codran -->
+		<ingredient count="100" id="5088" />
+		<!-- Bloody Pa'agrio -->
+		<production count="50000" id="4358" />
+	</item>
+	<item>
+		<!-- Sea Codran -->
+		<ingredient count="100" id="5091" />
+		<!-- Bloody Pa'agrio -->
+		<production count="50000" id="4358" />
+	</item>
+	<item>
+		<!-- Chilly Codran -->
+		<ingredient count="100" id="5085" />
+		<!-- Bloody Pa'agrio -->
+		<production count="50000" id="4358" />
+	</item>
+	<item>
+		<!-- Blue Codran -->
+		<ingredient count="100" id="5087" />
+		<!-- Bloody Pa'agrio -->
+		<production count="50000" id="4358" />
+	</item>
+	<item>
+		<!-- Twin Codran -->
+		<ingredient count="100" id="5092" />
+		<!-- Bloody Pa'agrio -->
+		<production count="50000" id="4358" />
+	</item>
+	<!-- Tier 2 -->
+	<item>
+		<!-- Great Codran -->
+		<ingredient count="100" id="5094" />
+		<!-- Bloody Pa'agrio -->
+		<production count="75000" id="4358" />
+	</item>
+	<item>
+		<!-- Desert Codran -->
+		<ingredient count="100" id="5090" />
+		<!-- Bloody Pa'agrio -->
+		<production count="75000" id="4358" />
+	</item>
+	<item>
+		<!-- Blue Coba -->
+		<ingredient count="100" id="6541" />
+		<!-- Bloody Pa'agrio -->
+		<production count="75000" id="4358" />
+	</item>
+	<item>
+		<!-- Red Coba -->
+		<ingredient count="100" id="6542" />
+		<!-- Bloody Pa'agrio -->
+		<production count="75000" id="4358" />
+	</item>
+	<item>
+		<!-- Gold Coba -->
+		<ingredient count="100" id="6543" />
+		<!-- Bloody Pa'agrio -->
+		<production count="75000" id="4358" />
+	</item>
+	<!-- Tier 3 -->
+	<item>
+		<!-- Desert Coba -->
+		<ingredient count="100" id="6544" />
+		<!-- Bloody Pa'agrio -->
+		<production count="100000" id="4358" />
+	</item>
+	<item>
+		<!-- Sea Coba -->
+		<ingredient count="100" id="6545" />
+		<!-- Bloody Pa'agrio -->
+		<production count="100000" id="4358" />
+	</item>
+	<item>
+		<!-- Twin Coba -->
+		<ingredient count="100" id="6546" />
+		<!-- Bloody Pa'agrio -->
+		<production count="100000" id="4358" />
+	</item>
+	<item>
+		<!-- King Coba -->
+		<ingredient count="100" id="6547" />
+		<!-- Bloody Pa'agrio -->
+		<production count="100000" id="4358" />
+	</item>
+
+
+</list>

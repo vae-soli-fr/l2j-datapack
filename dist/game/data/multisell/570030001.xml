@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>57003</npc> <!-- Petit Papa Noel -->
+	</npcs>
+	<item>
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5204" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5203" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5202" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5201" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5200" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5199" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5198" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5197" />
+		<!-- Neolithic Crystal - S80 -->
+		<production count="1" id="14681" />
+		<!-- Santa's Antlers -->
+		<production count="1" id="8936" />
+		<!-- Santa's Buff Scroll Event -->
+		<production count="12" id="16408" />
+		<!-- Ancient Adena -->
+		<production count="10000000" id="5575" />
+	</item>
+	<item>
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5204" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5203" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5202" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5201" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5200" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5199" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5198" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5197" />
+		<!-- Neolithic Crystal - S -->
+		<production count="1" id="14680" />
+		<!-- Santa's Antlers -->
+		<production count="1" id="8936" />
+		<!-- Santa's Buff Scroll Event -->
+		<production count="12" id="16408" />
+		<!-- Ancient Adena -->
+		<production count="10000000" id="5575" />
+	</item>
+	<item>
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5204" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5203" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5202" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5201" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5200" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5199" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5198" />
+		<!-- Clef 1 -->
+		<ingredient count="1" id="5197" />
+		<!-- Neolithic Crystal - A -->
+		<production count="1" id="14679" />
+		<!-- Santa's Antlers -->
+		<production count="1" id="8936" />
+		<!-- Santa's Buff Scroll Event -->
+		<production count="12" id="16408" />
+		<!-- Ancient Adena -->
+		<production count="10000000" id="5575" />
+	</item>
+</list>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>57002</npc> <!-- Interface Mammon -->
+	</npcs>
+	<item>
+		<!-- Leonard -->
+		<ingredient count="3" id="9628" />
+		<!-- Adamantine -->
+		<production count="1" id="9629" />
+	</item>
+	<item>
+		<!-- Leonard -->
+		<ingredient count="15" id="9628" />
+		<!-- Adamantine -->
+		<production count="5" id="9629" />
+	</item>
+	<item>
+		<!-- Leonard -->
+		<ingredient count="30" id="9628" />
+		<!-- Adamantine -->
+		<production count="10" id="9629" />
+	</item>
+	<item>
+		<!-- Leonard -->
+		<ingredient count="1" id="9628" />
+		<!-- Orichalcum -->
+		<production count="1" id="9630" />
+	</item>
+	<item>
+		<!-- Leonard -->
+		<ingredient count="5" id="9628" />
+		<!-- Orichalcum -->
+		<production count="5" id="9630" />
+	</item>
+	<item>
+		<!-- Leonard -->
+		<ingredient count="10" id="9628" />
+		<!-- Orichalcum -->
+		<production count="10" id="9630" />
+	</item>
+	<item>
+		<!-- Adamantine -->
+		<ingredient count="1" id="9629" />
+		<!-- Leonard -->
+		<production count="3" id="9628" />
+	</item>
+	<item>
+		<!-- Adamantine -->
+		<ingredient count="5" id="9629" />
+		<!-- Leonard -->
+		<production count="15" id="9628" />
+	</item>
+	<item>
+		<!-- Adamantine -->
+		<ingredient count="5" id="9629" />
+		<!-- Leonard -->
+		<production count="15" id="9628" />
+	</item>
+	<item>
+		<!-- Adamantine -->
+		<ingredient count="1" id="9629" />
+		<!-- Orichalcum -->
+		<production count="3" id="9630" />
+	</item>
+	<item>
+		<!-- Adamantine -->
+		<ingredient count="5" id="9629" />
+		<!-- Orichalcum -->
+		<production count="15" id="9630" />
+	</item>
+	<item>
+		<!-- Adamantine -->
+		<ingredient count="10" id="9629" />
+		<!-- Orichalcum -->
+		<production count="30" id="9630" />
+	</item>
+	<item>
+		<!-- Orichalcum -->
+		<ingredient count="1" id="9630" />
+		<!-- Leonard -->
+		<production count="1" id="9628" />
+	</item>
+	<item>
+		<!-- Orichalcum -->
+		<ingredient count="5" id="9630" />
+		<!-- Leonard -->
+		<production count="5" id="9628" />
+	</item>
+	<item>
+		<!-- Orichalcum -->
+		<ingredient count="10" id="9630" />
+		<!-- Leonard -->
+		<production count="10" id="9628" />
+	</item>
+	<item>
+		<!-- Orichalcum -->
+		<ingredient count="3" id="9630" />
+		<!-- Adamantine -->
+		<production count="1" id="9629" />
+	</item>	
+	<item>
+		<!-- Orichalcum -->
+		<ingredient count="15" id="9630" />
+		<!-- Adamantine -->
+		<production count="5" id="9629" />
+	</item>	
+	<item>
+		<!-- Orichalcum -->
+		<ingredient count="30" id="9630" />
+		<!-- Adamantine -->
+		<production count="10" id="9629" />
+	</item>	
+</list>
