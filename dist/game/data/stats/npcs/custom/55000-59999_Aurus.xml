@@ -3244,19 +3244,22 @@
 		</collision>
 	</npc>
 
-	<npc id="58001" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58001" displayId="22143" level="80" type="L2Monster" name="Dynasty Guard" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9442"/> <!-- rhand: Dynasty Sword -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="13.23" sp="9470" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.75" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3264,28 +3267,67 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="5" /> <!--Blunt Weapons -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5334" level="4" /> <!--NPC(party) - Physical Single Close Range Attack -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9492" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9488" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9969" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9537" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9975" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9974" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9483" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9623" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9491" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
 		</collision>
 	</npc>
-	<npc id="58002" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58002" displayId="22143" level="80" type="L2Monster" name="Dynasty Healer" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Skill01_Probablity" value="2000" />
+			<skill name="Skill01_ID" id="4613" level="10" /> <!-- NPC Clan Heal -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9444"/> <!-- rhand: Dynasty Phantom -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="13.25646" sp="9490" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.77253215841" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="10" critical="1" accuracy="9" attackSpeed="253" type="DUALFIST" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3293,28 +3335,66 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="17" /> <!--Hand-to-hand weapons -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="4613" level="10" /> <!--NPC Clan Heal -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="10546" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9493" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="10115" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9621" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9496" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9545" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9534" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9530" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9535" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
 		</collision>
 	</npc>
-	<npc id="58003" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58003" displayId="22143" level="80" type="L2Monster" name="Dynasty Assassin" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="4579" level="9" /> <!-- Bleed -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9446"/> <!-- rhand: Dynasty Knife -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="8.673588" sp="6223" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.77253215841" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="30" critical="4" accuracy="5" attackSpeed="253" type="DUAL" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3322,28 +3402,66 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="11" /> <!--HP Increase (3x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="19" /> <!--Dual-Sword Weapons -->
+			<skill id="4416" level="9" /> <!--Demons -->
+			<skill id="4579" level="9" /> <!--Bleed -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="10547" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9970" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="10544" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9992" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9620" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9495" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9487" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9972" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9987" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
 		</collision>
 	</npc>
-	<npc id="58004" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58004" displayId="22143" level="80" type="L2Monster" name="Dynasty Warrior" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9447"/> <!-- rhand: Dynasty Halberd -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="11.637108" sp="8361" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.77253215841" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3351,28 +3469,66 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4408" level="12" /> <!--HP Increase (4x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!--Extremely Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5334" level="4" /> <!--NPC(party) - Physical Single Close Range Attack -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
+		<status showName="true" />
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9543" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9618" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9489" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9532" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9617" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9544" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9531" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9533" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="10114" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
 		</collision>
 	</npc>
-	<npc id="58005" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58005" displayId="22143" level="80" type="L2Monster" name="Dynasty Destroyer" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9448"/> <!-- rhand: Dynasty Cudgel -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="11.637108" sp="8361" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.77253215841" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3380,28 +3536,71 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="12" /> <!--HP Increase (4x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="18" /> <!--Extremely Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5334" level="4" /> <!--NPC(party) - Physical Single Close Range Attack -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9968" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9971" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9539" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9482" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9485" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9538" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9490" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9993" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9991" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
 		</collision>
 	</npc>
-	<npc id="58006" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58006" displayId="22143" level="80" type="L2Monster" name="Dynasty Guide" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<param name="Skill02_Target" value="2" />
+			<param name="Skill03_Type" value="2" />
+			<skill name="Skill01_ID" id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
+			<skill name="Skill02_ID" id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
+			<skill name="Skill03_ID" id="4046" level="10" /> <!-- Sleep -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="9449"/> <!-- rhand: Dynasty Mace -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="8.448678" sp="6053" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.77253215841" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="10" critical="1" accuracy="9" attackSpeed="253" type="DUALFIST" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3409,28 +3608,73 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status showName="true" />
+		<skillList>
+			<skill id="4046" level="10" /> <!--Sleep -->
+			<skill id="4408" level="11" /> <!--HP Increase (3x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="17" /> <!--Hand-to-hand weapons -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5374" level="4" /> <!--NPC(party) -Magic Range Long Range DD - Fire -->
+			<skill id="5375" level="4" /> <!--NPC(party) -Magic Range Close Range DD - Fire -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9973" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9986" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9497" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9494" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9484" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9622" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9619" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9542" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9541" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
 		</collision>
 	</npc>
-	<npc id="58007" displayId="22143" level="78" type="L2Monster" name="Dynasty Guard">
+	<npc id="58007" displayId="22143" level="80" type="L2Monster" name="Dynasty Shaman" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="Skill02_Target" value="2" />
+			<param name="Skill03_Target" value="2" />
+			<param name="Skill03_Type" value="1" />
+			<skill name="Skill01_ID" id="5374" level="4" /> <!-- NPC(party) -Magic Range Long Range DD - Fire -->
+			<skill name="Skill02_ID" id="5375" level="4" /> <!-- NPC(party) -Magic Range Close Range DD - Fire -->
+			<skill name="Skill03_ID" id="4608" level="2" /> <!-- NPC Clan Buff - Berserk -->
+		</parameters>
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="10252"/> <!-- rhand: Dynasty Staff -->
-		<acquire expRate="6.43222879684418" sp="4296" />
+		<acquire expRate="10.896228" sp="7803" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3010.8929976" hpRegen="8.772" mp="1777.86" mpRegen="3.1008" />
-			<attack physical="961.93701102" magical="677.644106544" random="30" critical="4" accuracy="4" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
-			<defence physical="361.0859925" magical="264.22705872" evasion="4" />
+			<vitals hp="2625.77253215841" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
 			<attribute>
-				<attack type="DARK" value="20" />
-				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="80" />
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
 			</attribute>
 			<speed>
 				<walk ground="60" />
@@ -3438,13 +3682,61 @@
 			</speed>
 			<hitTime>430</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="12" /> <!--HP Increase (4x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="4608" level="2" /> <!--NPC Clan Buff - Berserk -->
+			<skill id="5374" level="4" /> <!--NPC(party) -Magic Range Long Range DD - Fire -->
+			<skill id="5375" level="4" /> <!--NPC(party) -Magic Range Close Range DD - Fire -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
 		<exCrtEffect>false</exCrtEffect>
 		<sNpcPropHpRate>5</sNpcPropHpRate>
-		<ai aggroRange="300" clanHelpRange="300"/>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9486" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9616" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9536" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9624" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9985" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9540" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="10545" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9967" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+			</corpse>
+		</dropLists>
 		<collision>
 			<radius normal="7.7" />
 			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58008" displayId="31748" level="70" type="L2Npc" name="en RP (oust)" usingServerSideName="true" title="Zone non accessible" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="21" />
 		</collision>
 	</npc>
 </list>
