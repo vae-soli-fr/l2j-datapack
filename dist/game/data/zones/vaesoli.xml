@@ -88,14 +88,6 @@
 		<node X="116977" Y="-178211" />
 		<node X="116142" Y="-178429" />
 	</zone>
-	<zone name="oren_town_root1" type="EffectZone" shape="NPoly" minZ="-1822" maxZ="-1022"> <!-- [22_19] -->
-		<stat name="skillIdLvl" val="4148-12;" />
-		<stat name="reuse" val="3000" />
-		<node X="78900" Y="52076" />
-		<node X="84126" Y="52049" />
-		<node X="84099" Y="57117" />
-		<node X="78872" Y="57144" />
-	</zone>
 	<zone name="ivory_tower_root1" type="EffectZone" shape="NPoly" minZ="-4652" maxZ="347"> <!-- [22_18] -->
 		<stat name="skillIdLvl" val="4148-12;" />
 		<stat name="reuse" val="3000" />
