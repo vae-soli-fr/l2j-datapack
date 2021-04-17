@@ -13,4 +13,17 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="false" />
 	</item>
+	<item id="55999" type="EtcItem" name="Dynasty Symbol">
+		<set name="displayId" val="13063" />
+		<set name="icon" val="icon.etc_gateleeper_stick_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
 </list>

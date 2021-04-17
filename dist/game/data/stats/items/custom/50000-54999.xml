@@ -38,7 +38,7 @@
 			<player flyMounted="false" />
 		</cond>
 	</item>
-	<item id="50002" type="EtcItem" name="Mahum contrat">
+	<item id="50002" type="EtcItem" name="Garde Pourpre contrat">
 		<set name="displayId" val="6648" />
 		<set name="icon" val="icon.pet_controler_i01" />
 		<set name="default_action" val="SKILL_MAINTAIN" />
