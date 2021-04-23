@@ -3,7 +3,6 @@
 	<npcs>
 		<npc>30516</npc> <!-- Reep -->
 	</npcs>
-	<!-- No grade Weapon Fighter -->
 	<item id="1" /> <!-- Short Sword -->
 	<item id="4" /> <!-- Club -->
 	<item id="11" /> <!-- Bone Dagger -->
@@ -27,20 +26,4 @@
 	<item id="272" /> <!-- Forest Bow -->
 	<item id="15" /> <!-- Short Spear -->
 	<item id="5284" /> <!-- Zweihander -->
-	<!-- D grade Weapon Fighter -->
-	<item id="2499" /> <!-- Elven Long Sword -->
-	<item id="130" /> <!-- Elven Sword -->
-	<item id="69" /> <!-- Bastard Sword -->
-	<item id="70" /> <!-- Claymore -->
-	<item id="158" /> <!-- Tarbar -->
-	<item id="168" /> <!-- Work Hammer -->
-	<item id="225" /> <!-- Mithril Dagger -->
-	<item id="276" /> <!-- Elven Bow -->
-	<item id="280" /> <!-- Light Crossbow -->
-	<item id="258" /> <!-- Bagh-Nakh -->
-	<item id="296" /> <!-- Dwarven Pike -->
-	<item id="93" /> <!-- Winged Spear -->
-	<item id="246" /> <!-- Human Fighter Fist -->
-	<item id="291" /> <!-- Trident -->
-	<item id="220" /> <!-- Crafted Dagger -->
 </list>
