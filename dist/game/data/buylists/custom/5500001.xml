@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/buylist.xsd">
-	<npcs>
-		<!-- Gludin -->
-		<npc>30208</npc> <!-- Damion -->
-		<!-- Gludio -->
-		<npc>30253</npc> <!-- Simplon -->
-		<!-- Althena -->
-		<npc>30002</npc> <!-- Jackson -->
-		<!-- Shel'Oloth -->
-		<npc>30136</npc> <!-- Payne -->
-		<!-- Dion -->
-		<npc>30061</npc> <!-- Casey -->
-		<!-- Hindemith -->
-		<npc>30517</npc> <!-- Shari -->	
-		<!-- Naargdum -->
-		<npc>30559</npc> <!-- Kunai -->
-		<!-- Cefedellen -->
-		<npc>30148</npc> <!-- Ariel -->
-		<!-- Gevurah -->
-		<npc>32165</npc> <!-- Zakone -->	
-		<!-- Hunter village -->
-		<npc>30230</npc> <!-- Edroc -->
-		<!-- Giran -->
-		<npc>30087</npc> <!-- Peta -->
-		<!-- Aden -->
-		<npc>30838</npc> <!-- Woodley -->
-		<!-- Goddard -->
-		<npc>31258</npc> <!-- Helmut -->
-		<npc>31259</npc> <!-- Janne -->
-		<!-- Rune -->
-		<npc>31302</npc> <!-- Vladimir -->
-		<npc>31303</npc> <!-- Alisha -->
-		<!-- Oren -->
-		<npc>30178</npc> <!-- Zenkin -->
-		<!-- Schuttgart -->
-		<npc>31947</npc> <!-- Owaki -->
-		<npc>31948</npc> <!-- Adrian -->
-		<!-- Heine -->
-		<npc>30890</npc> <!-- Espen -->
-	</npcs> 
+	<!-- Universal Armor Mage Buy List -->
 	<!-- No grade Armor Mage -->
 	<item id="462" /> <!-- Stockings -->
 	<item id="426" /> <!-- Tunic -->
@@ -90,4 +52,6 @@
 	<item id="629" /> <!-- Kite Shield -->
 	<item id="2493" /> <!-- Brigandine Shield -->
 	<item id="2494" /> <!-- Plate Shield -->
+	<!-- C grade Armor Mage -->
+	<!-- TODO -->
 </list>
