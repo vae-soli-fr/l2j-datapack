@@ -53,5 +53,17 @@
 	<item id="2493" /> <!-- Brigandine Shield -->
 	<item id="2494" /> <!-- Plate Shield -->
 	<!-- C grade Armor Mage -->
-	<!-- TODO -->
+	<item id="439" /> <!-- Karmian Tunic -->
+	<item id="471" /> <!-- Karmian Stockings -->
+	<item id="2430" /> <!-- Karmian Boots -->
+	<item id="2454" /> <!-- Karmian Gloves -->
+	<item id="440" /> <!-- Robe of Seal -->
+	<item id="472" /> <!-- Demon's Stockings -->
+	<item id="441" /> <!-- Demon's Tunic -->
+	<item id="2435" /> <!-- Demon's Boots -->
+	<item id="2459" /> <!-- Demon's Gloves -->
+	<item id="473" /> <!-- Divine Stockings -->
+	<item id="442" /> <!-- Divine Tunic -->
+	<item id="603" /> <!-- Divine Boots -->
+	<item id="2463" /> <!-- Divine Gloves -->
 </list>
