@@ -61,5 +61,21 @@
 	<item id="2493" /> <!-- Brigandine Shield -->
 	<item id="2494" /> <!-- Plate Shield -->
 	<!-- C grade Armor Fighter -->
-	<!-- TODO -->
+	<item id="354" /> <!-- Chain Mail Shirt -->
+	<item id="381" /> <!-- Chain Gaiters -->
+	<item id="2429" /> <!-- Chain Boots -->
+	<item id="2453" /> <!-- Chain Gloves -->
+	<item id="2495" /> <!-- Chain Shield -->
+	<item id="356" /> <!-- Full Plate Armor -->
+	<item id="2497" /> <!-- Full Plate Shield -->
+	<item id="2414" /> <!-- Full Plate Helmet -->
+	<item id="2462" /> <!-- Full Plate Gauntlets -->
+	<item id="2438" /> <!-- Full Plate Boots -->
+	<item id="62" /> <!-- Reinforced Mithril Boots -->
+	<item id="2387" /> <!-- Reinforced Mithril Gaiters -->
+	<item id="2452" /> <!-- Reinforced Mithril Gloves -->
+	<item id="12086" /> <!-- Reinforced Mithril Shirt -->
+	<item id="401" /> <!-- Drake Leather Armor -->
+	<item id="2461" /> <!-- Drake Leather Gloves -->
+	<item id="2437" /> <!-- Drake Leather Boots -->
 </list>
