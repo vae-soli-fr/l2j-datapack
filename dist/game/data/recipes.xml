@@ -3385,6 +3385,7 @@
 		<ingredient id="1459" count="82" />
 		<ingredient id="2132" count="12" />
 		<production id="357" count="1" />
+		<productionRare id="11364" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="342" recipeId="4133" name="mk_shrnoen's_breastplate_ii" craftLevel="6" type="dwarven" successRate="100">
@@ -3396,6 +3397,7 @@
 		<ingredient id="1459" count="129" />
 		<ingredient id="2132" count="12" />
 		<production id="357" count="1" />
+		<productionRare id="11364" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="343" recipeId="4941" name="mk_shrnoen's_gaiters_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3581,6 +3583,7 @@
 		<ingredient id="1459" count="82" />
 		<ingredient id="2132" count="12" />
 		<production id="2376" count="1" />
+		<productionRare id="11376" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="358" recipeId="4141" name="mk_avadon_breastplate_ii" craftLevel="6" type="dwarven" successRate="100">
@@ -3592,6 +3595,7 @@
 		<ingredient id="1459" count="129" />
 		<ingredient id="2132" count="12" />
 		<production id="2376" count="1" />
+		<productionRare id="11376" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="359" recipeId="4945" name="mk_avadon_gaiters_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3627,6 +3631,7 @@
 		<ingredient id="1459" count="65" />
 		<ingredient id="2132" count="9" />
 		<production id="2384" count="1" />
+		<productionRare id="11354" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="362" recipeId="4143" name="mk_shrnoen's_leather_shirts_ii" craftLevel="6" type="dwarven" successRate="100">
@@ -3639,6 +3644,7 @@
 		<ingredient id="1459" count="118" />
 		<ingredient id="2132" count="9" />
 		<production id="2384" count="1" />
+		<productionRare id="11354" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="363" recipeId="4947" name="mk_shrnoen's_leather_gaiters_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3676,6 +3682,7 @@
 		<ingredient id="1459" count="95" />
 		<ingredient id="2132" count="14" />
 		<production id="2390" count="1" />
+		<productionRare id="11368" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="366" recipeId="4145" name="mk_avadon_leather_mail_ii" craftLevel="6" type="dwarven" successRate="100">
@@ -3689,6 +3696,7 @@
 		<ingredient id="1459" count="161" />
 		<ingredient id="2132" count="14" />
 		<production id="2390" count="1" />
+		<productionRare id="11368" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="367" recipeId="4949" name="mk_tunic_of_shrnoen_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3700,6 +3708,7 @@
 		<ingredient id="1459" count="65" />
 		<ingredient id="2132" count="9" />
 		<production id="2397" count="1" />
+		<productionRare id="11377" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="368" recipeId="4146" name="mk_tunic_of_shrnoen_ii" craftLevel="6" type="dwarven" successRate="100">
@@ -3712,6 +3721,7 @@
 		<ingredient id="1459" count="118" />
 		<ingredient id="2132" count="9" />
 		<production id="2397" count="1" />
+		<productionRare id="11377" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="369" recipeId="4950" name="mk_hose_of_shrnoen_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3749,6 +3759,7 @@
 		<ingredient id="1459" count="95" />
 		<ingredient id="2132" count="14" />
 		<production id="2406" count="1" />
+		<productionRare id="11369" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="372" recipeId="4148" name="mk_avadon_robe_ii" craftLevel="6" type="dwarven" successRate="100">
@@ -3762,6 +3773,7 @@
 		<ingredient id="1459" count="161" />
 		<ingredient id="2132" count="14" />
 		<production id="2406" count="1" />
+		<productionRare id="11369" count="1" rarity="25" />
 		<statUse name="MP" value="174" />
 	</item>
 	<item id="373" recipeId="4952" name="mk_avadon_circlet_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3924,6 +3936,7 @@
 		<ingredient id="1460" count="40" />
 		<ingredient id="2132" count="20" />
 		<production id="358" count="1" />
+		<productionRare id="11405" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="386" recipeId="4155" name="mk_blue_wolve's_breastplate_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -3935,6 +3948,7 @@
 		<ingredient id="1460" count="89" />
 		<ingredient id="2132" count="20" />
 		<production id="358" count="1" />
+		<productionRare id="11405" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="387" recipeId="4957" name="mk_boots_of_blessing_i" craftLevel="6" type="dwarven" successRate="100">
@@ -3996,6 +4010,7 @@
 		<ingredient id="1460" count="60" />
 		<ingredient id="2132" count="31" />
 		<production id="2381" count="1" />
+		<productionRare id="11386" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="392" recipeId="4158" name="mk_doom_plate_armor_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -4008,6 +4023,7 @@
 		<ingredient id="1460" count="136" />
 		<ingredient id="2132" count="31" />
 		<production id="2381" count="1" />
+		<productionRare id="11386" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="393" recipeId="4984" name="mk_blue_wolve's_leather_mail_i" craftLevel="7" type="dwarven" successRate="100">
@@ -4020,6 +4036,7 @@
 		<ingredient id="1460" count="48" />
 		<ingredient id="2132" count="22" />
 		<production id="2391" count="1" />
+		<productionRare id="11395" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="394" recipeId="4159" name="mk_blue_wolve's_leather_mail_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -4033,6 +4050,7 @@
 		<ingredient id="1460" count="107" />
 		<ingredient id="2132" count="22" />
 		<production id="2391" count="1" />
+		<productionRare id="11395" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="395" recipeId="4985" name="mk_leather_mail_of_doom_i" craftLevel="7" type="dwarven" successRate="100">
@@ -4045,6 +4063,7 @@
 		<ingredient id="1460" count="48" />
 		<ingredient id="2132" count="22" />
 		<production id="2392" count="1" />
+		<productionRare id="11388" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="396" recipeId="4160" name="mk_leather_mail_of_doom_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -4058,6 +4077,7 @@
 		<ingredient id="1460" count="107" />
 		<ingredient id="2132" count="22" />
 		<production id="2392" count="1" />
+		<productionRare id="11388" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="397" recipeId="4986" name="mk_blue_wolve's_tunic_i" craftLevel="7" type="dwarven" successRate="100">
@@ -4069,6 +4089,7 @@
 		<ingredient id="1460" count="32" />
 		<ingredient id="2132" count="14" />
 		<production id="2398" count="1" />
+		<productionRare id="11402" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="398" recipeId="4161" name="mk_blue_wolve's_tunic_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -4081,6 +4102,7 @@
 		<ingredient id="1460" count="73" />
 		<ingredient id="2132" count="14" />
 		<production id="2398" count="1" />
+		<productionRare id="11402" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="399" recipeId="4987" name="mk_tunic_of_doom_i" craftLevel="7" type="dwarven" successRate="100">
@@ -4092,6 +4114,7 @@
 		<ingredient id="1460" count="32" />
 		<ingredient id="2132" count="14" />
 		<production id="2399" count="1" />
+		<productionRare id="11393" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="400" recipeId="4162" name="mk_tunic_of_doom_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -4104,6 +4127,7 @@
 		<ingredient id="1460" count="73" />
 		<ingredient id="2132" count="14" />
 		<production id="2399" count="1" />
+		<productionRare id="11393" count="1" rarity="25" />
 		<statUse name="MP" value="183" />
 	</item>
 	<item id="401" recipeId="4988" name="mk_blue_wolve's_hose_i" craftLevel="7" type="dwarven" successRate="100">
@@ -5310,6 +5334,7 @@
 		<ingredient id="1460" count="37" />
 		<ingredient id="2132" count="73" />
 		<production id="5297" count="1" />
+		<productionRare id="12559" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="514" recipeId="5333" name="mk_sealed_dark_crystal_leather_mail_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -5322,6 +5347,7 @@
 		<ingredient id="1460" count="70" />
 		<ingredient id="2132" count="67" />
 		<production id="5297" count="1" />
+		<productionRare id="12559" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="515" recipeId="5334" name="mk_sealed_tallum_leather_mail_i" craftLevel="7" type="dwarven" successRate="100">
@@ -5335,6 +5361,7 @@
 		<ingredient id="1460" count="56" />
 		<ingredient id="2132" count="112" />
 		<production id="5301" count="1" />
+		<productionRare id="12570" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="516" recipeId="5335" name="mk_sealed_tallum_leather_mail_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -5348,6 +5375,7 @@
 		<ingredient id="1460" count="99" />
 		<ingredient id="2132" count="103" />
 		<production id="5301" count="1" />
+		<productionRare id="12570" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="517" recipeId="5336" name="mk_sealed_leather_mail_of_nightmare_i" craftLevel="8" type="dwarven" successRate="100">
@@ -5361,6 +5389,7 @@
 		<ingredient id="1461" count="44" />
 		<ingredient id="2133" count="17" />
 		<production id="5320" count="1" />
+		<productionRare id="12603" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="518" recipeId="5337" name="mk_sealed_leather_mail_of_nightmare_ii" craftLevel="8" type="dwarven" successRate="100">
@@ -5374,6 +5403,7 @@
 		<ingredient id="1461" count="87" />
 		<ingredient id="2133" count="17" />
 		<production id="5320" count="1" />
+		<productionRare id="12603" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="519" recipeId="5338" name="mk_sealed_majestic_leather_mail_i" craftLevel="8" type="dwarven" successRate="100">
@@ -5387,6 +5417,7 @@
 		<ingredient id="1461" count="44" />
 		<ingredient id="2133" count="17" />
 		<production id="5323" count="1" />
+		<productionRare id="12600" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="520" recipeId="5339" name="mk_sealed_majestic_leather_mail_ii" craftLevel="8" type="dwarven" successRate="100">
@@ -5400,6 +5431,7 @@
 		<ingredient id="1461" count="87" />
 		<ingredient id="2133" count="17" />
 		<production id="5323" count="1" />
+		<productionRare id="12600" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="521" recipeId="5340" name="mk_sealed_legging_of_dark_crystal_i" craftLevel="7" type="dwarven" successRate="100">
@@ -5438,6 +5470,7 @@
 		<ingredient id="1460" count="37" />
 		<ingredient id="2132" count="73" />
 		<production id="5304" count="1" />
+		<productionRare id="12569" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="524" recipeId="5347" name="mk_sealed_tallum_tunic_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -5450,6 +5483,7 @@
 		<ingredient id="1460" count="70" />
 		<ingredient id="2132" count="67" />
 		<production id="5304" count="1" />
+		<productionRare id="12569" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="525" recipeId="5348" name="mk_sealed_dark_crystal_robe_i" craftLevel="7" type="dwarven" successRate="100">
@@ -5463,6 +5497,7 @@
 		<ingredient id="1460" count="49" />
 		<ingredient id="2132" count="112" />
 		<production id="5308" count="1" />
+		<productionRare id="12560" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="526" recipeId="5349" name="mk_sealed_dark_crystal_robe_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -5476,6 +5511,7 @@
 		<ingredient id="1460" count="173" />
 		<ingredient id="2132" count="103" />
 		<production id="5308" count="1" />
+		<productionRare id="12560" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="527" recipeId="5350" name="mk_sealed_robe_of_nightmare_i" craftLevel="8" type="dwarven" successRate="100">
@@ -5489,6 +5525,7 @@
 		<ingredient id="1461" count="53" />
 		<ingredient id="2133" count="17" />
 		<production id="5326" count="1" />
+		<productionRare id="12604" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="528" recipeId="5351" name="mk_sealed_robe_of_nightmare_ii" craftLevel="8" type="dwarven" successRate="100">
@@ -5502,6 +5539,7 @@
 		<ingredient id="1461" count="87" />
 		<ingredient id="2133" count="17" />
 		<production id="5326" count="1" />
+		<productionRare id="12604" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="529" recipeId="5352" name="mk_sealed_majestic_robe_i" craftLevel="8" type="dwarven" successRate="100">
@@ -5515,6 +5553,7 @@
 		<ingredient id="1461" count="53" />
 		<ingredient id="2133" count="17" />
 		<production id="5329" count="1" />
+		<productionRare id="12597" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="530" recipeId="5353" name="mk_sealed_majestic_robe_ii" craftLevel="8" type="dwarven" successRate="100">
@@ -5528,6 +5567,7 @@
 		<ingredient id="1461" count="87" />
 		<ingredient id="2133" count="17" />
 		<production id="5329" count="1" />
+		<productionRare id="12597" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="531" recipeId="5354" name="mk_sealed_tallum_hose_i" craftLevel="7" type="dwarven" successRate="100">
@@ -5829,6 +5869,7 @@
 		<ingredient id="1460" count="40" />
 		<ingredient id="2132" count="101" />
 		<production id="5287" count="1" />
+		<productionRare id="12564" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="554" recipeId="5417" name="mk_sealed_dark_crystal_breastplate_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -5840,6 +5881,7 @@
 		<ingredient id="1460" count="80" />
 		<ingredient id="2132" count="93" />
 		<production id="5287" count="1" />
+		<productionRare id="12564" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="555" recipeId="5418" name="mk_sealed_tallum_plate_armor_i" craftLevel="7" type="dwarven" successRate="100">
@@ -5852,6 +5894,7 @@
 		<ingredient id="1460" count="63" />
 		<ingredient id="2132" count="156" />
 		<production id="5293" count="1" />
+		<productionRare id="12567" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="556" recipeId="5419" name="mk_sealed_tallum_plate_armor_ii" craftLevel="7" type="dwarven" successRate="100">
@@ -5864,6 +5907,7 @@
 		<ingredient id="1460" count="118" />
 		<ingredient id="2132" count="142" />
 		<production id="5293" count="1" />
+		<productionRare id="12567" count="1" rarity="25" />
 		<statUse name="MP" value="192" />
 	</item>
 	<item id="557" recipeId="5420" name="mk_sealed_armor_of_nightmare_i" craftLevel="8" type="dwarven" successRate="100">
@@ -5876,6 +5920,7 @@
 		<ingredient id="1461" count="61" />
 		<ingredient id="2133" count="23" />
 		<production id="5311" count="1" />
+		<productionRare id="12601" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="558" recipeId="5421" name="mk_sealed_armor_of_nightmare_ii" craftLevel="8" type="dwarven" successRate="100">
@@ -5888,6 +5933,7 @@
 		<ingredient id="1461" count="104" />
 		<ingredient id="2133" count="23" />
 		<production id="5311" count="1" />
+		<productionRare id="12601" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="559" recipeId="5422" name="mk_sealed_majestic_platte_armor_i" craftLevel="8" type="dwarven" successRate="100">
@@ -5900,6 +5946,7 @@
 		<ingredient id="1461" count="61" />
 		<ingredient id="2133" count="23" />
 		<production id="5316" count="1" />
+		<productionRare id="12596" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="560" recipeId="5423" name="mk_sealed_majestic_platte_armor_ii" craftLevel="8" type="dwarven" successRate="100">
@@ -5912,6 +5959,7 @@
 		<ingredient id="1461" count="104" />
 		<ingredient id="2133" count="23" />
 		<production id="5316" count="1" />
+		<productionRare id="12596" count="1" rarity="25" />
 		<statUse name="MP" value="201" />
 	</item>
 	<item id="561" recipeId="5424" name="mk_sealed_dark_crystal_gaiters_i" craftLevel="7" type="dwarven" successRate="100">
@@ -7132,6 +7180,7 @@
 		<ingredient id="1462" count="62" />
 		<ingredient id="2134" count="11" />
 		<production id="6674" count="1" />
+		<productionRare id="6674" count="1" rarity="25" />
 		<statUse name="MP" value="225" />
 	</item>
 	<item id="653" recipeId="6854" name="mk_sealed_imperial_crusader_armor_ii" craftLevel="9" type="dwarven" successRate="100">
@@ -7143,6 +7192,7 @@
 		<ingredient id="1462" count="117" />
 		<ingredient id="2134" count="11" />
 		<production id="6674" count="1" />
+		<productionRare id="6674" count="1" rarity="25" />
 		<statUse name="MP" value="225" />
 	</item>
 	<item id="654" recipeId="6855" name="mk_sealed_imperial_crusader_gaiters_i" craftLevel="9" type="dwarven" successRate="100">
@@ -7284,6 +7334,7 @@
 		<ingredient id="1462" count="75" />
 		<ingredient id="2134" count="14" />
 		<production id="6680" count="1" />
+		<productionRare id="12632" count="1" rarity="25" />
 		<statUse name="MP" value="225" />
 	</item>
 	<item id="665" recipeId="6866" name="mk_sealed_draconic_leather_armor_ii" craftLevel="9" type="dwarven" successRate="100">
@@ -7297,6 +7348,7 @@
 		<ingredient id="1462" count="144" />
 		<ingredient id="2134" count="14" />
 		<production id="6680" count="1" />
+		<productionRare id="12632" count="1" rarity="25" />
 		<statUse name="MP" value="225" />
 	</item>
 	<item id="666" recipeId="6867" name="mk_sealed_draconic_leather_gloves_i" craftLevel="9" type="dwarven" successRate="100">
@@ -9438,6 +9490,7 @@
 		<ingredient id="1462" count="98" />
 		<ingredient id="2134" count="20" />
 		<production id="9514" count="1" />
+		<productionRare id="12703" count="1" rarity="25" />
 		<statUse name="MP" value="240" />
 	</item>
 	<item id="882" recipeId="9483" name="mk_sealed_dynasty_gaiter_i" craftLevel="9" type="dwarven" successRate="100">
@@ -9505,6 +9558,7 @@
 		<ingredient id="1462" count="67" />
 		<ingredient id="2134" count="14" />
 		<production id="9519" count="1" />
+		<productionRare id="12699" count="1" rarity="25" />
 		<statUse name="MP" value="240" />
 	</item>
 	<item id="887" recipeId="9488" name="mk_sealed_dynasty_leather_legging_i" craftLevel="9" type="dwarven" successRate="100">
@@ -9573,6 +9627,7 @@
 		<ingredient id="1462" count="67" />
 		<ingredient id="2134" count="14" />
 		<production id="9524" count="1" />
+		<productionRare id="12707" count="1" rarity="25" />
 		<statUse name="MP" value="240" />
 	</item>
 	<item id="892" recipeId="9493" name="mk_sealed_dynasty_hose_i" craftLevel="9" type="dwarven" successRate="100">
@@ -10085,6 +10140,7 @@
 		<ingredient id="1462" count="145" />
 		<ingredient id="2134" count="25" />
 		<production id="15697" count="1" />
+		<productionRare id="16224" count="1" rarity="25" />
 		<statUse name="MP" value="246" />
 	</item>
 	<item id="941" recipeId="15779" name="mk_sealed_destino_houberk" craftLevel="9" type="dwarven" successRate="100">
@@ -10098,6 +10154,7 @@
 		<ingredient id="1462" count="110" />
 		<ingredient id="2134" count="19" />
 		<production id="15698" count="1" />
+		<productionRare id="16225" count="1" rarity="25" />
 		<statUse name="MP" value="246" />
 	</item>
 	<item id="942" recipeId="15780" name="mk_sealed_destino_jaket" craftLevel="9" type="dwarven" successRate="100">
@@ -10111,6 +10168,7 @@
 		<ingredient id="1462" count="110" />
 		<ingredient id="2134" count="19" />
 		<production id="15699" count="1" />
+		<productionRare id="16226" count="1" rarity="25" />
 		<statUse name="MP" value="246" />
 	</item>
 	<item id="943" recipeId="15781" name="mk_sealed_destino_gaiter" craftLevel="9" type="dwarven" successRate="100">
@@ -10317,6 +10375,7 @@
 		<ingredient id="1462" count="201" />
 		<ingredient id="2134" count="35" />
 		<production id="14105" count="1" />
+		<productionRare id="14105" count="1" rarity="25" />
 		<statUse name="MP" value="252" />
 	</item>
 	<item id="958" recipeId="15796" name="mk_sealed_vesper_houberk" craftLevel="10" type="dwarven" successRate="100">
@@ -10330,6 +10389,7 @@
 		<ingredient id="1462" count="152" />
 		<ingredient id="2134" count="26" />
 		<production id="14106" count="1" />
+		<productionRare id="16344" count="1" rarity="25" />
 		<statUse name="MP" value="252" />
 	</item>
 	<item id="959" recipeId="15797" name="mk_sealed_vesper_jaket" craftLevel="10" type="dwarven" successRate="100">
@@ -10343,6 +10403,7 @@
 		<ingredient id="1462" count="152" />
 		<ingredient id="2134" count="26" />
 		<production id="14107" count="1" />
+		<productionRare id="14107" count="1" rarity="25" />
 		<statUse name="MP" value="252" />
 	</item>
 	<item id="960" recipeId="15798" name="mk_sealed_vesper_gaiter" craftLevel="10" type="dwarven" successRate="100">

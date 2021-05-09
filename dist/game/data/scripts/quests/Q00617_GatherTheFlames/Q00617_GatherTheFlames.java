@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -21,7 +21,6 @@ package quests.Q00617_GatherTheFlames;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.l2jserver.gameserver.enums.QuestSound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -159,8 +158,10 @@ public class Q00617_GatherTheFlames extends Quest
 			return super.onKill(npc, player, isSummon);
 		}
 		final QuestState st = getQuestState(partyMember, false);
-		if(st!=null)
+		if (st != null)
+		{
 			st.giveItemRandomly(npc,TORCH,1,2,0,MOBS.get(npc.getId()).doubleValue()/1000,true);
+		}
 		return super.onKill(npc, player, isSummon);
 	}
 	

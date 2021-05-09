@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -18,10 +18,9 @@
  */
 package ai.group_template;
 
-import ai.npc.AbstractNpcAI;
-
 import com.l2jserver.Config;
 import com.l2jserver.gameserver.data.xml.impl.NpcData;
+import com.l2jserver.gameserver.model.L2Object;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.L2Playable;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -30,6 +29,8 @@ import com.l2jserver.gameserver.model.holders.SkillHolder;
 import com.l2jserver.gameserver.model.skills.Skill;
 import com.l2jserver.gameserver.util.Util;
 
+import ai.npc.AbstractNpcAI;
+
 /**
  * Range Guard AI.
  * @author St3eT.
@@ -37,7 +38,7 @@ import com.l2jserver.gameserver.util.Util;
 public final class RangeGuard extends AbstractNpcAI
 {
 	// Skill
-	private static SkillHolder ULTIMATE_DEFENSE = new SkillHolder(5044, 3); // NPC Ultimate Defense
+	private static final SkillHolder ULTIMATE_DEFENSE = new SkillHolder(5044, 3); // NPC Ultimate Defense
 	//@formatter:off
 	private static final int[] NOT_ALLOWED_SKILLS =
 	{
@@ -108,8 +109,10 @@ public final class RangeGuard extends AbstractNpcAI
 		}
 		else if ((distance > Config.RANGE_GUARD_MIN_DISTANCE) && !npc.isSkillDisabled(ULTIMATE_DEFENSE.getSkillId()) && !((skill != null) && Util.contains(NOT_ALLOWED_SKILLS, skill.getId())) && (getRandom(100) < longRangeGuardRate))
 		{
+			final L2Object target = npc.getTarget();
 			npc.setTarget(npc);
 			npc.doCast(ULTIMATE_DEFENSE.getSkill());
+			npc.setTarget(target);
 		}
 		return super.onAttack(npc, attacker, damage, isSummon, skill);
 	}

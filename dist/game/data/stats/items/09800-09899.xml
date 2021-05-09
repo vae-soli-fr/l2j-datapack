@@ -925,22 +925,22 @@
 	<item id="9850" type="EtcItem" name="Basic Caravan Certificate">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="PAPER" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="9851" type="EtcItem" name="Standard Caravan Certificate">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="PAPER" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="9852" type="EtcItem" name="Premium Caravan Certificate">
 		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="PAPER" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="9853" type="EtcItem" name="Mark of Friendship and Trust">

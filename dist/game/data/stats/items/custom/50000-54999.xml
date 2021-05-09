@@ -2,7 +2,6 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
 	<item id="50000" type="EtcItem" name="Solina contrat">
 		<set name="displayId" val="6648" />
-		<set name="name" val="Contrat de Solina" />
 		<set name="icon" val="icon.pet_controler_i01" />
 		<set name="default_action" val="SKILL_MAINTAIN" />
 		<set name="etcitem_type" val="PET_COLLAR" />
@@ -22,7 +21,6 @@
 	</item>
 	<item id="50001" type="EtcItem" name="Mahum contrat">
 		<set name="displayId" val="6648" />
-		<set name="name" val="Contrat de Mahum" />
 		<set name="icon" val="icon.pet_controler_i01" />
 		<set name="default_action" val="SKILL_MAINTAIN" />
 		<set name="etcitem_type" val="PET_COLLAR" />
@@ -42,7 +40,6 @@
 	</item>
 	<item id="50002" type="EtcItem" name="Garde Pourpre contrat">
 		<set name="displayId" val="6648" />
-		<set name="name" val="Contrat de Mahum" />
 		<set name="icon" val="icon.pet_controler_i01" />
 		<set name="default_action" val="SKILL_MAINTAIN" />
 		<set name="etcitem_type" val="PET_COLLAR" />

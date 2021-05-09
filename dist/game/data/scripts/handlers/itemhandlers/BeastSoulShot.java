@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -20,6 +20,7 @@ package handlers.itemhandlers;
 
 import java.util.logging.Level;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.enums.ShotType;
 import com.l2jserver.gameserver.handler.IItemHandler;
 import com.l2jserver.gameserver.model.actor.L2Playable;
@@ -103,7 +104,16 @@ public class BeastSoulShot implements IItemHandler
 		activeOwner.sendPacket(sm);
 		
 		activeOwner.sendPacket(SystemMessageId.PET_USE_SPIRITSHOT);
-		Broadcast.toSelfAndKnownPlayersInRadius(activeOwner, new MagicSkillUse(activeOwner.getSummon(), activeOwner.getSummon(), skills[0].getSkillId(), skills[0].getSkillLvl(), 0, 0), 600);
+
+		MagicSkillUse msu = new MagicSkillUse(activeOwner.getSummon(), activeOwner.getSummon(), skills[0].getSkillId(), skills[0].getSkillLvl(), 0, 0);
+
+		if (Config.DECREASE_BANDWIDTH_USAGE) {
+			activeOwner.sendPacket(msu);
+
+		} else {
+			Broadcast.toSelfAndKnownPlayersInRadius(activeOwner, msu, 600);
+		}
+
 		return true;
 	}
 }

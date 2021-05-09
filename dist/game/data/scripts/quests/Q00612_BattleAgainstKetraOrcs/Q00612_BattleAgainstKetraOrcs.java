@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -21,7 +21,6 @@ package quests.Q00612_BattleAgainstKetraOrcs;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.l2jserver.gameserver.enums.QuestSound;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.quest.Quest;
@@ -111,9 +110,15 @@ public class Q00612_BattleAgainstKetraOrcs extends Quest
 	public String onKill(L2Npc npc, L2PcInstance killer, boolean isSummon)
 	{
 		final L2PcInstance member = getRandomPartyMember(killer, 1);
+		if (member == null)
+		{
+			return super.onKill(npc, killer, isSummon);
+		}
 		final QuestState st = getQuestState(member, false);
-		if(st!=null)
+		if (st != null)
+		{
 			st.giveItemRandomly(npc, MOLAR, 1, 0, MOBS.get(npc.getId()).doubleValue() / 1000, true);
+		}
 		return super.onKill(npc, killer, isSummon);
 	}
 	

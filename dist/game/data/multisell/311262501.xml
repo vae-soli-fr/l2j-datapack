@@ -3189,7 +3189,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Periel Sword - Focus -->
 		<production count="1" id="15830" />
 	</item>
@@ -3199,7 +3199,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Periel Sword - Haste -->
 		<production count="1" id="15831" />
 	</item>
@@ -3209,7 +3209,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Periel Sword - Health -->
 		<production count="1" id="15829" />
 	</item>
@@ -3219,7 +3219,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Skull Edge - Haste -->
 		<production count="1" id="15833" />
 	</item>
@@ -3229,7 +3229,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Skull Edge - Critical Damage -->
 		<production count="1" id="15834" />
 	</item>
@@ -3239,7 +3239,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Skull Edge - HP Drain -->
 		<production count="1" id="15832" />
 	</item>
@@ -3249,7 +3249,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Vigwik Axe - HP Regeneration -->
 		<production count="1" id="15836" />
 	</item>
@@ -3259,7 +3259,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Vigwik Axe - HP Drain -->
 		<production count="1" id="15837" />
 	</item>
@@ -3269,7 +3269,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Vigwik Axe - Health -->
 		<production count="1" id="15835" />
 	</item>
@@ -3279,7 +3279,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Devilish Maul - HP Drain -->
 		<production count="1" id="15839" />
 	</item>
@@ -3289,7 +3289,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Devilish Maul - HP Regeneration -->
 		<production count="1" id="15840" />
 	</item>
@@ -3299,7 +3299,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Devilish Maul - Health -->
 		<production count="1" id="15838" />
 	</item>
@@ -3309,7 +3309,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Feather Eye Blade - Focus -->
 		<production count="1" id="15842" />
 	</item>
@@ -3319,7 +3319,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Feather Eye Blade - Haste -->
 		<production count="1" id="15843" />
 	</item>
@@ -3329,7 +3329,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Feather Eye Blade - Health -->
 		<production count="1" id="15841" />
 	</item>
@@ -3339,7 +3339,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Octo Claw - Critical Stun -->
 		<production count="1" id="15845" />
 	</item>
@@ -3349,7 +3349,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Octo Claw - Focus -->
 		<production count="1" id="15846" />
 	</item>
@@ -3359,7 +3359,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Octo Claw - Health -->
 		<production count="1" id="15844" />
 	</item>
@@ -3369,7 +3369,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Doubletop Spear - Haste -->
 		<production count="1" id="15848" />
 	</item>
@@ -3379,7 +3379,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Doubletop Spear - Health -->
 		<production count="1" id="15849" />
 	</item>
@@ -3389,7 +3389,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Doubletop Spear - Guidance -->
 		<production count="1" id="15847" />
 	</item>
@@ -3399,7 +3399,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Rising Star - Mana Up -->
 		<production count="1" id="15851" />
 	</item>
@@ -3409,7 +3409,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Rising Star - Acumen -->
 		<production count="1" id="15852" />
 	</item>
@@ -3419,7 +3419,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Rising Star - MP Regeneration -->
 		<production count="1" id="15850" />
 	</item>
@@ -3429,7 +3429,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Black Visage - Magic Hold -->
 		<production count="1" id="15854" />
 	</item>
@@ -3439,7 +3439,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Black Visage - Empower -->
 		<production count="1" id="15855" />
 	</item>
@@ -3449,7 +3449,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Black Visage - MP Regeneration -->
 		<production count="1" id="15853" />
 	</item>
@@ -3459,7 +3459,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Veniplant Sword - Magic Hold -->
 		<production count="1" id="15857" />
 	</item>
@@ -3469,7 +3469,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Veniplant Sword - Mana Up -->
 		<production count="1" id="15858" />
 	</item>
@@ -3479,7 +3479,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Veniplant Sword - Acumen -->
 		<production count="1" id="15856" />
 	</item>
@@ -3489,7 +3489,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Skull Carnium Bow - Critical Slow -->
 		<production count="1" id="15860" />
 	</item>
@@ -3499,7 +3499,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Skull Carnium Bow - Cheap Shot -->
 		<production count="1" id="15861" />
 	</item>
@@ -3509,7 +3509,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Skull Carnium Bow - Focus -->
 		<production count="1" id="15859" />
 	</item>
@@ -3519,7 +3519,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Gemtail Rapier - Focus -->
 		<production count="1" id="15863" />
 	</item>
@@ -3529,7 +3529,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Gemtail Rapier - Haste -->
 		<production count="1" id="15864" />
 	</item>
@@ -3539,7 +3539,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Gemtail Rapier - Health -->
 		<production count="1" id="15862" />
 	</item>
@@ -3549,7 +3549,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Finale Blade - Focus -->
 		<production count="1" id="15866" />
 	</item>
@@ -3559,7 +3559,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Finale Blade - Haste -->
 		<production count="1" id="15867" />
 	</item>
@@ -3569,7 +3569,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Finale Blade - Health -->
 		<production count="1" id="15865" />
 	</item>
@@ -3579,7 +3579,7 @@
 		<!-- Red Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15541" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Dominion Crossbow - Critical Slow -->
 		<production count="1" id="15869" />
 	</item>
@@ -3589,7 +3589,7 @@
 		<!-- Green Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15543" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Dominion Crossbow - Cheap Shot -->
 		<production count="1" id="15870" />
 	</item>
@@ -3599,7 +3599,7 @@
 		<!-- Blue Soul Crystal - Stage 17 -->
 		<ingredient count="1" id="15542" />
 		<!-- Gemstone S -->
-		<ingredient count="1073" id="2134" />
+		<ingredient count="900" id="2134" />
 		<!-- Dominion Crossbow - Focus -->
 		<production count="1" id="15868" />
 	</item>
@@ -3609,7 +3609,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Eternal Core Sword - Health -->
 		<production count="1" id="15873" />
 	</item>
@@ -3619,7 +3619,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Eternal Core Sword - Focus -->
 		<production count="1" id="15871" />
 	</item>
@@ -3629,7 +3629,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Eternal Core Sword - Haste -->
 		<production count="1" id="15872" />
 	</item>
@@ -3639,7 +3639,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Mamba Edge - HP Drain -->
 		<production count="1" id="15876" />
 	</item>
@@ -3649,7 +3649,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Mamba Edge - Haste -->
 		<production count="1" id="15874" />
 	</item>
@@ -3659,7 +3659,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Mamba Edge - Critical Damage -->
 		<production count="1" id="15875" />
 	</item>
@@ -3669,7 +3669,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Eversor Mace - Health -->
 		<production count="1" id="15879" />
 	</item>
@@ -3679,7 +3679,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Eversor Mace - HP Regeneration -->
 		<production count="1" id="15877" />
 	</item>
@@ -3689,7 +3689,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Eversor Mace - HP Drain -->
 		<production count="1" id="15878" />
 	</item>
@@ -3699,7 +3699,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Contristo Hammer - Health -->
 		<production count="1" id="15882" />
 	</item>
@@ -3709,7 +3709,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Contristo Hammer - HP Drain -->
 		<production count="1" id="15880" />
 	</item>
@@ -3719,7 +3719,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Contristo Hammer - HP Regeneration -->
 		<production count="1" id="15881" />
 	</item>
@@ -3729,7 +3729,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Lava Saw - Health -->
 		<production count="1" id="15885" />
 	</item>
@@ -3739,7 +3739,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Lava Saw - Focus -->
 		<production count="1" id="15883" />
 	</item>
@@ -3749,7 +3749,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Lava Saw - Haste -->
 		<production count="1" id="15884" />
 	</item>
@@ -3759,7 +3759,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Jade Claw - Health -->
 		<production count="1" id="15888" />
 	</item>
@@ -3769,7 +3769,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Jade Claw - Critical Stun -->
 		<production count="1" id="15886" />
 	</item>
@@ -3779,7 +3779,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Jade Claw - Focus -->
 		<production count="1" id="15887" />
 	</item>
@@ -3789,7 +3789,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Demitelum - Guidance -->
 		<production count="1" id="15891" />
 	</item>
@@ -3799,7 +3799,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Demitelum - Haste -->
 		<production count="1" id="15889" />
 	</item>
@@ -3809,7 +3809,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Demitelum - Health -->
 		<production count="1" id="15890" />
 	</item>
@@ -3819,7 +3819,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Sacredium - MP Regeneration -->
 		<production count="1" id="15894" />
 	</item>
@@ -3829,7 +3829,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Sacredium - Mana Up -->
 		<production count="1" id="15892" />
 	</item>
@@ -3839,7 +3839,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Sacredium - Acumen -->
 		<production count="1" id="15893" />
 	</item>
@@ -3849,7 +3849,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Cyclic Cane - MP Regeneration -->
 		<production count="1" id="15897" />
 	</item>
@@ -3859,7 +3859,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Cyclic Cane - Magic Hold -->
 		<production count="1" id="15895" />
 	</item>
@@ -3869,7 +3869,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Cyclic Cane - Empower -->
 		<production count="1" id="15896" />
 	</item>
@@ -3879,7 +3879,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Archangel Sword - Acumen -->
 		<production count="1" id="15900" />
 	</item>
@@ -3889,7 +3889,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Archangel Sword - Magic Hold -->
 		<production count="1" id="15898" />
 	</item>
@@ -3899,7 +3899,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Archangel Sword - Mana Up -->
 		<production count="1" id="15899" />
 	</item>
@@ -3909,7 +3909,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Recurve Thorne Bow - Focus -->
 		<production count="1" id="15903" />
 	</item>
@@ -3919,7 +3919,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Recurve Thorne Bow - Critical Slow -->
 		<production count="1" id="15901" />
 	</item>
@@ -3929,7 +3929,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Recurve Thorne Bow - Cheap Shot -->
 		<production count="1" id="15902" />
 	</item>
@@ -3939,7 +3939,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Heavenstare Rapier - Health -->
 		<production count="1" id="15906" />
 	</item>
@@ -3949,7 +3949,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Heavenstare Rapier - Focus -->
 		<production count="1" id="15904" />
 	</item>
@@ -3959,7 +3959,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Heavenstare Rapier - Haste -->
 		<production count="1" id="15905" />
 	</item>
@@ -3969,7 +3969,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Pyseal Blade - Health -->
 		<production count="1" id="15909" />
 	</item>
@@ -3979,7 +3979,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Pyseal Blade - Focus -->
 		<production count="1" id="15907" />
 	</item>
@@ -3989,7 +3989,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Pyseal Blade - Haste -->
 		<production count="1" id="15908" />
 	</item>
@@ -3999,7 +3999,7 @@
 		<!-- Red Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15826" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Thorne Crossbow - Focus -->
 		<production count="1" id="15912" />
 	</item>
@@ -4009,7 +4009,7 @@
 		<!-- Green Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15828" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Thorne Crossbow - Critical Slow -->
 		<production count="1" id="15910" />
 	</item>
@@ -4019,7 +4019,7 @@
 		<!-- Blue Soul Crystal - Stage 18 -->
 		<ingredient count="1" id="15827" />
 		<!-- Gemstone S -->
-		<ingredient count="2022" id="2134" />
+		<ingredient count="1200" id="2134" />
 		<!-- Thorne Crossbow - Cheap Shot -->
 		<production count="1" id="15911" />
 	</item>

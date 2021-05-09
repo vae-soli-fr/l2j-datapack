@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -284,6 +284,8 @@ import handlers.voicedcommandhandlers.PetTalk;
 import handlers.voicedcommandhandlers.StatsVCmd;
 import handlers.voicedcommandhandlers.Titre;
 import handlers.voicedcommandhandlers.Wedding;
+import handlers.voicedcommandhandlers.Help;
+import handlers.voicedcommandhandlers.Dice;
 
 /**
  * Master handler.
@@ -545,6 +547,8 @@ public class MasterHandler
 			(Config.ALLOW_TITRE ? Titre.class : null),
 			(Config.ALLOW_DIDASCALIES ? Didascalies.class : null),
 			(Config.ALLOW_PET_TALK ? PetTalk.class : null),
+			(Config.ENABLE_HELP ? Help.class : null),
+			(Config.ENABLE_DICE ? Dice.class : null),
 		},
 		{
 			// Target Handlers

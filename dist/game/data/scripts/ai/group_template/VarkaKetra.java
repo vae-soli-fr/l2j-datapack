@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2015 L2J DataPack
+ * Copyright (C) 2004-2016 L2J DataPack
  * 
  * This file is part of L2J DataPack.
  * 
@@ -32,6 +32,7 @@ import quests.Q00615_MagicalPowerOfFirePart1.Q00615_MagicalPowerOfFirePart1;
 import quests.Q00616_MagicalPowerOfFirePart2.Q00616_MagicalPowerOfFirePart2;
 import ai.npc.AbstractNpcAI;
 
+import com.l2jserver.Config;
 import com.l2jserver.gameserver.model.actor.L2Attackable;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
@@ -150,6 +151,10 @@ public class VarkaKetra extends AbstractNpcAI
 	@Override
 	public void actionForEachPlayer(L2PcInstance player, L2Npc npc, boolean isSummon)
 	{
+		if (Config.VARKA_KETRA_RELAXED_ALLIANCE)
+		{
+			return;
+		}
 		if (Util.checkIfInRange(1500, player, npc, false))
 		{
 			if (Util.contains(KETRA, npc.getId()) && hasAtLeastOneQuestItem(player, KETRA_MARKS))

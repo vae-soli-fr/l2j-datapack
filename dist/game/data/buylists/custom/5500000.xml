@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/buylist.xsd">
+	<!-- Universal Armor Fighter Buy List -->
+	<!-- No grade Armor Fighter -->
+	<item id="28" /> <!-- Pants -->
+	<item id="21" /> <!-- Shirt -->
+	<item id="29" /> <!-- Leather Pants -->
+	<item id="22" /> <!-- Leather Shirt -->
+	<item id="30" /> <!-- Hard Leather Pants -->
+	<item id="2386" /> <!-- Wooden Gaiters -->
+	<item id="23" /> <!-- Wooden Breastplate -->
+	<item id="412" /> <!-- Cotton Pants -->
+	<item id="390" /> <!-- Cotton Shirt -->
+	<item id="24" /> <!-- Bone Breastplate -->
+	<item id="31" /> <!-- Bone Gaiters -->
+	<item id="18" /> <!-- Leather Shield -->
+	<item id="19" /> <!-- Small Shield -->
+	<item id="20" /> <!-- Buckler -->
+	<item id="102" /> <!-- Round Shield -->
+	<item id="48" /> <!-- Short Gloves -->
+	<item id="1119" /> <!-- Short Leather Gloves -->
+	<item id="49" /> <!-- Gloves -->
+	<item id="50" /> <!-- Leather Gloves -->
+	<item id="1121" /> <!-- Apprentice's Shoes -->
+	<item id="35" /> <!-- Cloth Shoes -->
+	<item id="36" /> <!-- Leather Sandals -->
+	<item id="1129" /> <!-- Crude Leather Shoes -->
+	<item id="1122" /> <!-- Cotton Shoes -->
+	<item id="37" /> <!-- Leather Shoes -->
+	<item id="38" /> <!-- Low Boots -->
+	<item id="41" /> <!-- Cloth Cap -->
+	<item id="42" /> <!-- Leather Cap -->
+	<item id="43" /> <!-- Wooden Helmet -->
+	<item id="44" /> <!-- Leather Helmet -->
+	<item id="9577" /> <!-- Cotton Shirt -->
+	<item id="9578" /> <!-- Linen Shirt -->
+	<item id="9583" /> <!-- Striped Cotton Shirt -->
+	<item id="9584" /> <!-- Stripe Linen Shirt -->
+	<!-- D grade Armor Fighter -->
+	<item id="395" /> <!-- Manticore Skin Shirt -->
+	<item id="417" /> <!-- Manticore Skin Gaiters -->
+	<item id="2448" /> <!-- Manticore Skin Gloves -->
+	<item id="2424" /> <!-- Manticore Skin Boots -->
+	<item id="2427" /> <!-- Salamander Skin Boots -->
+	<item id="396" /> <!-- Salamander Skin Mail -->
+	<item id="607" /> <!-- Ogre Power Gauntlets -->
+	<item id="413" /> <!-- Puma Skin Gaiters -->
+	<item id="391" /> <!-- Puma Skin Shirt -->
+	<item id="2449" /> <!-- Brigandine Gauntlets -->
+	<item id="2378" /> <!-- Brigandine Gaiters -->
+	<item id="352" /> <!-- Brigandine Tunic -->
+	<item id="2425" /> <!-- Brigandine Boots -->
+	<item id="2411" /> <!-- Brigandine Helmet -->
+	<item id="353" /> <!-- Half Plate Armor -->
+	<item id="380" /> <!-- Plate Gaiters -->
+	<item id="61" /> <!-- Mithril Plate Gloves -->
+	<item id="2412" /> <!-- Plate Helmet -->
+	<item id="348" /> <!-- Scale Mail -->
+	<item id="377" /> <!-- Scale Gaiters -->
+	<item id="629" /> <!-- Kite Shield -->
+	<item id="2493" /> <!-- Brigandine Shield -->
+	<item id="2494" /> <!-- Plate Shield -->
+	<!-- C grade Armor Fighter -->
+	<item id="354" /> <!-- Chain Mail Shirt -->
+	<item id="381" /> <!-- Chain Gaiters -->
+	<item id="2429" /> <!-- Chain Boots -->
+	<item id="2453" /> <!-- Chain Gloves -->
+	<item id="2495" /> <!-- Chain Shield -->
+	<item id="356" /> <!-- Full Plate Armor -->
+	<item id="2497" /> <!-- Full Plate Shield -->
+	<item id="2414" /> <!-- Full Plate Helmet -->
+	<item id="2462" /> <!-- Full Plate Gauntlets -->
+	<item id="2438" /> <!-- Full Plate Boots -->
+	<item id="62" /> <!-- Reinforced Mithril Boots -->
+	<item id="2387" /> <!-- Reinforced Mithril Gaiters -->
+	<item id="2452" /> <!-- Reinforced Mithril Gloves -->
+	<item id="12086" /> <!-- Reinforced Mithril Shirt -->
+	<item id="401" /> <!-- Drake Leather Armor -->
+	<item id="2461" /> <!-- Drake Leather Gloves -->
+	<item id="2437" /> <!-- Drake Leather Boots -->
+</list>
