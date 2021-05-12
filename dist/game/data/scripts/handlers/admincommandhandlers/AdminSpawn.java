@@ -61,6 +61,7 @@ public class AdminSpawn implements IAdminCommandHandler
 	{
 		"admin_show_spawns",
 		"admin_spawn",
+		"admin_spawn_lines",
 		"admin_spawn_monster",
 		"admin_spawn_index",
 		"admin_unspawnall",
@@ -245,6 +246,83 @@ public class AdminSpawn implements IAdminCommandHandler
 			QuestManager.getInstance().reloadAllScripts();
 			AdminData.getInstance().broadcastMessageToGMs("NPC Respawn completed!");
 		}
+		else if (command.startsWith("admin_spawn_lines")) {
+			StringTokenizer st = new StringTokenizer(command, " ");
+			try
+			{
+				st.nextToken(); // cmd
+				String id = st.nextToken();
+				int lines = 1;
+				int count = 5;
+				int lineHeading = 0;
+				int mobHeading = 270;
+				int gap =25;
+				int respawnTime = 0;
+				if (st.hasMoreTokens())
+				{
+					lines = Integer.parseInt(st.nextToken());
+				}
+				if (st.hasMoreTokens())
+				{
+					count = Integer.parseInt(st.nextToken());
+				}
+				if ( lines * count > 25 ) {
+					activeChar.sendMessage("No more than 25 spawns can be set at once.");
+					return true;
+				}
+				if (st.hasMoreTokens())
+				{
+					lineHeading = getHeading(st.nextToken().toUpperCase());
+					mobHeading = lineHeading - 90;
+				}
+				if (st.hasMoreTokens())
+				{
+					gap = Integer.parseInt(st.nextToken());
+				}
+				if (st.hasMoreTokens())
+				{
+					mobHeading = getHeading(st.nextToken().toUpperCase());
+				}
+				if (mobHeading < 0) {
+					mobHeading = 360 + mobHeading;
+				}
+				mobHeading = (int)((mobHeading)* 182.044444444);
+				if (st.hasMoreTokens())
+				{
+					respawnTime = Integer.parseInt(st.nextToken());
+				}
+
+				L2Object target = getTargetOrChar(activeChar);
+				int lineX = target.getX();
+				int lineY = target.getY();
+				int mobZ = target.getZ();
+				int mobsVectorX = (int) (gap*Math.cos(Math.toRadians(lineHeading)));
+				int mobsVectorY = (int) (gap*Math.sin(Math.toRadians(lineHeading)));
+				int linesVectorX = (int) (gap*Math.cos(Math.toRadians(lineHeading+90)));
+				int linesVectorY = (int) (gap*Math.sin(Math.toRadians(lineHeading+90)));
+				for (int i = 0; i < lines; i++) {
+					int mobX = lineX;
+					int mobY = lineY;
+					for (int j = 0; j < count; j++) {
+						spawnMonsterHeading(activeChar, id, respawnTime, 1, true, "line "+(i+1), mobHeading, mobX, mobY, mobZ);
+						mobX += mobsVectorX;
+						mobY += mobsVectorY;
+					}
+					lineX += linesVectorX;
+					lineY += linesVectorY;
+				}
+			}
+			catch (Exception e)
+			{ // Case of wrong or missing monster data
+				activeChar.sendMessage("Error: " + command);
+				activeChar.sendMessage("Usage: //spawn_lines mobId linesCount mobPerLines [lineHeading] [gap] [mobHeading] [respawnTime]");
+				activeChar.sendMessage("Headings are either degrees between 0 and 360 (0=EAST, clockwise) or N NE E SE S SW W NW");
+				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5");
+				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5 270 50 270");
+				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5 N 50 S");
+
+			}
+		}
 		else if (command.startsWith("admin_spawn_monster") || command.startsWith("admin_spawn"))
 		{
 			StringTokenizer st = new StringTokenizer(command, " ");
@@ -389,15 +467,50 @@ public class AdminSpawn implements IAdminCommandHandler
 				break;
 		}
 	}
-	
-	private void spawnMonster(L2PcInstance activeChar, String monsterId, int respawnTime, int mobCount, boolean permanent)
-	{
+
+	private void spawnMonster(L2PcInstance activeChar, String monsterId, int respawnTime, int mobCount, boolean permanent) {
+		L2Object target = getTargetOrChar(activeChar);
+		String targetObjectId = "" + target.getObjectId();
+		spawnMonsterHeading(activeChar, monsterId, respawnTime, mobCount, permanent, targetObjectId, activeChar.getHeading(), target.getX(), target.getY(), target.getZ());
+	}
+
+	private L2Object getTargetOrChar(L2PcInstance activeChar) {
 		L2Object target = activeChar.getTarget();
-		if (target == null)
-		{
+		if (target == null) {
 			target = activeChar;
 		}
-		
+		return target;
+	}
+
+	private int getHeading(String inputParam) {
+		int heading = 0;
+		if(inputParam.matches("[0-9]*")) {
+			heading = Integer.parseInt(inputParam);
+		} else {
+			switch (inputParam) {
+				case "N": 	heading = 270;
+							break;
+				case "NE":	heading = 315;
+							break;
+				case "E":	heading = 0;
+							break;
+				case "SE":	heading = 45;
+							break;
+				case "S":	heading = 90;
+							break;
+				case "SW":	heading = 135;
+							break;
+				case "W":	heading = 180;
+							break;
+				case "NW":	heading = 225;
+							break;
+				default:	heading = 0;
+			}
+		}
+		return heading;
+	}
+
+	private void spawnMonsterHeading(L2PcInstance activeChar, String monsterId, int respawnTime, int mobCount, boolean permanent, String targetObjectId, int heading, int x, int y, int z) {
 		L2NpcTemplate template;
 		if (monsterId.matches("[0-9]*"))
 		{
@@ -417,11 +530,11 @@ public class AdminSpawn implements IAdminCommandHandler
 			{
 				spawn.setCustom(true);
 			}
-			spawn.setX(target.getX());
-			spawn.setY(target.getY());
-			spawn.setZ(target.getZ());
+			spawn.setX(x);
+			spawn.setY(y);
+			spawn.setZ(z);
 			spawn.setAmount(mobCount);
-			spawn.setHeading(activeChar.getHeading());
+			spawn.setHeading(heading);
 			spawn.setRespawnDelay(respawnTime);
 			if (activeChar.getInstanceId() > 0)
 			{
@@ -454,7 +567,7 @@ public class AdminSpawn implements IAdminCommandHandler
 				{
 					spawn.stopRespawn();
 				}
-				activeChar.sendMessage("Created " + template.getName() + " on " + target.getObjectId());
+				activeChar.sendMessage("Created " + template.getName() + " on " + targetObjectId);
 			}
 		}
 		catch (Exception e)
