@@ -48,6 +48,7 @@ import com.l2jserver.gameserver.network.serverpackets.NpcHtmlMessage;
 import com.l2jserver.gameserver.network.serverpackets.SystemMessage;
 import com.l2jserver.gameserver.util.Broadcast;
 import com.l2jserver.util.StringUtil;
+import com.l2jserver.gameserver.util.Util;
 
 /**
  * This class handles following admin commands: - show_spawns = shows menu - spawn_index lvl = shows menu for monsters with respective level - spawn_monster id = spawns monster id on target
@@ -283,10 +284,7 @@ public class AdminSpawn implements IAdminCommandHandler
 				{
 					mobHeading = getHeading(st.nextToken().toUpperCase());
 				}
-				if (mobHeading < 0) {
-					mobHeading = 360 + mobHeading;
-				}
-				mobHeading = (int)((mobHeading)* 182.044444444);
+				mobHeading = Util.convertDegreeToClientHeading(mobHeading);
 				if (st.hasMoreTokens())
 				{
 					respawnTime = Integer.parseInt(st.nextToken());
@@ -320,7 +318,6 @@ public class AdminSpawn implements IAdminCommandHandler
 				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5");
 				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5 270 50 270");
 				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5 N 50 S");
-
 			}
 		}
 		else if (command.startsWith("admin_spawn_monster") || command.startsWith("admin_spawn"))
