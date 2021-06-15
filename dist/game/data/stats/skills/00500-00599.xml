@@ -1397,7 +1397,7 @@
 	<skill id="538" levels="1" name="Final Form">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="300" />
+		<set name="abnormalTime" val="1200" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="effectPoint" val="1" />
 		<set name="hitTime" val="2500" />
@@ -1406,7 +1406,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="70" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="3600000" />
+		<set name="reuseDelay" val="7200000" />
 		<set name="rideState" val="NONE" />
 		<set name="soulMaxConsumeCount" val="20" />
 		<set name="staticReuse" val="true" />
@@ -1477,7 +1477,7 @@
 	<skill id="541" levels="1" name="Transform Grail Apostle">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1487,7 +1487,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1503,7 +1503,7 @@
 	<skill id="542" levels="1" name="Transform Grail Apostle">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1513,7 +1513,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1529,7 +1529,7 @@
 	<skill id="543" levels="1" name="Transform Grail Apostle">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1539,7 +1539,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1555,7 +1555,7 @@
 	<skill id="544" levels="1" name="Transform Unicorn">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1565,7 +1565,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1581,7 +1581,7 @@
 	<skill id="545" levels="1" name="Transform Unicorn">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1591,7 +1591,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1607,7 +1607,7 @@
 	<skill id="546" levels="1" name="Transform Unicorn">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1617,7 +1617,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1633,7 +1633,7 @@
 	<skill id="547" levels="1" name="Transform Lilim Knight">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1643,7 +1643,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1659,7 +1659,7 @@
 	<skill id="548" levels="1" name="Transform Lilim Knight">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1669,7 +1669,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1685,7 +1685,7 @@
 	<skill id="549" levels="1" name="Transform Lilim Knight">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1695,7 +1695,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1711,7 +1711,7 @@
 	<skill id="550" levels="1" name="Transform Golem Guardian">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1721,7 +1721,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1737,7 +1737,7 @@
 	<skill id="551" levels="1" name="Transform Golem Guardian">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1747,7 +1747,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1763,7 +1763,7 @@
 	<skill id="552" levels="1" name="Transform Golem Guardian">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1773,7 +1773,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1789,7 +1789,7 @@
 	<skill id="553" levels="1" name="Transform Inferno Drake">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1799,7 +1799,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1815,7 +1815,7 @@
 	<skill id="554" levels="1" name="Transform Inferno Drake">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1825,7 +1825,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1841,7 +1841,7 @@
 	<skill id="555" levels="1" name="Transform Inferno Drake">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1851,7 +1851,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1867,7 +1867,7 @@
 	<skill id="556" levels="1" name="Transform Dragon Bomber">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1877,7 +1877,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1893,7 +1893,7 @@
 	<skill id="557" levels="1" name="Transform Dragon Bomber">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1903,7 +1903,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -1919,7 +1919,7 @@
 	<skill id="558" levels="1" name="Transform Dragon Bomber">
 		<!-- Confirmed CT2.5 -->
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="1800" />
+		<set name="abnormalTime" val="5400" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="blockedInOlympiad" val="true" />
 		<set name="effectPoint" val="1" />
@@ -1929,7 +1929,7 @@
 		<set name="magicLvl" val="-1" />
 		<set name="mpConsume" val="31" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="14400000" />
+		<set name="reuseDelay" val="18000000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />

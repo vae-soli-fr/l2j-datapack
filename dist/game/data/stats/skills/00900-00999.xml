@@ -748,7 +748,7 @@
 	</skill>
 	<skill id="929" levels="1" name="Spirit of the Cat">
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="300" />
+		<set name="abnormalTime" val="1200" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="castRange" val="600" />
 		<set name="effectPoint" val="1" />
@@ -760,7 +760,7 @@
 		<set name="mpConsume" val="58" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="3600000" />
+		<set name="reuseDelay" val="7200000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -779,7 +779,7 @@
 	</skill>
 	<skill id="930" levels="1" name="Spirit of the Demon">
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="300" />
+		<set name="abnormalTime" val="1200" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="castRange" val="600" />
 		<set name="effectPoint" val="1" />
@@ -791,7 +791,7 @@
 		<set name="mpConsume" val="58" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="3600000" />
+		<set name="reuseDelay" val="7200000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />
@@ -810,7 +810,7 @@
 	</skill>
 	<skill id="931" levels="1" name="Spirit of the Unicorn">
 		<set name="abnormalLvl" val="1" />
-		<set name="abnormalTime" val="300" />
+		<set name="abnormalTime" val="1200" />
 		<set name="abnormalType" val="TRANSFORM" />
 		<set name="castRange" val="600" />
 		<set name="effectPoint" val="1" />
@@ -822,7 +822,7 @@
 		<set name="mpConsume" val="58" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="A2" />
-		<set name="reuseDelay" val="3600000" />
+		<set name="reuseDelay" val="7200000" />
 		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
 		<set name="staticReuse" val="true" />
 		<set name="targetType" val="SELF" />

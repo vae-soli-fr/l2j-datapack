@@ -24,6 +24,7 @@ import java.util.StringTokenizer;
 import javax.script.ScriptException;
 
 import com.l2jserver.Config;
+import com.l2jserver.gameserver.ImagesManager;
 import com.l2jserver.gameserver.cache.HtmCache;
 import com.l2jserver.gameserver.data.sql.impl.CrestTable;
 import com.l2jserver.gameserver.data.sql.impl.TeleportLocationTable;
@@ -245,6 +246,12 @@ public class AdminReload implements IAdminCommandHandler
 				{
 					TransformData.getInstance().load();
 					AdminData.getInstance().broadcastMessageToGMs(activeChar.getName() + ": Reloaded transform data.");
+					break;
+				}
+				case "image":
+				{
+					ImagesManager.clearCache();
+					AdminData.getInstance().broadcastMessageToGMs(activeChar.getName() + ": Reloaded image data.");
 					break;
 				}
 				default:
