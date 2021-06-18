@@ -20,5 +20,42 @@
 			<height normal="49" />
 		</collision>
 	</npc>
-
+	<npc id="60003" displayId="32664" level="70" type="L2Npc" name="Autel d'Einhasad" usingServerSideName="true" title="" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<collision>
+			<radius normal="25" />
+			<height normal="47.5" />
+		</collision>
+	</npc>
+	<npc id="60004" displayId="148" level="80" type="L2TerrainObject" name="Timber">
+		<status canMove="false" attackable="false" targetable="true" showName="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="60005" displayId="18679" level="1" type="L2TerrainObject" name="Fire">
+		<status canMove="false" attackable="false" targetable="true" showName="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="5" />
+		</collision>
+	</npc>
+	<npc id="60006" displayId="18933" level="1" type="L2TerrainObject" name="Food">
+		<status canMove="false" attackable="false" targetable="true" showName="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="30.5" />
+		</collision>
+	</npc>
+	<npc id="60007" displayId="36590" level="1" type="L2TerrainObject" name="Tent">
+		<status canMove="false" attackable="false" targetable="true" showName="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="70" />
+		</collision>
+	</npc>
 </list>
