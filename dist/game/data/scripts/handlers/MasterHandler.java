@@ -273,19 +273,20 @@ import handlers.usercommandhandlers.SiegeStatus;
 import handlers.usercommandhandlers.Time;
 import handlers.usercommandhandlers.Unstuck;
 import handlers.voicedcommandhandlers.Banking;
+import handlers.voicedcommandhandlers.Camp;
 import handlers.voicedcommandhandlers.ChangePassword;
 import handlers.voicedcommandhandlers.ChatAdmin;
 import handlers.voicedcommandhandlers.Debug;
 import handlers.voicedcommandhandlers.Description;
+import handlers.voicedcommandhandlers.Dice;
 import handlers.voicedcommandhandlers.Didascalies;
 import handlers.voicedcommandhandlers.Fashion;
+import handlers.voicedcommandhandlers.Help;
 import handlers.voicedcommandhandlers.Lang;
 import handlers.voicedcommandhandlers.PetTalk;
 import handlers.voicedcommandhandlers.StatsVCmd;
 import handlers.voicedcommandhandlers.Titre;
 import handlers.voicedcommandhandlers.Wedding;
-import handlers.voicedcommandhandlers.Help;
-import handlers.voicedcommandhandlers.Dice;
 
 /**
  * Master handler.
@@ -549,6 +550,7 @@ public class MasterHandler
 			(Config.ALLOW_PET_TALK ? PetTalk.class : null),
 			(Config.ENABLE_HELP ? Help.class : null),
 			(Config.ENABLE_DICE ? Dice.class : null),
+			(Config.ALLOW_CAMP ? Camp.class : null),
 		},
 		{
 			// Target Handlers
