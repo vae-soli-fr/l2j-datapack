@@ -58,4 +58,11 @@
 			<height normal="70" />
 		</collision>
 	</npc>
+	<npc id="60008" displayId="16045" level="55" type="L2TerrainObject" name="Weasel">
+		<status canMove="false" attackable="false" targetable="true" showName="false" />
+		<collision>
+			<radius normal="6.5" />
+			<height normal="12.5" />
+		</collision>
+	</npc>
 </list>
