@@ -2406,7 +2406,7 @@
 			<attack physical="2000" magical="750" random="10" critical="4" accuracy="50" attackSpeed="600" reuseDelay="1500" type="SWORD" range="200" distance="10" width="0" />
 			<defence physical="1500" magical="1000" />
 			<attribute>
-				<attack type="UNHOLY" value="150" />
+				<attack type="DARK" value="150" />
 				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
 			</attribute>
 			<speed>
