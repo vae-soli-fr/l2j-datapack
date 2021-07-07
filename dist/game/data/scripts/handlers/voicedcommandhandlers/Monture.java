@@ -89,7 +89,7 @@ public class Monture implements IVoicedCommandHandler {
 				break;
 			}
 			case "sledge":
-			case "scarabe":
+			case "scarabee":
 			{
 				transformId = SLEDGE_TRANSFO_ID;
 				break;
@@ -123,7 +123,7 @@ public class Monture implements IVoicedCommandHandler {
 		}
 		else
 		{
-			activeChar.sendMessage("Usage: .monture <lion|cheval|scarabe|strider|wyvern|loup>");
+			activeChar.sendMessage("Usage: .monture <lion|cheval|scarabee|strider|wyvern|loup>");
 		}
 
 		return true;
