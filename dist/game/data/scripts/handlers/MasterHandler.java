@@ -283,6 +283,7 @@ import handlers.voicedcommandhandlers.Didascalies;
 import handlers.voicedcommandhandlers.Fashion;
 import handlers.voicedcommandhandlers.Help;
 import handlers.voicedcommandhandlers.Lang;
+import handlers.voicedcommandhandlers.Monture;
 import handlers.voicedcommandhandlers.PetTalk;
 import handlers.voicedcommandhandlers.StatsVCmd;
 import handlers.voicedcommandhandlers.Titre;
@@ -551,6 +552,7 @@ public class MasterHandler
 			(Config.ENABLE_HELP ? Help.class : null),
 			(Config.ENABLE_DICE ? Dice.class : null),
 			(Config.ALLOW_CAMP ? Camp.class : null),
+			(Config.ALLOW_RIDE ? Monture.class : null),
 		},
 		{
 			// Target Handlers
