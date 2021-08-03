@@ -12,8 +12,8 @@
 	<item id="3950"/> <!-- Blessed Spiritshot (B-Grade) -->
 	<item id="1466"/> <!-- Soulshot (A-Grade) -->
 	<item id="3951"/> <!-- Blessed Spiritshot (A-Grade) -->
-	<!-- <item id="1467"/>  Soulshot (S-Grade) -->
-	<!-- <item id="3952"/>  Blessed Spiritshot (S-Grade) -->
+	<item id="1467"/> <!-- Soulshot (S-Grade) -->
+	<item id="3952"/> <!-- Blessed Spiritshot (S-Grade) -->
 	<item id="5146"/> <!-- Compressed Package of Blessed Spiritshots: No Grade -->
 	<item id="5140"/> <!-- Compressed Package of Spiritshots: No Grade -->
 	<item id="5134"/> <!-- Compressed Package of Soulshots: No Grade -->
