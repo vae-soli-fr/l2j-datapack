@@ -743,6 +743,22 @@
 	</item>
 	<item>
 		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"Icarus Dual Sword"-->
+		<ingredient count="1" id="10415"/>
+		<!--"Periel Dual Sword"-->
+		<production count="1" id="16154"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8700" id="4355"/>
+		<!--"icarus dual daggers"-->
+		<ingredient count="1" id="13883"/>
+		<!--"skull edge dual daggers"-->
+		<production count="1" id="16152"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
 		<ingredient count="16000" id="4355"/>
 		<!--"dynasty sword"-->
 		<ingredient count="1" id="9442"/>
@@ -852,5 +868,21 @@
 		<ingredient count="1" id="9384"/>
 		<!--"thorne crossbow"-->
 		<production count="1" id="15557"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty dual sword"-->
+		<ingredient count="1" id="10004"/>
+		<!--"ethernal core dual sword"-->
+		<production count="1" id="16158"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="16000" id="4355"/>
+		<!--"dynasty dual daggers"-->
+		<ingredient count="1" id="13882"/>
+		<!--"mamba edge dual daggers"-->
+		<production count="1" id="16156"/>
 	</item>
 </list>
