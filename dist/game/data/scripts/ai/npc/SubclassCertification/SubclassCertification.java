@@ -249,8 +249,12 @@ public final class SubclassCertification extends AbstractNpcAI
 		String htmltext;
 		String tmp = variable + level + "-" + player.getClassIndex();
 		String globalVariable = qs.getGlobalQuestVar(tmp);
-		
-		if (player.getClassIndex() > Config.MAX_SUBCLASS_CERTIF || !globalVariable.equals("") && !globalVariable.equals("0"))
+
+		if (player.getClassIndex() > Config.MAX_SUBCLASS_CERTIF)
+		{
+			htmltext = "CertificationLimit.html";
+		}
+		else if (!globalVariable.equals("") && !globalVariable.equals("0"))
 		{
 			htmltext = "AlreadyReceived.html";
 		}
