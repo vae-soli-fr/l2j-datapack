@@ -69,18 +69,26 @@ public class AvantGarde extends AbstractNpcAI
 		"ClassAbility80-"
 	};
 	
-	private static final Map<String, Integer> ABILITY_CERTIFICATES = new HashMap<>();
+	private static final Map<String, Integer> CERTIFICATES = new HashMap<>();
 
 	static
 	{
-		ABILITY_CERTIFICATES.put("master", 10612); // Certificate - Master Ability
-		ABILITY_CERTIFICATES.put("warrior", 10281); // Certificate - Warrior Ability
-		ABILITY_CERTIFICATES.put("rogue", 10283); // Certificate - Rogue Ability
-		ABILITY_CERTIFICATES.put("knight", 10282); // Certificate - Knight Ability
-		ABILITY_CERTIFICATES.put("summoner", 10286); // Certificate - Summoner Ability
-		ABILITY_CERTIFICATES.put("wizard", 10284); // Certificate - Wizard Ability
-		ABILITY_CERTIFICATES.put("healer", 10285); // Certificate - Healer Ability
-		ABILITY_CERTIFICATES.put("enchanter", 10287); // Certificate - Enchanter Ability
+		CERTIFICATES.put("master", 10612); // Certificate - Master Ability
+		CERTIFICATES.put("warrior", 10281); // Certificate - Warrior Ability
+		CERTIFICATES.put("rogue", 10283); // Certificate - Rogue Ability
+		CERTIFICATES.put("knight", 10282); // Certificate - Knight Ability
+		CERTIFICATES.put("summoner", 10286); // Certificate - Summoner Ability
+		CERTIFICATES.put("wizard", 10284); // Certificate - Wizard Ability
+		CERTIFICATES.put("healer", 10285); // Certificate - Healer Ability
+		CERTIFICATES.put("enchanter", 10287); // Certificate - Enchanter Ability
+		
+		CERTIFICATES.put("divine_knight", 10288); // Sealbook - Divine Knight
+		CERTIFICATES.put("divine_warrior", 10289); // Sealbook - Divine Warrior
+		CERTIFICATES.put("divine_rogue", 10290); // Sealbook - Divine Rogue
+		CERTIFICATES.put("divine_healer", 10291); // Sealbook - Divine Healer
+		CERTIFICATES.put("divine_wizard", 10292); // Sealbook - Divine Wizard
+		CERTIFICATES.put("divine_enchanter", 10293); // Sealbook - Divine Enchanter
+		CERTIFICATES.put("divine_summoner", 10294); // Sealbook - Divine Summoner
 	}
 
 	public AvantGarde()
@@ -121,7 +129,7 @@ public class AvantGarde extends AbstractNpcAI
 			if (arr.length < 3) {
 				return "32323-01.html";
 			}
-			return switchCertification(player, ABILITY_CERTIFICATES.get(arr[1]), ABILITY_CERTIFICATES.get(arr[2]));
+			return switchCertification(player, arr[1], arr[2]);
 		}
 
 		switch (event)
@@ -135,6 +143,13 @@ public class AvantGarde extends AbstractNpcAI
 			case "32323-05no.html":
 			case "32323-06.html":
 			case "32323-06no.html":
+			case "32323-98enchanter.html":
+			case "32323-98healer.html":
+			case "32323-98knight.html":
+			case "32323-98rogue.html":
+			case "32323-98summoner.html":
+			case "32323-98warrior.html":
+			case "32323-98wizard.html":
 			case "32323-99.html":
 			case "32323-99enchanter.html":
 			case "32323-99healer.html":
@@ -323,9 +338,11 @@ public class AvantGarde extends AbstractNpcAI
 		return htmltext;
 	}
 	
-	private String switchCertification(L2PcInstance player, Integer originalCertId, Integer targetCertId)
+	private String switchCertification(L2PcInstance player, String originalCert, String targetCert)
 	{
 		QuestState st = player.getQuestState("SubClassSkills");
+		Integer originalCertId = CERTIFICATES.get(originalCert);
+		Integer targetCertId = CERTIFICATES.get(targetCert);
 
 		if (st == null || originalCertId == null || targetCertId == null) {
 			return "32323-05.html";
@@ -333,7 +350,16 @@ public class AvantGarde extends AbstractNpcAI
 
 		for (int i = 1; i <= Config.MAX_SUBCLASS_CERTIF; i++)
 		{
-			final String itemOID = st.getGlobalQuestVar("ClassAbility75-" + i);
+			final String itemOID;
+
+			if (originalCert.startsWith("divine_") || targetCert.startsWith("divine_"))
+			{
+				itemOID = st.getGlobalQuestVar("ClassAbility80-" + i);
+			}
+			else
+			{
+				itemOID = st.getGlobalQuestVar("ClassAbility75-" + i);
+			}
 
 			if (itemOID.isEmpty() || itemOID.endsWith(";") || itemOID.equals("0"))
 			{
