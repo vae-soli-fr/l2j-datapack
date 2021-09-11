@@ -348,18 +348,11 @@ public class AvantGarde extends AbstractNpcAI
 			return "32323-05.html";
 		}
 
+		boolean isDivine = (originalCert.startsWith("divine_") || targetCert.startsWith("divine_"));
+
 		for (int i = 1; i <= Config.MAX_SUBCLASS_CERTIF; i++)
 		{
-			final String itemOID;
-
-			if (originalCert.startsWith("divine_") || targetCert.startsWith("divine_"))
-			{
-				itemOID = st.getGlobalQuestVar("ClassAbility80-" + i);
-			}
-			else
-			{
-				itemOID = st.getGlobalQuestVar("ClassAbility75-" + i);
-			}
+			final String itemOID = st.getGlobalQuestVar((isDivine ? "ClassAbility80-" : "ClassAbility75-") + i);
 
 			if (itemOID.isEmpty() || itemOID.endsWith(";") || itemOID.equals("0"))
 			{
@@ -387,7 +380,7 @@ public class AvantGarde extends AbstractNpcAI
 			final L2ItemInstance targetItem = player.addItem("SwitchCertification", targetCertId, 1, player.getTarget(), true);
 
 			// Logging the given item.
-			st.saveGlobalQuestVar("ClassAbility75-" + i, targetItem != null ? String.valueOf(targetItem.getObjectId()) : "0");
+			st.saveGlobalQuestVar((isDivine ? "ClassAbility80-" : "ClassAbility75-") + i, targetItem != null ? String.valueOf(targetItem.getObjectId()) : "0");
 
 			return null;
 		}
