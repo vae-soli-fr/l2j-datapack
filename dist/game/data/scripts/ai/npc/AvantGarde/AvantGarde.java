@@ -340,11 +340,17 @@ public class AvantGarde extends AbstractNpcAI
 	
 	private String switchCertification(L2PcInstance player, String originalCert, String targetCert)
 	{
-		QuestState st = player.getQuestState("SubClassSkills");
+		QuestState st = player.getQuestState(SubClassSkills.class.getSimpleName());
+		if (st == null)
+		{
+			st = QuestManager.getInstance().getQuest(SubClassSkills.class.getSimpleName()).newQuestState(player);
+		}
+
 		Integer originalCertId = CERTIFICATES.get(originalCert);
 		Integer targetCertId = CERTIFICATES.get(targetCert);
 
-		if (st == null || originalCertId == null || targetCertId == null) {
+		if (originalCertId == null || targetCertId == null)
+		{
 			return "32323-05.html";
 		}
 

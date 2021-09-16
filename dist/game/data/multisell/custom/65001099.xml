@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>60003</npc> <!-- Autel -->
+	</npcs>
+	<item>
+		<!--Gold Einhasad -->
+		<ingredient count="999999999" id="4356" />
+		<!-- Tutorial Guide  -->
+		<production count="1" id="5588" />
+	</item>
+</list>

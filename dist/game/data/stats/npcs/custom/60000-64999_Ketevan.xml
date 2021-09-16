@@ -20,7 +20,7 @@
 			<height normal="49" />
 		</collision>
 	</npc>
-	<npc id="60003" displayId="32664" level="70" type="L2Npc" name="Autel d'Einhasad" usingServerSideName="true" title="" usingServerSideTitle="true">
+	<npc id="60003" displayId="32664" level="70" type="L2Npc" name="Autel" usingServerSideName="true" title="" usingServerSideTitle="true">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
