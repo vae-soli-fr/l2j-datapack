@@ -584,33 +584,47 @@
 		<set name="price" val="560" />
 		<set name="is_stackable" val="true" />
 	</item>
+	<!-- Récompense roleplay -->
 	<item id="4355" type="EtcItem" name="Blue Eva">
 		<set name="icon" val="icon.etc_magic_coin_blue_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
 	</item>
+	<!-- Récompense de vote -->
 	<item id="4356" type="EtcItem" name="Gold Einhasad">
 		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 	</item>
+	<!-- Réservé pour usage futur -->
 	<item id="4357" type="EtcItem" name="Silver Shilen">
 		<set name="icon" val="icon.etc_magic_coin_silver_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 	</item>
+	<!-- Échange de seeds -->
 	<item id="4358" type="EtcItem" name="Bloody Pa'agrio">
 		<set name="icon" val="icon.etc_magic_coin_blood_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
 	</item>
 	<item id="4359" type="EtcItem" name="Barrel of Liquor">
 		<set name="icon" val="icon.etc_wine_barrel_i00" />
