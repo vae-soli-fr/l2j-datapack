@@ -46,6 +46,7 @@ public final class MonasteryOfSilence extends AbstractNpcAI
 	private static final int SEEKER = 22790; // Seeker Solina
 	private static final int SAVIOR = 22791; // Savior Solina
 	private static final int ASCETIC = 22793; // Ascetic Solina
+	private static final int TAVERN = 60017; // Tavern Guard
 	private static final int[] DIVINITY_CLAN =
 	{
 		22794, // Divinity Judge
@@ -78,8 +79,8 @@ public final class MonasteryOfSilence extends AbstractNpcAI
 		super(MonasteryOfSilence.class.getSimpleName(), "ai/group_template");
 		addSkillSeeId(DIVINITY_CLAN);
 		addAttackId(KNIGHT, CAPTAIN, GUIDE, SEEKER, ASCETIC);
-		addNpcHateId(GUIDE, SEEKER, SAVIOR, ASCETIC);
-		addAggroRangeEnterId(GUIDE, SEEKER, SAVIOR, ASCETIC);
+		addNpcHateId(GUIDE, SEEKER, SAVIOR, ASCETIC, TAVERN);
+		addAggroRangeEnterId(GUIDE, SEEKER, SAVIOR, ASCETIC, TAVERN);
 		addSpawnId(SCARECROW);
 	}
 	
