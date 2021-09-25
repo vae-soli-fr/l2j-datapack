@@ -82,35 +82,35 @@
 			<height normal="87.5" />
 		</collision>
 	</npc>
-	<npc id="60011" displayId="35607" level="75" type="L2Teleporter" name="Table blanche" usingServerSideName="true">
+	<npc id="60011" displayId="35607" level="75" type="L2DungeonGatekeeper" name="Table blanche" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="15" />
 			<height normal="98.25" />
 		</collision>
 	</npc>
-	<npc id="60012" displayId="35608" level="75" type="L2Teleporter" name="Table rouge" usingServerSideName="true">
+	<npc id="60012" displayId="35608" level="75" type="L2DungeonGatekeeper" name="Table rouge" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="15" />
 			<height normal="98.25" />
 		</collision>
 	</npc>
-	<npc id="60013"  displayId="35609" level="75" type="L2Teleporter" name="Table bleue" usingServerSideName="true">
+	<npc id="60013"  displayId="35609" level="75" type="L2DungeonGatekeeper" name="Table bleue" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="15" />
 			<height normal="98.25" />
 		</collision>
 	</npc>
-	<npc id="60014" displayId="35610" level="75" type="L2Teleporter" name="Table verte" usingServerSideName="true">
+	<npc id="60014" displayId="35610" level="75" type="L2DungeonGatekeeper" name="Table verte" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="15" />
 			<height normal="98.25" />
 		</collision>
 	</npc>
-	<npc id="60015" displayId="35611" level="75" type="L2Teleporter" name="Table noire" usingServerSideName="true">
+	<npc id="60015" displayId="35611" level="75" type="L2DungeonGatekeeper" name="Table noire" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="15" />
