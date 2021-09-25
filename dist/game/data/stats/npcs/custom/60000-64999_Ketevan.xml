@@ -65,4 +65,63 @@
 			<height normal="12.5" />
 		</collision>
 	</npc>
+	<npc id="60009" displayId="32600" level="70" type="L2Teleporter" name="Rosie" usingServerSideName="true" title="Gatekeeper" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<collision>
+			<radius normal="5" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="60010" displayId="35606" level="75" type="L2Npc" name="Poney Fringuant" usingServerSideName="true" title="Auberge du" usingServerSideTitle="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="87.5" />
+		</collision>
+	</npc>
+	<npc id="60011" displayId="35607" level="75" type="L2DungeonGatekeeper" name="Table blanche" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="98.25" />
+		</collision>
+	</npc>
+	<npc id="60012" displayId="35608" level="75" type="L2DungeonGatekeeper" name="Table rouge" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="98.25" />
+		</collision>
+	</npc>
+	<npc id="60013"  displayId="35609" level="75" type="L2DungeonGatekeeper" name="Table bleue" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="98.25" />
+		</collision>
+	</npc>
+	<npc id="60014" displayId="35610" level="75" type="L2DungeonGatekeeper" name="Table verte" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="98.25" />
+		</collision>
+	</npc>
+	<npc id="60015" displayId="35611" level="75" type="L2DungeonGatekeeper" name="Table noire" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="98.25" />
+		</collision>
+	</npc>
+	<npc id="60016" displayId="31545" level="70" type="L2Npc" name="Exhibitionniste">
+		<status attackable="false" canMove="false" showName="false" />
+		<collision>
+			<radius normal="6" />
+			<height normal="6.3" />
+		</collision>
+	</npc>
 </list>
