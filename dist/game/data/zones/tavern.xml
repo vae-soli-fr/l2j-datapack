@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<zone name="tavern_map_zone" id="55501" type="ScriptZone" shape="NPoly" minZ="-2500" maxZ="-3600">
+		<node X="110552" Y="-79564" />
+		<node X="110552" Y="-80958" />
+		<node X="108773" Y="-80958" />
+		<node X="108773" Y="-79564" />
+	</zone>
+</list>
