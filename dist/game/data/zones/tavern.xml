@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<zone name="tavern_map_zone" id="55501" type="ScriptZone" shape="Cuboid" minZ="-2500" maxZ="-3600">
+		<node X="110552" Y="-79564" />
+		<node X="108773" Y="-80958" />
+	</zone>
+	<zone name="tavern_map_respawn_zone" type="RespawnZone" shape="Cuboid" minZ="-2500" maxZ="-3600">
+		<node X="110552" Y="-79564" />
+		<node X="108773" Y="-80958" />
+		<race name="HUMAN" point="tavern_region" />
+		<race name="DARK_ELF" point="tavern_region" />
+		<race name="ORC" point="tavern_region" />
+		<race name="DWARF" point="tavern_region" />
+		<race name="ELF" point="tavern_region" />
+		<race name="KAMAEL" point="tavern_region" />
+	</zone>
+</list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/MapRegion.xsd">
+	<region name="tavern_region" town="Rune Town" castle="8" locId="55501" bbs="14">
+		<respawnPoint X="109268" Y="-80241" Z="-3520" />
+	</region>
+</list>

@@ -168,7 +168,7 @@
 		<sNpcPropHpRate>2</sNpcPropHpRate>
 		<ai type="BALANCED" aggroRange="900" clanHelpRange="900">
 			<clanList>
-				<clan>SOLINA_N</clan>
+				<clan>TAVERN</clan>
 			</clanList>
 		</ai>
 		<collision>
