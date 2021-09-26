@@ -23,7 +23,6 @@ import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.zone.L2ZoneType;
-import com.l2jserver.gameserver.network.NpcStringId;
 import com.l2jserver.gameserver.network.clientpackets.Say2;
 
 import ai.npc.AbstractNpcAI;
@@ -33,6 +32,7 @@ import ai.npc.AbstractNpcAI;
  */
 public final class Tavern extends AbstractNpcAI
 {
+	private static final String CANNOT_CARRY_A_WEAPON = "Les armes ne sont pas autorisees ici !";
 	private static final int GUARD = 60017;
 	private static final int ZONE = 55501;
 	
@@ -55,7 +55,7 @@ public final class Tavern extends AbstractNpcAI
 	{
 		if (character.isPlayer())
 		{
-			character.getActingPlayer().setMinimapAllowed(false);
+			character.getActingPlayer().disarmWeapons();
 		}
 		return super.onEnterZone(character, zone);
 	}
@@ -67,12 +67,17 @@ public final class Tavern extends AbstractNpcAI
 		{
 			if (!npc.isInCombat())
 			{
-				broadcastNpcSay(npc, Say2.NPC_ALL, NpcStringId.YOU_CANNOT_CARRY_A_WEAPON_WITHOUT_AUTHORIZATION);
+				broadcastNpcSay(npc, Say2.NPC_ALL, CANNOT_CARRY_A_WEAPON);
 			}
 			
 			addAttackPlayerDesire(npc, player);
 		}
 		return super.onAggroRangeEnter(npc, player, isSummon);
+	}
+	
+	public static void main(String[] args)
+	{
+		new Tavern();
 	}
 	
 }
