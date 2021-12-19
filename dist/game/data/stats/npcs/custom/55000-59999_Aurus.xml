@@ -3062,8 +3062,8 @@
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
-			<radius normal="7" />
-			<height normal="15" />
+			<radius normal="10" />
+			<height normal="22.5" />
 		</collision>
 	</npc>
 	<npc id="56022" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Sortie du tunnel" usingServerSideName="true">
@@ -3122,8 +3122,8 @@
 		<exCrtEffect>true</exCrtEffect>
 		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
 		<collision>
-			<radius normal="7" />
-			<height normal="15" />
+			<radius normal="10" />
+			<height normal="23.75" />
 		</collision>
 	</npc>
 	<npc id="56024" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Sortie du tunnel" usingServerSideName="true">
