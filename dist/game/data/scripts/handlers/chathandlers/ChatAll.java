@@ -51,6 +51,7 @@ public class ChatAll implements IChatHandler
 
 	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
 	private static final int BLUE_EVA = 4355;
+	private static final long MINIMAL_WORDS = 3;
 	private static final long MINIMAL_REWARD = 4;
 	private static final long MAXIMUM_LISTENERS = 8;
 	private static final float RATE_LISTENER = 0.5f;
@@ -137,14 +138,14 @@ public class ChatAll implements IChatHandler
 
 				if (Config.ENABLE_ROLEPLAY_REWARD) {
 
-					int rolepex = 0;
+					int words = 0;
 					Matcher matcher = THREE_LETTER_WORD_PATTERN.matcher(text);
 
 					while (matcher.find()) {
-						rolepex++;
+						words++;
 					}
 
-					rolepex *= Math.min(audience.size(), MAXIMUM_LISTENERS);
+					int rolepex = (int) (words * Math.min(audience.size(), MAXIMUM_LISTENERS));
 
 					if (rolepex > 0) {
 
@@ -165,8 +166,10 @@ public class ChatAll implements IChatHandler
 						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false, false);
 						
-						itemQty = (int) Math.max(MINIMAL_REWARD, audience.size());
-						activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
+						if (words >= MINIMAL_WORDS) {
+							itemQty = (int) Math.max(MINIMAL_REWARD, audience.size());
+							activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
+						}
 						
 						/*
 						 * Listeners
