@@ -52,7 +52,7 @@ public class ChatAll implements IChatHandler
 	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
 	private static final int BLUE_EVA = 4355;
 	private static final long MINIMAL_WORDS = 3;
-	private static final long MINIMAL_REWARD = 4;
+	private static final long MINIMAL_ITEMS = 4;
 	private static final long MAXIMUM_LISTENERS = 8;
 	private static final float RATE_LISTENER = 0.5f;
 	
@@ -167,7 +167,7 @@ public class ChatAll implements IChatHandler
 						activeChar.addExpAndSp(addExp, addSp, false, false);
 						
 						if (words >= MINIMAL_WORDS) {
-							itemQty = (int) Math.max(MINIMAL_REWARD, audience.size());
+							itemQty = (int) Math.max(MINIMAL_ITEMS, audience.size());
 							activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
 						}
 						
