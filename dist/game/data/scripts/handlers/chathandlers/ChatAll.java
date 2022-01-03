@@ -52,7 +52,7 @@ public class ChatAll implements IChatHandler
 	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
 	private static final int BLUE_EVA = 4355;
 	private static final long MAXIMUM_LISTENERS = 8;
-	private static final float RATE_LISTENER = 0.12f;
+	private static final float RATE_LISTENER = 0.5f;
 	
 	private static final int[] COMMAND_IDS =
 	{
@@ -165,9 +165,9 @@ public class ChatAll implements IChatHandler
 						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false, false);
 
-						if (isLucky(audience.size())) {
-							activeChar.addItem("MoneyByRP", BLUE_EVA, audience.size(), activeChar, false);
-							listenerItem = (int) (audience.size() * RATE_LISTENER);
+						if (audience.size() > 0) {
+							activeChar.addItem("MoneyByRP", BLUE_EVA, Math.max(4, audience.size()), activeChar, false);
+							listenerItem = (int) (Math.max(4, audience.size()) * RATE_LISTENER);
 						}
 
 						/*
@@ -191,11 +191,6 @@ public class ChatAll implements IChatHandler
 				activeChar.sendPacket(cs);
 			}
 		}
-	}
-
-	private static boolean isLucky(int audienceSize)
-	{
-		return Rnd.get(0, 100) >= Math.subtractExact(100, audienceSize * 25);
 	}
 
 	private static void addVitality(L2PcInstance activeChar, int addVita)
