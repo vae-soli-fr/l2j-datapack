@@ -165,12 +165,12 @@ public class ChatAll implements IChatHandler
 
 						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false, false);
-						
+
 						if (words >= MINIMAL_WORDS) {
 							itemQty = (int) Math.max(MINIMAL_ITEMS, audience.size());
 							activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
 						}
-						
+
 						/*
 						 * Listeners
 						 */
