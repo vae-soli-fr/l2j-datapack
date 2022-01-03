@@ -51,6 +51,7 @@ public class ChatAll implements IChatHandler
 
 	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
 	private static final int BLUE_EVA = 4355;
+	private static final long MINIMAL_REWARD = 4;
 	private static final long MAXIMUM_LISTENERS = 8;
 	private static final float RATE_LISTENER = 0.5f;
 	
@@ -155,8 +156,7 @@ public class ChatAll implements IChatHandler
 						long addExp = getRewardExp(activeChar, rolepex);
 						int addSp = getRewardSp(activeChar, rolepex);
 
-						int listenerVita = (int) (addVita * RATE_LISTENER);
-						int listenerItem = 0;
+						int itemQty = 0;
 
 						/*
 						 * Give rewards
@@ -164,16 +164,16 @@ public class ChatAll implements IChatHandler
 
 						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false, false);
-
-						if (audience.size() > 0) {
-							activeChar.addItem("MoneyByRP", BLUE_EVA, Math.max(4, audience.size()), activeChar, false);
-							listenerItem = (int) (Math.max(4, audience.size()) * RATE_LISTENER);
-						}
-
+						
+						itemQty = Math.max(MINIMAL_REWARD, audience.size());
+						activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
+						
 						/*
 						 * Listeners
 						 */
 
+						int listenerVita = (int) (addVita * RATE_LISTENER);
+						itemQty *= RATE_LISTENER;
 						for (L2PcInstance listener : audience)
 						{
 							// Recalculate for each listener
@@ -183,7 +183,7 @@ public class ChatAll implements IChatHandler
 							// Give rewards
 							addVitality(listener, listenerVita);
 							listener.addExpAndSp(listenerExp, listenerSp, false, false);
-							listener.addItem("MoneyByRP", BLUE_EVA, listenerItem, activeChar, false);
+							listener.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
 						}
 					}
 				}
