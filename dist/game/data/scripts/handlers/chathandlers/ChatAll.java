@@ -51,8 +51,10 @@ public class ChatAll implements IChatHandler
 
 	private static final Pattern THREE_LETTER_WORD_PATTERN = Pattern.compile("[A-ZÀ-ÿa-z']{3,}");
 	private static final int BLUE_EVA = 4355;
+	private static final long MINIMAL_WORDS = 3;
+	private static final long MINIMAL_ITEMS = 4;
 	private static final long MAXIMUM_LISTENERS = 8;
-	private static final float RATE_LISTENER = 0.12f;
+	private static final float RATE_LISTENER = 0.5f;
 	
 	private static final int[] COMMAND_IDS =
 	{
@@ -136,14 +138,14 @@ public class ChatAll implements IChatHandler
 
 				if (Config.ENABLE_ROLEPLAY_REWARD) {
 
-					int rolepex = 0;
+					int words = 0;
 					Matcher matcher = THREE_LETTER_WORD_PATTERN.matcher(text);
 
 					while (matcher.find()) {
-						rolepex++;
+						words++;
 					}
 
-					rolepex *= Math.min(audience.size(), MAXIMUM_LISTENERS);
+					int rolepex = (int) (words * Math.min(audience.size(), MAXIMUM_LISTENERS));
 
 					if (rolepex > 0) {
 
@@ -155,8 +157,7 @@ public class ChatAll implements IChatHandler
 						long addExp = getRewardExp(activeChar, rolepex);
 						int addSp = getRewardSp(activeChar, rolepex);
 
-						int listenerVita = (int) (addVita * RATE_LISTENER);
-						int listenerItem = 0;
+						int itemQty = 0;
 
 						/*
 						 * Give rewards
@@ -165,15 +166,17 @@ public class ChatAll implements IChatHandler
 						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false, false);
 
-						if (isLucky(audience.size())) {
-							activeChar.addItem("MoneyByRP", BLUE_EVA, audience.size(), activeChar, false);
-							listenerItem = (int) (audience.size() * RATE_LISTENER);
+						if (words >= MINIMAL_WORDS) {
+							itemQty = (int) Math.max(MINIMAL_ITEMS, audience.size());
+							activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
 						}
 
 						/*
 						 * Listeners
 						 */
 
+						int listenerVita = (int) (addVita * RATE_LISTENER);
+						itemQty *= RATE_LISTENER;
 						for (L2PcInstance listener : audience)
 						{
 							// Recalculate for each listener
@@ -183,7 +186,7 @@ public class ChatAll implements IChatHandler
 							// Give rewards
 							addVitality(listener, listenerVita);
 							listener.addExpAndSp(listenerExp, listenerSp, false, false);
-							listener.addItem("MoneyByRP", BLUE_EVA, listenerItem, activeChar, false);
+							listener.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
 						}
 					}
 				}
@@ -191,11 +194,6 @@ public class ChatAll implements IChatHandler
 				activeChar.sendPacket(cs);
 			}
 		}
-	}
-
-	private static boolean isLucky(int audienceSize)
-	{
-		return Rnd.get(0, 100) >= Math.subtractExact(100, audienceSize * 25);
 	}
 
 	private static void addVitality(L2PcInstance activeChar, int addVita)
