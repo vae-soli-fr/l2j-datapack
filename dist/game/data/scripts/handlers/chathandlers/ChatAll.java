@@ -165,7 +165,7 @@ public class ChatAll implements IChatHandler
 						addVitality(activeChar, addVita);
 						activeChar.addExpAndSp(addExp, addSp, false, false);
 						
-						itemQty = Math.max(MINIMAL_REWARD, audience.size());
+						itemQty = (int) Math.max(MINIMAL_REWARD, audience.size());
 						activeChar.addItem("MoneyByRP", BLUE_EVA, itemQty, activeChar, false);
 						
 						/*
