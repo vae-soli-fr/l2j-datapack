@@ -75,14 +75,14 @@
 	<roleplay level="73" exp="1188" sp="82"/>
 	<roleplay level="74" exp="1262" sp="87"/>
 	<roleplay level="75" exp="1340" sp="93"/>
-	<roleplay level="76" exp="1424" sp="99"/>
-	<roleplay level="77" exp="1512" sp="106"/>
-	<roleplay level="78" exp="1606" sp="113"/>
-	<roleplay level="79" exp="1706" sp="120"/>
-	<roleplay level="80" exp="1813" sp="128"/>
-	<roleplay level="81" exp="1926" sp="136"/>
-	<roleplay level="82" exp="2046" sp="145"/>
-	<roleplay level="83" exp="2173" sp="154"/>
-	<roleplay level="84" exp="2308" sp="165"/>
-	<roleplay level="85" exp="2452" sp="175"/>
+	<roleplay level="76" exp="3666" sp="254"/>
+	<roleplay level="77" exp="6000" sp="420"/>
+	<roleplay level="78" exp="8883" sp="625"/>
+	<roleplay level="79" exp="17194" sp="1209"/>
+	<roleplay level="80" exp="20323" sp="1434"/>
+	<roleplay level="81" exp="24527" sp="1731"/>
+	<roleplay level="82" exp="33768" sp="2393"/>
+	<roleplay level="83" exp="40704" sp="2884"/>
+	<roleplay level="84" exp="49086" sp="3508"/>
+	<roleplay level="85" exp="60000" sp="20000"/>
 </table>
