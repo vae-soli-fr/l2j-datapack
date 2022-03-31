@@ -11,34 +11,58 @@
 		<production count="1" id="9546" />
 	</item>
 	<item>
+		<!-- Wind Stone -->
+		<ingredient count="1" id="9549" />
+		<!-- Fire Stone -->
+		<production count="1" id="9546" />
+	</item>
+	<item>
+		<!-- Earth Stone -->
+		<ingredient count="1" id="9548" />
+		<!-- Fire Stone -->
+		<production count="1" id="9546" />
+	</item>
+	<item>
+		<!-- Dark Stone -->
+		<ingredient count="1" id="9550" />
+		<!-- Fire Stone -->
+		<production count="1" id="9546" />
+	</item>
+	<item>
+		<!-- Holy Stone -->
+		<ingredient count="1" id="9551" />
+		<!-- Fire Stone -->
+		<production count="1" id="9546" />
+	</item>
+	<item>
 		<!-- Fire Stone -->
 		<ingredient count="1" id="9546" />
 		<!-- Water Stone -->
 		<production count="1" id="9547" />
 	</item>
 	<item>
-		<!-- Wind Stone -->
-		<ingredient count="1" id="9549" />
-		<!-- Earth Stone -->
-		<production count="1" id="9548" />
-	</item>
-	<item>
-		<!-- Earth Stone -->
-		<ingredient count="1" id="9548" />
+		<!-- Fire Stone -->
+		<ingredient count="1" id="9546" />
 		<!-- Wind Stone -->
 		<production count="1" id="9549" />
 	</item>
 	<item>
-		<!-- Dark Stone -->
-		<ingredient count="1" id="9550" />
-		<!-- Holy Stone -->
-		<production count="1" id="9551" />
+		<!-- Fire Stone -->
+		<ingredient count="1" id="9546" />
+		<!-- Earth Stone -->
+		<production count="1" id="9548" />
 	</item>
 	<item>
-		<!-- Holy Stone -->
-		<ingredient count="1" id="9551" />
+		<!-- Fire Stone -->
+		<ingredient count="1" id="9546" />
 		<!-- Dark Stone -->
 		<production count="1" id="9550" />
+	</item>
+	<item>
+		<!-- Fire Stone -->
+		<ingredient count="1" id="9546" />
+		<!-- Holy Stone -->
+		<production count="1" id="9551" />
 	</item>
 	<item>
 		<!-- Fire Stone -->
