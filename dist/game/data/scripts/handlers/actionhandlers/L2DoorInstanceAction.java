@@ -22,8 +22,6 @@ import com.l2jserver.gameserver.ai.CtrlIntention;
 import com.l2jserver.gameserver.enums.InstanceType;
 import com.l2jserver.gameserver.handler.IActionHandler;
 import com.l2jserver.gameserver.model.L2Object;
-import com.l2jserver.gameserver.model.actor.L2Character;
-import com.l2jserver.gameserver.model.actor.L2Npc;
 import com.l2jserver.gameserver.model.actor.instance.L2DoorInstance;
 import com.l2jserver.gameserver.model.actor.instance.L2PcInstance;
 import com.l2jserver.gameserver.model.entity.clanhall.SiegableHall;
@@ -32,6 +30,8 @@ import com.l2jserver.gameserver.network.serverpackets.ConfirmDlg;
 
 public class L2DoorInstanceAction implements IActionHandler
 {
+	public static final int DOOR_INTERACTION_DISTANCE = 300;
+
 	@Override
 	public boolean action(L2PcInstance activeChar, L2Object target, boolean interact)
 	{
@@ -55,7 +55,7 @@ public class L2DoorInstanceAction implements IActionHandler
 			else if ((door.getClanHall() != null) && (door.getClanHall().getOwnerId() == 0)
 						|| (activeChar.getClan() != null) && (door.getClanHall() != null) && (activeChar.getClanId() == door.getClanHall().getOwnerId()))
 			{
-				if (!door.isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				if (!door.isInsideRadius(activeChar, DOOR_INTERACTION_DISTANCE, false, false))
 				{
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
 				}
@@ -72,16 +72,37 @@ public class L2DoorInstanceAction implements IActionHandler
 					}
 				}
 			}
-			else if ((activeChar.getClan() != null) && (((L2DoorInstance) target).getFort() != null) && (activeChar.getClan() == ((L2DoorInstance) target).getFort().getOwnerClan()) && ((L2DoorInstance) target).isOpenableBySkill() && !((L2DoorInstance) target).getFort().getSiege().isInProgress())
+			else if (((door.getFort() != null) && (door.getFort().getOwnerClan() == null)
+				|| activeChar.getClan() != null && (door.getFort() != null) && (activeChar.getClan() == door.getFort().getOwnerClan()) && door.isOpenableBySkill())
+					&& !door.getFort().getSiege().isInProgress())
 			{
-				if (!((L2Character) target).isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				if (!door.isInsideRadius(activeChar, DOOR_INTERACTION_DISTANCE, false, false))
 				{
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
 				}
 				else
 				{
-					activeChar.addScript(new DoorRequestHolder((L2DoorInstance) target));
-					if (!((L2DoorInstance) target).getOpen())
+					activeChar.addScript(new DoorRequestHolder(door));
+					if (!door.getOpen())
+					{
+						activeChar.sendPacket(new ConfirmDlg(1140));
+					}
+					else
+					{
+						activeChar.sendPacket(new ConfirmDlg(1141));
+					}
+				}
+			}
+			else if ((door.getCastle() != null) && (door.getCastle().getOwnerId() == 0) && !door.getCastle().getSiege().isInProgress())
+			{
+				if (!door.isInsideRadius(activeChar, DOOR_INTERACTION_DISTANCE, false, false))
+				{
+					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
+				}
+				else
+				{
+					activeChar.addScript(new DoorRequestHolder(door));
+					if (!door.getOpen())
 					{
 						activeChar.sendPacket(new ConfirmDlg(1140));
 					}
