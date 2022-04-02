@@ -93,6 +93,25 @@ public class L2DoorInstanceAction implements IActionHandler
 					}
 				}
 			}
+			else if ((((L2DoorInstance) target).getCastle() != null) && (((L2DoorInstance) target).getCastle().getOwnerId() == 0) && !((L2DoorInstance) target).getCastle().getSiege().isInProgress())
+			{
+				if (!((L2Character) target).isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				{
+					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
+				}
+				else
+				{
+					activeChar.addScript(new DoorRequestHolder((L2DoorInstance) target));
+					if (!((L2DoorInstance) target).getOpen())
+					{
+						activeChar.sendPacket(new ConfirmDlg(1140));
+					}
+					else
+					{
+						activeChar.sendPacket(new ConfirmDlg(1141));
+					}
+				}
+			}
 		}
 		return true;
 	}
