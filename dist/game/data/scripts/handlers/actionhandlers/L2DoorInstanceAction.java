@@ -72,18 +72,18 @@ public class L2DoorInstanceAction implements IActionHandler
 					}
 				}
 			}
-			else if (((((L2DoorInstance) target).getFort() != null) && (((L2DoorInstance) target).getFort().getOwnerClan() == null)
-				|| activeChar.getClan() != null && (((L2DoorInstance) target).getFort() != null) && (activeChar.getClan() == ((L2DoorInstance) target).getFort().getOwnerClan()) && ((L2DoorInstance) target).isOpenableBySkill())
-					&& !((L2DoorInstance) target).getFort().getSiege().isInProgress())
+			else if (((door.getFort() != null) && (door.getFort().getOwnerClan() == null)
+				|| activeChar.getClan() != null && (door.getFort() != null) && (activeChar.getClan() == door.getFort().getOwnerClan()) && door.isOpenableBySkill())
+					&& !door.getFort().getSiege().isInProgress())
 			{
-				if (!((L2Character) target).isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				if (!door.isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
 				{
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
 				}
 				else
 				{
-					activeChar.addScript(new DoorRequestHolder((L2DoorInstance) target));
-					if (!((L2DoorInstance) target).getOpen())
+					activeChar.addScript(new DoorRequestHolder(door));
+					if (!door.getOpen())
 					{
 						activeChar.sendPacket(new ConfirmDlg(1140));
 					}
@@ -93,16 +93,16 @@ public class L2DoorInstanceAction implements IActionHandler
 					}
 				}
 			}
-			else if ((((L2DoorInstance) target).getCastle() != null) && (((L2DoorInstance) target).getCastle().getOwnerId() == 0) && !((L2DoorInstance) target).getCastle().getSiege().isInProgress())
+			else if ((door.getCastle() != null) && (door.getCastle().getOwnerId() == 0) && !door.getCastle().getSiege().isInProgress())
 			{
-				if (!((L2Character) target).isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
+				if (!door.isInsideRadius(activeChar, L2Npc.INTERACTION_DISTANCE, false, false))
 				{
 					activeChar.getAI().setIntention(CtrlIntention.AI_INTENTION_INTERACT, target);
 				}
 				else
 				{
-					activeChar.addScript(new DoorRequestHolder((L2DoorInstance) target));
-					if (!((L2DoorInstance) target).getOpen())
+					activeChar.addScript(new DoorRequestHolder(door));
+					if (!door.getOpen())
 					{
 						activeChar.sendPacket(new ConfirmDlg(1140));
 					}
