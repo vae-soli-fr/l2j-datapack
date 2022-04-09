@@ -63,11 +63,11 @@ public class AdminInstance implements IAdminCommandHandler
 					final int id = Integer.parseInt(parts[1]);
 					if ((id < 300000) && InstanceManager.getInstance().createInstanceFromTemplate(id, parts[2]))
 					{
-						activeChar.sendMessage("Instance created.");
+						activeChar.sendMessage("Instance " + id + " created.");
 					}
 					else
 					{
-						activeChar.sendMessage("Failed to create instance.");
+						activeChar.sendMessage("Failed to create instance "+ id +".");
 					}
 					return true;
 				}
