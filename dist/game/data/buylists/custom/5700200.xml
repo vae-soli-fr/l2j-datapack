@@ -41,59 +41,59 @@
 
 	<!-- Tier 2 -->
 
-	<item id="7028" price="300" /> <!-- Great Codran Gludio -->
-	<item id="7029" price="300" /> <!-- Great Codran Giran -->
-	<item id="5060" price="300" /> <!-- Great Codran Aden -->
-	<item id="8224" price="300" /> <!-- Great Codran Rune -->	
+	<item id="7028" price="450" /> <!-- Great Codran Gludio -->
+	<item id="7029" price="450" /> <!-- Great Codran Giran -->
+	<item id="5060" price="450" /> <!-- Great Codran Aden -->
+	<item id="8224" price="450" /> <!-- Great Codran Rune -->	
 
-	<item id="7023" price="300" /> <!-- Desert Codran Gludio -->
-	<item id="5041" price="300" /> <!-- Desert Codran Giran -->
-	<item id="5061" price="300" /> <!-- Desert Codran Aden -->
-	<item id="7024" price="300" /> <!-- Desert Codran Goddard -->
-	<item id="8225" price="300" /> <!-- Desert Codran Rune -->	
+	<item id="7023" price="450" /> <!-- Desert Codran Gludio -->
+	<item id="5041" price="450" /> <!-- Desert Codran Giran -->
+	<item id="5061" price="450" /> <!-- Desert Codran Aden -->
+	<item id="7024" price="450" /> <!-- Desert Codran Goddard -->
+	<item id="8225" price="450" /> <!-- Desert Codran Rune -->	
 
-	<item id="6768" price="300" /> <!-- Blue Coba Gludio -->
-	<item id="6769" price="300" /> <!-- Blue Coba Giran -->
-	<item id="6770" price="300" /> <!-- Blue Coba Aden -->
-	<item id="6771" price="300" /> <!-- Blue Coba Goddard -->
-	<item id="8226" price="300" /> <!-- Blue Coba Rune -->	
+	<item id="6768" price="450" /> <!-- Blue Coba Gludio -->
+	<item id="6769" price="450" /> <!-- Blue Coba Giran -->
+	<item id="6770" price="450" /> <!-- Blue Coba Aden -->
+	<item id="6771" price="450" /> <!-- Blue Coba Goddard -->
+	<item id="8226" price="450" /> <!-- Blue Coba Rune -->	
 
-	<item id="6757" price="300" /> <!-- Red Coba Giran -->
-	<item id="6758" price="300" /> <!-- Red Coba Aden -->
-	<item id="6759" price="300" /> <!-- Red Coba Heine -->
-	<item id="6760" price="300" /> <!-- Red Coba Goddard -->
-	<item id="8227" price="300" /> <!-- Red Coba Rune -->	
+	<item id="6757" price="450" /> <!-- Red Coba Giran -->
+	<item id="6758" price="450" /> <!-- Red Coba Aden -->
+	<item id="6759" price="450" /> <!-- Red Coba Heine -->
+	<item id="6760" price="450" /> <!-- Red Coba Goddard -->
+	<item id="8227" price="450" /> <!-- Red Coba Rune -->	
 
-	<item id="6773" price="300" /> <!-- Golden Coba Giran -->
-	<item id="6774" price="300" /> <!-- Golden Coba Oren -->
-	<item id="6775" price="300" /> <!-- Golden Coba Aden -->
-	<item id="6776" price="300" /> <!-- Golden Coba Heine -->
-	<item id="6777" price="300" /> <!-- Golden Coba Goddard -->
-	<item id="8228" price="300" /> <!-- Golden Coba Rune -->	
+	<item id="6773" price="450" /> <!-- Golden Coba Giran -->
+	<item id="6774" price="450" /> <!-- Golden Coba Oren -->
+	<item id="6775" price="450" /> <!-- Golden Coba Aden -->
+	<item id="6776" price="450" /> <!-- Golden Coba Heine -->
+	<item id="6777" price="450" /> <!-- Golden Coba Goddard -->
+	<item id="8228" price="450" /> <!-- Golden Coba Rune -->	
 
 	<!-- Tier 3 -->
 
-	<item id="6762" price="300" /> <!-- Desert Coba Oren -->
-	<item id="6763" price="300" /> <!-- Desert Coba Aden -->
-	<item id="6764" price="300" /> <!-- Desert Coba Heine -->
-	<item id="6765" price="300" /> <!-- Desert Coba Goddard -->
-	<item id="8229" price="300" /> <!-- Desert Coba Rune -->
+	<item id="6762" price="600" /> <!-- Desert Coba Oren -->
+	<item id="6763" price="600" /> <!-- Desert Coba Aden -->
+	<item id="6764" price="600" /> <!-- Desert Coba Heine -->
+	<item id="6765" price="600" /> <!-- Desert Coba Goddard -->
+	<item id="8229" price="600" /> <!-- Desert Coba Rune -->
 
-	<item id="6754" price="300" /> <!-- Sea Coba Oren -->
-	<item id="6755" price="300" /> <!-- Sea Coba Aden -->
-	<item id="15327" price="300" /> <!-- Sea Coba Heine -->
-	<item id="6756" price="300" /> <!-- Sea Coba Goddard -->
-	<item id="8521" price="300" /> <!-- Sea Coba Rune -->
-	<item id="15328" price="300" /> <!-- Sea Coba Schuttgart -->
+	<item id="6754" price="600" /> <!-- Sea Coba Oren -->
+	<item id="6755" price="600" /> <!-- Sea Coba Aden -->
+	<item id="15327" price="600" /> <!-- Sea Coba Heine -->
+	<item id="6756" price="600" /> <!-- Sea Coba Goddard -->
+	<item id="8521" price="600" /> <!-- Sea Coba Rune -->
+	<item id="15328" price="600" /> <!-- Sea Coba Schuttgart -->
 
-	<item id="17087" price="300" /> <!-- Twin Coba Oren -->
-	<item id="15329" price="300" /> <!-- Twin Coba Aden -->
-	<item id="6767" price="300" /> <!-- Twin Coba Goddard -->
-	<item id="15331" price="300" /> <!-- Twin Coba Rune -->
-	<item id="15332" price="300" /> <!-- Twin Coba Schuttgart -->
+	<item id="17087" price="600" /> <!-- Twin Coba Oren -->
+	<item id="15329" price="600" /> <!-- Twin Coba Aden -->
+	<item id="6767" price="600" /> <!-- Twin Coba Goddard -->
+	<item id="15331" price="600" /> <!-- Twin Coba Rune -->
+	<item id="15332" price="600" /> <!-- Twin Coba Schuttgart -->
 
-	<item id="6753" price="300" /> <!-- Great Coba Goddard -->
-	<item id="8525" price="300" /> <!-- Great Coba Rune -->
+	<item id="6753" price="600" /> <!-- Great Coba Goddard -->
+	<item id="8525" price="600" /> <!-- Great Coba Rune -->
 
 	<item id="5125" price="10000" /> <!-- Harvester -->
 
