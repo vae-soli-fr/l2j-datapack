@@ -816,12 +816,4 @@
 			<height normal="24" />
 		</collision>
 	</npc>
-	<npc id="76000" displayId="36579" level="80" type="L2MultiversTeleporter" name="Portier" usingServerSideName="true">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" canMove="false" />
-		<collision>
-			<radius normal="10" />
-			<height normal="35" />
-		</collision>
-	</npc>
 </list>
