@@ -536,7 +536,7 @@ public class AdminSpawn implements IAdminCommandHandler
 			if (activeChar.getInstanceId() > 0)
 			{
 				spawn.setInstanceId(activeChar.getInstanceId());
-				permanent = false;
+				permanent = Config.PERMANENT_ALTERNATIVE_INSTANCES.contains(activeChar.getInstanceId());
 			}
 			else
 			{
