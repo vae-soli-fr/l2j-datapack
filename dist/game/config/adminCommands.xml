@@ -54,7 +54,7 @@
 	<admin command="admin_camera" accessLevel="7" />
 
 	<!-- ADMIN CHANGE ACCESS LEVEL -->
-	<admin command="admin_changelvl" accessLevel="7" />
+	<admin command="admin_changelvl" accessLevel="8" />
 
 	<!-- ADMIN CH SIEGE -->
 	<admin command="admin_chsiege_siegablehall" accessLevel="7" />
