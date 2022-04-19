@@ -541,6 +541,7 @@
 	<admin command="admin_recall" accessLevel="7" />
 	<admin command="admin_recall_with_party" accessLevel="7" />
 	<admin command="admin_recall_all" accessLevel="7" />
+	<admin command="admin_recall_target_of" accessLevel="7" />
 	<admin command="admin_walk" accessLevel="7" />
 	<admin command="teleportto" accessLevel="7" />
 	<admin command="recall" accessLevel="7" />

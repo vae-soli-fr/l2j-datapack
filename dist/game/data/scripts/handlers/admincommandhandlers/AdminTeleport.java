@@ -65,6 +65,7 @@ public class AdminTeleport implements IAdminCommandHandler
 		"admin_recall",
 		"admin_recall_with_party",
 		"admin_recall_all",
+		"admin_recall_target_of",
 		"admin_walk",
 		"teleportto",
 		"recall",
@@ -227,6 +228,36 @@ public class AdminTeleport implements IAdminCommandHandler
 			{
 				activeChar.sendMessage(targetName + " is not in a party.");
 				return false;
+			}
+		}
+		else if (command.startsWith("admin_recall_target_of"))
+		{
+			String[] param = command.split(" ");
+			if (param.length != 2)
+			{
+				activeChar.sendMessage("Usage: //recall_target_of <playername>");
+				return false;
+			}
+			String targetName = param[1];
+			L2PcInstance player = L2World.getInstance().getPlayer(targetName);
+			if (player != null)
+			{
+				L2Object playerTarget = player.getTarget();
+				if (playerTarget != null)
+				{
+					if (playerTarget instanceof L2PcInstance)
+					{
+						teleportCharacter((L2PcInstance) playerTarget, activeChar.getLocation(), activeChar);
+					}
+					else
+					{
+						recallNPC(activeChar, playerTarget);
+					}
+				} else
+				{
+					activeChar.sendMessage(targetName + " has no target.");
+					return false;
+				}
 			}
 		}
 		else if (command.startsWith("admin_recall_all"))
@@ -550,10 +581,15 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.sendMessage("SQLException while changing offline character's position");
 		}
 	}
-	
+
 	private void recallNPC(L2PcInstance activeChar)
 	{
-		L2Object obj = activeChar.getTarget();
+		L2Object target = activeChar.getTarget();
+		recallNPC(activeChar, target);
+	}
+
+	private void recallNPC(L2PcInstance activeChar, L2Object obj)
+	{
 		if ((obj instanceof L2Npc) && !((L2Npc) obj).isMinion() && !(obj instanceof L2RaidBossInstance) && !(obj instanceof L2GrandBossInstance))
 		{
 			L2Npc target = (L2Npc) obj;
