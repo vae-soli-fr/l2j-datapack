@@ -31,4 +31,4 @@ jobs:
       if: github.event.inputs.RESTART_TIME
       run: |
           restart_login.sh
-          restart_server.sh ${GITHUB_REF_NAME} ${github.event.inputs.RESTART_TIME}
+          restart_server.sh ${GITHUB_REF_NAME} ${{github.event.inputs.RESTART_TIME}}
