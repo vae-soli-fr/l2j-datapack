@@ -2,6 +2,9 @@ name: Java CI
 
 on:
   workflow_dispatch:
+    inputs:
+      RESTART_TIME:
+        description: 'Restarts server in given seconds'
   push:
     branches: [ master, develop ]
 
@@ -24,3 +27,8 @@ jobs:
       run: ./gradlew --no-daemon
     - name: Deploy the L2J Datapack
       run: deploy-datapack.sh ${GITHUB_REF_NAME}
+    - name: Restart the L2J Server
+      if: github.event.inputs.RESTART_TIME
+      run: |
+          restart_login.sh
+          restart_server.sh ${GITHUB_REF_NAME} ${github.event.inputs.RESTART_TIME}
