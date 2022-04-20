@@ -21,6 +21,7 @@ package handlers.admincommandhandlers;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.Collection;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
@@ -62,6 +63,9 @@ public class AdminTeleport implements IAdminCommandHandler
 		"admin_move_to",
 		"admin_teleport_character",
 		"admin_recall",
+		"admin_recall_with_party",
+		"admin_recall_all",
+		"admin_recall_target_of",
 		"admin_walk",
 		"teleportto",
 		"recall",
@@ -207,6 +211,59 @@ public class AdminTeleport implements IAdminCommandHandler
 			{
 			}
 		}
+		else if (command.startsWith("admin_recall_with_party"))
+		{
+			String[] param = command.split(" ");
+			if (param.length != 2)
+			{
+				activeChar.sendMessage("Usage: //recall_with_party <playername>");
+				return false;
+			}
+			String targetName = param[1];
+			L2PcInstance player = L2World.getInstance().getPlayer(targetName);
+			if (player != null && player.isInParty())
+			{
+				recallPlayers(player.getParty().getMembers(), activeChar);
+			} else
+			{
+				activeChar.sendMessage(targetName + " is not in a party.");
+				return false;
+			}
+		}
+		else if (command.startsWith("admin_recall_target_of"))
+		{
+			String[] param = command.split(" ");
+			if (param.length != 2)
+			{
+				activeChar.sendMessage("Usage: //recall_target_of <playername>");
+				return false;
+			}
+			String targetName = param[1];
+			L2PcInstance player = L2World.getInstance().getPlayer(targetName);
+			if (player != null)
+			{
+				L2Object playerTarget = player.getTarget();
+				if (playerTarget != null)
+				{
+					if (playerTarget instanceof L2PcInstance)
+					{
+						teleportCharacter((L2PcInstance) playerTarget, activeChar.getLocation(), activeChar);
+					}
+					else
+					{
+						recallNPC(activeChar, playerTarget);
+					}
+				} else
+				{
+					activeChar.sendMessage(targetName + " has no target.");
+					return false;
+				}
+			}
+		}
+		else if (command.startsWith("admin_recall_all"))
+		{
+			recallPlayers(L2World.getInstance().getPlayers(), activeChar);
+		}
 		else if (command.equals("admin_tele"))
 		{
 			showTeleportWindow(activeChar);
@@ -290,7 +347,14 @@ public class AdminTeleport implements IAdminCommandHandler
 		}
 		return true;
 	}
-	
+
+	private void recallPlayers(Collection<L2PcInstance> players, L2PcInstance activeChar) {
+		players.stream()
+				.filter(p->!p.isGM())
+				.filter(p->!p.isInOfflineMode())
+				.forEach(player -> teleportCharacter(player, activeChar.getLocation(), activeChar));
+	}
+
 	@Override
 	public String[] getAdminCommandList()
 	{
@@ -517,10 +581,15 @@ public class AdminTeleport implements IAdminCommandHandler
 			activeChar.sendMessage("SQLException while changing offline character's position");
 		}
 	}
-	
+
 	private void recallNPC(L2PcInstance activeChar)
 	{
-		L2Object obj = activeChar.getTarget();
+		L2Object target = activeChar.getTarget();
+		recallNPC(activeChar, target);
+	}
+
+	private void recallNPC(L2PcInstance activeChar, L2Object obj)
+	{
 		if ((obj instanceof L2Npc) && !((L2Npc) obj).isMinion() && !(obj instanceof L2RaidBossInstance) && !(obj instanceof L2GrandBossInstance))
 		{
 			L2Npc target = (L2Npc) obj;
