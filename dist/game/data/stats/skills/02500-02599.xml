@@ -1629,6 +1629,7 @@
 		<set name="abnormalTime" val="300" />
 		<set name="abnormalType" val="VP_UP" />
 		<set name="abnormalVisualEffect" val="VP_UP" />
+		<set name="affectRange" val="5000" />
 		<set name="effectPoint" val="100" />
 		<set name="hitTime" val="100" />
 		<set name="icon" val="icon.skilltransform4" />
