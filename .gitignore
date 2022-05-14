@@ -7,3 +7,4 @@
 .classpath
 .idea/
 test-output/
+*.iml
