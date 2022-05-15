@@ -18,4 +18,13 @@
 			<height normal="35" />
 		</collision>
 	</npc>
+	<!-- TP Inquisition Giran-->
+	<npc id="76002" displayId="36579" level="80" type="L2MultiversTeleporter" name="Inquisition" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
 </list>
