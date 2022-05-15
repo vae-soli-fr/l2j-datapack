@@ -73,7 +73,7 @@ public class Dice implements IVoicedCommandHandler {
 			coinResult = "parfaitement... sur la tranche...";
 		} else {
 			if(Rnd.get(0, 1)==1) {
-				coinResult = "le côté arborant un nombre bien visible.";
+				coinResult = "le côté arborant un visage bien visible.";
 			} else {
 				coinResult = "le côté arborant un chiffre bien visible.";
 			}
