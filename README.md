@@ -1,6 +1,8 @@
 Vae Soli DataPack
 ==============
 
+![Workflow status](https://github.com/vae-soli-fr/l2j-datapack/actions/workflows/gradle.yml/badge.svg)
+
 Vae Soli uses an open-source server emulator fully written in Java by L2J Server for the famous Korean MMORPG
 --------------
 - develop branch is currently a customized High Five `2.6.0.0` from L2J release
