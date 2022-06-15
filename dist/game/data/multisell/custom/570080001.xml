@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 	<npcs>
-		<npc>57008</npc> <!-- Flocon -->
+		<npc>57008</npc> <!-- Sosoi -->
 	</npcs>
 	<item>
 		<!-- Mouse Coin -->
 		<ingredient count="1" id="10639" />
+		<ingredient count="2" id="4355" />
 		<!-- Clef 1 -->
 		<production count="1" id="5200" />
 	</item>

@@ -690,7 +690,7 @@
 			<height normal="22.2" />
 		</collision>
 	</npc>
-	<npc id="30120" level="70" type="L2VillageMasterPriest" name="Maximilian" title="High Priest">
+	<npc id="30120" level="70" type="L2VillageMasterPriest" title="High Priestess" name="Maximilianne" displayId="30927" usingServerSideName="true" >
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
