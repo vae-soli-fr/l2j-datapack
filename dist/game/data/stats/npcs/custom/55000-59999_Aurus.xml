@@ -2435,6 +2435,7 @@
 			<height normal="14.5" />
 		</collision>
 	</npc>
+
 	<!-- Custom TP section -->
 	<npc id="56001" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
@@ -3226,72 +3227,71 @@
 		</collision>
 	</npc>
 
+	<npc id="57003" displayId="30977" level="70" type="L2Merchant" name="Coffre Nain" usingServerSideTitle="true">
+		<status attackable="false" showName="false"/>
+		<collision>
+			<radius normal="12" />
+			<height normal="9.5" />
+		</collision>
+	</npc>
+	<npc id="57004" displayId="30532" level="55" type="L2Merchant" name="Zourrus">
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="57005" displayId="30522" level="55" type="L2Merchant" name="Medrayone">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="57006" displayId="30517" level="55" type="L2Merchant" name="Alarinne">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+	<npc id="57007" displayId="32391" level="55" type="L2Merchant" name="Yappitto">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc>
+	<npc id="57008" displayId="30534" level="55" type="L2Merchant" name="Sosoï">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="18.4" />
+		</collision>
+	</npc>
+	<npc id="57009" displayId="30530" level="55" type="L2Merchant" name="Wolloma">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+	<npc id="57010" displayId="30535" level="55" type="L2Merchant" name="Katavhan" usingServerSideName="true" usingServerSideTitle="true" title=" ">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19.7" />
+		</collision>
+	</npc>
 
-	<npc id="57003" displayId="105" level="70" type="L2Merchant" name="Petit Papa Noel" usingServerSideName="true" usingServerSideTitle="true">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" flying="true" />
-		<collision>
-			<radius normal="40" />
-			<height normal="50" />
-		</collision>
-	</npc>
 
-	<npc id="57004" displayId="13160" level="55" type="L2Merchant" name="Bouboule">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
-	<npc id="57005" displayId="13160" level="55" type="L2Merchant" name="Neige">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
-	<npc id="57006" displayId="13160" level="55" type="L2Merchant" name="Glaçon">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
-	<npc id="57007" displayId="13160" level="55" type="L2Merchant" name="Gel">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
-	<npc id="57008" displayId="13160" level="55" type="L2Merchant" name="Flocon">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
-	<npc id="57009" displayId="13160" level="55" type="L2Merchant" name="Sorbet">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
-	<npc id="57010" displayId="13160" level="55" type="L2Merchant" name="Givre">
-		<!-- Confirmed CT2.5 -->
-		<status attackable="false" showName="false" />
-		<collision>
-			<radius normal="28" />
-			<height normal="30" />
-		</collision>
-	</npc>
+
 	<npc id="57011" displayId="13160" level="55" type="L2Merchant" name="Glace">
 		<!-- Confirmed CT2.5 -->
 		<status attackable="false" showName="false" />
@@ -3859,4 +3859,2243 @@
 			<height normal="21" />
 		</collision>
 	</npc>
+
+	<npc id="58009" displayId="22143" level="80" type="L2Monster" name="Dynasty Test" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8213"/> <!-- rhand: Dynasty Sword -->
+		<acquire expRate="13.23" sp="9470" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2625.75" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
+			<attribute>
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="5" /> <!--Blunt Weapons -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5334" level="4" /> <!--NPC(party) - Physical Single Close Range Attack -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9492" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9488" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9969" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9537" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9975" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9974" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9483" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9623" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9491" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="58010" displayId="22143" level="80" type="L2Monster" name="Dynasty Test" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8212"/> <!-- rhand: Dynasty Sword -->
+		<acquire expRate="13.23" sp="9470" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2625.75" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
+			<attribute>
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="5" /> <!--Blunt Weapons -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5334" level="4" /> <!--NPC(party) - Physical Single Close Range Attack -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>FANTASY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="55999" min="1" max="1" chance="1" /> <!-- Dynasty Symbol -->
+				</group>
+			</death>
+			<corpse>
+				<item id="9492" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9488" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9969" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9537" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9975" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9974" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9483" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9623" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9491" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+	<npc id="58011" displayId="30760" level="80" type="L2Merchant" name="Dynasty Symbol Merchant" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc>
+
+	<npc id="58020" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="d'Althena" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58021" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Cefedellen" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58022" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Shel'Oloth" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58023" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Gludin" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58024" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Gludio" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58025" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Dion" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58026" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Floran" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58027" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Giran" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58028" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="de Heine" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	<npc id="58029" displayId="18344" level="70" type="L2Npc" name="Oeufs" usingServerSideName="true" title="d'Oren" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+
+	<npc id="59001" displayId="22251" level="80" type="L2Npc" name="Homme Oiseau" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="150" />
+			<param name="MoveAroundSocial1" value="150" />
+			<param name="MoveAroundSocial2" value="150" />
+		</parameters>
+		<status attackable="false" targetable="false" />
+		<collision>
+			<radius normal="15.5" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+
+	<npc id="59010" displayId="18354" level="80" type="L2Monster" name="Air Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<minions name="Privates">
+				<npc id="59011" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+				<npc id="59012" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+			</minions>
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="6000.81053499893" sp="60367" raidPoints="248" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="55817.8012671518" hpRegen="187.410040552143" mp="1846.8" mpRegen="3" />
+			<attack physical="12008.0135566142" magical="8707.81891430402" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="80" distance="80" width="120" />
+			<defence physical="1200.861024" magical="1200.378064" />
+			<attribute>
+				<attack type="WIND" value="300" />
+				<defence fire="150" water="150" wind="300" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="3" /> <!--Beasts -->
+			<skill id="4494" level="1" /> <!--Raid Boss -->
+			<skill id="4743" level="5" /> <!--BOSS Strike -->
+			<skill id="4845" level="1" /> <!--Raid Boss - Level 21 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>TOWER_GUARD</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="53.525001525878906">
+					<item id="848" min="3" max="9" chance="24.9403" /> <!-- Enchanted Earring -->
+					<item id="879" min="3" max="7" chance="45.0298" /> <!-- Enchanted Ring -->
+					<item id="911" min="4" max="10" chance="16.0453" /> <!-- Enchanted Necklace -->
+					<item id="1900" min="96" max="288" chance="13.9846" /> <!-- Enchanted Necklace Chain -->
+				</group>
+				<group chance="36.80120086669922">
+					<item id="275" min="1" max="1" chance="28.8143" /> <!-- Long Bow -->
+					<item id="276" min="1" max="1" chance="28.8143" /> <!-- Elven Bow -->
+					<item id="2024" min="12" max="36" chance="42.3714" /> <!-- Elven Bow Shaft -->
+				</group>
+				<group chance="56.75920104980469">
+					<item id="6575" min="1" max="1" chance="10" /> <!-- Blessed Scroll: Enchant Weapon (D-Grade) -->
+					<item id="6576" min="1" max="1" chance="90" /> <!-- Blessed Scroll: Enchant Armor (D-Grade) -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="25" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="59011" displayId="18680" level="1" type="L2Monster" name="Air Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1.0" magical="1.0" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status undying="false"/>
+		<skillList>
+			<skill id="10005" level="1" /> <!-- Floating Root -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59012" displayId="18680" level="1" type="L2Monster" name="Air Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="1600.0" mpRegen="0.9" />
+			<attack physical="1.0" magical="1.0" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="10007" level="1" /> <!-- Wind Hustle -->
+		</skillList>		
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59013" displayId="22340" level="80" type="L2Monster" name="Earth Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<minions name="Privates">
+				<npc id="59014" count="5" respawnTime="360" weightPoint="1" /> <!-- Earth Soul Fragment -->
+				<npc id="59015" count="5" respawnTime="360" weightPoint="1" /> <!-- Earth Soul Fragment -->
+			</minions>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="22.3826391403749" sp="15668" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="33003.982801143" hpRegen="113.419259781018" mp="1708.8" mpRegen="3" />
+			<attack physical="5940.3994655008" magical="4128.10845732292" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="582.692054494118" magical="639.583141129412" />
+			<attribute>
+				<attack type="EARTH" value="80" />
+				<defence fire="50" water="50" wind="-300" earth="300" holy="50" dark="50" default="50" />
+			</attribute>
+			<speed>
+				<walk ground="180" />
+				<run ground="250" />
+			</speed>
+			<hitTime>210</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>TOWER_GUARD</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<item id="9599" min="1" max="3" chance="55.64" /> <!-- Ancient Tome of the Demon -->
+				<group chance="70">
+					<item id="57" min="12708" max="25440" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="1.4697999954223633">
+					<item id="164" min="1" max="1" chance="0.0876" /> <!-- Elysian -->
+					<item id="5533" min="1" max="1" chance="24.9198" /> <!-- Elysian Head -->
+					<item id="213" min="1" max="1" chance="0.0876" /> <!-- Branch of the Mother Tree -->
+					<item id="5544" min="1" max="1" chance="24.8952" /> <!-- Branch of the Mother Tree Head -->
+					<item id="7895" min="1" max="1" chance="0.0876" /> <!-- Flaming Dragon Skull -->
+					<item id="8342" min="1" max="1" chance="24.9198" /> <!-- Flaming Dragon Skull Piece -->
+					<item id="7902" min="1" max="1" chance="0.0876" /> <!-- Doom Crusher -->
+					<item id="8349" min="1" max="1" chance="24.9148" /> <!-- Doom Crusher Head -->
+				</group>
+				<group chance="32.93069839477539">
+					<item id="1895" min="1" max="3" chance="77.2353" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="10.8129" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="4.2404" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="2.8455" /> <!-- Orichalcum -->
+					<item id="6901" min="1" max="1" chance="0.5406" /> <!-- Recipe: Shining Arrow (100%) -->
+					<item id="9549" min="1" max="1" chance="4.3253" /> <!-- Wind Stone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="6901" min="1" max="1" chance="2.1685" /> <!-- Recipe: Shining Arrow (100%) -->
+				<item id="8716" min="1" max="1" chance="5.2634" /> <!-- Naga Storm Piece -->
+				<item id="6901" min="1" max="1" chance="2.1685" /> <!-- Recipe: Shining Arrow (100%) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="59014" displayId="18681" level="1" type="L2Monster" name="Earth Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6000.0" hpRegen="8.5" mp="1500.0" mpRegen="3" />
+			<attack physical="1.0" magical="1.0" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status undying="false"/>
+		<skillList>
+			<skill id="10003" level="1" /> <!-- Light Petrification -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59015" displayId="18681" level="1" type="L2Monster" name="Earth Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6000.0" hpRegen="2" mp="1500.0" mpRegen="0.9" />
+			<attack physical="1.0" magical="1.0" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="10004" level="1" /> <!-- Mana Siphon -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59016" displayId="13270" level="80" type="L2Monster" name="Fire Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<minions name="Privates">
+				<npc id="59017" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+				<npc id="59018" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+			</minions>
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="10" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4390" level="1" /> <!--NPC Abnormal Immunity -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="7" /> <!--Spirits -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>TOWER_GUARD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" grown="32" />
+			<height normal="53.5" grown="65.5" />
+		</collision>
+	</npc>
+	<npc id="59017" displayId="18679" level="1" type="L2Monster" name="Fire Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1099.42361669366" magical="750.763809564873" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status undying="false"/>
+		<skillList>
+			<skill id="10006" level="1" /> <!-- Soul Burn -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59018" displayId="18679" level="1" type="L2Monster" name="Fire Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="1600.0" mpRegen="0.9" />
+			<attack physical="8.47458" magical="5.78704" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="485" level="7" /> <!-- Disarm -->
+		</skillList>		
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59019" displayId="22264" level="80" type="L2Monster" name="Water Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<minions name="Privates">
+				<npc id="59020" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+				<npc id="59021" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+			</minions>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="9638" lhand="9638" /> <!-- rhand: Tears r1 lhand: Tears r1 -->
+		<acquire expRate="1.946598" sp="1431" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3643.38976668326" hpRegen="8.5" mp="1743.0" mpRegen="3" />
+			<attack physical="1.28566004965" magical="1.623302603812" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="349.77477" magical="255.95" />
+			<attribute>
+				<attack type="WATER" value="30" />
+				<defence fire="50" water="90" wind="60" earth="60" holy="40" dark="60" default="50" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>450</hitTime>
+		</stats>
+		<status undying="false" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>TOWER_GUARD</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1759" max="3602" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.1890999972820282">
+					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
+				</group>
+				<group chance="48.211299896240234">
+					<item id="1868" min="1" max="1" chance="76.6859" /> <!-- Thread -->
+					<item id="1873" min="1" max="1" chance="15.3372" /> <!-- Silver Nugget -->
+					<item id="5549" min="1" max="1" chance="3.8343" /> <!-- Metallic Thread -->
+					<item id="1889" min="1" max="1" chance="2.5562" /> <!-- Compound Braid -->
+					<item id="4044" min="1" max="1" chance="1.2781" /> <!-- Thons -->
+					<item id="959" min="1" max="1" chance="0.0015" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+					<item id="9546" min="1" max="1" chance="0.3068" /> <!-- Fire Stone -->
+				</group>
+				<group chance="42.0">
+					<item id="8600" min="1" max="1" chance="55" /> <!-- Herb of Life -->
+					<item id="8601" min="1" max="1" chance="38" /> <!-- Greater Herb of Life -->
+					<item id="8602" min="1" max="1" chance="7" /> <!-- Superior Herb of Life -->
+				</group>
+				<group chance="11.0">
+					<item id="8603" min="1" max="1" chance="7" /> <!-- Herb of Mana -->
+					<item id="8604" min="1" max="1" chance="81" /> <!-- Greater Herb of Mana -->
+					<item id="8605" min="1" max="1" chance="12" /> <!-- Superior Herb of Mana -->
+				</group>
+				<group chance="25.0">
+					<item id="8606" min="1" max="1" chance="20" /> <!-- Herb of Power -->
+					<item id="8608" min="1" max="1" chance="20" /> <!-- Herb of Alacrity -->
+					<item id="8610" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Probability -->
+					<item id="10655" min="1" max="1" chance="20" /> <!-- Herb of Vampiric Rage -->
+					<item id="10656" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Power -->
+				</group>
+				<group chance="10.0">
+					<item id="8607" min="1" max="1" chance="50" /> <!-- Herb of Magic -->
+					<item id="8609" min="1" max="1" chance="50" /> <!-- Herb of Casting Spd. -->
+				</group>
+				<group chance="1.0">
+					<item id="8612" min="1" max="1" chance="33" /> <!-- Herb of the Warrior -->
+					<item id="8613" min="1" max="1" chance="33" /> <!-- Herb of the Mystic -->
+					<item id="8614" min="1" max="1" chance="34" /> <!-- Herb of Recovery -->
+				</group>
+				<group chance="11.0">
+					<item id="8611" min="1" max="1" chance="94" /> <!-- Herb of Speed -->
+					<item id="10657" min="1" max="1" chance="3" /> <!-- Herb of Doubt -->
+					<item id="13028" min="1" max="1" chance="3" /> <!-- Vitality Replenishing Herb -->
+				</group>
+			</death>
+			<corpse>
+				<item id="5522" min="1" max="1" chance="0.8946" /> <!-- Sealed Armor of Nightmare Pattern -->
+				<item id="5272" min="1" max="1" chance="0.1167" /> <!-- Recipe: Greater Soulshot (S) Compressed Package(100%) -->
+				<item id="5523" min="1" max="1" chance="0.8946" /> <!-- Sealed Majestic Plate Armor Pattern -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="59020" displayId="18678" level="1" type="L2Monster" name="Water Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1.0" magical="1.0" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status undying="false"/>
+		<skillList>
+			<skill id="4618" level="1" /> <!-- Mirage Mist -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59021" displayId="18678" level="1" type="L2Monster" name="Water Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="1600.0" mpRegen="0.9" />
+			<attack physical="1.0" magical="1.0" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="10009" level="1" /> <!-- Suffocation -->
+		</skillList>	
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59022" displayId="22289" level="80" type="L2Monster" name="Dark Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<minions name="Privates">
+				<npc id="59023" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+				<npc id="59024" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+			</minions>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.4035745" sp="3792" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3643.38976668326" hpRegen="8.5" mp="1743.0" mpRegen="3" />
+			<attack physical="1055.28566004965" magical="720.623302603812" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="349.77477" magical="255.95" />
+			<attribute>
+				<defence fire="30" water="30" wind="30" earth="30" holy="30" dark="30" default="30" />
+			</attribute>
+			<speed>
+				<walk ground="26" />
+				<run ground="170" />
+			</speed>
+			<hitTime>500</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4032" level="10" /> <!--NPC Strike -->
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="3" /> <!--Light Armor Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="4" /> <!--Animals -->
+			<skill id="4584" level="10" /> <!--Reducing P. Def Stun -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>TOWER_GUARD</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4706" max="9640" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.476500004529953">
+					<item id="164" min="1" max="1" chance="0.0876" /> <!-- Elysian -->
+					<item id="5533" min="1" max="1" chance="24.9198" /> <!-- Elysian Head -->
+					<item id="213" min="1" max="1" chance="0.0876" /> <!-- Branch of the Mother Tree -->
+					<item id="5544" min="1" max="1" chance="24.8952" /> <!-- Branch of the Mother Tree Head -->
+					<item id="7895" min="1" max="1" chance="0.0876" /> <!-- Flaming Dragon Skull -->
+					<item id="8342" min="1" max="1" chance="24.9198" /> <!-- Flaming Dragon Skull Piece -->
+					<item id="7902" min="1" max="1" chance="0.0876" /> <!-- Doom Crusher -->
+					<item id="8349" min="1" max="1" chance="24.9148" /> <!-- Doom Crusher Head -->
+				</group>
+				<group chance="39.44620132446289">
+					<item id="1873" min="1" max="1" chance="31.9233" /> <!-- Silver Nugget -->
+					<item id="1868" min="3" max="9" chance="26.6028" /> <!-- Thread -->
+					<item id="1876" min="1" max="1" chance="15.9617" /> <!-- Mithril Ore -->
+					<item id="1895" min="1" max="1" chance="22.8024" /> <!-- Metallic Fiber -->
+					<item id="4042" min="1" max="1" chance="1.3301" /> <!-- Enria -->
+					<item id="960" min="1" max="1" chance="0.0319" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+					<item id="9573" min="1" max="1" chance="0.5542" /> <!-- Life Stone - Level 80 -->
+					<item id="9574" min="1" max="1" chance="0.1386" /> <!-- Mid-Grade Life Stone - Level 80 -->
+					<item id="9575" min="1" max="1" chance="0.0139" /> <!-- High-Grade Life Stone - Level 80 -->
+					<item id="9576" min="1" max="1" chance="0.0028" /> <!-- Top-Grade Life Stone - Level 80 -->
+					<item id="9546" min="1" max="1" chance="0.6383" /> <!-- Fire Stone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="5480" min="1" max="1" chance="3.1544" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
+				<item id="1876" min="1" max="3" chance="70.2978" /> <!-- Mithril Ore -->
+				<item id="1895" min="1" max="5" chance="66.9503" /> <!-- Metallic Fiber -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="59023" displayId="18683" level="1" type="L2Monster" name="Dark Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1.0" magical="1.0" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status undying="false"/>
+		<skillList>
+			<skill id="10010" level="1" /> <!-- Soul Fracture -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59024" displayId="18683" level="1" type="L2Monster" name="Dark Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="1600.0" mpRegen="0.9" />
+			<attack physical="8.47458" magical="5.78704" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="10011" level="1" /> <!-- Light Fear -->
+		</skillList>		
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59025" displayId="13115" level="80" type="L2Monster" name="Holy Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<minions name="Privates">
+				<npc id="59026" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+				<npc id="59027" count="5" respawnTime="360" weightPoint="1" /> <!-- Air Soul Fragment -->
+			</minions>
+		</parameters>
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<attack physical="388.11142" magical="265.02979" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="8" /> <!--Angels -->
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>TOWER_GUARD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="59026" displayId="18682" level="1" type="L2Monster" name="Holy Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1.0" magical="1.0" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status undying="false"/>
+		<skillList>
+			<skill id="4161" level="1" /> <!-- Summon PC -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59027" displayId="18682" level="1" type="L2Monster" name="Holy Soul Fragment" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<parameters>
+			<param name="AttackRange" value="2" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39.74519" hpRegen="2" mp="1600.0" mpRegen="0.9" />
+			<attack physical="1.0" magical="1.0" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44.44444" magical="32.52252" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="10012" level="9" /> <!-- Minor Seal of Suspension -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="59028" displayId="25698" level="80" type="L2Monster" name="Full Soul" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="6390" level="1" /> <!-- Cokrakon Sonic Explosion -->
+			<skill name="Skill02_ID" id="6391" level="1" /> <!-- Cokrakon Sonic Slash -->
+			<skill name="SpecialSkill01_ID" id="6392" level="1" /> <!-- Cokrakon Sonic Shot -->
+			<skill name="SpecialSkill02_ID" id="6376" level="1" /> <!-- Sonic Strike -->
+			<minions name="Privates">
+				<npc id="59011" count="2" respawnTime="120" weightPoint="1" /> <!-- Air Soul Fragment -->
+				<npc id="59012" count="2" respawnTime="120" weightPoint="1" /> <!-- Air Soul Fragment -->
+
+				<npc id="59014" count="2" respawnTime="120" weightPoint="1" /> <!-- Earth Soul Fragment -->
+				<npc id="59015" count="2" respawnTime="120" weightPoint="1" /> <!-- Earth Soul Fragment -->
+
+				<npc id="59017" count="2" respawnTime="120" weightPoint="1" /> <!-- Fire Soul Fragment -->
+				<npc id="59018" count="2" respawnTime="120" weightPoint="1" /> <!-- Fire Soul Fragment -->
+
+				<npc id="59020" count="2" respawnTime="120" weightPoint="1" /> <!-- Water Soul Fragment -->
+				<npc id="59021" count="2" respawnTime="120" weightPoint="1" /> <!-- Water Soul Fragment -->
+
+				<npc id="59023" count="2" respawnTime="120" weightPoint="1" /> <!-- Dark Soul Fragment -->
+				<npc id="59024" count="2" respawnTime="120" weightPoint="1" /> <!-- Dark Soul Fragment -->
+
+				<npc id="59026" count="2" respawnTime="120" weightPoint="1" /> <!-- Holy Soul Fragment -->
+				<npc id="59027" count="2" respawnTime="120" weightPoint="1" /> <!-- Holy Soul Fragment -->
+			</minions>
+		</parameters>
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673.05473" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<attack physical="388.11142" magical="265.02979" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="223.6362" magical="163.64727" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="8" /> <!--Angels -->
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="45" />
+			<height normal="75" />
+		</collision>
+	</npc>
+
+	<npc id="59030" displayId="32364" level="80" type="L2Npc" name="Citoyen" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="150" />
+			<param name="MoveAroundSocial1" value="150" />
+			<param name="MoveAroundSocial2" value="150" />
+		</parameters>
+		<status attackable="false" targetable="false"  showName="false" />
+		<collision>
+			<radius normal="13" grown="15" />
+			<height normal="23" grown="34" />
+		</collision>
+	</npc>
+	<npc id="59031" displayId="32738" level="80" type="L2Monster" name="Terroriste" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="FriendShip1" value="7221" /> <!-- Mark of Varka's Alliance - Level 1 -->
+			<param name="FriendShip2" value="7222" /> <!-- Mark of Varka's Alliance - Level 2 -->
+			<param name="FriendShip3" value="7223" /> <!-- Mark of Varka's Alliance - Level 3 -->
+			<param name="FriendShip4" value="7224" /> <!-- Mark of Varka's Alliance - Level 4 -->
+			<param name="FriendShip5" value="7225" /> <!-- Mark of Varka's Alliance - Level 5 -->
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="30" />
+			<param name="MeleeAttackerAg" value="50" />
+			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
+			<skill name="Buff" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
+			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
+			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.17248" sp="3310" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2974.35686398316" hpRegen="8.5" mp="1607.4" mpRegen="3" />
+			<attack physical="890.50085998804" magical="608.096657928153" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="25" />
+				<run ground="175" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4038" level="5" /> <!--Decrease Atk. Spd. -->
+			<skill id="4085" level="1" /> <!--Critical Damage -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="4" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4573" level="9" /> <!--NPC Sonic Blaster -->
+			<skill id="4575" level="2" /> <!--NPC Clan Buff - Haste -->
+			<skill id="4789" level="7" /> <!--NPC High Level -->
+			<skill id="5620" level="6" /> <!--Short-Range Physical Attack Weakness -->
+		</skillList>
+		<shots shotChance="50" spiritChance="50" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>VARKA_SILENOS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4725" max="9675" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.5177000164985657">
+					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
+				</group>
+				<group chance="45.30189895629883">
+					<item id="1868" min="4" max="12" chance="19.5665" /> <!-- Thread -->
+					<item id="1873" min="1" max="1" chance="31.3065" /> <!-- Silver Nugget -->
+					<item id="5549" min="1" max="1" chance="7.8266" /> <!-- Metallic Thread -->
+					<item id="1889" min="1" max="1" chance="5.2177" /> <!-- Compound Braid -->
+					<item id="4044" min="1" max="1" chance="2.6089" /> <!-- Thons -->
+					<item id="960" min="1" max="1" chance="0.0313" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+					<item id="8732" min="1" max="1" chance="0.6522" /> <!-- Life Stone - Level 76 -->
+					<item id="8742" min="1" max="1" chance="0.1631" /> <!-- Mid-Grade Life Stone - Level 76 -->
+					<item id="8752" min="1" max="1" chance="0.0163" /> <!-- High-Grade Life Stone - Level 76 -->
+					<item id="1344" min="30" max="90" chance="32.6109" /> <!-- Mithril Arrow -->
+				</group>
+			</death>
+			<corpse>
+				<item id="5528" min="1" max="1" chance="11.4809" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="5167" min="1" max="1" chance="0.4268" /> <!-- Recipe: Blessed Spiritshot (S) Compressed Package (100%) -->
+				<item id="5529" min="1" max="1" chance="2.6345" /> <!-- Dragon Slayer Edge -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc>
+
+	<npc id="59032" displayId="22143" level="80" type="L2Monster" name="Inquisiteur" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="Skill01_ID" id="5334" level="4" /> <!-- NPC(party) - Physical Single Close Range Attack -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8213"/>
+		<acquire expRate="13.23" sp="9470" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2625.75" hpRegen="8.5" mp="1708.8" mpRegen="3" />
+			<attack physical="750.32268463427" magical="525.285164307598" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="345.61127" magical="252.90333" />
+			<attribute>
+				<attack type="DARK" value="200" />
+				<defence fire="170" water="170" wind="170" earth="170" holy="120" dark="200" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status showName="true" />
+		<skillList>
+			<skill id="4408" level="13" /> <!--HP Increase (5x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="5" /> <!--Blunt Weapons -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5334" level="4" /> <!--NPC(party) - Physical Single Close Range Attack -->
+			<skill id="5467" level="1" /> <!--Dark Attacks -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<dropLists>
+			<corpse>
+				<item id="9492" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9488" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9969" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9537" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9975" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9974" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9483" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+				<item id="9623" min="1" max="1" chance="1.0" /> <!-- Sealed Dynasty Boot Piece -->
+				<item id="9491" min="1" max="1" chance="0.1" /> <!-- Sealed Dynasty Stocking Piece -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="59033" displayId="22143" level="80" type="L2Npc" name="Inquisiteur" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<equipment rhand="8213"/>
+		<parameters>
+			<param name="MoveAroundSocial" value="150" />
+			<param name="MoveAroundSocial1" value="150" />
+			<param name="MoveAroundSocial2" value="150" />
+		</parameters>
+		<status attackable="false" targetable="false"  showName="false" />
+		<collision>
+			<radius normal="13" grown="15" />
+			<height normal="28" grown="34" />
+		</collision>
+	</npc>
+
+	<npc id="59034" displayId="18828" level="80" type="L2Npc" name="Hem'ar Kaush" usingServerSideName="true" title="Grand Inquisiteur" usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>	
+	<npc id="59035" displayId="32797" level="80" type="L2Npc" name="Bartholomé Conti" usingServerSideName="true" title="Cardinal de Giran" usingServerSideTitle="true">
+		<!-- TODO: Must be confirmed -->
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="2444" mp="2444.0" />
+			<attack physical="500" magical="500" attackSpeed="278" range="40" />
+			<defence physical="500" magical="500" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="13" />
+			<height normal="20" />
+		</collision>
+	</npc>
+
+	<npc id="59036" displayId="32804" level="80" type="L2Npc" name="Garde Blanc" usingServerSideName="true">
+		<!-- TODO: Must be confirmed -->
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="2444" mp="2444.0" />
+			<attack physical="500" magical="500" attackSpeed="278" range="40" />
+			<defence physical="500" magical="500" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="19" />
+		</collision>
+	</npc>
+	<npc id="59037" displayId="22143" level="80" type="L2Guard" name="Inquisiteur" usingServerSideName="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="8213"/>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" undying="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="13" grown="15" />
+			<height normal="28" grown="34" />
+		</collision>
+	</npc>
+
+	<npc id="59040" displayId="18354" level="80" type="L2Npc" name="Air Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="25" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="59041" displayId="22340" level="80" type="L2Npc" name="Earth Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="10" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="59042" displayId="13270" level="80" type="L2Npc" name="Fire Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="30" grown="32" />
+			<height normal="53.5" grown="65.5" />
+		</collision>
+	</npc>	
+	<npc id="59043" displayId="22264" level="80" type="L2Npc" name="Water Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="20" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="59044" displayId="22289" level="80" type="L2Npc" name="Dark Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="20" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="59045" displayId="13115" level="80" type="L2Npc" name="Holy Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="59046" displayId="25698" level="80" type="L2Npc" name="Full Soul" usingServerSideName="true">
+		<status attackable="false" targetable="false"  showName="false"/>
+		<collision>
+			<radius normal="45" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="55049" displayId="18680" level="1" type="L2Npc" name="Jump">
+		<!-- Confirmed CT2.5 -->
+		<status canMove="false" attackable="false" showName="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="100" />
+		</collision>
+	</npc>
+	<npc id="59050" displayId="25115" level="80" type="L2Monster" name="Mutant Aquatique" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<skill name="SelfRangeDebuff_a" id="4188" level="7" /> <!-- Bleed -->
+			<skill name="SelfRangeDebuffAnother_a" id="4190" level="7" /> <!-- Decrease MP -->
+		</parameters>
+		<race>DIVINE</race>
+		<acquire expRate="938.056981840496" sp="802604" raidPoints="2884" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="373386.071242416" hpRegen="117.68436242886" mp="1345.8" mpRegen="2.7" />
+			<attack physical="2154.88111713047" magical="717.403871261232" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="887.74791" magical="433.08" evasion="-18" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="53" dark="15" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<hitTime>460</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4188" level="7" /> <!--Bleed -->
+			<skill id="4190" level="7" /> <!--Decrease MP -->
+			<skill id="4192" level="7" /> <!--BOSS HP Drain -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="4" /> <!--One-handed Sword -->
+			<skill id="4416" level="8" /> <!--Angels -->
+			<skill id="4494" level="1" /> <!--Raid Boss -->
+			<skill id="4913" level="1" /> <!--Raid Boss - Level 70 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
+		<dropLists>
+			<death>
+				<item id="8619" min="1" max="1" chance="52" /> <!-- Ancient Book: Divine Inspiration (Original Language Version) -->
+				<item id="9818" min="3" max="7" chance="81" /> <!-- Angelic Essence -->
+				<item id="8176" min="1" max="4" chance="81" /> <!-- Destruction Tombstone -->
+				<group chance="79.40280151367188">
+					<item id="5312" min="1" max="1" chance="6.0811" /> <!-- Sealed Helm of Nightmare -->
+					<item id="5315" min="1" max="1" chance="8.6898" /> <!-- Sealed Shield of Nightmare -->
+					<item id="5317" min="1" max="1" chance="6.0811" /> <!-- Sealed Majestic Circlet -->
+					<item id="5527" min="9" max="27" chance="41.0386" /> <!-- Sealed Helm of Nightmare Design -->
+					<item id="5495" min="40" max="120" chance="11.7274" /> <!-- Sealed Shield of Nightmare Fragment -->
+					<item id="5528" min="14" max="42" chance="26.382" /> <!-- Sealed Majestic Circlet Design -->
+				</group>
+				<group chance="77.06430053710938">
+					<item id="5311" min="1" max="1" chance="3.2538" /> <!-- Sealed Armor of Nightmare -->
+					<item id="5316" min="1" max="1" chance="3.2538" /> <!-- Sealed Majestic Plate Armor -->
+					<item id="5522" min="4" max="12" chance="60.9733" /> <!-- Sealed Armor of Nightmare Pattern -->
+					<item id="5523" min="8" max="22" chance="32.5191" /> <!-- Sealed Majestic Plate Armor Pattern -->
+				</group>
+				<group chance="22.25790023803711">
+					<item id="6578" min="1" max="1" chance="28.5714" /> <!-- Blessed Scroll: Enchant Armor (S-Grade) -->
+					<item id="6570" min="1" max="1" chance="71.4286" /> <!-- Blessed Scroll: Enchant Armor (A-Grade) -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="42" />
+			<height normal="45" />
+		</collision>
+	</npc>
+
+	<npc id="59051" displayId="22776" level="80" type="L2Monster" name="Chef Mahum" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="ag_type" value="1" />
+			<param name="ProbSelfBuff1" value="100" />
+			<param name="ProbSelfBuff2" value="100" />
+			<param name="ProbLongRangeDDMagic1" value="10" />
+			<param name="ProbPhysicalSpecial1" value="5" />
+			<param name="ProbPhysicalSpecial2" value="3" />
+			<param name="ProbPhysicalSpecial3" value="5" />
+			<param name="LongRangeSkillDist" value="100" />
+			<param name="BroadCastReception" value="0" />
+			<param name="CaptureCycle" value="20" />
+			<param name="CaptureCycleRand" value="4" />
+			<param name="CollectGhost" value="1" />
+			<param name="CollectGhostDespawnTime" value="180" />
+			<param name="Social1" value="1" />
+			<param name="Social2" value="2" />
+			<param name="Social3" value="3" />
+			<param name="Social1_Frame" value="2" />
+			<param name="Social2_Frame" value="2" />
+			<param name="Social3_Frame" value="2" />
+			<skill name="SelfBuff1" id="5087" level="1" /> <!-- Berserk -->
+			<skill name="SelfBuff2" id="5087" level="2" /> <!-- Berserk -->
+			<skill name="LongRangeDDMagic1" id="5120" level="1" /> <!-- Stun -->
+			<skill name="PhysicalSpecial1" id="5083" level="4" /> <!-- Stun -->
+			<skill name="PhysicalSpecial2" id="5081" level="4" /> <!-- Silence -->
+			<skill name="PhysicalSpecial3" id="5082" level="4" /> <!-- NPC Spinning, Slashing Trick -->
+			<skill name="DeBuff1" id="5098" level="1" /> <!-- Capture Penalty -->
+			<skill name="DeBuff2" id="5098" level="2" /> <!-- Capture Penalty -->
+			<skill name="CaptureCancel_a" id="5099" level="1" /> <!-- Cancel Capture A -->
+			<skill name="CaptureCancel_b" id="5100" level="1" /> <!-- Cancel Capture B -->
+			<skill name="CaptureCancel_c" id="5101" level="1" /> <!-- Cancel Capture C -->
+			<skill name="CaptureCancel_all" id="5102" level="1" /> <!-- Cancel All Capture -->
+			<skill name="DeBuff1Cancel" id="5102" level="1" /> <!-- Cancel All Capture -->
+			<skill name="DeBuff2Cancel" id="5102" level="1" /> <!-- Cancel All Capture -->
+			<skill name="crew_skill" id="6172" level="1" /> <!-- Presentation - Tyranno -->
+			<skill name="Skill01_ID" id="6338" level="1" /> <!-- Red Slash 2 -->
+			<skill name="Skill02_ID" id="6336" level="1" /> <!-- Electric Rain 2 -->
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire expRate="113.689047375" sp="81666" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="339687.157685998" hpRegen="195.708888732201" mp="1674.8" mpRegen="3" />
+			<attack physical="7476.5080117304" magical="7476.4857482389" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="546.2" magical="599.528184" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="105" />
+				<run ground="220" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4084" level="9" /> <!--Resist Physical Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="12" /> <!--Slightly Strong P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="5" /> <!--Blunt Weapons -->
+			<skill id="4416" level="24" /> <!--Unknown Creature -->
+			<skill id="4417" level="4" /> <!--Beasts -->
+			<skill id="4438" level="5" /> <!--Greater Resist Sleep -->
+			<skill id="4439" level="5" /> <!--Greater Resist Hold -->
+			<skill id="4440" level="5" /> <!--Greater Resist Paralysis -->
+			<skill id="4441" level="5" /> <!--Greater Resist Mental Derangement -->
+			<skill id="4444" level="2" /> <!--Higher Resist Bow/Crossbow Weapons -->
+			<skill id="4445" level="1" /> <!--Greater Resist Spear Weapons -->
+			<skill id="5082" level="4" /> <!--NPC Spinning, Slashing Trick -->
+			<skill id="5098" level="1" /> <!--Capture Penalty -->
+			<skill id="5099" level="1" /> <!--Cancel Capture A -->
+			<skill id="5100" level="1" /> <!--Cancel Capture B -->
+			<skill id="5101" level="1" /> <!--Cancel Capture C -->
+			<skill id="5102" level="1" /> <!--Cancel All Capture -->
+			<skill id="5599" level="9" /> <!--Stun Resistance -->
+			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="96910" max="197846" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="8.003399848937988">
+					<item id="6370" min="1" max="1" chance="0.2121" /> <!-- Saint Spear -->
+					<item id="6694" min="1" max="1" chance="99.7879" /> <!-- Saint Spear Blade -->
+				</group>
+				<group chance="42.528099060058594">
+					<item id="1879" min="15" max="45" chance="10.5355" /> <!-- Cokes -->
+					<item id="1885" min="2" max="6" chance="39.508" /> <!-- High-Grade Suede -->
+					<item id="9628" min="1" max="1" chance="14.8736" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="9.981" /> <!-- Orichalcum -->
+					<item id="9629" min="1" max="1" chance="8.2452" /> <!-- Adamantine -->
+					<item id="9573" min="1" max="1" chance="13.1693" /> <!-- Life Stone - Level 80 -->
+					<item id="9574" min="1" max="1" chance="3.2923" /> <!-- Mid-Grade Life Stone - Level 80 -->
+					<item id="9575" min="1" max="1" chance="0.3292" /> <!-- High-Grade Life Stone - Level 80 -->
+					<item id="9576" min="1" max="1" chance="0.0659" /> <!-- Top-Grade Life Stone - Level 80 -->
+				</group>
+			</death>
+			<corpse>
+				<item id="6901" min="1" max="1" chance="19.6584" /> <!-- Recipe: Shining Arrow (100%) -->
+				<item id="6712" min="1" max="5" chance="93.2982" /> <!-- Sealed Major Arcana Gloves fabric -->
+				<item id="960" min="1" max="1" chance="7.8634" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="29" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+
+	<npc id="59052" displayId="22776" level="84" type="L2Monster" name="Lieutenant Mahum" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6338" level="1" /> <!-- Red Slash 2 -->
+			<skill name="Skill02_ID" id="6336" level="1" /> <!-- Electric Rain 2 -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.366088" sp="3820" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4039.04270539801" hpRegen="8.5" mp="1812.0" mpRegen="3" />
+			<attack physical="1144.73130112535" magical="781.703083407155" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
+			<attribute>
+				<attack type="FIRE" value="170" />
+				<defence fire="180" water="100" wind="140" earth="140" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="49" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> <!--Resist Bow/Crossbow Weapons -->
+			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
+			<skill id="4408" level="11" /> <!--HP Increase (3x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="8" /> <!--Weak P. Atk. -->
+			<skill id="4411" level="14" /> <!--Strong M. Atk. -->
+			<skill id="4412" level="7" /> <!--Weak P. Def. -->
+			<skill id="4413" level="17" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4458" level="1" /> <!--Spear Weapon Weak Point -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="5620" level="9" /> <!--Short-Range Physical Attack Weakness -->
+			<skill id="5663" level="5" /> <!--Resistance to Ancient Sword -->
+			<skill id="6336" level="1" /> <!--Electric Rain 2 -->
+			<skill id="6338" level="1" /> <!--Red Slash 2 -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="1542" max="3152" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6606000065803528">
+					<item id="15698" min="1" max="1" chance="0.0938" /> <!-- Sealed Moirai Leather Breastplate -->
+					<item id="15701" min="1" max="1" chance="0.1501" /> <!-- Sealed Moirai Leather Legging -->
+					<item id="15649" min="1" max="1" chance="38.04" /> <!-- Sealed Moirai Leather Breastplate Piece -->
+					<item id="15652" min="1" max="1" chance="61.7161" /> <!-- Sealed Moirai Leather Legging Piece -->
+				</group>
+				<group chance="9.360099792480469">
+					<item id="1895" min="1" max="1" chance="86.858" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="6.0801" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="2.3843" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="1.6" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="2.1111" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.5278" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0528" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="9552" min="1" max="1" chance="0.0608" /> <!-- Fire Crystal -->
+					<item id="959" min="1" max="1" chance="0.0122" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+					<item id="15779" min="1" max="1" chance="0.1204" /> <!-- Recipe - Sealed Moirai Leather Breastplate (60%) -->
+					<item id="15782" min="1" max="1" chance="0.1925" /> <!-- Recipe - Sealed Moirai Leather Legging (60%) -->
+				</group>
+				<group chance="42.0">
+					<item id="8600" min="1" max="1" chance="55" /> <!-- Herb of Life -->
+					<item id="8601" min="1" max="1" chance="38" /> <!-- Greater Herb of Life -->
+					<item id="8602" min="1" max="1" chance="7" /> <!-- Superior Herb of Life -->
+				</group>
+				<group chance="11.0">
+					<item id="8603" min="1" max="1" chance="40" /> <!-- Herb of Mana -->
+					<item id="8604" min="1" max="1" chance="52" /> <!-- Greater Herb of Mana -->
+					<item id="8605" min="1" max="1" chance="8" /> <!-- Superior Herb of Mana -->
+				</group>
+				<group chance="25.0">
+					<item id="8606" min="1" max="1" chance="20" /> <!-- Herb of Power -->
+					<item id="8608" min="1" max="1" chance="20" /> <!-- Herb of Alacrity -->
+					<item id="8610" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Probability -->
+					<item id="10655" min="1" max="1" chance="20" /> <!-- Herb of Vampiric Rage -->
+					<item id="10656" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Power -->
+				</group>
+				<group chance="10.0">
+					<item id="8607" min="1" max="1" chance="50" /> <!-- Herb of Magic -->
+					<item id="8609" min="1" max="1" chance="50" /> <!-- Herb of Casting Spd. -->
+				</group>
+				<group chance="1.0">
+					<item id="8612" min="1" max="1" chance="33" /> <!-- Herb of the Warrior -->
+					<item id="8613" min="1" max="1" chance="33" /> <!-- Herb of the Mystic -->
+					<item id="8614" min="1" max="1" chance="34" /> <!-- Herb of Recovery -->
+				</group>
+				<group chance="11.0">
+					<item id="8611" min="1" max="1" chance="94" /> <!-- Herb of Speed -->
+					<item id="10657" min="1" max="1" chance="3" /> <!-- Herb of Doubt -->
+					<item id="13028" min="1" max="1" chance="3" /> <!-- Vitality Replenishing Herb -->
+				</group>
+			</death>
+			<corpse>
+				<item id="15649" min="1" max="1" chance="1.2239" /> <!-- Sealed Moirai Leather Breastplate Piece -->
+				<item id="15652" min="1" max="1" chance="1.9856" /> <!-- Sealed Moirai Leather Legging Piece -->
+				<item id="1894" min="1" max="1" chance="13.3768" /> <!-- Crafted Leather -->
+				<item id="15779" min="1" max="1" chance="0.151" /> <!-- Recipe - Sealed Moirai Leather Breastplate (60%) -->
+				<item id="15782" min="1" max="1" chance="0.2415" /> <!-- Recipe - Sealed Moirai Leather Legging (60%) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="29" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="59053" displayId="18907" level="84" type="L2Monster" name="Guerrier Mahum" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6566" level="17" /> <!-- NPC water shot -->
+			<skill name="SelfBuff" id="4074" level="2" /> <!-- NPC Haste -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.643354" sp="1990" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4039.04270539801" hpRegen="8.5" mp="1812.0" mpRegen="3" />
+			<attack physical="1144.73130112535" magical="781.703083407155" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
+			<attribute>
+				<attack type="WATER" value="170" />
+				<defence fire="100" water="180" wind="140" earth="140" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="3" /> <!--Resist Bow/Crossbow Weapons -->
+			<skill id="4074" level="2" /> <!--NPC Haste -->
+			<skill id="4116" level="5" /> <!--Resist M. Atk. -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5463" level="1" /> <!--Water Attacks -->
+			<skill id="5620" level="2" /> <!--Short-Range Physical Attack Weakness -->
+			<skill id="6566" level="17" /> <!--NPC water shot -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="725" max="1481" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.5767999887466431">
+					<item id="15694" min="1" max="1" chance="0.0404" /> <!-- Sealed Moirai Helmet -->
+					<item id="15695" min="1" max="1" chance="0.0404" /> <!-- Sealed Moirai Leather Helmet -->
+					<item id="15696" min="1" max="1" chance="0.0404" /> <!-- Sealed Moirai Circlet -->
+					<item id="15710" min="1" max="1" chance="0.0578" /> <!-- Sealed Moirai Shield -->
+					<item id="15709" min="1" max="1" chance="0.0578" /> <!-- Sealed Moirai Sigil -->
+					<item id="15645" min="1" max="1" chance="15.1498" /> <!-- Sealed Moirai Helmet Piece -->
+					<item id="15646" min="1" max="1" chance="15.1498" /> <!-- Sealed Moirai Leather Helmet Piece -->
+					<item id="15647" min="1" max="1" chance="15.1498" /> <!-- Sealed Moirai Circlet Piece -->
+					<item id="15693" min="1" max="1" chance="27.1569" /> <!-- Sealed Moirai Shield Piece -->
+					<item id="15692" min="1" max="1" chance="27.1569" /> <!-- Sealed Moirai Sigil Piece -->
+				</group>
+				<group chance="5.081299781799316">
+					<item id="1879" min="1" max="1" chance="60.3191" /> <!-- Cokes -->
+					<item id="1885" min="1" max="1" chance="30.1595" /> <!-- High-Grade Suede -->
+					<item id="9628" min="1" max="1" chance="2.8385" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="1.9048" /> <!-- Orichalcum -->
+					<item id="9629" min="1" max="1" chance="1.5735" /> <!-- Adamantine -->
+					<item id="10483" min="1" max="1" chance="2.5133" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.6283" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.063" /> <!-- High-Grade Life Stone - Level 82 -->
+				</group>
+				<group chance="42.0">
+					<item id="8600" min="1" max="1" chance="55" /> <!-- Herb of Life -->
+					<item id="8601" min="1" max="1" chance="38" /> <!-- Greater Herb of Life -->
+					<item id="8602" min="1" max="1" chance="7" /> <!-- Superior Herb of Life -->
+				</group>
+				<group chance="11.0">
+					<item id="8603" min="1" max="1" chance="40" /> <!-- Herb of Mana -->
+					<item id="8604" min="1" max="1" chance="52" /> <!-- Greater Herb of Mana -->
+					<item id="8605" min="1" max="1" chance="8" /> <!-- Superior Herb of Mana -->
+				</group>
+				<group chance="25.0">
+					<item id="8606" min="1" max="1" chance="20" /> <!-- Herb of Power -->
+					<item id="8608" min="1" max="1" chance="20" /> <!-- Herb of Alacrity -->
+					<item id="8610" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Probability -->
+					<item id="10655" min="1" max="1" chance="20" /> <!-- Herb of Vampiric Rage -->
+					<item id="10656" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Power -->
+				</group>
+				<group chance="10.0">
+					<item id="8607" min="1" max="1" chance="50" /> <!-- Herb of Magic -->
+					<item id="8609" min="1" max="1" chance="50" /> <!-- Herb of Casting Spd. -->
+				</group>
+				<group chance="1.0">
+					<item id="8612" min="1" max="1" chance="33" /> <!-- Herb of the Warrior -->
+					<item id="8613" min="1" max="1" chance="33" /> <!-- Herb of the Mystic -->
+					<item id="8614" min="1" max="1" chance="34" /> <!-- Herb of Recovery -->
+				</group>
+				<group chance="11.0">
+					<item id="8611" min="1" max="1" chance="94" /> <!-- Herb of Speed -->
+					<item id="10657" min="1" max="1" chance="3" /> <!-- Herb of Doubt -->
+					<item id="13028" min="1" max="1" chance="3" /> <!-- Vitality Replenishing Herb -->
+				</group>
+			</death>
+			<corpse>
+				<item id="15645" min="1" max="1" chance="0.5317" /> <!-- Sealed Moirai Helmet Piece -->
+				<item id="15646" min="1" max="1" chance="0.5317" /> <!-- Sealed Moirai Leather Helmet Piece -->
+				<item id="15647" min="1" max="1" chance="0.5317" /> <!-- Sealed Moirai Circlet Piece -->
+				<item id="15693" min="1" max="1" chance="0.9532" /> <!-- Sealed Moirai Shield Piece -->
+				<item id="15692" min="1" max="1" chance="0.9532" /> <!-- Sealed Moirai Sigil Piece -->
+				<item id="15775" min="1" max="1" chance="0.071" /> <!-- Recipe - Sealed Moirai Helmet (60%) -->
+				<item id="15776" min="1" max="1" chance="0.071" /> <!-- Recipe - Sealed Moirai Leather Helmet(60%) -->
+				<item id="15777" min="1" max="1" chance="0.071" /> <!-- Recipe - Sealed Moirai Circlet (60%) -->
+				<item id="15791" min="1" max="1" chance="0.1014" /> <!-- Recipe - Sealed Moirai Shield (60%) -->
+				<item id="15790" min="1" max="1" chance="0.1014" /> <!-- Recipe - Sealed Moirai Sigil (60%) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="27" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="59054" displayId="18906" level="84" type="L2Monster" name="Soldat Mahum" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6559" level="16" /> <!-- NPC water attack -->
+			<skill name="SelfBuff" id="4028" level="3" /> <!-- NPC Might -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.503116" sp="1884" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4039.04270539801" hpRegen="8.5" mp="1812.0" mpRegen="3" />
+			<attack physical="1144.73130112535" magical="781.703083407155" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.86723" magical="261.87171" />
+			<attribute>
+				<attack type="WATER" value="170" />
+				<defence fire="100" water="180" wind="140" earth="140" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4028" level="3" /> <!--NPC Might -->
+			<skill id="4071" level="3" /> <!--Resist Bow/Crossbow Weapons -->
+			<skill id="4116" level="5" /> <!--Resist M. Atk. -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="13" /> <!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5463" level="1" /> <!--Water Attacks -->
+			<skill id="5620" level="2" /> <!--Short-Range Physical Attack Weakness -->
+			<skill id="6559" level="16" /> <!--NPC water attack -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="686" max="1402" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6238999962806702">
+					<item id="15703" min="1" max="1" chance="0.0442" /> <!-- Sealed Moirai Gauntlet -->
+					<item id="15704" min="1" max="1" chance="0.0442" /> <!-- Sealed Moirai Leather Gloves -->
+					<item id="15705" min="1" max="1" chance="0.0442" /> <!-- Sealed Moirai Gloves -->
+					<item id="15706" min="1" max="1" chance="0.0442" /> <!-- Sealed Moirai Boots -->
+					<item id="15707" min="1" max="1" chance="0.0442" /> <!-- Sealed Moirai Leather Boots -->
+					<item id="15708" min="1" max="1" chance="0.0442" /> <!-- Sealed Moirai Shoes -->
+					<item id="15654" min="1" max="1" chance="16.6224" /> <!-- Sealed Moirai Gauntlet Piece -->
+					<item id="15655" min="1" max="1" chance="16.6224" /> <!-- Sealed Moirai Leather Gloves Piece -->
+					<item id="15656" min="1" max="1" chance="16.6224" /> <!-- Sealed Moirai Gloves Piece -->
+					<item id="15657" min="1" max="1" chance="16.6224" /> <!-- Sealed Moirai Boots Piece -->
+					<item id="15658" min="1" max="1" chance="16.6224" /> <!-- Sealed Moirai Leather Boots Piece -->
+					<item id="15659" min="1" max="1" chance="16.6228" /> <!-- Sealed Moirai Shoes Piece -->
+				</group>
+				<group chance="4.810500144958496">
+					<item id="1879" min="1" max="1" chance="60.3191" /> <!-- Cokes -->
+					<item id="1885" min="1" max="1" chance="30.1595" /> <!-- High-Grade Suede -->
+					<item id="9628" min="1" max="1" chance="2.8385" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="1.9048" /> <!-- Orichalcum -->
+					<item id="9629" min="1" max="1" chance="1.5735" /> <!-- Adamantine -->
+					<item id="10483" min="1" max="1" chance="2.5133" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.6283" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.063" /> <!-- High-Grade Life Stone - Level 82 -->
+				</group>
+				<group chance="42.0">
+					<item id="8600" min="1" max="1" chance="55" /> <!-- Herb of Life -->
+					<item id="8601" min="1" max="1" chance="38" /> <!-- Greater Herb of Life -->
+					<item id="8602" min="1" max="1" chance="7" /> <!-- Superior Herb of Life -->
+				</group>
+				<group chance="11.0">
+					<item id="8603" min="1" max="1" chance="40" /> <!-- Herb of Mana -->
+					<item id="8604" min="1" max="1" chance="52" /> <!-- Greater Herb of Mana -->
+					<item id="8605" min="1" max="1" chance="8" /> <!-- Superior Herb of Mana -->
+				</group>
+				<group chance="25.0">
+					<item id="8606" min="1" max="1" chance="20" /> <!-- Herb of Power -->
+					<item id="8608" min="1" max="1" chance="20" /> <!-- Herb of Alacrity -->
+					<item id="8610" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Probability -->
+					<item id="10655" min="1" max="1" chance="20" /> <!-- Herb of Vampiric Rage -->
+					<item id="10656" min="1" max="1" chance="20" /> <!-- Herb of Critical Attack - Power -->
+				</group>
+				<group chance="10.0">
+					<item id="8607" min="1" max="1" chance="50" /> <!-- Herb of Magic -->
+					<item id="8609" min="1" max="1" chance="50" /> <!-- Herb of Casting Spd. -->
+				</group>
+				<group chance="1.0">
+					<item id="8612" min="1" max="1" chance="33" /> <!-- Herb of the Warrior -->
+					<item id="8613" min="1" max="1" chance="33" /> <!-- Herb of the Mystic -->
+					<item id="8614" min="1" max="1" chance="34" /> <!-- Herb of Recovery -->
+				</group>
+				<group chance="11.0">
+					<item id="8611" min="1" max="1" chance="94" /> <!-- Herb of Speed -->
+					<item id="10657" min="1" max="1" chance="3" /> <!-- Herb of Doubt -->
+					<item id="13028" min="1" max="1" chance="3" /> <!-- Vitality Replenishing Herb -->
+				</group>
+			</death>
+			<corpse>
+				<item id="15654" min="1" max="1" chance="0.5826" /> <!-- Sealed Moirai Gauntlet Piece -->
+				<item id="15655" min="1" max="1" chance="0.5826" /> <!-- Sealed Moirai Leather Gloves Piece -->
+				<item id="15656" min="1" max="1" chance="0.5826" /> <!-- Sealed Moirai Gloves Piece -->
+				<item id="15657" min="1" max="1" chance="0.5826" /> <!-- Sealed Moirai Boots Piece -->
+				<item id="15658" min="1" max="1" chance="0.5826" /> <!-- Sealed Moirai Leather Boots Piece -->
+				<item id="15659" min="1" max="1" chance="0.5826" /> <!-- Sealed Moirai Shoes Piece -->
+				<item id="9630" min="1" max="1" chance="0.3434" /> <!-- Orichalcum -->
+				<item id="15784" min="1" max="1" chance="0.0775" /> <!-- Recipe - Sealed Moirai Gauntlet (60%) -->
+				<item id="15785" min="1" max="1" chance="0.0775" /> <!-- Recipe - Sealed Moirai Leather Gloves (60%) -->
+				<item id="15786" min="1" max="1" chance="0.0775" /> <!-- Recipe - Sealed Moirai Gloves (60%) -->
+				<item id="15787" min="1" max="1" chance="0.0775" /> <!-- Recipe - Sealed Moirai Boots (60%) -->
+				<item id="15788" min="1" max="1" chance="0.0775" /> <!-- Recipe - Sealed Moirai Leather Boots (60%) -->
+				<item id="15789" min="1" max="1" chance="0.0775" /> <!-- Recipe - Sealed Moirai Shoes (60%) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="29" />
+			<height normal="37" />
+		</collision>
+	</npc>
+
 </list>
