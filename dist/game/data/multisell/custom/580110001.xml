@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+	<npcs>
+		<npc>58011</npc> <!-- Dynasty Symbol Merchant -->
+	</npcs>
+	<item>
+		<!-- Dynasty Symbol -->
+		<ingredient count="5" id="55999" />
+		<!-- Dynasty Essence -->
+		<production count="1" id="9451" />
+	</item>
+	<item>
+		<!-- Dynasty Symbol -->
+		<ingredient count="10" id="55999" />
+		<!-- Dynasty Essence II -->
+		<production count="1" id="10413" />
+	</item>
+</list>
+
