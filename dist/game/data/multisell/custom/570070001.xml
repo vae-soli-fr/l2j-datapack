@@ -13,4 +13,10 @@
 		<ingredient count="1" id="5201" />
 		<production count="1" id="10639" />
 	</item>
+	<item>
+		<!-- Festival Adena Coin -->
+		<ingredient count="1" id="6673" />
+		<!-- Clef 7 -->
+		<production count="1" id="5198" />
+	</item>
 </list>

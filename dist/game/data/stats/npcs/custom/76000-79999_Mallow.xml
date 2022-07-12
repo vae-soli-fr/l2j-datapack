@@ -2,7 +2,6 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
 	<!-- TP Bibliotheque d'Oren-->
 	<npc id="76000" displayId="36579" level="80" type="L2MultiversTeleporter" name="Bibliotheque" usingServerSideName="true">
-		<!-- Confirmed CT2.5 -->
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="10" />
@@ -11,7 +10,6 @@
 	</npc>
 	<!-- TP Prefecture d'Oren-->
 	<npc id="76001" displayId="36579" level="80" type="L2MultiversTeleporter" name="Prefecture" usingServerSideName="true">
-		<!-- Confirmed CT2.5 -->
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="10" />
@@ -20,11 +18,35 @@
 	</npc>
 	<!-- TP Inquisition Giran-->
 	<npc id="76002" displayId="36579" level="80" type="L2MultiversTeleporter" name="Inquisition" usingServerSideName="true">
-		<!-- Confirmed CT2.5 -->
 		<status attackable="false" canMove="false" />
 		<collision>
 			<radius normal="10" />
 			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- TP Librairie Giran-->
+	<npc id="76003" displayId="36579" level="80" type="L2MultiversTeleporter" name="Commerces" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- Graal Einhasad -->
+	<npc id="76100" displayId="32028" level="1" type="L2Npc" name="Graal Einhasad">
+		<status attackable="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="6.2" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<!-- Graal Einhasad Stand-->
+	<npc id="76101" displayId="32708" level="80" type="L2Npc" name="Graal Einhasad Stand">
+		<status attackable="false" canMove="false" showName="false"  />
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
 		</collision>
 	</npc>
 </list>
