@@ -2435,6 +2435,7 @@
 			<height normal="14.5" />
 		</collision>
 	</npc>
+
 	<!-- Custom TP section -->
 	<npc id="56001" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
@@ -3288,6 +3289,9 @@
 			<height normal="19.7" />
 		</collision>
 	</npc>
+
+
+
 	<npc id="57011" displayId="13160" level="55" type="L2Merchant" name="Glace">
 		<!-- Confirmed CT2.5 -->
 		<status attackable="false" showName="false" />
