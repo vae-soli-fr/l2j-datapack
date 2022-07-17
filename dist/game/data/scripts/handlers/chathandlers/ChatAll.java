@@ -130,8 +130,9 @@ public class ChatAll implements IChatHandler
 					if ((player != null) && activeChar.isInsideRadius(player, activeChar.getVolume().getRadius(), false, true) && !BlockList.isBlocked(player, activeChar))
 					{
 						if (!player.isInvisible() && !(player.getClient() == null || player.getClient().isDetached())
-								&& activeChar.isInsideRadius(player, Math.min(activeChar.getVolume().getRadius(), Volume.DEFAULT.getRadius()), false, true)
+								&& activeChar.isInsideRadius(player, Volume.DEFAULT.getRadius(), false, true)
 								&& GeoData.getInstance().canSeeTarget(activeChar, player)
+								&& !player.isAfk()
 							) {
 							audience.add(player);
 						}
