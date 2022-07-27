@@ -5,6 +5,66 @@
 	</npcs>
 	<item>
 		<!-- Blue Eva -->
+		<ingredient count="500" id="4355"/>
+		<!--"Clan Oath Helm"-->
+		<production count="1" id="7850"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="2000" id="4355"/>
+		<!--"Clan Oath Armor"-->
+		<production count="1" id="7851"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="300" id="4355"/>
+		<!--"Clan Oath Gauntlets"-->
+		<production count="1" id="7852"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="300" id="4355"/>
+		<!--"Clan Oath Sabatons"-->
+		<production count="1" id="7853"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="2000" id="4355"/>
+		<!--"Clan Oath Brigandine"-->
+		<production count="1" id="7854"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="300" id="4355"/>
+		<!--"Clan Oath Leather Gloves"-->
+		<production count="1" id="7855"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="300" id="4355"/>
+		<!--"Clan Oath Boots"-->
+		<production count="1" id="7856"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="2000" id="4355"/>
+		<!--"Clan Oath Aketon"-->
+		<production count="1" id="7857"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="300" id="4355"/>
+		<!--"Clan Oath Padded Gloves"-->
+		<production count="1" id="7858"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="300" id="4355"/>
+		<!--"Clan Oath Sandals"-->
+		<production count="1" id="7859"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
 		<ingredient count="1000" id="4355"/>
 		<!--"doom helmet"-->
 		<production count="1" id="2417"/>
@@ -788,6 +848,66 @@
 		<ingredient count="875" id="4355"/>
 		<!--"Majestic Boots - Robe"-->
 		<production count="1" id="5788"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="2000" id="4355"/>
+		<!--"Apella Helm"-->
+		<production count="1" id="7860"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8125" id="4355"/>
+		<!--"Apella Plate Armor"-->
+		<production count="1" id="7861"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="1250" id="4355"/>
+		<!--"Apella Gauntlets"-->
+		<production count="1" id="7862"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="1250" id="4355"/>
+		<!--"Apella Solleret"-->
+		<production count="1" id="7863"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8125" id="4355"/>
+		<!--"Apella Brigandine"-->
+		<production count="1" id="7864"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="1250" id="4355"/>
+		<!--"Apella Leather Gloves"-->
+		<production count="1" id="7865"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="1250" id="4355"/>
+		<!--"Apella Boots"-->
+		<production count="1" id="7866"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="8125" id="4355"/>
+		<!--"Apella Doublet"-->
+		<production count="1" id="7867"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="1250" id="4355"/>
+		<!--"Apella Silk Gloves"-->
+		<production count="1" id="7868"/>
+	</item>
+	<item>
+		<!-- Blue Eva -->
+		<ingredient count="1250" id="4355"/>
+		<!--"Apella Sandals"-->
+		<production count="1" id="7869"/>
 	</item>
 	<item>
 		<!-- Blue Eva -->
