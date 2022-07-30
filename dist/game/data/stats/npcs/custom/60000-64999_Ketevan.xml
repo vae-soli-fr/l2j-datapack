@@ -176,4 +176,19 @@
 			<height normal="18.5" />
 		</collision>
 	</npc>
+	<npc id="60018" displayId="31523" level="70" type="L2Npc" title="To The Unknown Man" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<status attackable="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="30" />
+		</collision>
+	</npc>
 </list>
