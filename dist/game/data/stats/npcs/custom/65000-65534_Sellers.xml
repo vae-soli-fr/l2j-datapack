@@ -29,4 +29,12 @@
 			<height normal="16.7" />
 		</collision>
 	</npc>
+	<!-- Common Armor Seller -->
+	<npc id="65002" displayId="30977" level="70" type="L2Merchant" name="Malle à habits" usingServerSideName="true">
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="9.5" />
+		</collision>
+	</npc>
 </list>
