@@ -63,6 +63,7 @@ public class AdminSpawn implements IAdminCommandHandler
 		"admin_show_spawns",
 		"admin_spawn",
 		"admin_spawn_lines",
+		"admin_sl",
 		"admin_spawn_monster",
 		"admin_spawn_index",
 		"admin_unspawnall",
@@ -247,7 +248,7 @@ public class AdminSpawn implements IAdminCommandHandler
 			QuestManager.getInstance().reloadAllScripts();
 			AdminData.getInstance().broadcastMessageToGMs("NPC Respawn completed!");
 		}
-		else if (command.startsWith("admin_spawn_lines")) {
+		else if (command.startsWith("admin_spawn_lines") || command.startsWith("admin_sl")) {
 			StringTokenizer st = new StringTokenizer(command, " ");
 			try
 			{
@@ -318,6 +319,7 @@ public class AdminSpawn implements IAdminCommandHandler
 				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5");
 				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5 270 50 270");
 				activeChar.sendMessage("Exemple: //spawn_lines 30545 2 5 N 50 S");
+				activeChar.sendMessage("Exemple: //sl 30545 1 2 N");
 			}
 		}
 		else if (command.startsWith("admin_spawn_monster") || command.startsWith("admin_spawn"))

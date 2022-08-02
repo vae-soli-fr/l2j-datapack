@@ -148,10 +148,15 @@ public class AdminTeleport implements IAdminCommandHandler
 				String val = command.substring(14);
 				teleportTo(activeChar, val);
 			}
-			catch (StringIndexOutOfBoundsException e)
+			catch (StringIndexOutOfBoundsException e) // no coordinates, try move_to target
 			{
-				// Case of empty or missing coordinates
-				AdminHtml.showAdminHtml(activeChar, "teleports.htm");
+				L2Object target = activeChar.getTarget();
+				if(target != null) {
+					activeChar.setInstanceId(target.getInstanceId());
+					activeChar.teleToLocation(new Location(target.getX(), target.getY(), target.getZ()), false);
+				} else {
+					AdminHtml.showAdminHtml(activeChar, "teleports.htm");
+				}
 			}
 			catch (NumberFormatException nfe)
 			{
@@ -512,7 +517,7 @@ public class AdminTeleport implements IAdminCommandHandler
 			}
 		}
 	}
-	
+
 	private void teleportToCharacter(L2PcInstance activeChar, L2Object target)
 	{
 		if (target == null)
