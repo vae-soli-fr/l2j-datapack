@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<!-- 000 : Teleports -->
+	<!-- 100 : Decorations -->
+	<!-- 200 : NPCs -->
+
+
+	<!-- 000 : Teleports -->
 	<!-- TP Bibliotheque d'Oren-->
 	<npc id="76000" displayId="36579" level="80" type="L2MultiversTeleporter" name="Bibliotheque" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
@@ -32,6 +38,9 @@
 			<height normal="35" />
 		</collision>
 	</npc>
+
+
+	<!-- 100 : Decorations -->
 	<!-- Graal Einhasad -->
 	<npc id="76100" displayId="32028" level="1" type="L2Npc" name="Graal Einhasad">
 		<status attackable="false" targetable="false" showName="false" />
@@ -40,13 +49,48 @@
 			<height normal="63" />
 		</collision>
 	</npc>
-	<!-- Graal Einhasad Stand-->
+	<!-- Graal Einhasad Stand -->
 	<npc id="76101" displayId="32708" level="80" type="L2Npc" name="Graal Einhasad Stand">
 		<status attackable="false" canMove="false" showName="false"  />
 		<exCrtEffect>true</exCrtEffect>
 		<collision>
 			<radius normal="90" />
 			<height normal="38.5" />
+		</collision>
+	</npc>
+	<!-- Mannequin -->
+	<npc id="76102" displayId="32077" level="70" type="L2Npc" name="Mannequin" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="16" />
+			<height normal="20.5" />
+		</collision>
+	</npc>
+	<!-- Mannequin -->
+	<npc id="76103" displayId="32031" level="70" type="L2Npc" name="Mannequin" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="12" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<!-- Paillettes -->
+	<npc id="76104" displayId="1529" level="55" type="L2Npc" name="Paillettes">
+		<status attackable="false" canMove="false" targetable="true" showName="true"/>
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc>
+
+
+	<!-- 200 : NPCs -->
+	<!-- Rose -->
+	<npc id="76200" displayId="1572" level="70" type="L2Npc" name="Rose" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="14.5" />
+			<height normal="17.5" />
 		</collision>
 	</npc>
 </list>
