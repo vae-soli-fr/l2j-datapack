@@ -24,6 +24,7 @@
 			<xs:element name="skillList" type="skillType" minOccurs="0" maxOccurs="1" />
 			<xs:element name="stats" type="statsType" minOccurs="0" maxOccurs="1" />
 			<xs:element name="status" type="statusType" minOccurs="0" maxOccurs="1" />
+			<xs:element name="fake" type="fakeType" minOccurs="0" maxOccurs="1" />
 		</xs:choice>
 		<xs:attribute name="id" type="xs:positiveInteger" use="required" />
 		<xs:attribute name="displayId" type="xs:positiveInteger" />
@@ -292,5 +293,36 @@
 		<xs:attribute name="passableDoor" type="xs:boolean" />
 		<xs:attribute name="hasSummoner" type="xs:boolean" />
 		<xs:attribute name="canBeSown" type="xs:boolean" />
+	</xs:complexType>
+
+	<xs:complexType name="fakeType">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:element name="head" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:attribute name="style" type="xs:string" />
+					<xs:attribute name="color" type="xs:string" />
+					<xs:attribute name="face" type="xs:string" />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="equipment" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:attribute name="rhand" type="xs:nonNegativeInteger" />
+					<xs:attribute name="lhand" type="xs:nonNegativeInteger" />
+					<xs:attribute name="gloves" type="xs:nonNegativeInteger" />
+					<xs:attribute name="chest" type="xs:nonNegativeInteger" />
+					<xs:attribute name="legs" type="xs:nonNegativeInteger" />
+					<xs:attribute name="feet" type="xs:nonNegativeInteger" />
+					<xs:attribute name="cloak" type="xs:nonNegativeInteger" />
+					<xs:attribute name="hair" type="xs:nonNegativeInteger" />
+					<xs:attribute name="hair2" type="xs:nonNegativeInteger" />
+					<xs:attribute name="weaponEnchant" type="xs:nonNegativeInteger" />
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+		<xs:attribute name="classId" type="xs:nonNegativeInteger" use="required" />
+		<xs:attribute name="female" type="xs:boolean" />
+		<xs:attribute name="hero" type="xs:boolean" />
+		<xs:attribute name="ghost" type="xs:boolean" />
+		<xs:attribute name="mountNpcId" type="xs:nonNegativeInteger" />
 	</xs:complexType>
 </xs:schema>
