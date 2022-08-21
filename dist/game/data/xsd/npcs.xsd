@@ -293,6 +293,7 @@
 		<xs:attribute name="passableDoor" type="xs:boolean" />
 		<xs:attribute name="hasSummoner" type="xs:boolean" />
 		<xs:attribute name="canBeSown" type="xs:boolean" />
+		<xs:attribute name="dead" type="xs:boolean" />
 	</xs:complexType>
 
 	<xs:complexType name="fakeType">
@@ -323,6 +324,7 @@
 		<xs:attribute name="female" type="xs:boolean" />
 		<xs:attribute name="hero" type="xs:boolean" />
 		<xs:attribute name="ghost" type="xs:boolean" />
+		<xs:attribute name="sitting" type="xs:boolean" />
 		<xs:attribute name="mountNpcId" type="xs:nonNegativeInteger" />
 	</xs:complexType>
 </xs:schema>
