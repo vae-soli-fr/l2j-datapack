@@ -6,7 +6,7 @@
 
 
 	<!-- 000 : Teleports -->
-	<!-- TP Bibliotheque d'Oren-->
+	<!-- TP Bibliotheque d'Oren -->
 	<npc id="76000" displayId="36579" level="80" type="L2MultiversTeleporter" name="Bibliotheque" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
@@ -14,7 +14,7 @@
 			<height normal="35" />
 		</collision>
 	</npc>
-	<!-- TP Prefecture d'Oren-->
+	<!-- TP Prefecture d'Oren -->
 	<npc id="76001" displayId="36579" level="80" type="L2MultiversTeleporter" name="Prefecture" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
@@ -22,7 +22,7 @@
 			<height normal="35" />
 		</collision>
 	</npc>
-	<!-- TP Inquisition Giran-->
+	<!-- TP Inquisition Giran -->
 	<npc id="76002" displayId="36579" level="80" type="L2MultiversTeleporter" name="Inquisition" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
@@ -30,7 +30,7 @@
 			<height normal="35" />
 		</collision>
 	</npc>
-	<!-- TP Librairie Giran-->
+	<!-- TP Librairie Giran -->
 	<npc id="76003" displayId="36579" level="80" type="L2MultiversTeleporter" name="Commerces" usingServerSideName="true">
 		<status attackable="false" canMove="false" />
 		<collision>
@@ -38,6 +38,39 @@
 			<height normal="35" />
 		</collision>
 	</npc>
+	<!-- TP Palais Cefedellen -->
+	<npc id="76004" displayId="36579" level="80" type="L2MultiversTeleporter" name="Palais" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- TP Prefecture Giran -->
+	<npc id="76005" displayId="36579" level="80" type="L2MultiversTeleporter" name="Prefecture" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- TP Taverne Oren -->
+	<npc id="76006" displayId="36579" level="80" type="L2MultiversTeleporter" name="Cheval à Bière" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<!-- TP Taverne Oren -->
+	<npc id="76007" displayId="36579" level="80" type="L2MultiversTeleporter" name="Cheval à Bascule" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+
 
 
 	<!-- 100 : Decorations -->
@@ -74,12 +107,28 @@
 			<height normal="24" />
 		</collision>
 	</npc>
-	<!-- Paillettes -->
+	<!-- Paillettes /!\ Can't be deleted IG -->
 	<npc id="76104" displayId="1529" level="55" type="L2Npc" name="Paillettes">
 		<status attackable="false" canMove="false" targetable="true" showName="true"/>
 		<collision>
 			<radius normal="10" />
 			<height normal="20" />
+		</collision>
+	</npc>
+	<!-- Wyvern -->
+	<npc id="76105" displayId="12621" level="55" type="L2Npc" name="Wyvern" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="true" showName="false"/>
+		<collision>
+			<radius normal="60" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<!-- Wooden Horse -->
+	<npc id="76106" displayId="158" level="55" type="L2Npc" name="Cheval en bois" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="true" showName="false"/>
+		<collision>
+			<radius normal="32" />
+			<height normal="10.5" />
 		</collision>
 	</npc>
 
