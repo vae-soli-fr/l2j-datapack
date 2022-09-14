@@ -70,6 +70,14 @@
 			<height normal="35" />
 		</collision>
 	</npc>
+	<!-- TP NPC index -->
+	<npc id="76008" displayId="32588" level="80" type="L2MultiversTeleporter" name="NPC INDEX" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="37" />
+			<height normal="49" />
+		</collision>
+	</npc>
 
 
 
