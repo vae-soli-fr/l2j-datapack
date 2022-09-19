@@ -78,6 +78,14 @@
 			<height normal="49" />
 		</collision>
 	</npc>
+	<!-- TP Arrière Boutique Librairie Giran -->
+	<npc id="76009" displayId="36579" level="80" type="L2MultiversTeleporter" name="Arrière boutique" usingServerSideName="true">
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
 
 
 
