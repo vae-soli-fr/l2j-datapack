@@ -468,7 +468,7 @@
 			<height normal="90" />
 		</collision>
 	</npc>
-	<npc id="55019" displayId="30899" level="70" type="L2Teleporter" name="Flavala" title="Gatekeeper" usingServerSideName="true">
+	<npc id="55019" displayId="29173" level="70" type="L2Teleporter" name="Flavala" title="Gatekeeper" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
