@@ -320,7 +320,7 @@
 				</xs:complexType>
 			</xs:element>
 		</xs:choice>
-		<xs:attribute name="classId" type="xs:nonNegativeInteger" use="required" />
+		<xs:attribute name="classId" type="xs:nonNegativeInteger" />
 		<xs:attribute name="female" type="xs:boolean" />
 		<xs:attribute name="hero" type="xs:boolean" />
 		<xs:attribute name="ghost" type="xs:boolean" />
