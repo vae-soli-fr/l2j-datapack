@@ -46,7 +46,7 @@ public final class Fear extends AbstractEffect
 	{
 		return info.getEffected().isPlayer() || info.getEffected().isSummon() || (info.getEffected().isAttackable() && //
 		!((info.getEffected() instanceof L2DefenderInstance) || (info.getEffected() instanceof L2FortCommanderInstance) || //
-			(info.getEffected() instanceof L2SiegeFlagInstance) || (info.getEffected().getTemplate().getRace() == Race.SIEGE_WEAPON)));
+			(info.getEffected() instanceof L2SiegeFlagInstance) || (info.getEffected().getRace() == Race.SIEGE_WEAPON)));
 	}
 	
 	@Override
