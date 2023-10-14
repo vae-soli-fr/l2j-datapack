@@ -654,7 +654,7 @@
 			<radius normal="8" />
 			<height normal="23" />
 		</collision>
-	</npc>	
+	</npc>
 	<npc id="55029" displayId="31488" level="80" type="L2Guard" name="GP 1">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
@@ -2436,6 +2436,1180 @@
 		</collision>
 	</npc>
 
+	<npc id="55080" displayId="20639" level="85" type="L2Npc" name="Miroir" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire expRate="4.2525492" sp="755" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1372.18568" hpRegen="5.5" mp="720.0" mpRegen="2.1" />
+			<attack physical="290.44588" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="195.66302" magical="130.274648808072" />
+			<attribute>
+				<defence fire="20" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="0" />
+				<run ground="0" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" attackable="false"/>
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<ai type="BALANCED" isAggressive="false" />
+		<collision>
+			<radius normal="26" />
+			<height normal="52" />
+		</collision>
+	</npc>
+	<npc id="55081" displayId="20592" level="85" type="L2Npc" name="Satyr" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<equipment rhand="291" /> <!-- rhand: Trident -->
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1372.18568" hpRegen="5.5" mp="720.0" mpRegen="2.1" />
+			<attack physical="290.44588" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="195.66302" magical="130.274648808072" />
+			<attribute>
+				<defence fire="20" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="0" />
+				<run ground="0" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<collision>
+			<radius normal="14" />
+			<height normal="35" />
+		</collision>
+		<status undying="false" canBeSown="true" attackable="false"/>
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<ai type="BALANCED" isAggressive="false" />
+	</npc>
+	<npc id="55082" displayId="20591" level="85" type="L2Npc" name="Treant" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1372.18568" hpRegen="5.5" mp="720.0" mpRegen="2.1" />
+			<attack physical="290.44588" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="195.66302" magical="130.274648808072" />
+			<attribute>
+				<defence fire="20" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="0" />
+				<run ground="0" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+		<status undying="false" canBeSown="true" attackable="false"/>
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<ai type="BALANCED" isAggressive="false" />
+	</npc>
+	<npc id="55083" displayId="21797" level="85" type="L2Npc" name="Fee" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1372.18568" hpRegen="5.5" mp="720.0" mpRegen="2.1" />
+			<attack physical="290.44588" magical="198.33688" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="195.66302" magical="130.274648808072" />
+			<attribute>
+				<defence fire="20" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="0" />
+				<run ground="0" />
+			</speed>
+			<hitTime>390</hitTime>
+		</stats>
+		<collision>
+			<radius normal="5" />
+			<height normal="25" />
+		</collision>
+		<status undying="false" canBeSown="true" attackable="false"/>
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<ai type="BALANCED" isAggressive="false" />
+	</npc>
+
+	<!-- NPC Bordel Oren -->
+	<npc id="55100" level="80" type="L2Npc" name="Cordelia" usingServerSideName="true">
+		<fake classId="112" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="7868" chest="7867" legs="0" feet="7869"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55101" level="80" type="L2Npc" name="Thetis" usingServerSideName="true">
+		<fake classId="124" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="A" face="C" />
+			<equipment rhand="0" lhand="0" gloves="2461" chest="401" legs="0" feet="2437"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55102" level="80" type="L2Npc" name="Daphne" usingServerSideName="true">
+		<fake classId="94" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5773" chest="2408" legs="0" feet="5785"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55103" level="80" type="L2Npc" name="Astelle" usingServerSideName="true">
+		<fake classId="99" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="E" color="B" face="A" />
+			<equipment rhand="246" lhand="0" gloves="6384" chest="2409" legs="0" feet="6385" hair="7696"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55104" level="80" type="L2Npc" name="Melite" usingServerSideName="true">
+		<fake classId="117" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="A" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5767" chest="2407" legs="0" feet="5779"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55105" level="80" type="L2Npc" name="Nelairi" usingServerSideName="true">
+		<fake classId="114" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="B" color="A" face="C" />
+			<equipment rhand="246" lhand="0" gloves="5773" chest="2408" legs="0" feet="5785"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+	<npc id="55106" level="80" type="L2Npc" name="Jasper" usingServerSideName="true">
+		<fake classId="43" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="B" face="B" />
+			<equipment rhand="0" lhand="0" gloves="2463" chest="442" legs="471" feet="2430"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55107" level="80" type="L2Npc" name="Alistair" usingServerSideName="true">
+		<fake classId="123" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="B" color="B" face="B" />
+			<equipment rhand="246" lhand="0" gloves="5775" chest="2395" legs="0" feet="5787"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55108" level="80" type="L2Npc" name="Nicholas" usingServerSideName="true">
+		<fake classId="88" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5711" chest="2384" legs="2388" feet="5727"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55109" level="80" type="L2Npc" name="Edwyn" usingServerSideName="true">
+		<fake classId="26" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="A" face="A" />
+			<equipment rhand="0" lhand="0" gloves="2461" chest="401" legs="0" feet="2437"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55110" level="80" type="L2Npc" name="Gideon" usingServerSideName="true">
+		<fake classId="57" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="E" color="B" face="C" />
+			<equipment rhand="246" lhand="0" gloves="5724" chest="2399" legs="2404" feet="5740"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55111" level="80" type="L2Npc" name="Theo" usingServerSideName="true">
+		<fake classId="114" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="D" face="B" />
+			<equipment rhand="0" lhand="0" gloves="2459" chest="441" legs="472" feet="2435"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+	<npc id="55112" displayId="136" level="80" type="L2Npc" name="Shiny Platform">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="21.5" />
+			<height normal="12.5" />
+		</collision>
+	</npc>
+	<npc id="55113" displayId="136" level="80" type="L2Npc" name="Shiny Platform">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="21.5" />
+			<height normal="0.5" />
+		</collision>
+	</npc>
+	<npc id="55114" displayId="32404" level="70" type="L2Npc">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="0.01" />
+			<height normal="56" />
+		</collision>
+	</npc>
+	<npc id="55115" displayId="32404" level="70" type="L2Npc">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="0.01" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="55116" displayId="32314" level="70" type="L2Npc" name="Warpgate">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="16" />
+			<height normal="0.5" />
+		</collision>
+	</npc>
+	<npc id="55117" displayId="124" level="1" type="L2Npc" name="Lampe rose">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="0" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="55118" displayId="32558" level="70" type="L2Npc" name="Fontaine">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="23" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="55119" displayId="1534" level="55" type="L2Npc" name="Spark" usingServerSideName="true">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="5" />
+			<height normal="3.75" />
+		</collision>
+	</npc>
+	<npc id="55120" displayId="1536" level="55" type="L2Npc" name="Spirk" usingServerSideName="true">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="6" />
+			<height normal="5" />
+		</collision>
+	</npc>
+	<npc id="55121" displayId="32483" level="70" type="L2Npc" name="Pilier" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="16" />
+			<height normal="46" />
+		</collision>
+	</npc>
+	<npc id="55122" displayId="31512" level="1" type="L2Npc" name="Rum">
+		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+		<collision>
+			<radius normal="11" />
+			<height normal="1" />
+		</collision>
+	</npc>
+	<npc id="55123" displayId="1534" level="55" type="L2Npc" name="Spark" usingServerSideName="true">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="5" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="55124" displayId="31661" level="70" type="L2Npc" name="Règlement intérieur" usingServerSideName="true">
+		<status canMove="false" showName="true"/>
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<collision>
+			<radius normal="20" />
+			<height normal="20" />
+		</collision>
+	</npc>
+
+	<npc id="55125" level="80" type="L2Npc" name="Hôte">
+		<status canMove="false" showName="false"/>
+		<fake classId="123" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="B" face="A" />
+			<equipment rhand="246" lhand="0" gloves="0" chest="6408" legs="0" feet="0" hair2="8188" cloak="21588"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55126" level="80" type="L2Npc" name="Serebelle" usingServerSideName="true" title="d'Aurivers" usingServerSideTitle="true">
+		<status canMove="false"/>
+		<fake classId="88" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="B" color="B" face="C" />
+			<equipment rhand="0" lhand="0" gloves="0" chest="6408" legs="0" feet="0" hair2="7682"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55127" displayId="30563" level="70" type="L2Npc" name="Masseur">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="55128" displayId="148" level="80" type="L2Npc" name="Feu">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="29" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="55129" displayId="35570" level="70" type="L2Npc" name="Patty">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="8" />
+			<height normal="20.5" />
+		</collision>
+	</npc>
+	<npc id="55130" displayId="35441" level="70" type="L2Npc" name="Dianne">
+		<status canMove="false" showName="false"/>
+		<collision>
+			<radius normal="9" />
+			<height normal="22.25" />
+		</collision>
+	</npc>
+
+	<npc id="55200" level="80" type="L2Npc" name="Cordelia" usingServerSideName="true">
+		<fake classId="112" female="true" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="C" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="7868" chest="7867" legs="0" feet="7869"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55201" level="80" type="L2Npc" name="Thetis" usingServerSideName="true">
+		<fake classId="124" female="true" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="D" color="A" face="C" />
+			<equipment rhand="99" lhand="0" gloves="2461" chest="401" legs="0" feet="2437"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55202" level="80" type="L2Npc" name="Daphne" usingServerSideName="true">
+		<fake classId="94" female="true" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="C" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5773" chest="2408" legs="0" feet="5785"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55203" level="80" type="L2Npc" name="Astelle" usingServerSideName="true">
+		<fake classId="99" female="true" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="E" color="B" face="A" />
+			<equipment rhand="246" lhand="0" gloves="6384" chest="2409" legs="0" feet="6385" hair="7696"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55204" level="80" type="L2Npc" name="Melite" usingServerSideName="true">
+		<fake classId="117" female="true" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="D" color="A" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5767" chest="2407" legs="0" feet="5779"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55205" level="80" type="L2Npc" name="Nelairi" usingServerSideName="true">
+		<fake classId="114" female="true" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="B" color="A" face="C" />
+			<equipment rhand="246" lhand="0" gloves="5773" chest="2408" legs="0" feet="5785"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+	<npc id="55206" level="80" type="L2Npc" name="Jasper" usingServerSideName="true">
+		<fake classId="43" female="false" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="D" color="B" face="B" />
+			<equipment rhand="0" lhand="0" gloves="2463" chest="442" legs="471" feet="2430"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55207" level="80" type="L2Npc" name="Alistair" usingServerSideName="true">
+		<fake classId="123" female="false" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="B" color="B" face="B" />
+			<equipment rhand="246" lhand="0" gloves="5775" chest="2395" legs="0" feet="5787"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55208" level="80" type="L2Npc" name="Nicholas" usingServerSideName="true">
+		<fake classId="88" female="false" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="D" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5711" chest="2384" legs="2388" feet="5727"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55209" level="80" type="L2Npc" name="Edwyn" usingServerSideName="true">
+		<fake classId="26" female="false" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="D" color="A" face="A" />
+			<equipment rhand="0" lhand="0" gloves="2461" chest="401" legs="0" feet="2437"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55210" level="80" type="L2Npc" name="Gideon" usingServerSideName="true">
+		<fake classId="57" female="false" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="E" color="B" face="C" />
+			<equipment rhand="246" lhand="0" gloves="5724" chest="2399" legs="2404" feet="5740"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55211" level="80" type="L2Npc" name="Theo" usingServerSideName="true">
+		<fake classId="114" female="false" hero="false" ghost="false" sitting="true" mountNpcId="0">
+			<head style="D" color="D" face="B" />
+			<equipment rhand="99" lhand="0" gloves="2459" chest="441" legs="472" feet="2435"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+
+	<npc id="55300" level="80" type="L2Npc" name="Cordelia" usingServerSideName="true">
+		<fake classId="112" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="7868" chest="7867" legs="0" feet="7869"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55301" level="80" type="L2Npc" name="Thetis" usingServerSideName="true">
+		<fake classId="124" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="A" face="C" />
+			<equipment rhand="0" lhand="0" gloves="2461" chest="401" legs="0" feet="2437"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55302" level="80" type="L2Npc" name="Daphne" usingServerSideName="true">
+		<fake classId="94" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5773" chest="2408" legs="0" feet="5785"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55303" level="80" type="L2Npc" name="Astelle" usingServerSideName="true">
+		<fake classId="99" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="E" color="B" face="A" />
+			<equipment rhand="246" lhand="0" gloves="6384" chest="2409" legs="0" feet="6385" hair="7696"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55304" level="80" type="L2Npc" name="Melite" usingServerSideName="true">
+		<fake classId="117" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="A" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5767" chest="2407" legs="0" feet="5779"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55305" level="80" type="L2Npc" name="Nelairi" usingServerSideName="true">
+		<fake classId="114" female="true" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="B" color="A" face="C" />
+			<equipment rhand="246" lhand="0" gloves="5773" chest="2408" legs="0" feet="5785"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+	<npc id="55306" level="80" type="L2Npc" name="Jasper" usingServerSideName="true">
+		<fake classId="43" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="B" face="B" />
+			<equipment rhand="0" lhand="0" gloves="2463" chest="442" legs="471" feet="2430"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55307" level="80" type="L2Npc" name="Alistair" usingServerSideName="true">
+		<fake classId="123" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="B" color="B" face="B" />
+			<equipment rhand="246" lhand="0" gloves="5775" chest="2395" legs="0" feet="5787"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55308" level="80" type="L2Npc" name="Nicholas" usingServerSideName="true">
+		<fake classId="88" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="B" face="A" />
+			<equipment rhand="0" lhand="0" gloves="5711" chest="2384" legs="2388" feet="5727"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55309" level="80" type="L2Npc" name="Edwyn" usingServerSideName="true">
+		<fake classId="26" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="A" face="A" />
+			<equipment rhand="0" lhand="0" gloves="2461" chest="401" legs="0" feet="2437"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55310" level="80" type="L2Npc" name="Gideon" usingServerSideName="true">
+		<fake classId="57" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="E" color="B" face="C" />
+			<equipment rhand="246" lhand="0" gloves="5724" chest="2399" legs="2404" feet="5740"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55311" level="80" type="L2Npc" name="Theo" usingServerSideName="true">
+		<fake classId="114" female="false" hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="D" face="B" />
+			<equipment rhand="0" lhand="0" gloves="2459" chest="441" legs="472" feet="2435"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+
+
+	<!-- NPC trame Néant -->
+	<npc id="55312" level="80" type="L2Npc" name="Sharkan" usingServerSideName="true" title="Numéro 2" usingServerSideTitle="true">
+		<fake classId="3" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="C" />
+			<equipment rhand="81" lhand="0" gloves="13452" chest="13436" legs="13451" feet="13453" weaponEnchant="16"/>
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55313" level="80" type="L2Npc" name="Sharkan" usingServerSideName="true" title="Numéro 2" usingServerSideTitle="true">
+		<fake classId="3" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="C" />
+			<equipment rhand="0" lhand="0" gloves="13452" chest="13436" legs="13451" feet="13453"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55314" level="80" type="L2Npc" name="Arileth" usingServerSideName="true" title="Demi-elfe" usingServerSideTitle="true">
+		<fake classId="99" female='true' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="E" color="D" face="C" />
+			<equipment rhand="246" lhand="0" gloves="0" chest="2399" legs="2404" feet="5740" hair="7682"/>
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>	
+	<npc id="55315" level="80" type="L2Npc" name="Zorgrath" usingServerSideName="true">
+		<fake classId="116" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="C" />
+			<equipment rhand="6367" lhand="0" gloves="7868" chest="7867" legs="0" feet="7869"/>
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55316" level="80" type="L2Npc" name="Zorgrath" usingServerSideName="true">
+		<fake classId="116" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="B" face="C" />
+			<equipment rhand="6367" lhand="0" gloves="7868" chest="7867" legs="0" feet="7869"/>
+		</fake>
+		<status dead="true" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55317" level="80" type="L2Npc" name="Alaric" usingServerSideName="true" title="Capitaine" usingServerSideTitle="true">
+		<fake classId="3" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="A" face="A" />
+			<equipment lhand="12812" gloves="5775" chest="2395" legs="0" feet="5787" hair="8558" hair2="8188"/> <!-- rhand="9444" -->
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55318" level="80" type="L2Npc" name="Elion" usingServerSideName="true" title="Gouverneur" usingServerSideTitle="true">
+		<fake classId="3" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="A" color="A" face="B" />
+			<equipment rhand="0" lhand="0" gloves="13449" chest="13435" legs="13448" feet="13450" hair="13508" hair2="0" cloak="21717"/>
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55319" level="80" type="L2Npc" name="Aurus" usingServerSideName="true" title="Aigle Royal" usingServerSideTitle="true">
+		<fake classId="132" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="D" color="B" face="A" />
+			<equipment rhand="15556" lhand="0" gloves="15616" chest="15610" legs="15613" feet="15619" hair="0" hair2="0" cloak="21583"/>
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55320" level="80" type="L2Npc" name="Taygar" usingServerSideName="true" title="Scientifique" usingServerSideTitle="true">
+		<fake classId="132" female='false' hero="false" ghost="false" sitting="false" mountNpcId="0">
+			<head style="C" color="C" face="B" />
+			<equipment rhand="0" lhand="0" gloves="2461" chest="401" legs="0" feet="2437" hair="0" hair2="0" cloak="0"/>
+		</fake>
+		<status dead="false" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55321" displayId="4310" level="80" type="L2Npc" name="Navith" usingServerSideName="true" title="Encapuchonnée" usingServerSideTitle="true">
+		<!-- TODO: Must be confirmed -->
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="2444" mp="2444.0" />
+			<attack physical="500" magical="500" attackSpeed="278" range="40" />
+			<defence physical="500" magical="500" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="55322" displayId="4310" level="80" type="L2Npc" name="Sufzile" usingServerSideName="true" title="Encapuchonné" usingServerSideTitle="true">
+		<!-- TODO: Must be confirmed -->
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="2444" mp="2444.0" />
+			<attack physical="500" magical="500" attackSpeed="278" range="40" />
+			<defence physical="500" magical="500" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="55323" displayId="35653" level="70" type="L2Npc" name="Navith" usingServerSideName="true" title=" " usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+		</parameters>
+		<race>ELF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="8687" /> <!-- rhand: Cabrio's Hand -->
+		<stats str="22" int="41" dex="21" wit="20" con="27" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="33" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="MAGE" aggroRange="1000" />
+		<collision>
+			<radius normal="6.5" />
+			<height normal="21.957" />
+		</collision>
+	</npc>
+	<npc id="55324" displayId="36493" level="70" type="L2Npc" name="Sufzile" usingServerSideName="true" title=" " usingServerSideTitle="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="175" />
+			<param name="item_feud_badge" value="13760" /> <!-- Oren Territory Badge -->
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+
+	<npc id="55325" level="80" type="L2Npc" name="Habitant" usingServerSideName="true">
+		<fake>
+			<equipment/>
+		</fake>
+		<status dead="false" showName="false" attackable="false" targetable="false"/>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="55326" displayId="13158" level="70" type="L2Npc" name="Enfant">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="65" />
+			<param name="MoveAroundSocial1" value="65" />
+			<param name="MoveAroundSocial2" value="65" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="4.11984" sp="2642" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2974.35686398316" hpRegen="8.5" mp="1607.4" mpRegen="3" />
+			<attack physical="1.0" magical="1.0" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" shield="166" shieldRate="20" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="44" />
+				<run ground="175" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" showName="false" targetable="false" attackable="false"/>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="BALANCED" aggroRange="300" />
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<collision>
+			<radius normal="5" />
+			<height normal="12.3" />
+		</collision>
+	</npc>
+
 	<!-- Custom TP section -->
 	<npc id="56001" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Gatekeeper Ziggurat" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
@@ -2857,7 +4031,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="56015" displayId="31100" level="70" type="L2DungeonGatekeeper" name=" Chez Hortense/EnguÃ©ran" usingServerSideName="true">
+	<npc id="56015" displayId="31100" level="70" type="L2DungeonGatekeeper" name=" Chez Hortense/Enguéran" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="Role" value="0" />
@@ -2887,7 +4061,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="56016" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Chez Hortense/EnguÃ©ran" usingServerSideName="true">
+	<npc id="56016" displayId="31100" level="70" type="L2DungeonGatekeeper" name="Chez Hortense/Enguéran" usingServerSideName="true">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="Role" value="0" />
@@ -3265,7 +4439,7 @@
 			<height normal="19" />
 		</collision>
 	</npc>
-	<npc id="57008" displayId="30534" level="55" type="L2Merchant" name="Sosoï">
+	<npc id="57008" displayId="30534" level="55" type="L2Merchant" name="Sosoé">
 		<!-- Confirmed CT2.5 -->
 		<status attackable="false" showName="false" />
 		<collision>
@@ -3289,9 +4463,6 @@
 			<height normal="19.7" />
 		</collision>
 	</npc>
-
-
-
 	<npc id="57011" displayId="13160" level="55" type="L2Merchant" name="Glace">
 		<!-- Confirmed CT2.5 -->
 		<status attackable="false" showName="false" />
@@ -3301,6 +4472,731 @@
 		</collision>
 	</npc>
 
+	<npc id="57021" displayId="35600" level="56" type="L2Merchant" name="Nu" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57022" displayId="35600" level="56" type="L2Merchant" name="Xuey" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57023" displayId="35600" level="56" type="L2Merchant" name="Sior" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57024" displayId="35600" level="56" type="L2Merchant" name="Ertok" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57025" displayId="35600" level="56" type="L2Merchant" name="Knik" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57026" displayId="35600" level="56" type="L2Merchant" name="Xys" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57027" displayId="35600" level="56" type="L2Merchant" name="Tepesse" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57028" displayId="35600" level="56" type="L2Merchant" name="Tihu" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57029" displayId="35600" level="56" type="L2Merchant" name="Fuenne" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57030" displayId="35600" level="56" type="L2Merchant" name="Xyd" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+
+	<npc id="57031" displayId="35600" level="56" type="L2Merchant" name="Ezno" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57032" displayId="35600" level="56" type="L2Merchant" name="Ezuode" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57033" displayId="35600" level="56" type="L2Merchant" name="Eziertte" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57034" displayId="35600" level="56" type="L2Merchant" name="Ezrautok" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57035" displayId="35600" level="56" type="L2Merchant" name="Ezniuque" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57036" displayId="35600" level="56" type="L2Merchant" name="Eziesse" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57037" displayId="35600" level="56" type="L2Merchant" name="Tepesxyde" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57038" displayId="35600" level="56" type="L2Merchant" name="Tihuxyde" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57039" displayId="35600" level="56" type="L2Merchant" name="Huennexyde" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57040" displayId="35600" level="56" type="L2Merchant" name="Tegnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+
+	<npc id="57041" displayId="35600" level="56" type="L2Merchant" name="Nutegnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57042" displayId="35600" level="56" type="L2Merchant" name="Xueygnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57043" displayId="35600" level="56" type="L2Merchant" name="Siorgnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57044" displayId="35600" level="56" type="L2Merchant" name="Ertokgnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57045" displayId="35600" level="56" type="L2Merchant" name="Knikgnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57046" displayId="35600" level="56" type="L2Merchant" name="Xysgnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57047" displayId="35600" level="56" type="L2Merchant" name="Tepessegnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57048" displayId="35600" level="56" type="L2Merchant" name="Tihugnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57049" displayId="35600" level="56" type="L2Merchant" name="Fuennegnive" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+	<npc id="57050" displayId="35600" level="56" type="L2Merchant" name="Ettenerte" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" showName="false" canMove="false" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc>
+
+	<npc id="57051" displayId="25699" level="56" type="L2Monster" name="Géant de glace" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6857" level="1" /> <!-- Power Strike -->
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire expRate="60.6003927743101" sp="42928" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="10247.9853769394" magical="6998.04554416799" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="566.178304" magical="621.45708" />
+			<attribute>
+				<attack type="FIRE" value="200" />
+				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
+			</attribute>
+			<speed>
+				<walk ground="100" />
+				<run ground="200" />
+			</speed>
+			<hitTime>570</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="11" /> <!--HP Increase (3x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="17" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="7" /> <!--Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="10" /> <!--Dragons -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="6857" level="1" /> <!--Power Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="5.567599773406982">
+					<item id="14109" min="1" max="1" chance="16.6667" /> <!-- Sealed Vesper Gauntlet -->
+					<item id="14113" min="1" max="1" chance="16.6667" /> <!-- Sealed Vesper Leather Gloves -->
+					<item id="14116" min="1" max="1" chance="16.6667" /> <!-- Sealed Vesper Gloves -->
+					<item id="14110" min="1" max="1" chance="16.6667" /> <!-- Sealed Vesper Boots -->
+					<item id="14114" min="1" max="1" chance="16.6667" /> <!-- Sealed Vesper Leather Boots -->
+					<item id="14117" min="1" max="1" chance="16.6665" /> <!-- Sealed Vesper Shoes -->
+				</group>
+				<group chance="9.264200210571289">
+					<item id="14160" min="1" max="1" chance="30.7692" /> <!-- Sealed Vesper Earring -->
+					<item id="14161" min="1" max="1" chance="23.0769" /> <!-- Sealed Vesper Necklace -->
+					<item id="14162" min="1" max="1" chance="46.1539" /> <!-- Sealed Vesper Ring -->
+				</group>
+				<group chance="69.46859741210938">
+					<item id="959" min="1" max="1" chance="9.0909" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+					<item id="960" min="1" max="1" chance="90.9091" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="28" />
+			<height normal="67.5" />
+		</collision>
+	</npc>
+	<npc id="57052" displayId="18856" level="56" type="L2Monster" name="Soldat de glace" usingServerSideName="true">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6859" level="1" /> <!-- Power Strike -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="42.0155027628587" sp="29772" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="10247.9853769394" magical="6998.04554416799" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="566.178304" magical="621.45708" />
+			<attribute>
+				<attack type="FIRE" value="200" />
+				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
+			</attribute>
+			<speed>
+				<walk ground="64" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="6859" level="1" /> <!--Power Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="66">
+					<item id="57" min="13033" max="30434" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.022299999371170998">
+					<item id="10223" min="1" max="1" chance="3.91" /> <!-- Icarus Spitter -->
+					<item id="15706" min="1" max="1" chance="72.0682" /> <!-- Sealed Moirai Boots -->
+					<item id="15699" min="1" max="1" chance="24.0218" /> <!-- Sealed Moirai Tunic -->
+				</group>
+				<group chance="26.766199111938477">
+					<item id="1894" min="1" max="1" chance="26.6033" /> <!-- Crafted Leather -->
+					<item id="4039" min="1" max="1" chance="25.2731" /> <!-- Mold Glue -->
+					<item id="4041" min="1" max="1" chance="6.593" /> <!-- Mold Hardener -->
+					<item id="4044" min="1" max="1" chance="25.2731" /> <!-- Thons -->
+					<item id="10483" min="1" max="1" chance="5.2652" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="1.3163" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.1316" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="9546" min="1" max="1" chance="6.0655" /> <!-- Fire Stone -->
+					<item id="17248" min="1" max="1" chance="0.446" /> <!-- Large Dragon Bone -->
+					<item id="6622" min="1" max="1" chance="3.0329" /> <!-- Giant's Codex -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4043" min="1" max="1" chance="45.7741" /> <!-- Asofe -->
+				<item id="9630" min="1" max="1" chance="7.2275" /> <!-- Orichalcum -->
+				<item id="10402" min="1" max="1" chance="0.5868" /> <!-- Icarus Hammer Piece -->
+				<item id="10220" min="1" max="1" chance="0.0018" /> <!-- Icarus Hammer -->
+				<item id="959" min="1" max="1" chance="0.0549" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+				<item id="15806" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Shoes (60%) -->
+				<item id="15805" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Leather Boots (60%) -->
+				<item id="15804" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Boots (60%) -->
+				<item id="10223" min="1" max="1" chance="0.0018" /> <!-- Icarus Spitter -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="57053" displayId="18854" level="56" type="L2Monster" name="Trappeur de glace" usingServerSideName="true">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6857" level="1" /> <!-- Power Strike -->
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire expRate="59.6160661328043" sp="42195" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="10247.9853769394" magical="6998.04554416799" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="566.178304" magical="621.45708" />
+			<attribute>
+				<attack type="FIRE" value="200" />
+				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
+			</attribute>
+			<speed>
+				<walk ground="100" />
+				<run ground="200" />
+			</speed>
+			<hitTime>570</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="11" /> <!--HP Increase (3x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="4" /> <!--Extremely Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="10" /> <!--Dragons -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="6857" level="1" /> <!--Power Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="66">
+					<item id="57" min="18307" max="42751" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.054999999701976776">
+					<item id="15706" min="1" max="1" chance="24.6208" /> <!-- Sealed Moirai Boots -->
+					<item id="15707" min="1" max="1" chance="24.6208" /> <!-- Sealed Moirai Leather Boots -->
+					<item id="15708" min="1" max="1" chance="24.6208" /> <!-- Sealed Moirai Shoes -->
+					<item id="15768" min="1" max="1" chance="18.9087" /> <!-- Sealed Moirai Necklace -->
+					<item id="13893" min="1" max="1" chance="7.2289" /> <!-- Sealed Holy Spirit's Cloak -->
+				</group>
+				<group chance="37.889801025390625">
+					<item id="1879" min="3" max="9" chance="18.9989" /> <!-- Cokes -->
+					<item id="1885" min="1" max="1" chance="56.9966" /> <!-- High-Grade Suede -->
+					<item id="9628" min="1" max="1" chance="5.3644" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="3.5998" /> <!-- Orichalcum -->
+					<item id="9629" min="1" max="1" chance="2.9737" /> <!-- Adamantine -->
+					<item id="10483" min="1" max="1" chance="4.7497" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="1.1874" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.1187" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="9555" min="1" max="1" chance="0.1368" /> <!-- Wind Crystal -->
+					<item id="9549" min="1" max="1" chance="5.4717" /> <!-- Wind Stone -->
+					<item id="17248" min="1" max="1" chance="0.4023" /> <!-- Large Dragon Bone -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4043" min="1" max="1" chance="82.6692" /> <!-- Asofe -->
+				<item id="9630" min="1" max="1" chance="13.053" /> <!-- Orichalcum -->
+				<item id="10403" min="1" max="1" chance="1.0599" /> <!-- Icarus Hand Piece -->
+				<item id="15778" min="1" max="1" chance="0.7365" /> <!-- Recipe - Sealed Moirai Breastplate (60%) -->
+				<item id="15792" min="1" max="1" chance="1.4172" /> <!-- Recipe - Sealed Vesper Helmet (60%) -->
+				<item id="15795" min="1" max="1" chance="0.5314" /> <!-- Recipe - Sealed Vesper Breastplate (60%) -->
+				<item id="15798" min="1" max="1" chance="0.8503" /> <!-- Recipe - Sealed Vesper Gaiter (60%) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="50" />
+		</collision>
+	</npc>
+	<npc id="57054" displayId="32763" level="56" type="L2Npc" name="Sirra" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<attack physical="970.537548504614" magical="662.751329129412" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341.375" magical="249.80341" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="250" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="false" showName="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="1" /> <!--Bare Hands -->
+			<skill id="4416" level="7" /> <!--Spirits -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="16" />
+			<height normal="35.6" />
+		</collision>
+	</npc>
+
+	<npc id="57055" displayId="29177" level="85" type="L2Npc" name="Freya" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="1989104.85860933" hpRegen="556.482123682282" mp="184680.0" mpRegen="300" />
+			<attack physical="8184.13933986331" magical="2579.001338104" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1085.36442" magical="529.48" />
+			<attribute>
+				<attack type="WATER" value="370" />
+				<defence fire="250" water="370" wind="300" earth="300" holy="300" dark="300" default="300" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="5463" level="1" /> <!--Water Attacks -->
+			<skill id="6644" level="1" /> <!--Ice Queen Freya -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>FREYA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="50" />
+			<height normal="98.5" />
+		</collision>
+	</npc>
+
+	<npc id="57056" displayId="29179" level="85" type="L2Monster" name="Freya" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="10" /> <!-- BOSS Cancel Magic -->
+			<skill name="SelfBuff_a" id="4173" level="10" /> <!-- BOSS Might -->
+			<skill name="PhysicalSpecial_a" id="4721" level="10" /> <!-- BOSS Strike -->
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="10" /> <!-- Stun -->
+			<skill name="RangeHold_a" id="4197" level="9" /> <!-- Hold -->
+		</parameters>
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="608.328798241124" sp="580689.409991996" raidPoints="508" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="612521.536403012" hpRegen="96.0880871925918" mp="1812.0" mpRegen="3" />
+			<attack physical="3008.0381043477" magical="1192.88500315956" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1073.60169" magical="523.74" />
+			<attribute>
+				<attack type="WATER" value="200" />
+				<defence fire="120" water="200" wind="170" earth="170" holy="170" dark="170" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<hitTime>720</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4172" level="10" /> <!--Stun -->
+			<skill id="4173" level="10" /> <!--BOSS Might -->
+			<skill id="4177" level="10" /> <!--BOSS Cancel Magic -->
+			<skill id="4197" level="9" /> <!--Hold -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="13" /> <!--Fairies -->
+			<skill id="4494" level="1" /> <!--Raid Boss -->
+			<skill id="5463" level="1" /> <!--Water Attacks -->
+			<skill id="4721" level="10" /> <!--BOSS Strike -->
+			<skill id="6229" level="1" /> <!--Raid Boss - Level 84 -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<dropLists>
+			<death>
+				<group chance="47.824501037597656">
+					<item id="10220" min="1" max="1" chance="0.1504" /> <!-- Icarus Hammer -->
+					<item id="10222" min="1" max="1" chance="0.1504" /> <!-- Icarus Hall -->
+					<item id="10402" min="1" max="1" chance="49.8496" /> <!-- Icarus Hammer Piece -->
+					<item id="10404" min="1" max="1" chance="49.8496" /> <!-- Icarus Hall Piece -->
+				</group>
+				<group chance="73.84210205078125">
+					<item id="9516" min="1" max="1" chance="1.1013" /> <!-- Sealed Dynasty Helmet -->
+					<item id="9529" min="1" max="1" chance="1.5733" /> <!-- Sealed Dynasty Shield -->
+					<item id="13885" min="1" max="1" chance="3.0031" /> <!-- Sealed Arcana Sigil -->
+					<item id="9532" min="9" max="27" chance="15.0953" /> <!-- Sealed Dynasty Helmet Piece -->
+					<item id="9545" min="5" max="15" chance="32.3877" /> <!-- Sealed Dynasty Shield Piece -->
+					<item id="10114" min="2" max="6" chance="46.8393" /> <!-- Sealed Dynasty Sigil Piece -->
+				</group>
+				<group chance="32.30970001220703">
+					<item id="959" min="1" max="1" chance="8.9552" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+					<item id="960" min="1" max="1" chance="89.5522" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+					<item id="6577" min="1" max="1" chance="1.4926" /> <!-- Blessed Scroll: Enchant Weapon (S-Grade) -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="22" />
+			<height normal="55" />
+		</collision>
+	</npc>
+
+	<!-- Armées -->
+	<!-- Oren -->
+	<npc id="57500" level="80" type="L2Npc" name="Hoplite">
+		<fake mountNpcId="0">
+			<equipment rhand="9442" lhand="13525" gloves="5771" chest="374" legs="0" feet="5783"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="57501" level="80" type="L2Npc" name="Faucheur">
+		<fake mountNpcId="0">
+			<equipment rhand="9443" lhand="0" gloves="5771" chest="374" legs="0" feet="5783"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="57502" level="80" type="L2Npc" name="Cavalier">
+		<fake mountNpcId="0"> <!-- Fenrir 16041, Horse 13130 Lion 13146 -->
+			<equipment rhand="9446" lhand="2498" gloves="5771" chest="374" legs="0" feet="5783"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="57503" level="80" type="L2Npc" name="Archer">
+		<fake mountNpcId="0"> <!-- Fenrir 16041, Horse 13130 Lion 13146 -->
+			<equipment rhand="9445" lhand="0" gloves="5772" chest="2394" legs="0" feet="5784"/> <!-- 7575 -->
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="57504" level="80" type="L2Npc" name="Pyromancien">
+		<fake mountNpcId="0"> <!-- Fenrir 16041, Horse 13130 Lion 13146 -->
+			<equipment rhand="9444" lhand="12812" gloves="5773" chest="2408" legs="0" feet="5785"/> <!-- 7575 -->
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="57505" level="80" type="L2Npc" name="Ingénieur">
+		<fake mountNpcId="0"> <!-- Fenrir 16041, Horse 13130 Lion 13146 -->
+			<equipment rhand="326" lhand="0" gloves="5769" chest="2393" legs="0" feet="5781"/> <!-- 7575 -->
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
 
 	<!-- Monstres full custom -->
 	<npc id="58000" displayId="21571" level="69" type="L2Monster" name="Ghost of Rebellion Soldier">
@@ -4300,7 +6196,7 @@
 		</stats>
 		<skillList>
 			<skill id="10007" level="1" /> <!-- Wind Hustle -->
-		</skillList>		
+		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<collision>
 			<radius normal="10" />
@@ -4606,7 +6502,7 @@
 		</stats>
 		<skillList>
 			<skill id="485" level="7" /> <!-- Disarm -->
-		</skillList>		
+		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<collision>
 			<radius normal="10" />
@@ -4797,7 +6693,7 @@
 		</stats>
 		<skillList>
 			<skill id="10009" level="1" /> <!-- Suffocation -->
-		</skillList>	
+		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<collision>
 			<radius normal="10" />
@@ -4979,7 +6875,7 @@
 		</stats>
 		<skillList>
 			<skill id="10011" level="1" /> <!-- Light Fear -->
-		</skillList>		
+		</skillList>
 		<exCrtEffect>true</exCrtEffect>
 		<collision>
 			<radius normal="10" />
@@ -5187,6 +7083,49 @@
 		<collision>
 			<radius normal="45" />
 			<height normal="75" />
+		</collision>
+	</npc>
+
+	<npc id="59029" displayId="32804" name="Garde Blanc" usingServerSideName="true" type="L2Guard">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="50" int="10" dex="20" wit="10" con="50" men="35">
+			<vitals hp="35000" hpRegen="400" mp="1000" mpRegen="10" />
+			<attack physical="4500" magical="250" random="30" critical="25" accuracy="999" attackSpeed="700" type="SWORD" range="40" distance="80" width="0" />
+			<defence physical="1750" magical="1250" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+			<skill id="979" level="6" /> <!--Aggression-->
+			<skill id="28" level="49" /> <!--Aggression-->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="19" />
 		</collision>
 	</npc>
 
@@ -5405,7 +7344,7 @@
 			<radius normal="10" />
 			<height normal="22.5" />
 		</collision>
-	</npc>	
+	</npc>
 	<npc id="59035" displayId="32797" level="80" type="L2Npc" name="Bartholomé Conti" usingServerSideName="true" title="Cardinal de Giran" usingServerSideTitle="true">
 		<!-- TODO: Must be confirmed -->
 		<sex>MALE</sex>
@@ -5489,6 +7428,165 @@
 		</collision>
 	</npc>
 
+	<npc id="59038" displayId="25615" level="80" type="L2Monster" name="Fantôme" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6859" level="1" /> <!-- Power Strike -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="42.0155027628587" sp="29772" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="10247.9853769394" magical="6998.04554416799" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="566.178304" magical="621.45708" />
+			<attribute>
+				<attack type="FIRE" value="200" />
+				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
+			</attribute>
+			<speed>
+				<walk ground="64" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="6859" level="1" /> <!--Power Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="66">
+					<item id="57" min="13033" max="30434" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.022299999371170998">
+					<item id="10223" min="1" max="1" chance="3.91" /> <!-- Icarus Spitter -->
+					<item id="15706" min="1" max="1" chance="72.0682" /> <!-- Sealed Moirai Boots -->
+					<item id="15699" min="1" max="1" chance="24.0218" /> <!-- Sealed Moirai Tunic -->
+				</group>
+				<group chance="26.766199111938477">
+					<item id="1894" min="1" max="1" chance="26.6033" /> <!-- Crafted Leather -->
+					<item id="4039" min="1" max="1" chance="25.2731" /> <!-- Mold Glue -->
+					<item id="4041" min="1" max="1" chance="6.593" /> <!-- Mold Hardener -->
+					<item id="4044" min="1" max="1" chance="25.2731" /> <!-- Thons -->
+					<item id="10483" min="1" max="1" chance="5.2652" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="1.3163" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.1316" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="9546" min="1" max="1" chance="6.0655" /> <!-- Fire Stone -->
+					<item id="17248" min="1" max="1" chance="0.446" /> <!-- Large Dragon Bone -->
+					<item id="6622" min="1" max="1" chance="3.0329" /> <!-- Giant's Codex -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4043" min="1" max="1" chance="45.7741" /> <!-- Asofe -->
+				<item id="9630" min="1" max="1" chance="7.2275" /> <!-- Orichalcum -->
+				<item id="10402" min="1" max="1" chance="0.5868" /> <!-- Icarus Hammer Piece -->
+				<item id="10220" min="1" max="1" chance="0.0018" /> <!-- Icarus Hammer -->
+				<item id="959" min="1" max="1" chance="0.0549" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+				<item id="15806" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Shoes (60%) -->
+				<item id="15805" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Leather Boots (60%) -->
+				<item id="15804" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Boots (60%) -->
+				<item id="10223" min="1" max="1" chance="0.0018" /> <!-- Icarus Spitter -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="59039" displayId="18475" level="80" type="L2Monster" name="Ectoplasme" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6859" level="1" /> <!-- Power Strike -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="42.0155027628587" sp="29772" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="10247.9853769394" magical="6998.04554416799" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="566.178304" magical="621.45708" />
+			<attribute>
+				<attack type="FIRE" value="200" />
+				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
+			</attribute>
+			<speed>
+				<walk ground="64" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="6859" level="1" /> <!--Power Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<group chance="66">
+					<item id="57" min="13033" max="30434" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.022299999371170998">
+					<item id="10223" min="1" max="1" chance="3.91" /> <!-- Icarus Spitter -->
+					<item id="15706" min="1" max="1" chance="72.0682" /> <!-- Sealed Moirai Boots -->
+					<item id="15699" min="1" max="1" chance="24.0218" /> <!-- Sealed Moirai Tunic -->
+				</group>
+				<group chance="26.766199111938477">
+					<item id="1894" min="1" max="1" chance="26.6033" /> <!-- Crafted Leather -->
+					<item id="4039" min="1" max="1" chance="25.2731" /> <!-- Mold Glue -->
+					<item id="4041" min="1" max="1" chance="6.593" /> <!-- Mold Hardener -->
+					<item id="4044" min="1" max="1" chance="25.2731" /> <!-- Thons -->
+					<item id="10483" min="1" max="1" chance="5.2652" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="1.3163" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.1316" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="9546" min="1" max="1" chance="6.0655" /> <!-- Fire Stone -->
+					<item id="17248" min="1" max="1" chance="0.446" /> <!-- Large Dragon Bone -->
+					<item id="6622" min="1" max="1" chance="3.0329" /> <!-- Giant's Codex -->
+				</group>
+			</death>
+			<corpse>
+				<item id="4043" min="1" max="1" chance="45.7741" /> <!-- Asofe -->
+				<item id="9630" min="1" max="1" chance="7.2275" /> <!-- Orichalcum -->
+				<item id="10402" min="1" max="1" chance="0.5868" /> <!-- Icarus Hammer Piece -->
+				<item id="10220" min="1" max="1" chance="0.0018" /> <!-- Icarus Hammer -->
+				<item id="959" min="1" max="1" chance="0.0549" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+				<item id="15806" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Shoes (60%) -->
+				<item id="15805" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Leather Boots (60%) -->
+				<item id="15804" min="1" max="1" chance="1.177" /> <!-- Recipe - Sealed Vesper Boots (60%) -->
+				<item id="10223" min="1" max="1" chance="0.0018" /> <!-- Icarus Spitter -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc>
+
 	<npc id="59040" displayId="18354" level="80" type="L2Npc" name="Air Soul" usingServerSideName="true">
 		<status attackable="false" targetable="false"  showName="false"/>
 		<collision>
@@ -5509,7 +7607,7 @@
 			<radius normal="30" grown="32" />
 			<height normal="53.5" grown="65.5" />
 		</collision>
-	</npc>	
+	</npc>
 	<npc id="59043" displayId="22264" level="80" type="L2Npc" name="Water Soul" usingServerSideName="true">
 		<status attackable="false" targetable="false"  showName="false"/>
 		<collision>
@@ -6095,6 +8193,354 @@
 		<collision>
 			<radius normal="29" />
 			<height normal="37" />
+		</collision>
+	</npc>
+	<npc id="59055" displayId="20458" level="80" type="L2Monster" name="Zombie" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="FriendShip1" value="7221" /> <!-- Mark of Varka's Alliance - Level 1 -->
+			<param name="FriendShip2" value="7222" /> <!-- Mark of Varka's Alliance - Level 2 -->
+			<param name="FriendShip3" value="7223" /> <!-- Mark of Varka's Alliance - Level 3 -->
+			<param name="FriendShip4" value="7224" /> <!-- Mark of Varka's Alliance - Level 4 -->
+			<param name="FriendShip5" value="7225" /> <!-- Mark of Varka's Alliance - Level 5 -->
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="30" />
+			<param name="MeleeAttackerAg" value="50" />
+			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
+			<skill name="Buff" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
+			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
+			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire expRate="5.17248" sp="3310" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2974.35686398316" hpRegen="8.5" mp="1607.4" mpRegen="3" />
+			<attack physical="890.50085998804" magical="608.096657928153" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="15" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4038" level="5" /> <!--Decrease Atk. Spd. -->
+			<skill id="4085" level="1" /> <!--Critical Damage -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="4" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4573" level="9" /> <!--NPC Sonic Blaster -->
+			<skill id="4575" level="2" /> <!--NPC Clan Buff - Haste -->
+			<skill id="4789" level="7" /> <!--NPC High Level -->
+			<skill id="5620" level="6" /> <!--Short-Range Physical Attack Weakness -->
+		</skillList>
+		<shots shotChance="50" spiritChance="50" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>VARKA_SILENOS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4725" max="9675" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.5177000164985657">
+					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
+				</group>
+				<group chance="45.30189895629883">
+					<item id="1868" min="4" max="12" chance="19.5665" /> <!-- Thread -->
+					<item id="1873" min="1" max="1" chance="31.3065" /> <!-- Silver Nugget -->
+					<item id="5549" min="1" max="1" chance="7.8266" /> <!-- Metallic Thread -->
+					<item id="1889" min="1" max="1" chance="5.2177" /> <!-- Compound Braid -->
+					<item id="4044" min="1" max="1" chance="2.6089" /> <!-- Thons -->
+					<item id="960" min="1" max="1" chance="0.0313" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+					<item id="8732" min="1" max="1" chance="0.6522" /> <!-- Life Stone - Level 76 -->
+					<item id="8742" min="1" max="1" chance="0.1631" /> <!-- Mid-Grade Life Stone - Level 76 -->
+					<item id="8752" min="1" max="1" chance="0.0163" /> <!-- High-Grade Life Stone - Level 76 -->
+					<item id="1344" min="30" max="90" chance="32.6109" /> <!-- Mithril Arrow -->
+				</group>
+			</death>
+			<corpse>
+				<item id="5528" min="1" max="1" chance="11.4809" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="5167" min="1" max="1" chance="0.4268" /> <!-- Recipe: Blessed Spiritshot (S) Compressed Package (100%) -->
+				<item id="5529" min="1" max="1" chance="2.6345" /> <!-- Dragon Slayer Edge -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="12" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="59056" displayId="20042" level="80" type="L2Monster" name="Squelette" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="FriendShip1" value="7221" /> <!-- Mark of Varka's Alliance - Level 1 -->
+			<param name="FriendShip2" value="7222" /> <!-- Mark of Varka's Alliance - Level 2 -->
+			<param name="FriendShip3" value="7223" /> <!-- Mark of Varka's Alliance - Level 3 -->
+			<param name="FriendShip4" value="7224" /> <!-- Mark of Varka's Alliance - Level 4 -->
+			<param name="FriendShip5" value="7225" /> <!-- Mark of Varka's Alliance - Level 5 -->
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="30" />
+			<param name="MeleeAttackerAg" value="50" />
+			<skill name="PhysicalSpecial" id="4573" level="9" /> <!-- NPC Sonic Blaster -->
+			<skill name="Buff" id="4575" level="2" /> <!-- NPC Clan Buff - Haste -->
+			<skill name="DeBuff" id="4038" level="5" /> <!-- Decrease Atk. Spd. -->
+			<skill name="DeBuff1" id="4578" level="1" /> <!-- Petrification -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> <!-- rhand: Skeleton Dagger lhand: Skeleton Buckler -->
+		<acquire expRate="5.17248" sp="3310" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2974.35686398316" hpRegen="8.5" mp="1607.4" mpRegen="3" />
+			<attack physical="890.50085998804" magical="608.096657928153" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4038" level="5" /> <!--Decrease Atk. Spd. -->
+			<skill id="4085" level="1" /> <!--Critical Damage -->
+			<skill id="4086" level="1" /> <!--Critical Chance -->
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="4" /> <!--One-handed Sword -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4573" level="9" /> <!--NPC Sonic Blaster -->
+			<skill id="4575" level="2" /> <!--NPC Clan Buff - Haste -->
+			<skill id="4789" level="7" /> <!--NPC High Level -->
+			<skill id="5620" level="6" /> <!--Short-Range Physical Attack Weakness -->
+		</skillList>
+		<shots shotChance="50" spiritChance="50" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>VARKA_SILENOS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="4725" max="9675" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.5177000164985657">
+					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
+				</group>
+				<group chance="45.30189895629883">
+					<item id="1868" min="4" max="12" chance="19.5665" /> <!-- Thread -->
+					<item id="1873" min="1" max="1" chance="31.3065" /> <!-- Silver Nugget -->
+					<item id="5549" min="1" max="1" chance="7.8266" /> <!-- Metallic Thread -->
+					<item id="1889" min="1" max="1" chance="5.2177" /> <!-- Compound Braid -->
+					<item id="4044" min="1" max="1" chance="2.6089" /> <!-- Thons -->
+					<item id="960" min="1" max="1" chance="0.0313" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+					<item id="8732" min="1" max="1" chance="0.6522" /> <!-- Life Stone - Level 76 -->
+					<item id="8742" min="1" max="1" chance="0.1631" /> <!-- Mid-Grade Life Stone - Level 76 -->
+					<item id="8752" min="1" max="1" chance="0.0163" /> <!-- High-Grade Life Stone - Level 76 -->
+					<item id="1344" min="30" max="90" chance="32.6109" /> <!-- Mithril Arrow -->
+				</group>
+			</death>
+			<corpse>
+				<item id="5528" min="1" max="1" chance="11.4809" /> <!-- Sealed Majestic Circlet Design -->
+				<item id="5167" min="1" max="1" chance="0.4268" /> <!-- Recipe: Blessed Spiritshot (S) Compressed Package (100%) -->
+				<item id="5529" min="1" max="1" chance="2.6345" /> <!-- Dragon Slayer Edge -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc>
+	<npc id="59057" displayId="20045" level="80" type="L2Monster" name="Archer Squelette" usingServerSideName="true">
+		<parameters>
+			<skill name="Skill01_ID" id="6423" level="1" /> <!-- Shock -->
+			<skill name="Skill02_ID" id="6424" level="1" /> <!-- Double Shot -->
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="275" /> <!-- rhand: Long Bow -->
+		<acquire expRate="3.681309375" sp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3835.59060587002" hpRegen="8.5" mp="1777.4" mpRegen="3" />
+			<attack physical="1099.42361669366" magical="750.763809564873" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="353.86144" magical="258.94045" />
+			<attribute>
+				<attack type="EARTH" value="170" />
+				<defence fire="140" water="140" wind="100" earth="180" holy="140" dark="140" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4116" level="9" /> <!--Resist M. Atk. -->
+			<skill id="4273" level="4" /> <!--Resist Daggers/Rapier Weapon -->
+			<skill id="4276" level="4" /> <!--Weak Point against Bow/Crossbow Weapons -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="14" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="17" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="9" /> <!--Bows -->
+			<skill id="4416" level="6" /> <!--Humanoids -->
+			<skill id="4424" level="4" /> <!--Resist Hand-to-hand Weapons -->
+			<skill id="4427" level="4" /> <!--Resist Swords -->
+			<skill id="4449" level="4" /> <!--Greater Resist Two-handed Weapons -->
+			<skill id="5465" level="1" /> <!--Earth Attacks -->
+			<skill id="5601" level="9" /> <!--Short-Range Physical Attack Resistance -->
+			<skill id="6423" level="1" /> <!--Shock -->
+			<skill id="6424" level="1" /> <!--Double Shot -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="ARCHER" aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<dropLists>
+			<death>
+				<group chance="70">
+					<item id="57" min="945" max="1907" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="0.6808000206947327">
+					<item id="10223" min="1" max="1" chance="0.0045" /> <!-- Icarus Spitter -->
+					<item id="10405" min="1" max="1" chance="1.4869" /> <!-- Icarus Spitter Piece -->
+					<item id="15766" min="1" max="1" chance="0.127" /> <!-- Sealed Moirai Ring -->
+					<item id="15767" min="1" max="1" chance="0.0846" /> <!-- Sealed Moirai Earring -->
+					<item id="15768" min="1" max="1" chance="0.0635" /> <!-- Sealed Moirai Necklace -->
+					<item id="15772" min="1" max="1" chance="47.9898" /> <!-- Sealed Moirai Ring Gem -->
+					<item id="15773" min="1" max="1" chance="26.971" /> <!-- Sealed Moirai Earring Gem -->
+					<item id="15774" min="1" max="1" chance="23.2727" /> <!-- Sealed Moirai Necklace Gem -->
+				</group>
+				<group chance="17.25469970703125">
+					<item id="1895" min="1" max="1" chance="28.6202" /> <!-- Metallic Fiber -->
+					<item id="4040" min="1" max="1" chance="2.0034" /> <!-- Mold Lubricant -->
+					<item id="9628" min="1" max="1" chance="0.7857" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="0.5272" /> <!-- Orichalcum -->
+					<item id="10483" min="1" max="1" chance="0.6956" /> <!-- Life Stone - Level 82 -->
+					<item id="10484" min="1" max="1" chance="0.1739" /> <!-- Mid-Grade Life Stone - Level 82 -->
+					<item id="10485" min="1" max="1" chance="0.0174" /> <!-- High-Grade Life Stone - Level 82 -->
+					<item id="15812" min="1" max="1" chance="0.1828" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+					<item id="15813" min="1" max="1" chance="0.1218" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+					<item id="15814" min="1" max="1" chance="0.0914" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+					<item id="1345" min="10" max="30" chance="66.7806" /> <!-- Shining Arrow -->
+				</group>
+			</death>
+			<corpse>
+				<item id="10405" min="1" max="1" chance="0.0495" /> <!-- Icarus Spitter Piece -->
+				<item id="959" min="1" max="1" chance="0.0046" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+				<item id="1894" min="1" max="1" chance="4.0627" /> <!-- Crafted Leather -->
+				<item id="10381" min="1" max="1" chance="0.0075" /> <!-- Recipe - Icarus Spitter (60%) -->
+				<item id="15772" min="1" max="1" chance="1.5971" /> <!-- Sealed Moirai Ring Gem -->
+				<item id="15773" min="1" max="1" chance="0.8976" /> <!-- Sealed Moirai Earring Gem -->
+				<item id="15774" min="1" max="1" chance="0.7745" /> <!-- Sealed Moirai Necklace Gem -->
+				<item id="15812" min="1" max="1" chance="0.2113" /> <!-- Recipe - Sealed Moirai Ring (70%) -->
+				<item id="15813" min="1" max="1" chance="0.1408" /> <!-- Recipe - Sealed Moirai Earring (70%) -->
+				<item id="15814" min="1" max="1" chance="0.1056" /> <!-- Recipe - Sealed Moirai Necklace (70%) -->
+			</corpse>
+		</dropLists>
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc>
+
+
+	<npc id="59058"  displayId="18680" level="70" type="L2BabyPet" name="Chicoga" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" showName="false"/>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc>
+
+	<npc id="59059"  displayId="29171" level="73" type="L2Npc" name="Faille du Néant" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2586.66898" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="752.73928" magical="514.02335" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="310.02959" magical="226.8662" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" canBeSown="false"/>
+		<skillList>
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="2" /> <!--Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="160" />
 		</collision>
 	</npc>
 

@@ -129,7 +129,7 @@
 		</collision>
 	</npc>
 	
-		<npc id="70316" displayId="2503" level="55" type="L2BabyPet" name="Cochonnet">
+	<npc id="70316" displayId="2503" level="55" type="L2BabyPet" name="Cochonnet">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<skill name="step0_buff01" id="5194" level="3" /> <!-- Pet Empower -->
@@ -258,7 +258,7 @@
 		</collision>
 	</npc>
 	
-		<npc id="70315" displayId="21397" level="55" type="L2BabyPet" name="Lucane">
+	<npc id="70315" displayId="21397" level="55" type="L2BabyPet" name="Lucane">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<skill name="step0_buff01" id="5194" level="3" /> <!-- Pet Empower -->
@@ -386,8 +386,8 @@
 			<height normal="22" />
 		</collision>
 	</npc>
-	
-		<npc id="70314" displayId="20609" level="55" type="L2BabyPet" name="Salamandre">
+
+	<npc id="70314" displayId="20609" level="55" type="L2BabyPet" name="Salamandre">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<skill name="step0_buff01" id="5194" level="3" /> <!-- Pet Empower -->
@@ -516,7 +516,7 @@
 		</collision>
 	</npc>
 	
-		<npc id="70313" displayId="20481" level="55" type="L2BabyPet" name="Keltir">
+	<npc id="70313" displayId="20481" level="55" type="L2BabyPet" name="Keltir">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<skill name="step0_buff01" id="5194" level="3" /> <!-- Pet Empower -->
@@ -645,7 +645,7 @@
 		</collision>
 	</npc>
 	
-		<npc id="70312" displayId="20849" level="55" type="L2BabyPet" name="Meduse">
+	<npc id="70312" displayId="20849" level="55" type="L2BabyPet" name="Meduse">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<skill name="step0_buff01" id="5194" level="3" /> <!-- Pet Empower -->
@@ -2328,50 +2328,32 @@
 		</collision>
 	</npc>
 	
-		<npc id="70205" level="82" type="L2Monster" displayId="25612" name="Epidos" title="Naia Shambler">
+	<npc id="70211" displayId="22732" level="80" usingServerSideName="true" type="L2RaidBoss" name="Hantise de Laëb">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
-			<param name="IsAggressive" value="1" />
-			<param name="AttackRange" value="2" />
-			<param name="IsHealer" value="2" />
-			<param name="Skill01_AttackSplash" value="1" />
-			<param name="Skill01_MainAttack" value="1" />
-			<param name="Skill02_Target" value="3" />
-			<param name="Skill02_AttackSplash" value="1" />
-			<param name="Skill02_Check_Dist" value="1" />
-			<param name="Skill02_Dist_Max" value="800" />
-			<param name="Skill03_Target" value="3" />
-			<param name="Skill03_AttackSplash" value="1" />
-			<param name="Skill03_Check_Dist" value="1" />
-			<param name="Skill03_Dist_Max" value="250" />
-			<param name="Skill04_Target" value="3" />
-			<param name="aspect_myself" value="3" />
-			<skill name="Skill01_ID" id="5508" level="1" /> <!-- Earth Blossom -->
-			<skill name="Skill02_ID" id="5512" level="1" /> <!-- Earth Power -->
-			<skill name="Skill03_ID" id="5516" level="1" /> <!-- Earth Taint -->
-			<skill name="Skill04_ID" id="5517" level="1" /> <!-- Nurture -->
+			<skill name="RangeHold_a" id="4197" level="9" /> <!-- Hold -->
 		</parameters>
-		<race>ELEMENTAL</race>
-		<sex>MALE</sex>
-		<acquire expRate="2001.13560941961" sp="2851570" raidPoints="1368" />
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="412.995715033384" sp="390090" raidPoints="1352.4" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="986096.671976069" hpRegen="287.940361385434" mp="1917.0" mpRegen="3" />
-			<attack physical="5799.79740479873" magical="4805.40042572106" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1140.47845614035" magical="834.548771929825" />
+			<vitals hp="100000.930921219" hpRegen="73.0538466979355" mp="1725.888" mpRegen="3.03" />
+			<attack physical="866.449808979738" magical="251.110457495066" random="10" critical="8" accuracy="20" attackSpeed="400" reuseDelay="1500" type="POLE" range="100" distance="10" width="180" />
+			<defence physical="1047.2021481" magical="510.858" evasion="-17" />
 			<attribute>
-				<attack type="EARTH" value="200" />
-				<defence fire="170" water="170" wind="130" earth="200" holy="170" dark="170" default="170" />
+				<attack type="DARK" value="301" />
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
 			</attribute>
 			<speed>
-				<walk ground="100" />
-				<run ground="100" />
+				<walk ground="43" />
+				<run ground="190" />
 			</speed>
-			<hitTime>530</hitTime>
+			<hitTime>480</hitTime>
 		</stats>
 		<status undying="false" />
 		<skillList>
-			<skill id="4071" level="5" /> <!--Resist Bow/Crossbow Weapons -->
-			<skill id="4116" level="10" /> <!--Resist M. Atk. -->
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4197" level="9" /> <!--Hold -->
 			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
 			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
 			<skill id="4410" level="11" /> <!--Average P. Atk. -->
@@ -2379,47 +2361,236 @@
 			<skill id="4412" level="11" /> <!--Average P. Def. -->
 			<skill id="4413" level="11" /> <!--Average M. Def. -->
 			<skill id="4414" level="2" /> <!--Standard Type -->
-			<skill id="4415" level="3" /> <!--One-handed Sword -->
-			<skill id="4416" level="7" /> <!--Spirits -->
+			<skill id="4416" level="9" /> <!--Demons -->
+			<skill id="4415" level="11" /> <!--Spears -->
 			<skill id="4494" level="1" /> <!--Raid Boss -->
-			<skill id="5465" level="1" /> <!--Earth Attacks -->
-			<skill id="5508" level="1" /> <!--Earth Blossom -->
-			<skill id="5512" level="1" /> <!--Earth Power -->
-			<skill id="5516" level="1" /> <!--Earth Taint -->
-			<skill id="5517" level="1" /> <!--Nurture -->
-			<skill id="5618" level="1" /> <!--Raid Boss - Level 87 -->
-			<skill id="5620" level="9" /> <!--Short-Range Physical Attack Weakness -->
+			<skill id="4923" level="1" /> <!--Raid Boss - Level 80 -->
 		</skillList>
 		<exCrtEffect>true</exCrtEffect>
-		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="false">
+		<ai aggroRange="500" clanHelpRange="500">
 			<clanList>
-				<clan>CASTLE</clan>
+				<clan>ALL</clan>
 			</clanList>
-		</ai>
-		<dropLists>
+		</ai>		<dropLists>
 			<death>
-				<group chance="40.442501068115234">
-					<item id="7575" min="1" max="1" chance="4.8834" /> <!-- Draconic Bow -->
-					<item id="7579" min="12" max="36" chance="95.1166" /> <!-- Draconic Bow Shaft -->
+				<group chance="100">
+					<item id="9912" min="100" max="800" chance="100" /> <!-- Knight's Epaulette -->
+				</group>	
+				<group chance="100">
+					<item id="9553" min="2" max="5" chance="20" /> <!-- Water Crystal -->
+					<item id="9554" min="2" max="5" chance="20" /> <!-- Earth Crystal -->
+					<item id="9555" min="2" max="5" chance="20" /> <!-- Wind Crystal -->
+					<item id="9556" min="2" max="5" chance="20" /> <!-- Dark Crystal -->
+					<item id="9557" min="2" max="5" chance="20" /> <!-- Divine Crystal -->
+
 				</group>
-				<group chance="34.283599853515625">
-					<item id="6684" min="1" max="1" chance="23.7199" /> <!-- Sealed Major Arcana Robe -->
-					<item id="6711" min="60" max="180" chance="76.2801" /> <!-- Sealed Major Arcana Robe Part -->
-				</group>
-				<group chance="67.50669860839844">
-					<item id="959" min="1" max="1" chance="16.2162" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
-					<item id="960" min="1" max="3" chance="81.0811" /> <!-- Scroll: Enchant Armor (S-Grade) -->
-					<item id="6577" min="1" max="1" chance="2.7027" /> <!-- Blessed Scroll: Enchant Weapon (S-Grade) -->
+				<group chance="100">
+					<item id="959" min="1" max="2" chance="30" /> <!-- Scroll: Enchant Weapon (S-Grade) -->
+					<item id="960" min="1" max="4" chance="45" /> <!-- Scroll: Enchant Armor (S-Grade) -->
+					<item id="6577" min="1" max="1" chance="10" /> <!-- Blessed Scroll: Enchant Weapon (S-Grade) -->
+					<item id="6578" min="1" max="1" chance="15" /> <!-- Blessed Scroll: Enchant Armor (S-Grade) -->
+
 				</group>
 			</death>
 		</dropLists>
 		<collision>
-			<radius normal="60" />
-			<height normal="99.5" />
+			<radius normal="23" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	
+	<npc id="70210" displayId="20565" level="81" usingServerSideName="true" type="L2Monster" name="Golem de roches">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="116" />
+			<param name="MoveAroundSocial1" value="116" />
+			<param name="MoveAroundSocial2" value="116" />
+			<param name="SoulShot" value="200" />
+			<param name="SoulShotRate" value="5" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="10" />
+			<param name="LongRangeGuardRate" value="10" />
+			<skill name="DDMagicSlow" id="4254" level="4" /> <!-- NPC Prominence - Slow -->
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire expRate="2.4678264" sp="290" />
+	<stats str="40" int="35" dex="30" wit="30" con="43" men="20">
+			<vitals hp="65918.4456223521" hpRegen="113.26544062045" mp="1708.8" mpRegen="3" />
+			<attack physical="5706.31759667062" magical="3965.44004621088" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="582.692054494118" magical="639.583141129412" />
+			<attribute>
+				<attack type="EARTH" value="100" />
+				<defence fire="130" water="90" wind="30" earth="150" holy="115" dark="115" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="50" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4254" level="4" /> <!--NPC Prominence - Slow -->
+			<skill id="4273" level="3" /> <!--Resist Daggers/Rapier Weapon -->
+			<skill id="4274" level="1" /> <!--Blunt Weapon Weak Point -->
+			<skill id="4284" level="5" /> <!--Resist Bleed Attacks -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="12" /> <!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!--Slightly Weak P. Def. -->
+			<skill id="4413" level="18" /> <!--Extremely Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="2" /> <!--Magic Creatures -->
+			<skill id="4444" level="2" /> <!--Higher Resist Bow/Crossbow Weapons -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<death>
+				<group chance="100">
+					<item id="57" min="1000" max="5000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="6016" min="3" max="4" chance="20" /> <!-- Infernium ore -->
+					<item id="6016" min="1" max="2" chance="40" /> 
+					<item id="6016" min="2" max="3" chance="30" /> 
+					<item id="6016" min="4" max="5" chance="9" /> 
+					<item id="6016" min="5" max="10" chance="1" /> 
+				</group>
+				<group chance="100">
+					<item id="9553" min="1" max="1" chance="10" /> <!-- Water Crystal -->
+					<item id="9554" min="1" max="1" chance="10" /> <!-- Earth Crystal -->
+					<item id="9555" min="1" max="1" chance="10" /> <!-- Wind Crystal -->
+					<item id="9556" min="1" max="1" chance="10" /> <!-- Dark Crystal -->
+					<item id="9557" min="1" max="1" chance="10" /> <!-- Divine Crystal -->
+					<item id="1785" min="1" max="1" chance="50" /> <!-- Soul ore -->
+
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="40.3" />
+		</collision>
+	</npc>
+	
+	<npc id="70209" displayId="36579" level="80" type="L2MultiversTeleporter" name="Escalier" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	
+	<npc id="70208" displayId="36579" level="80" type="L2MultiversTeleporter" name="Escalier" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<status attackable="false" canMove="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	
+		<npc id="70207" displayId="18852" level="1" type="L2Npc" name="Lortha Vol'Hesser" title="Avouée près la Cour"> 
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	
+	<npc id="70206" displayId="18828" level="1" type="L2Npc" name="Sixte Peretti" title="Procureur"> 
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc>	
+
+	<npc id="70205" displayId="109" level="1" type="L2Npc" name="Lucius Grimal" title="Magistrat du siège"> 
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" showName="false" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="26.5" />
 		</collision>
 	</npc>
 
-	<npc id="70204" displayId="25612" level="80" usingServerSideName="true" type="L2Monster" name="Laëb">
+	<npc id="70204" displayId="25612" level="80" usingServerSideName="true" type="L2RaidBoss" name="Laëb" title="Diable Girannais">
 		<!-- Confirmed CT2.5 -->
 	<parameters>
 			<param name="IsAggressive" value="1" />
@@ -2482,7 +2653,7 @@
 		</collision>
 	</npc>
 
-	<npc id="70203" displayId="22838" level="80" usingServerSideName="true" type="L2Monster" name="Laeb">
+	<npc id="70203" displayId="22838" level="80" usingServerSideName="true" type="L2RaidBoss" name="Laëb" title="Diable Girannais">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
@@ -2491,8 +2662,8 @@
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire expRate="4" sp="10000" />
-		<stats str="40" int="40" dex="40" wit="40" con="40" men="40">
-			<vitals hp="138888.8888888889" hpRegen="50" mp="1500" mpRegen="4" />
+		<stats str="50" int="50" dex="50" wit="50" con="50" men="50">
+			<vitals hp="100000.8888888889" hpRegen="50" mp="1500" mpRegen="4" />
 			<attack physical="4000" magical="750" random="10" critical="4" accuracy="50" attackSpeed="400" type="SWORD" range="100" distance="10" width="0" />
 			<defence physical="1479.289940828402" magical="794.28117553613982535" />
 			<attribute>
@@ -2539,7 +2710,7 @@
 			<defence physical="225" magical="3000" />
 			<attribute>
 				<attack type="DARK" value="150" />
-				<defence fire="50" water="50" wind="-50" earth="50" holy="-100" dark="300" />
+				<defence fire="75" water="75" wind="75" earth="75" holy="75" dark="75" />
 			</attribute>
 			<speed>
 				<walk ground="50" />
@@ -2567,7 +2738,7 @@
 					<item id="57" min="1000" max="5000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="100">
-					<item id="7192" min="1" max="1" chance="20" /> <!-- Unfinished summon cristal -->
+					<item id="9912" min="1" max="3" chance="20" /> <!-- Knight's Epaulette -->
 					<item id="5593" min="1" max="1" chance="40" /> <!-- SP Scroll low -->
 					<item id="5594" min="1" max="1" chance="30" /> <!-- SP Scroll mid -->
 					<item id="5595" min="1" max="1" chance="10" /> <!-- SP Scroll high -->
@@ -2595,7 +2766,7 @@
 			<defence physical="4000" magical="100" />
 			<attribute>
 				<attack type="DARK" value="150" />
-				<defence fire="-50" water="1" wind="1" earth="1" holy="-100" dark="300" />
+				<defence fire="75" water="75" wind="75" earth="75" holy="75" dark="75" />
 			</attribute>
 			<speed>
 				<walk ground="100" />
@@ -2623,7 +2794,7 @@
 					<item id="57" min="1000" max="5000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="100">
-					<item id="7192" min="1" max="1" chance="20" /> <!-- Unfinished summon cristal -->
+					<item id="9912" min="1" max="2" chance="20" /> <!-- Knight's Epaulette -->
 					<item id="5593" min="1" max="1" chance="40" /> <!-- SP Scroll low -->
 					<item id="5594" min="1" max="1" chance="30" /> <!-- SP Scroll mid -->
 					<item id="5595" min="1" max="1" chance="10" /> <!-- SP Scroll high -->
@@ -2680,22 +2851,22 @@
 					<item id="57" min="5000" max="10000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="100">
-					<item id="7192" min="1" max="5" chance="100" /> <!-- Unfinished summon cristal -->
+					<item id="9912" min="10" max="20" chance="100" /> <!-- Knight's Epaulette -->
 				</group>
 				<group chance="100">
 					<item id="6622" min="1" max="1" chance="2.5" /> <!-- Giant's Codex -->
-					<item id="9576" min="1" max="1" chance="2.5" /> <!-- Top LS 80 -->
-					<item id="9575" min="1" max="1" chance="3.5" /> <!-- High LS 80 -->
-					<item id="9574" min="1" max="1" chance="4.5" /> <!-- Mid LS 80 -->
+					<item id="9576" min="1" max="1" chance="3.5" /> <!-- Top LS 80 -->
+					<item id="9575" min="1" max="1" chance="5" /> <!-- High LS 80 -->
+					<item id="9574" min="1" max="1" chance="6.5" /> <!-- Mid LS 80 -->
 					<item id="9550" min="1" max="1" chance="6" /> <!-- Darkstone -->
-					<item id="9556" min="1" max="1" chance="1.5" /> <!-- Dark Crystal -->
-					<item id="9629" min="1" max="1" chance="26.5" /> <!-- Adamantine -->
-					<item id="9628" min="1" max="1" chance="26.5" /> <!-- Leonard -->
-					<item id="9630" min="1" max="1" chance="26.5" /> <!-- Orichalcum -->
+					<item id="9556" min="1" max="1" chance="4.5" /> <!-- Dark Crystal -->
+					<item id="9629" min="1" max="1" chance="24" /> <!-- Adamantine -->
+					<item id="9628" min="1" max="1" chance="24" /> <!-- Leonard -->
+					<item id="9630" min="1" max="1" chance="24" /> <!-- Orichalcum -->
 				</group>
 				<group chance="100">
-					<item id="960" min="1" max="1" chance="2" /> <!-- EAS -->
-					<item id="17" min="1" max="1" chance="98" /> <!-- Wooden Arrow -->
+					<item id="960" min="1" max="1" chance="5" /> <!-- EAS -->
+					<item id="17" min="1" max="1" chance="95" /> <!-- Wooden Arrow -->
 				</group>
 			</death>
 		</dropLists>
@@ -2705,6 +2876,217 @@
 		</collision>
 	</npc>
 		
+
+	<npc id="70199" displayId="35012" name="MrArc" usingServerSideName="true" type="L2Guard">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" weaponEnchant="4" /> <!-- rhand: Bow of peril-->
+		<stats str="40" int="10" dex="30" wit="10" con="30" men="35">
+			<vitals hp="10000" hpRegen="200" mp="1000" mpRegen="10" />
+			<attack physical="5000" magical="250" random="30" critical="0" accuracy="999" attackSpeed="400" type="BOW" range="1500" distance="1500" width="0" />
+			<defence physical="1250" magical="1250" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="100" dark="100" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="9" /> <!--Bows -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="8.0" />
+			<height normal="24.0" />
+		</collision>
+	</npc>	
+
+	<npc id="70198" displayId="35011" name="MrLance" usingServerSideName="true" type="L2Guard">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="301" weaponEnchant="4" /> <!-- rhand: Scorpion -->
+		<stats str="50" int="10" dex="20" wit="10" con="50" men="35">
+			<vitals hp="20000" hpRegen="200" mp="1000" mpRegen="10" />
+			<attack physical="4000" magical="250" random="30" critical="33" accuracy="999" attackSpeed="450" type="POLE" range="80" distance="80" width="200" />
+			<defence physical="1750" magical="1250" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="11" /> <!--Spears -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	
+	<npc id="70197" displayId="35010" name="MrBouclier" usingServerSideName="true" type="L2Guard">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="655" /> <!-- rhand: Shamshir lhand: sage's shield --> 
+		<stats str="50" int="10" dex="20" wit="10" con="50" men="35">
+			<vitals hp="35000" hpRegen="400" mp="1000" mpRegen="10" />
+			<attack physical="4500" magical="250" random="30" critical="25" accuracy="999" attackSpeed="700" type="SWORD" range="40" distance="80" width="0" />
+			<defence physical="1750" magical="1250" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="200" dark="200" default="200" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+			<skill id="979" level="6" /> <!--Aggression-->
+			<skill id="28" level="49" /> <!--Aggression-->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="1000" isAggressive="false" />
+		<collision>
+			<radius normal="8.0" />
+			<height normal="24.0" />
+		</collision>
+	</npc>
+	
+	<npc id="70196" displayId="16025" name="WarWolf" usingServerSideName="true" type="L2Guard"> 
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15000" hpRegen="125" mp="2250" mpRegen="6" />
+			<attack physical="1500" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="900" magical="800" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="175" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="500" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="21.412" />
+		</collision>
+	</npc>
+	
+	<npc id="70195" displayId="31204" name="Wardog" usingServerSideName="true" type="L2Guard"> 
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10000" hpRegen="100" mp="2250" mpRegen="6" />
+			<attack physical="1000" magical="900" random="30" critical="4" accuracy="5" attackSpeed="500" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="600" magical="450" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="175" />
+			</speed>
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="500" isAggressive="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="11.5" />
+		</collision>
+	</npc>
+	
 	<npc id="70193" displayId="30360" level="1" type="L2Npc" name="Miguel">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
@@ -2895,7 +3277,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="15302" /> <!-- rhand: Transparent Bow (for NPC) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="10000" hpRegen="50" mp="3750" mpRegen="10" />
+			<vitals hp="21111" hpRegen="50" mp="3750" mpRegen="10" />
 			<attack physical="2400" magical="1500" random="30" critical="7" accuracy="8" attackSpeed="500" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="750" magical="625" />
 			<attribute>
@@ -2937,7 +3319,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="9336" /> <!-- rhand: Doomchanter (crossbow) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15555" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="1000" magical="750" random="10" critical="4" accuracy="5" attackSpeed="250" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="225" magical="300" />
 			<attribute>
@@ -2979,7 +3361,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="74" /> <!-- rhand: Katana -->
 		<stats str="40" int="20" dex="30" wit="20" con="40" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15555" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="800" magical="600" random="30" critical="4" accuracy="5" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="300" magical="250" shield="175" shieldRate="20" />
 			<attribute>
@@ -3051,7 +3433,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="288" /> <!-- rhand: Carnage Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15555" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="1000" magical="750" random="10" critical="4" accuracy="5" attackSpeed="250" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="225" magical="300" />
 			<attribute>
@@ -3093,7 +3475,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="1303" /> <!-- rhand: Lance -->
 		<stats str="40" int="20" dex="30" wit="20" con="40" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15555" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="800" magical="600" random="30" critical="4" accuracy="5" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="300" magical="250" shield="175" shieldRate="20" />
 			<attribute>
@@ -3568,7 +3950,7 @@
 		<sex>FEMALE</sex>
 		<equipment rhand="213" /> <!-- rhand: BotM -->
 		<stats str="40" int="40" dex="40" wit="40" con="40" men="40">
-			<vitals hp="5000" hpRegen="5" mp="1000" mpRegen="25" />
+			<vitals hp="50000" hpRegen="5" mp="1000" mpRegen="25" />
 			<attack physical="500" magical="2500" random="30" critical="5" accuracy="50" attackSpeed="600" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="750" magical="750" />
 			<speed>
@@ -3966,7 +4348,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="131" lhand="662" /> <!-- rhand: Tallum Blade lhand: Sage's Shield -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3125" hpRegen="25" mp="2250" mpRegen="6" />
+			<vitals hp="20000" hpRegen="25" mp="2250" mpRegen="6" />
 			<attack physical="1150" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="550" magical="475" />
 			<attribute>
@@ -4038,7 +4420,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="275" /> <!-- rhand: Long Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15555" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="1000" magical="750" random="10" critical="4" accuracy="5" attackSpeed="250" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="225" magical="300" />
 			<attribute>
@@ -4080,7 +4462,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="2" lhand="20" /> <!-- rhand: Long Sword lhand: Buckler -->
 		<stats str="40" int="20" dex="30" wit="20" con="40" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15555" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="800" magical="600" random="30" critical="4" accuracy="5" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="300" magical="250" shield="175" shieldRate="20" />
 			<attribute>
@@ -4435,32 +4817,43 @@
 		</collision>
 	</npc>
 
-	<npc id="70140" displayId="16041" level="1" type="L2Npc" name="Fenrir">
+	<npc id="70140" displayId="16041" name="WarFenrir" usingServerSideName="true" type="L2Guard"> 
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
-			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial1" value="92" />
 		</parameters>
-		<race>CONSTRUCT</race>
+		<race>HUMAN</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="99999" hpRegen="500" mp="1345.8" mpRegen="2.7" />
-			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="295.91597" magical="216.53847" />
+			<vitals hp="20000" hpRegen="150" mp="2250" mpRegen="6" />
+			<attack physical="20000" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1000" magical="850" />
 			<attribute>
 				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
 			</attribute>
 			<speed>
-				<walk ground="1" />
-				<run ground="1" />
+				<walk ground="50" />
+				<run ground="175" />
 			</speed>
-			<hitTime>560</hitTime>
 		</stats>
-		<status attackable="false" targetable="false" showName="false" />
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="16" /> <!--Very Strong P. Atk. -->
+			<skill id="4411" level="16" /> <!--Very Strong M. Atk. -->
+			<skill id="4412" level="16" /> <!--Very Strong P. Def. -->
+			<skill id="4413" level="16" /> <!--Very Strong M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="14" /> <!--Humans -->
+		</skillList>
 		<exCrtEffect>true</exCrtEffect>
-		<ai type="CORPSE" aggroRange="300" clanHelpRange="300" />
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="500" isAggressive="false" />
 		<collision>
-			<radius normal="10" />
+			<radius normal="15" />
 			<height normal="21.412" />
 		</collision>
 	</npc>
@@ -4624,7 +5017,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="9308" /> <!-- rhand: For NPC (Sword 9645) -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="6250" hpRegen="30" mp="3750" mpRegen="10" />
+			<vitals hp="21002" hpRegen="30" mp="3750" mpRegen="10" />
 			<attack physical="2400" magical="1500" random="30" critical="7" accuracy="8" attackSpeed="500" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="750" magical="625" />
 			<attribute>
@@ -5563,7 +5956,7 @@
 		<race>HUMAN</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3125" hpRegen="15" mp="2250" mpRegen="6" />
+			<vitals hp="20000" hpRegen="15" mp="2250" mpRegen="6" />
 			<attack physical="1000" magical="1000" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="600" magical="500" shield="200" shieldRate="33"/>
 			<attribute>
@@ -5645,7 +6038,7 @@
 		<race>HUMAN</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3125" hpRegen="15" mp="2250" mpRegen="6" />
+			<vitals hp="20000" hpRegen="15" mp="2250" mpRegen="6" />
 			<attack physical="900" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="POLE" range="40" distance="80" width="120" />
 			<defence physical="800" magical="500" />
 			<attribute>
@@ -5686,7 +6079,7 @@
 		<race>HUMAN</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3125" hpRegen="15" mp="2250" mpRegen="6" />
+			<vitals hp="20000" hpRegen="15" mp="2250" mpRegen="6" />
 			<attack physical="900" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="800" magical="500" />
 			<attribute>
@@ -5930,7 +6323,7 @@
 		<race>HUMAN</race>
 		<sex>MALE</sex>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="1500" hpRegen="50" mp="2250" mpRegen="6" />
+			<vitals hp="20000" hpRegen="50" mp="2250" mpRegen="6" />
 			<attack physical="800" magical="800" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="400" magical="400" />
 			<attribute>
@@ -6540,7 +6933,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="69" /> <!-- rhand: Bastard Sword -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3125" hpRegen="15" mp="2250" mpRegen="6" />
+			<vitals hp="21000" hpRegen="15" mp="2250" mpRegen="6" />
 			<attack physical="1200" magical="900" random="30" critical="4" accuracy="5" attackSpeed="375" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="450" magical="375" />
 			<attribute>
@@ -6582,7 +6975,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="2" lhand="19" /> <!-- rhand: Long Sword lhand: Small Shield -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15000" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="800" magical="600" random="30" critical="4" accuracy="5" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="300" magical="250" shield="175" shieldRate="20" />
 			<attribute>
@@ -6624,7 +7017,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="14" /> <!-- rhand: Bow -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2500" hpRegen="10" mp="1500" mpRegen="4" />
+			<vitals hp="15000" hpRegen="10" mp="1500" mpRegen="4" />
 			<attack physical="1000" magical="750" random="10" critical="4" accuracy="5" attackSpeed="250" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
 			<defence physical="225" magical="300" />
 			<attribute>
@@ -7534,7 +7927,7 @@
 		<sex>MALE</sex>
 		<equipment rhand="94" /> <!-- rhand: Bec de Corbin -->
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="3290.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
+			<vitals hp="15000.11306877694" hpRegen="8.5" mp="1674.8" mpRegen="3" />
 			<attack physical="970.537548504614" magical="662.751329129412" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="341.375" magical="249.80341" />
 			<attribute>

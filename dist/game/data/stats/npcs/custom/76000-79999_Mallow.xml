@@ -3,6 +3,7 @@
 	<!-- 000 : Teleports -->
 	<!-- 100 : Decorations -->
 	<!-- 200 : NPCs -->
+	<!-- 300 : Mobs -->
 
 
 	<!-- 000 : Teleports -->
@@ -151,11 +152,167 @@
 
 	<!-- 200 : NPCs -->
 	<!-- Rose -->
-	<npc id="76200" displayId="1572" level="70" type="L2Npc" name="Rose" usingServerSideName="true">
-		<status attackable="false" canMove="false" targetable="false" showName="false"/>
+	<npc id="76200" displayId="1572" level="70" type="L2Npc" name="Magnolia" usingServerSideName="true">
+		<status attackable="false" canMove="false" targetable="false" showName="true"/>
 		<collision>
 			<radius normal="14.5" />
-			<height normal="17.5" />
+			<height normal="16.5" />
+		</collision>
+	</npc>
+	<!-- Astres -->
+	<npc id="76201" displayId="22782" level="80" type="L2Guard" name="Astre">
+		<fake mountNpcId="0">
+			<equipment rhand="98" gloves="5718" chest="358" legs="2380" feet="5734"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="76202" displayId="22782" level="80" type="L2Guard" name="Astre">
+		<fake mountNpcId="0">
+			<equipment rhand="143" lhand="673" gloves="5718" chest="358" legs="2380" feet="5734"/>
+		</fake>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status showName="false"/>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<!-- 300 : Mobs -->
+	<!-- Monstera -->
+	<npc id="76300" displayId="25249" level="84" type="L2Monster" name="Monstera" usingServerSideName="true">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="9" /> <!-- Hold -->
+		</parameters>
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire expRate="608.328798241124" sp="580689.409991996" raidPoints="508" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="312521.536403012" hpRegen="96.0880871925918" mp="1812.0" mpRegen="3" />
+			<attack physical="3008.0381043477" magical="1192.88500315956" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1073.60169" magical="523.74" />
+			<attribute>
+				<attack type="WATER" value="200" />
+				<defence fire="120" water="200" wind="170" earth="170" holy="170" dark="170" default="100" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<hitTime>720</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4197" level="9" /> <!--Hold -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="13" /> <!--Fairies -->
+			<skill id="4494" level="1" /> <!--Raid Boss -->
+			<skill id="5463" level="1" /> <!--Water Attacks -->
+			<skill id="6229" level="1" /> <!--Raid Boss - Level 84 -->
+			<skill id="6019" level="1" /> <!--Searching Master -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<dropLists>
+			<death>
+				<item id="9550" min="50" max="50" chance="20.0" /> <!-- Dark Stone -->
+				<item id="9556" min="20" max="20" chance="20.0" /> <!-- Dark Crystal -->
+				<item id="6577" min="2" max="2" chance="10.0" /> <!-- Blessed Scrolls: Enchant Weapon S-->
+				<item id="6578" min="5" max="5" chance="10.0" /> <!-- Blessed Scrolls: Enchant Armor S-->
+				<group chance="2.0">
+					<item id="16028" min="1" max="1" chance="7.15" /> <!-- Vesper Cutter of Chaos -->
+					<item id="16029" min="1" max="1" chance="7.15" /> <!-- Vesper Slasher of Chaos -->
+					<item id="16030" min="1" max="1" chance="7.15" /> <!-- Vesper Buster of Chaos -->
+					<item id="16031" min="1" max="1" chance="7.15" /> <!-- Vesper Shaper of Chaos -->
+					<item id="16037" min="1" max="1" chance="7.14" /> <!-- Vesper Singer of Chaos -->
+					<item id="16032" min="1" max="1" chance="7.14" /> <!-- Vesper Fighter of Chaos -->
+					<item id="16033" min="1" max="1" chance="7.14" /> <!-- Vesper Stormer of Chaos -->
+					<item id="16034" min="1" max="1" chance="7.14" /> <!-- Vesper Avenger of Chaos -->
+					<item id="16035" min="1" max="1" chance="7.14" /> <!-- Vesper Retributer of Chaos -->
+					<item id="16036" min="1" max="1" chance="7.14" /> <!-- Vesper Caster of Chaos -->
+					<item id="16038" min="1" max="1" chance="7.14" /> <!-- Vesper Thrower of Chaos -->
+					<item id="16039" min="1" max="1" chance="7.14" /> <!-- Vesper Pincer of Chaos -->
+					<item id="16040" min="1" max="1" chance="7.14" /> <!-- Vesper Shooter of Chaos -->
+					<item id="16041" min="1" max="1" chance="7.14" /> <!-- Vesper Nagan of Chaos -->
+				</group>
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="60" />
+			<height normal="47" />
+		</collision>
+	</npc>
+	<npc id="76301" displayId="20932" level="83" type="L2Monster" name="Ours">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6859" level="1" /> <!-- Power Strike -->
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire expRate="42.0155027628587" sp="29772" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="10247.9853769394" magical="6998.04554416799" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="566.178304" magical="621.45708" />
+			<attribute>
+				<attack type="FIRE" value="200" />
+				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
+			</attribute>
+			<speed>
+				<walk ground="37" />
+				<run ground="174" />
+			</speed>
+		</stats>
+		<status undying="false" canBeSown="true" showName="false" />
+		<skillList>
+			<skill id="4408" level="10" /> <!--HP Increase (2x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="15" /> <!--Strong P. Def. -->
+			<skill id="4413" level="5" /> <!--Very Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="1" /> <!--Undead -->
+			<skill id="5462" level="1" /> <!--Fire Attacks -->
+			<skill id="6859" level="1" /> <!--Power Strike -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" />
+		<dropLists>
+			<death>
+				<item id="9550" min="10" max="10" chance="6.0" /> <!-- Dark Stone -->
+				<item id="9556" min="1" max="1" chance="2.0" /> <!-- Dark Crystal -->
+			</death>
+		</dropLists>
+		<collision>
+			<radius normal="19" />
+			<height normal="36" />
 		</collision>
 	</npc>
 </list>
