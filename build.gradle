@@ -36,7 +36,7 @@ dependencies {
 }
 
 task zip(type: Zip) {
-	def fileName = 'L2J_DataPack_' + new Date().format("yyyy-MM-dd")
+	def fileName = 'L2J_DataPack'
 	baseName = fileName
 	from('dist')
 	println 'Build in build/distributions/' + fileName + '.zip'

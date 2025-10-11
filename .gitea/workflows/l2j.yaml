@@ -1,0 +1,22 @@
+name: L2J build
+
+on: [push, pull_request]
+
+jobs:
+  scanning:
+    name: L2J build
+    runs-on: linux_amd64
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Build distribution
+        run: ./gradlew -Dhttps.proxyHost=proxy -Dhttps.proxyPort=3128 --no-daemon
+      - name: Release artifacts
+        uses: akkuman/gitea-release-action@v1
+        with:
+          files: build/distributions/**
+          tag_name: latest-${{ gitea.ref_name }}
+          sha256sum: true
+          prerelease: true
