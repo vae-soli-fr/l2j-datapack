@@ -13,6 +13,10 @@ jobs:
           fetch-depth: 0
       - name: Build distribution
         run: ./gradlew -Dhttps.proxyHost=proxy -Dhttps.proxyPort=3128 --no-daemon
+      - name: Extract login
+        run: |-
+          unzip -d build/distributions build/distributions/L2J_DataPack "login/*"
+          cd build/distributions && zip -mr L2J_DataPack_LoginOnly.zip login
       - name: Release artifacts
         uses: akkuman/gitea-release-action@v1
         with:
