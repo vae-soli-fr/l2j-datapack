@@ -18,7 +18,7 @@ jobs:
       - name: Build distribution
         run: ./gradlew -Dhttps.proxyHost=proxy -Dhttps.proxyPort=3128 --no-daemon
         env:
-          JAVA_HOME: /usr/lib/jvm/java-8-openjdk
+          JAVA_HOME: /usr/lib/jvm/java-21-openjdk
       - name: Extract login
         run: |-
           unzip -d build/distributions build/distributions/L2J_DataPack "login/*"

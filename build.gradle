@@ -4,7 +4,7 @@ compileJava.options.encoding = 'UTF-8'
 
 defaultTasks('zip')
 
-sourceCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_21
 
 sourceSets {
 	mainSource {
@@ -23,30 +23,25 @@ configurations.all {
 }
 
 dependencies {
-	compile 'org.slf4j:slf4j-api:1.7.23'
-	compile files('../L2J_Server/dist/libs/mmocore.jar')
-	compile project(':L2J_Server')
-	testCompile 'org.testng:testng:6.10'
-	testCompile 'com.beust:jcommander:1.48'
-	testCompile 'org.mockito:mockito-core:2.7.9'
-	testCompile 'net.bytebuddy:byte-buddy:1.6.8'
-	testCompile 'net.bytebuddy:byte-buddy-agent:1.6.8'
-	testCompile 'org.objenesis:objenesis:2.5.1'
-	testCompile 'org.jmockit:jmockit:1.30'
+	implementation 'org.slf4j:slf4j-api:1.7.23'
+	implementation files('../L2J_Server/dist/libs/mmocore.jar')
+	implementation project(':L2J_Server')
+	testImplementation 'org.testng:testng:6.10'
+	testImplementation 'com.beust:jcommander:1.48'
+	testImplementation 'org.mockito:mockito-core:2.7.9'
+	testImplementation 'net.bytebuddy:byte-buddy:1.6.8'
+	testImplementation 'net.bytebuddy:byte-buddy-agent:1.6.8'
+	testImplementation 'org.objenesis:objenesis:2.5.1'
+	testImplementation 'org.jmockit:jmockit:1.30'
 }
 
 task zip(type: Zip) {
-	def fileName = 'L2J_DataPack'
-	baseName = fileName
+	archiveBaseName = 'L2J_DataPack'
 	from('dist')
-	println 'Build in build/distributions/' + fileName + '.zip'
+	println 'Build in build/distributions/' + archiveBaseName.get() + '.zip'
 }
 
 build.finalizedBy(zip)
-
-task wrapper(type: Wrapper) {
-	gradleVersion = '3.4'
-}
 
 eclipse {
 	project {
